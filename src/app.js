@@ -24,7 +24,7 @@ function run() {
   server.post('/umg/login', loginUser);       //  returns token   //|
   server.post('/umg/auth', checkToken);       //  get by token    //| -->  user menagment
   server.post('/umg/logout', logoutUser);     //  exit            //|
-  server.get('/umg/info', getUser);           //  get boy         //|
+  server.get('/umg/info', getUser);           //  get boy         //| //get
 
   server.post('/wallet/addwallet', createWallet);
   server.get('/wallet/getwallet', getWallet);

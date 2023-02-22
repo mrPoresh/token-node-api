@@ -11,6 +11,7 @@ const getUser = async (req, res) => {
     const { token } = req.body;
     const wallets = [];
     logger.info('Start getting User');
+    console.log(req.body)
     logger.info(token);
 
     try {
