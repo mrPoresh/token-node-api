@@ -2520,3 +2520,261 @@ For more info, see the docs: https://docs.fauna.com/fauna/current/api/fql/functi
 2023-02-20 14:50:59:5059 info: My secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
 2023-02-20 14:51:01:511 info: Start Get Wallet
 2023-02-20 14:51:01:511 info: GET /wallet/getwallet 200 315.208 ms - 802
+2023-02-21 14:23:57:2357 info: Server listening on port 4000
+2023-02-21 14:23:57:2357 info: My secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-02-21 14:43:21:4321 info: Server listening on port 4000
+2023-02-21 14:43:21:4321 info: My secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-02-21 14:43:53:4353 info: Start Get Wallets
+2023-02-21 14:43:54:4354 info: GET /wallet/getwallets 200 589.724 ms - 367
+2023-02-21 14:46:05:465 info: Server listening on port 4000
+2023-02-21 14:46:05:465 info: My secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-02-21 14:46:10:4610 info: Start Get Wallets
+2023-02-21 14:46:10:4610 error: invalid expression
+2023-02-21 14:46:10:4610 info: GET /wallet/getwallets 500 451.230 ms - 53
+2023-02-21 14:50:02:502 info: Server listening on port 4000
+2023-02-21 14:50:02:502 info: My secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-02-21 14:50:02:502 info: Start Get Wallets
+2023-02-21 14:50:03:503 error: invalid expression
+2023-02-21 14:50:03:503 info: GET /wallet/getwallets 500 480.957 ms - 53
+2023-02-21 14:51:10:5110 info: Server listening on port 4000
+2023-02-21 14:51:10:5110 info: My secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-02-21 14:51:12:5112 info: Start Get Wallets
+2023-02-21 14:51:12:5112 info: GET /wallet/getwallets 200 498.785 ms - 367
+2023-02-21 14:51:32:5132 info: Server listening on port 4000
+2023-02-21 14:51:32:5132 info: My secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-02-21 14:51:34:5134 info: Start Get Wallets
+2023-02-21 14:51:34:5134 error: invalid expression
+2023-02-21 14:51:34:5134 info: GET /wallet/getwallets 500 364.031 ms - 55
+2023-02-21 14:54:26:5426 info: Server listening on port 4000
+2023-02-21 14:54:26:5426 info: My secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-02-21 14:54:27:5427 info: Start Get Wallets
+2023-02-21 14:54:28:5428 error: invalid argument
+2023-02-21 14:54:28:5428 info: GET /wallet/getwallets 500 456.360 ms - 81
+2023-02-21 14:58:08:588 info: Server listening on port 4000
+2023-02-21 14:58:08:588 info: My secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-02-21 14:58:08:588 info: Start Get Wallets
+2023-02-21 14:58:09:589 info: GET /wallet/getwallets 200 471.263 ms - 367
+2023-02-21 15:03:35:335 info: Server listening on port 4000
+2023-02-21 15:03:35:335 info: My secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-02-21 15:03:39:339 info: Start Get Wallets
+2023-02-21 15:03:39:339 error: invalid expression
+2023-02-21 15:03:39:339 info: GET /wallet/getwallets 500 453.373 ms - 81
+2023-02-21 15:06:44:644 info: Server listening on port 4000
+2023-02-21 15:06:44:644 info: My secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-02-21 15:07:00:70 info: Start adding in db
+2023-02-21 15:07:03:73 info: POST /umg/add 200 2314.774 ms - 76
+2023-02-21 15:07:24:724 info: Start login
+2023-02-21 15:07:25:725 info: POST /umg/login 200 446.640 ms - 72
+2023-02-21 15:08:00:80 info: Start Wallet Creation
+2023-02-21 15:08:01:81 info: POST /wallet/addwallet 200 704.056 ms - 251
+2023-02-21 15:08:03:83 info: Start Wallet Creation
+2023-02-21 15:08:04:84 info: POST /wallet/addwallet 200 781.782 ms - 272
+2023-02-21 15:08:21:821 info: Start getting User
+2023-02-21 15:08:21:821 info: fnEE9VEQUgACWQTmg2LiYApaem6vby9IkXvrAwjFqFPOHTHoVok
+2023-02-21 15:08:22:822 info: GET /umg/info 200 1087.654 ms - 935
+2023-02-21 15:10:08:108 info: Server listening on port 4000
+2023-02-21 15:10:08:108 info: My secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-02-21 15:10:22:1022 info: Start Get Wallets
+2023-02-21 15:10:22:1022 info: GET /wallet/getwallets 200 482.452 ms - 73
+2023-02-21 15:13:45:1345 info: Server listening on port 4000
+2023-02-21 15:13:45:1345 info: My secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-02-21 15:13:47:1347 info: Start Get Wallets
+2023-02-21 15:13:48:1348 info: GET /wallet/getwallets 200 696.175 ms - 906
+2023-02-21 15:26:41:2641 info: Server listening on port 4000
+2023-02-21 15:26:41:2641 info: My secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-02-21 15:27:54:2754 info: Start Acc Creation
+2023-02-21 15:27:55:2755 error: invalid argument
+2023-02-21 15:27:55:2755 info: POST /wallet/addacc 500 981.417 ms - 50
+2023-02-21 15:29:55:2955 info: Server listening on port 4000
+2023-02-21 15:29:55:2955 info: My secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-02-21 15:29:56:2956 info: Start Acc Creation
+2023-02-21 15:29:57:2957 error: invalid expression
+2023-02-21 15:29:57:2957 info: POST /wallet/addacc 500 785.934 ms - 53
+2023-02-21 15:31:36:3136 info: Server listening on port 4000
+2023-02-21 15:31:36:3136 info: My secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-02-21 15:31:39:3139 info: Start Acc Creation
+2023-02-21 15:31:39:3139 error: invalid argument
+2023-02-21 15:31:39:3139 info: POST /wallet/addacc 500 554.147 ms - 58
+2023-02-21 15:33:21:3321 info: Server listening on port 4000
+2023-02-21 15:33:21:3321 info: My secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-02-21 15:33:43:3343 info: Start Acc Creation
+2023-02-21 15:33:43:3343 error: invalid argument
+2023-02-21 15:33:43:3343 info: POST /wallet/addacc 500 675.150 ms - 51
+2023-02-21 15:36:15:3615 info: Server listening on port 4000
+2023-02-21 15:36:15:3615 info: My secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-02-21 15:36:15:3615 info: Start Acc Creation
+2023-02-21 15:36:16:3616 error: invalid argument
+2023-02-21 15:36:16:3616 info: POST /wallet/addacc 500 830.670 ms - 50
+2023-02-21 15:39:21:3921 info: Server listening on port 4000
+2023-02-21 15:39:21:3921 info: My secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-02-21 15:39:29:3929 info: Start Acc Creation
+2023-02-21 15:39:30:3930 error: invalid argument
+2023-02-21 15:39:30:3930 info: POST /wallet/addacc 500 1082.540 ms - 50
+2023-02-21 15:40:08:408 info: Server listening on port 4000
+2023-02-21 15:40:08:408 info: My secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-02-21 15:40:16:4016 info: Server listening on port 4000
+2023-02-21 15:40:16:4016 info: My secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-02-21 15:40:18:4018 info: Start Acc Creation
+2023-02-21 15:40:18:4018 info: POST /wallet/addacc 200 378.431 ms - 802
+2023-02-21 15:41:22:4122 info: Server listening on port 4000
+2023-02-21 15:41:22:4122 info: My secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-02-21 15:41:25:4125 info: Start Acc Creation
+2023-02-21 15:41:25:4125 info: POST /wallet/addacc 200 440.898 ms - 222
+2023-02-21 15:42:18:4218 info: Server listening on port 4000
+2023-02-21 15:42:18:4218 info: My secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-02-21 15:42:19:4219 info: Start Acc Creation
+2023-02-21 15:42:19:4219 info: POST /wallet/addacc 200 368.132 ms - 222
+2023-02-21 15:42:51:4251 info: Server listening on port 4000
+2023-02-21 15:42:51:4251 info: My secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-02-21 15:42:52:4252 info: Start Acc Creation
+2023-02-21 15:42:53:4253 error: invalid expression
+2023-02-21 15:42:53:4253 info: POST /wallet/addacc 500 427.967 ms - 53
+2023-02-21 15:43:12:4312 info: Server listening on port 4000
+2023-02-21 15:43:12:4312 info: My secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-02-21 15:43:12:4312 info: Start Acc Creation
+2023-02-21 15:43:13:4313 info: POST /wallet/addacc 200 370.636 ms - 222
+2023-02-21 15:46:11:4611 info: Server listening on port 4000
+2023-02-21 15:46:11:4611 info: My secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-02-21 15:46:12:4612 info: Start Acc Creation
+2023-02-21 15:46:12:4612 info: POST /wallet/addacc 200 492.908 ms - 138
+2023-02-21 15:47:42:4742 info: Server listening on port 4000
+2023-02-21 15:47:42:4742 info: My secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-02-21 15:47:42:4742 info: Start Acc Creation
+2023-02-21 15:47:43:4743 error: Expected value, but found 'undefined'. Argument 0 for Client.prototype.query is required.
+2023-02-21 15:50:44:5044 info: Server listening on port 4000
+2023-02-21 15:50:44:5044 info: My secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-02-21 15:50:45:5045 info: Start Acc Creation
+2023-02-21 15:50:45:5045 info: POST /wallet/addacc 200 454.141 ms - 138
+2023-02-21 15:51:46:5146 info: Server listening on port 4000
+2023-02-21 15:51:46:5146 info: My secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-02-21 15:51:47:5147 info: Start Acc Creation
+2023-02-21 15:51:47:5147 error: Cannot read properties of undefined (reading '0')
+2023-02-21 15:52:08:528 info: Server listening on port 4000
+2023-02-21 15:52:08:528 info: My secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-02-21 15:52:09:529 info: Start Acc Creation
+2023-02-21 15:52:09:529 error: invalid expression
+2023-02-21 15:52:09:529 info: POST /wallet/addacc 500 444.853 ms - 60
+2023-02-21 15:52:50:5250 info: Server listening on port 4000
+2023-02-21 15:52:50:5250 info: My secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-02-21 15:52:51:5251 info: Start Acc Creation
+2023-02-21 15:52:52:5252 error: invalid expression
+2023-02-21 15:52:52:5252 info: POST /wallet/addacc 500 431.343 ms - 60
+2023-02-21 15:53:35:5335 info: Server listening on port 4000
+2023-02-21 15:53:35:5335 info: My secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-02-21 15:53:36:5336 info: Start Acc Creation
+2023-02-21 15:53:36:5336 error: Expected value, but found 'undefined'. Argument 0 for Client.prototype.query is required.
+2023-02-22 10:15:23:1523 info: Server listening on port 4000
+2023-02-22 10:15:23:1523 info: My secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-02-22 10:15:28:1528 info: Start Acc Creation
+2023-02-22 10:15:33:1533 info: POST /wallet/addacc 200 5357.767 ms - 138
+2023-02-22 10:16:36:1636 info: Server listening on port 4000
+2023-02-22 10:16:36:1636 info: My secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-02-22 10:16:40:1640 info: Start Acc Creation
+2023-02-22 10:16:40:1640 info: POST /wallet/addacc 200 720.748 ms - 138
+2023-02-22 10:31:53:3153 info: Server listening on port 4000
+2023-02-22 10:31:53:3153 info: My secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-02-22 10:32:10:3210 info: Start Get Wallets
+2023-02-22 10:32:11:3211 error: invalid argument
+2023-02-22 10:32:11:3211 info: GET /wallet/getwallets 500 880.587 ms - 69
+2023-02-22 10:35:38:3538 info: Server listening on port 4000
+2023-02-22 10:35:38:3538 info: My secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-02-22 10:35:40:3540 info: Start Get Wallets
+2023-02-22 10:35:41:3541 error: invalid argument
+2023-02-22 10:35:41:3541 info: GET /wallet/getwallets 500 799.183 ms - 69
+2023-02-22 10:40:48:4048 info: Server listening on port 4000
+2023-02-22 10:40:48:4048 info: My secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-02-22 10:40:49:4049 info: Start Get Wallets
+2023-02-22 10:40:50:4050 error: invalid argument
+2023-02-22 10:40:50:4050 info: GET /wallet/getwallets 500 866.658 ms - 69
+2023-02-22 10:48:33:4833 info: Server listening on port 4000
+2023-02-22 10:48:33:4833 info: My secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-02-22 10:48:34:4834 info: Start Get Wallets
+2023-02-22 10:48:34:4834 info: GET /wallet/getwallets 200 830.359 ms - 94
+2023-02-22 10:51:13:5113 info: Server listening on port 4000
+2023-02-22 10:51:13:5113 info: My secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-02-22 10:51:14:5114 info: Start Get Wallets
+2023-02-22 10:51:15:5115 info: GET /wallet/getwallets 200 774.530 ms - 1374
+2023-02-22 10:51:42:5142 info: Server listening on port 4000
+2023-02-22 10:51:42:5142 info: My secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-02-22 10:51:43:5143 info: Start Get Wallets
+2023-02-22 10:51:44:5144 info: GET /wallet/getwallets 200 740.990 ms - 1374
+2023-02-22 10:52:42:5242 info: Server listening on port 4000
+2023-02-22 10:52:42:5242 info: My secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-02-22 10:52:44:5244 info: Start Get Wallets
+2023-02-22 10:52:44:5244 info: GET /wallet/getwallets 200 811.461 ms - 906
+2023-02-22 10:54:08:548 info: Server listening on port 4000
+2023-02-22 10:54:08:548 info: My secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-02-22 10:54:09:549 info: Start Get Wallets
+2023-02-22 10:54:10:5410 error: invalid argument
+2023-02-22 10:54:10:5410 info: GET /wallet/getwallets 500 769.212 ms - 69
+2023-02-22 10:54:32:5432 info: Server listening on port 4000
+2023-02-22 10:54:32:5432 info: My secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-02-22 10:54:33:5433 info: Start Get Wallets
+2023-02-22 10:54:34:5434 error: invalid argument
+2023-02-22 10:54:34:5434 info: GET /wallet/getwallets 500 712.578 ms - 69
+2023-02-22 10:54:53:5453 info: Server listening on port 4000
+2023-02-22 10:54:53:5453 info: My secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-02-22 10:54:54:5454 info: Start Get Wallets
+2023-02-22 10:54:55:5455 info: GET /wallet/getwallets 200 690.097 ms - 906
+2023-02-22 10:57:03:573 info: Server listening on port 4000
+2023-02-22 10:57:03:573 info: My secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-02-22 10:57:05:575 info: Start Get Wallets
+2023-02-22 10:57:06:576 info: GET /wallet/getwallets 200 710.120 ms - 906
+2023-02-22 10:58:32:5832 info: Server listening on port 4000
+2023-02-22 10:58:32:5832 info: My secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-02-22 10:58:32:5832 info: Start Get Wallets
+2023-02-22 10:58:33:5833 info: GET /wallet/getwallets 200 626.682 ms - 906
+2023-02-22 11:15:36:1536 info: Server listening on port 4000
+2023-02-22 11:15:36:1536 info: My secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-02-22 11:15:39:1539 info: Start Acc Creation
+2023-02-22 11:15:40:1540 info: POST /wallet/addacc 200 651.325 ms - 802
+2023-02-22 11:22:04:224 info: Server listening on port 4000
+2023-02-22 11:22:04:224 info: My secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-02-22 11:22:06:226 info: Start Acc Creation
+2023-02-22 11:22:07:227 error: invalid argument
+2023-02-22 11:22:07:227 info: POST /wallet/addacc 500 932.068 ms - 50
+2023-02-22 11:23:05:235 info: Server listening on port 4000
+2023-02-22 11:23:05:235 info: My secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-02-22 11:23:05:235 info: Start Acc Creation
+2023-02-22 11:23:06:236 info: POST /wallet/addacc 200 380.044 ms - 294
+2023-02-22 11:26:14:2614 info: Server listening on port 4000
+2023-02-22 11:26:14:2614 info: My secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-02-22 11:26:16:2616 info: Start Acc Creation
+2023-02-22 11:26:17:2617 info: POST /wallet/addacc 200 535.859 ms - 129
+2023-02-22 11:32:33:3233 info: Server listening on port 4000
+2023-02-22 11:32:33:3233 info: My secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-02-22 11:32:35:3235 info: Start Acc Creation
+2023-02-22 11:32:36:3236 error: invalid expression
+2023-02-22 11:32:36:3236 info: POST /wallet/addacc 500 1007.110 ms - 53
+2023-02-22 11:34:51:3451 info: Server listening on port 4000
+2023-02-22 11:34:51:3451 info: My secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-02-22 11:34:54:3454 info: Start Acc Creation
+2023-02-22 11:34:55:3455 error: invalid argument
+2023-02-22 11:34:55:3455 info: POST /wallet/addacc 500 594.204 ms - 63
+2023-02-22 11:35:11:3511 info: Server listening on port 4000
+2023-02-22 11:35:11:3511 info: My secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-02-22 11:35:13:3513 info: Start Acc Creation
+2023-02-22 11:35:13:3513 error: invalid expression
+2023-02-22 11:35:13:3513 info: POST /wallet/addacc 500 539.757 ms - 81
+2023-02-22 11:37:40:3740 info: Server listening on port 4000
+2023-02-22 11:37:40:3740 info: My secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-02-22 11:37:41:3741 info: Start Acc Creation
+2023-02-22 11:37:42:3742 info: POST /wallet/addacc 200 477.530 ms - 804
+2023-02-22 11:39:19:3919 info: Server listening on port 4000
+2023-02-22 11:39:19:3919 info: My secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-02-22 11:39:22:3922 info: Start Acc Creation
+2023-02-22 11:39:24:3924 info: POST /wallet/addacc 200 2195.772 ms - 1088
+2023-02-22 11:40:50:4050 info: Start Acc Creation
+2023-02-22 11:40:51:4051 info: POST /wallet/addacc 200 1080.287 ms - 586
+2023-02-22 11:40:53:4053 info: Start Acc Creation
+2023-02-22 11:40:53:4053 info: POST /wallet/addacc 200 564.771 ms - 870
+2023-02-22 11:54:40:5440 info: Server listening on port 4000
+2023-02-22 11:54:40:5440 info: My secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-02-22 11:55:23:5523 info: Start Deposit Creation
+2023-02-22 11:55:24:5524 error: WALLET_I is not defined
+2023-02-22 11:55:57:5557 info: Server listening on port 4000
+2023-02-22 11:55:57:5557 info: My secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-02-22 11:55:58:5558 info: Start Deposit Creation
+2023-02-22 11:55:59:5559 info: POST /wallet/adddeposit 200 965.303 ms - 932
+2023-02-22 11:56:28:5628 info: Start Deposit Creation
+2023-02-22 11:56:30:5630 info: POST /wallet/adddeposit 200 1504.745 ms - 1137

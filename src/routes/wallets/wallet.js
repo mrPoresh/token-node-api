@@ -7,15 +7,6 @@ import { generateWallet } from '../../wallets/wallets.js';
 import FaunaError from '../../errors/fauna-errors.js';
 import logger from '../../utils/logger.js';
 
-/* const getWallet = async (id) => {
-    try {
-        return await getByIndex_id(id, WALLET_I);
-
-    } catch (error) {
-        return error
-    }
-}; */
-
 const createWallet = async (req, res) => {
 	const { token, currency } = req.body;
 	logger.info('Start Wallet Creation');
@@ -32,6 +23,7 @@ const createWallet = async (req, res) => {
                     query.Collection(WALLET_C), {
                         data: { 
                             xpub: wallet.xpub,
+							accounts: [],
                         },
                     },
                 ),
@@ -46,7 +38,7 @@ const createWallet = async (req, res) => {
 			},
 			query.Update(query.Var('user_ref'), {
 					data: {
-						wallets: query.Append([wallet_ref], query.Var('user_wallets'))
+						wallets: query.Append([wallet_ref.id], query.Var('user_wallets'))
 					}
 				}
 			))
@@ -94,27 +86,21 @@ const getWallets = async (req, res) => {
 		const cli = client();
 		const user_auth = await authUser(token);
 
-/*         const result = await cli.query(
-            query.Get(
-                query.Match(query.Index(WALLET_I), xpub),
-            )
-        ); */
-
 		const result = await cli.query(
 			query.Let({
-				user_ref: query.Ref(query.Collection(USERS_C), user_auth.id),
-				user_doc: query.Get(query.Var('user_ref')),
-				user_wallets: query.Select(['data', 'wallets'], query.Var('user_doc'), []),
-			},
-			query.Update(query.Var('user_ref'), {
-					data: {
-						wallets: query.Append([wallet_ref], query.Var('user_wallets'))
-					}
-				}
-			))
-        );
+					user_doc: query.Get(query.Ref(query.Collection(USERS_C), user_auth.id)),
+					wallets:  query.Select(['data', 'wallets'], query.Var('user_doc'), []),
+				},
+				query.Map(
+					query.Var('wallets'), 
+					query.Lambda('id',
+						query.Select('data', query.Get(query.Ref(query.Collection(WALLET_C), query.Var('id'))))
+					)
+				)
+			)
+		);
 
-        res.status(200).send({ data: result });
+        res.status(200).send({ data: { wallets: result }});
 
     } catch (error) {
 		logger.error(error);

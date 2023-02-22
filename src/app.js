@@ -7,7 +7,7 @@ import logger from './utils/logger.js'
 import loggerHttp from './middlewares/logger-http.js';
 
 import { createUser, loginUser, checkToken, logoutUser, getUser } from './routes/usermanagment/index.js';
-import { createWallet, getWallet, createAcc, createDeposit, getFullWalletInfo } from './routes/wallets/index.js';
+import { createWallet, getWallet, getWallets, createAcc, createDeposit } from './routes/wallets/index.js';
 
 const PORT = 4000;
 
@@ -28,10 +28,9 @@ function run() {
 
   server.post('/wallet/addwallet', createWallet);
   server.get('/wallet/getwallet', getWallet);
+  server.get('/wallet/getwallets', getWallets);
   server.post('/wallet/addacc', createAcc);
   server.post('/wallet/adddeposit', createDeposit);
-
-  server.get('/wallet/fullinfo', getFullWalletInfo);
   
 }
 

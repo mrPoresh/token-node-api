@@ -56,7 +56,7 @@ const generateWallet = async (currency) => {
     return sdk.wallet.generateBlockchainWallet(currency, undefined, options);
 };
 
-const generateAcc = async (xpub) => {
+const generateAcc = async (xpub, currency) => {
     const options = {
         currency: currency,
         xpub: xpub,

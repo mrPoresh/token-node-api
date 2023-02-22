@@ -32,7 +32,7 @@ const getUser = async (req, res) => {
                 query.Get(
                     query.Ref(
                         query.Collection(WALLET_C),
-                        user.data.wallets[i].id
+                        user.data.wallets[i]
                     )
                 )
             )

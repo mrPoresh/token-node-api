@@ -1,14 +1,11 @@
-import { createWallet, getWallet } from './wallet.js';
-import { createAcc, getAcc } from './create-acc.js';
-import { getDeposit, createDeposit } from './create-deposit.js';
-import { getFullWalletInfo } from './get-full-wallet.js';
+import { createWallet, getWallet, getWallets } from './wallet.js';
+import { createAcc } from './acc.js';
+import { createDeposit } from './deposit.js';
 
 export {
     createWallet,
     getWallet,
+    getWallets,
     createAcc,
-    getAcc,
     createDeposit,
-    getDeposit,
-    getFullWalletInfo,
 };

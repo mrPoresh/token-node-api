@@ -37,7 +37,7 @@ const createUser = async (req, res) => {
                 query.Collection(USERS_C), {
                     data: { 
                         username: username,
-                        wallets: [wallet_ref]
+                        wallets: [wallet_ref.id]
                     },
                     credentials: { password }
                 }
