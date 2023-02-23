@@ -8,38 +8,32 @@ import logger from '../../utils/logger.js';
 
 
 const getUser = async (req, res) => {
-    const { token } = req.body;
-    const wallets = [];
     logger.info('Start getting User');
-    console.log(req.body)
-    logger.info(token);
+
+    const ref = req.body.ref;
 
     try {
         //const cli = client_users(token);
         const cli = client();
-        const user_auth = await authUser(token);
 
-        const user = await cli.query(
-            query.Get(
-                query.Ref(
-                    query.Collection(USERS_C),
-                    user_auth.id
-                )
-            )
+        const user = await cli.query(       // unite this qu
+            query.Get(query.Ref(ref))
         );
 
-        for (let i = 0; i < user.data.wallets.length; i++) {
-            const wallet = await cli.query(
-                query.Get(
-                    query.Ref(
-                        query.Collection(WALLET_C),
-                        user.data.wallets[i]
+        const wallets = await cli.query(
+			query.Let({
+					user_doc: query.Get(query.Ref(ref)),
+                    username: query.Select(['data', 'username'], query.Var('user_doc'), []),
+					wallets:  query.Select(['data', 'wallets'], query.Var('user_doc'), []),
+				},
+                query.Map(
+                    query.Var('wallets'), 
+                    query.Lambda('id',
+                        query.Select('data', query.Get(query.Ref(query.Collection(WALLET_C), query.Var('id'))))
                     )
                 )
-            )
-
-            wallets.push(wallet.data)
-        }
+			)
+		);
 
         res.status(200).send({ data: { user: user.data.username, wallets: wallets }});
 

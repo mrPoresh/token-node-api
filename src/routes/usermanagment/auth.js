@@ -4,20 +4,20 @@ import FaunaError from '../../errors/fauna-errors.js';
 import { client_users } from '../../db/db.js';
 import logger from '../../utils/logger.js';
 
-const checkToken = async (req, res) => {
-    const { token } = req.body;
+const checkToken = async (req, res, next) => {
     logger.info('Start auth');
-    logger.info(token);
+
+    const authHeader = req.headers['authorization'];
+    const token = authHeader && authHeader.split(' ')[1];
 
     try {
-        const result = await authUser(token);
-        res.status(200).send({ data: { user_id: result.id }});
-  
+        req.body.ref = await authUser(token);
     } catch (error) {
         logger.error(error);
-        let err = new FaunaError(error);
-        res.status(err.statusCode).send({ status: err.statusCode, msg: err.message})
+        res.status(403).send('A token is required for authentication')
     }
+
+    return next();
 };
 
 const authUser = async (token) => {

@@ -20,11 +20,9 @@ function run() {
     res.status(200).send({ data: 'Hello world!' });
   });
 
-  server.post('/umg/add', createUser);        //  writes in db    //|
-  server.post('/umg/login', loginUser);       //  returns token   //|
-  server.post('/umg/auth', checkToken);       //  get by token    //| -->  user menagment
-  server.post('/umg/logout', logoutUser);     //  exit            //|
-  server.get('/umg/info', getUser);           //  get boy         //| //get
+  server.post('/umg/signup', createUser);
+  server.post('/umg/signin', loginUser);
+  server.get('/umg/info', checkToken, getUser);
 
   server.post('/wallet/addwallet', createWallet);
   server.get('/wallet/getwallet', getWallet);

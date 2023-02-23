@@ -7,14 +7,15 @@ import FaunaError from '../../errors/fauna-errors.js';
 import logger from '../../utils/logger.js';
 
 const createUser = async (req, res) => {
-    const { username, currency, password } = req.body;
     logger.info('Start adding in db');
+    
+    const { username, password, currency } = req.body;
 
     try {
         const cli = client();
 
         const wallet = await generateWallet(currency);
-        const acc = await generateAcc(wallet.xpub);
+        const acc = await generateAcc(wallet.xpub, currency);
         const deposit = await generateDeposit(acc.id);
 
         const wallet_ref = await cli.query(

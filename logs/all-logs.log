@@ -2969,3 +2969,183 @@ For more info, see the docs: https://docs.fauna.com/fauna/current/api/fql/functi
 2023-02-22 15:22:27:2227 error: unauthorized. Check that endpoint, schema, port and secret are correct during client’s instantiation
 2023-02-22 15:22:27:2227 error: invalid expression
 2023-02-22 15:22:27:2227 info: GET /umg/info 500 320.094 ms - 81
+2023-02-23 10:22:12:2212 info: Server listening on port 4000
+2023-02-23 10:22:12:2212 info: My secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-02-23 10:22:19:2219 info: Start adding in db
+2023-02-23 10:22:19:2219 error: {"statusCode":400,"errorCode":"validation.failed","message":"Request validation failed. Please see data for additional information.","data":["currency should not be empty and should be at least 2 characters and should be at most 40 characters"]}
+2023-02-23 10:24:00:240 info: Server listening on port 4000
+2023-02-23 10:24:00:240 info: My secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-02-23 10:24:04:244 info: Start adding in db
+2023-02-23 10:24:04:244 error: {"statusCode":400,"errorCode":"validation.failed","message":"Request validation failed. Please see data for additional information.","data":["currency should not be empty and should be at least 2 characters and should be at most 40 characters"]}
+2023-02-23 10:25:26:2526 info: Server listening on port 4000
+2023-02-23 10:25:26:2526 info: My secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-02-23 10:25:45:2545 info: Server listening on port 4000
+2023-02-23 10:25:45:2545 info: My secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-02-23 10:25:53:2553 info: Start adding in db
+2023-02-23 10:25:54:2554 error: {"statusCode":400,"errorCode":"validation.failed","message":"Request validation failed. Please see data for additional information.","data":["currency should not be empty and should be at least 2 characters and should be at most 40 characters"]}
+2023-02-23 10:27:12:2712 info: Server listening on port 4000
+2023-02-23 10:27:12:2712 info: My secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-02-23 10:27:15:2715 info: Start adding in db
+2023-02-23 10:27:15:2715 error: {"statusCode":400,"errorCode":"validation.failed","message":"Request validation failed. Please see data for additional information.","data":["currency should not be empty and should be at least 2 characters and should be at most 40 characters"]}
+2023-02-23 10:27:37:2737 info: Server listening on port 4000
+2023-02-23 10:27:37:2737 info: My secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-02-23 10:27:39:2739 info: Start adding in db
+2023-02-23 10:27:40:2740 info: POST /umg/add 200 1376.110 ms - 78
+2023-02-23 10:39:13:3913 info: Server listening on port 4000
+2023-02-23 10:39:13:3913 info: My secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-02-23 10:39:33:3933 info: Start auth
+2023-02-23 10:39:33:3933 info: fnEE9VEQUgACWQTmg2LiYApaem6vby9IkXvrAwjFqFPOHTHoVok
+2023-02-23 10:39:33:3933 info: GET /umg/info 200 700.461 ms - 41
+2023-02-23 10:40:19:4019 info: Server listening on port 4000
+2023-02-23 10:40:19:4019 info: My secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-02-23 10:40:27:4027 info: Start auth
+2023-02-23 10:40:27:4027 info: fnEE9VEQUgACWQTmg2LiYApaem6vby9IkXvrAwjFqFPOHTHoVok
+2023-02-23 10:40:28:4028 info: Start getting User
+2023-02-23 10:40:28:4028 info: fnEE9VEQUgACWQTmg2LiYApaem6vby9IkXvrAwjFqFPOHTHoVok
+2023-02-23 10:40:28:4028 info: GET /umg/info 200 255.650 ms - 41
+2023-02-23 10:40:28:4028 error: Cannot set headers after they are sent to the client
+2023-02-23 10:40:47:4047 info: Server listening on port 4000
+2023-02-23 10:40:47:4047 info: My secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-02-23 10:40:48:4048 info: Start auth
+2023-02-23 10:40:48:4048 info: fnEE9VEQUgACWQTmg2LiYApaem6vby9IkXvrAwjFqFPOHTHoVok
+2023-02-23 10:40:48:4048 info: Start getting User
+2023-02-23 10:40:48:4048 info: fnEE9VEQUgACWQTmg2LiYApaem6vby9IkXvrAwjFqFPOHTHoVok
+2023-02-23 10:40:48:4048 info: GET /umg/info 200 378.991 ms - 41
+2023-02-23 10:40:49:4049 error: Cannot set headers after they are sent to the client
+2023-02-23 10:41:09:419 info: Server listening on port 4000
+2023-02-23 10:41:09:419 info: My secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-02-23 10:41:12:4112 info: Start auth
+2023-02-23 10:41:12:4112 info: fnEE9VEQUgACWQTmg2LiYApaem6vby9IkXvrAwjFqFPOHTHoVok
+2023-02-23 10:41:12:4112 info: Start getting User
+2023-02-23 10:41:12:4112 info: fnEE9VEQUgACWQTmg2LiYApaem6vby9IkXvrAwjFqFPOHTHoVok
+2023-02-23 10:41:13:4113 info: GET /umg/info 200 971.773 ms - 2565
+2023-02-23 10:43:00:430 info: Server listening on port 4000
+2023-02-23 10:43:00:430 info: My secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-02-23 10:43:03:433 info: Start auth
+2023-02-23 10:43:03:433 info: fnEE9VEQUgACWQTmg2LiYApaem6vby9IkXvrAwjFqFPOHTHoVok
+2023-02-23 10:43:04:434 info: Start getting User
+2023-02-23 10:43:04:434 info: fnEE9VEQUgACWQTmg2LiYApaem6vby9IkXvrAwjFqFPOHTHoVok
+2023-02-23 10:43:04:434 info: GET /umg/info 200 892.300 ms - 2565
+2023-02-23 10:51:57:5157 info: Server listening on port 4000
+2023-02-23 10:51:57:5157 info: My secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-02-23 10:53:17:5317 info: Start auth
+2023-02-23 10:53:17:5317 info: undefined
+2023-02-23 10:53:17:5317 error: unauthorized. Check that endpoint, schema, port and secret are correct during client’s instantiation
+2023-02-23 10:53:17:5317 info: Start getting User
+2023-02-23 10:53:17:5317 info: undefined
+2023-02-23 10:53:17:5317 error: unauthorized. Check that endpoint, schema, port and secret are correct during client’s instantiation
+2023-02-23 10:53:17:5317 error: invalid expression
+2023-02-23 10:53:17:5317 info: GET /umg/info 500 586.625 ms - 81
+2023-02-23 10:53:50:5350 info: Start auth
+2023-02-23 10:53:50:5350 info: undefined
+2023-02-23 10:53:50:5350 error: unauthorized. Check that endpoint, schema, port and secret are correct during client’s instantiation
+2023-02-23 10:53:50:5350 info: Start getting User
+2023-02-23 10:53:50:5350 info: undefined
+2023-02-23 10:53:50:5350 error: unauthorized. Check that endpoint, schema, port and secret are correct during client’s instantiation
+2023-02-23 10:53:50:5350 error: invalid expression
+2023-02-23 10:53:50:5350 info: GET /umg/info 500 452.205 ms - 81
+2023-02-23 10:54:49:5449 info: Start auth
+2023-02-23 10:54:49:5449 info: undefined
+2023-02-23 10:54:49:5449 error: unauthorized. Check that endpoint, schema, port and secret are correct during client’s instantiation
+2023-02-23 10:54:49:5449 info: Start getting User
+2023-02-23 10:54:49:5449 info: undefined
+2023-02-23 10:54:49:5449 error: unauthorized. Check that endpoint, schema, port and secret are correct during client’s instantiation
+2023-02-23 10:54:49:5449 error: invalid expression
+2023-02-23 10:54:49:5449 info: GET /umg/info 500 533.067 ms - 81
+2023-02-23 10:56:49:5649 info: Server listening on port 4000
+2023-02-23 10:56:49:5649 info: My secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-02-23 10:57:30:5730 info: Server listening on port 4000
+2023-02-23 10:57:30:5730 info: My secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-02-23 10:58:32:5832 info: Server listening on port 4000
+2023-02-23 10:58:32:5832 info: My secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-02-23 10:59:03:593 info: Start auth
+2023-02-23 10:59:03:593 info: undefined
+2023-02-23 10:59:04:594 error: unauthorized. Check that endpoint, schema, port and secret are correct during client’s instantiation
+2023-02-23 10:59:04:594 info: Start getting User
+2023-02-23 10:59:04:594 info: undefined
+2023-02-23 10:59:04:594 error: unauthorized. Check that endpoint, schema, port and secret are correct during client’s instantiation
+2023-02-23 10:59:04:594 error: invalid expression
+2023-02-23 10:59:04:594 info: GET /umg/info 500 545.673 ms - 81
+2023-02-23 11:02:09:29 info: Start auth
+2023-02-23 11:02:09:29 info: fnEE9VEQUgACWQTmg2LiYApaem6vby9IkXvrAwjFqFPOHTHoVok
+2023-02-23 11:02:10:210 info: Start getting User
+2023-02-23 11:02:10:210 info: undefined
+2023-02-23 11:02:10:210 error: unauthorized. Check that endpoint, schema, port and secret are correct during client’s instantiation
+2023-02-23 11:02:10:210 error: invalid expression
+2023-02-23 11:02:10:210 info: GET /umg/info 500 632.421 ms - 81
+2023-02-23 11:02:32:232 info: Server listening on port 4000
+2023-02-23 11:02:32:232 info: My secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-02-23 11:02:35:235 info: Start auth
+2023-02-23 11:02:35:235 info: fnEE9VEQUgACWQTmg2LiYApaem6vby9IkXvrAwjFqFPOHTHoVok
+2023-02-23 11:02:35:235 info: Start getting User
+2023-02-23 11:02:35:235 info: undefined
+2023-02-23 11:02:36:236 error: unauthorized. Check that endpoint, schema, port and secret are correct during client’s instantiation
+2023-02-23 11:02:36:236 error: invalid expression
+2023-02-23 11:02:36:236 info: GET /umg/info 500 518.641 ms - 81
+2023-02-23 11:05:56:556 info: Server listening on port 4000
+2023-02-23 11:05:56:556 info: My secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-02-23 11:06:51:651 info: Server listening on port 4000
+2023-02-23 11:06:51:651 info: My secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-02-23 11:06:54:654 info: Start auth
+2023-02-23 11:06:54:654 info: fnEE9VEQUgACWQTmg2LiYApaem6vby9IkXvrAwjFqFPOHTHoVok
+2023-02-23 11:06:54:654 info: Start getting User
+2023-02-23 11:06:55:655 info: GET /umg/info 200 768.987 ms - 2565
+2023-02-23 11:07:24:724 info: Server listening on port 4000
+2023-02-23 11:07:24:724 info: My secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-02-23 11:07:33:733 info: Start auth
+2023-02-23 11:07:33:733 info: undefined
+2023-02-23 11:07:33:733 error: unauthorized. Check that endpoint, schema, port and secret are correct during client’s instantiation
+2023-02-23 11:07:33:733 info: Start getting User
+2023-02-23 11:07:33:733 error: invalid expression
+2023-02-23 11:07:33:733 info: GET /umg/info 500 331.924 ms - 53
+2023-02-23 11:11:48:1148 info: Server listening on port 4000
+2023-02-23 11:11:48:1148 info: My secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-02-23 11:11:57:1157 info: Start auth
+2023-02-23 11:11:58:1158 error: unauthorized. Check that endpoint, schema, port and secret are correct during client’s instantiation
+2023-02-23 11:11:58:1158 info: Start getting User
+2023-02-23 11:11:58:1158 error: invalid expression
+2023-02-23 11:11:58:1158 info: GET /umg/info 500 414.279 ms - 53
+2023-02-23 11:12:31:1231 info: Start auth
+2023-02-23 11:12:31:1231 info: Start getting User
+2023-02-23 11:12:32:1232 info: GET /umg/info 200 627.914 ms - 2565
+2023-02-23 11:22:14:2214 info: Server listening on port 4000
+2023-02-23 11:22:14:2214 info: My secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-02-23 11:22:18:2218 info: Start auth
+2023-02-23 11:22:19:2219 info: Start getting User
+2023-02-23 11:22:19:2219 info: GET /umg/info 200 1021.390 ms - 2565
+2023-02-23 11:26:25:2625 info: Server listening on port 4000
+2023-02-23 11:26:25:2625 info: My secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-02-23 11:26:29:2629 info: Start auth
+2023-02-23 11:26:29:2629 info: Start getting User
+2023-02-23 11:26:29:2629 error: invalid argument
+2023-02-23 11:26:29:2629 info: GET /umg/info 500 428.604 ms - 69
+2023-02-23 11:27:01:271 info: Server listening on port 4000
+2023-02-23 11:27:01:271 info: My secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-02-23 11:27:03:273 info: Start auth
+2023-02-23 11:27:03:273 info: Start getting User
+2023-02-23 11:27:03:273 error: invalid argument
+2023-02-23 11:27:03:273 info: GET /umg/info 500 359.381 ms - 69
+2023-02-23 11:27:18:2718 info: Server listening on port 4000
+2023-02-23 11:27:18:2718 info: My secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-02-23 11:27:20:2720 info: Start auth
+2023-02-23 11:27:20:2720 info: Start getting User
+2023-02-23 11:27:20:2720 info: GET /umg/info 200 429.613 ms - 2524
+2023-02-23 11:29:34:2934 info: Server listening on port 4000
+2023-02-23 11:29:34:2934 info: My secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-02-23 11:29:36:2936 info: Start auth
+2023-02-23 11:29:36:2936 info: Start getting User
+2023-02-23 11:30:37:3037 info: Server listening on port 4000
+2023-02-23 11:30:37:3037 info: My secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-02-23 11:30:39:3039 info: Start auth
+2023-02-23 11:30:39:3039 info: Start getting User
+2023-02-23 11:30:39:3039 info: GET /umg/info 200 459.318 ms - 2546
+2023-02-23 11:32:35:3235 info: Server listening on port 4000
+2023-02-23 11:32:35:3235 info: My secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-02-23 11:32:36:3236 info: Start auth
+2023-02-23 11:32:36:3236 info: Start getting User
+2023-02-23 11:32:36:3236 info: GET /umg/info 200 450.397 ms - 2546
+2023-02-23 11:34:13:3413 info: Server listening on port 4000
+2023-02-23 11:34:13:3413 info: My secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-02-23 11:34:15:3415 info: Start auth
+2023-02-23 11:34:15:3415 info: Start getting User
+2023-02-23 11:34:16:3416 info: GET /umg/info 200 485.502 ms - 2565
