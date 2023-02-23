@@ -8,43 +8,30 @@ import FaunaError from '../../errors/fauna-errors.js';
 import logger from '../../utils/logger.js';
 
 const createWallet = async (req, res) => {
-	const { token, currency } = req.body;
 	logger.info('Start Wallet Creation');
+
+	const { ref, currency } = req.body;
 
 	try {
 		const cli = client();
-        const user_auth = await authUser(token);
 		const wallet = await generateWallet(currency);
-
-		const wallet_ref = await cli.query(
-            query.Select(
-                "ref",
-                query.Create(
-                    query.Collection(WALLET_C), {
-                        data: { 
-                            xpub: wallet.xpub,
-							accounts: [],
-                        },
-                    },
-                ),
-            )
-		);
 
         const result = await cli.query(
 			query.Let({
-				user_ref: query.Ref(query.Collection(USERS_C), user_auth.id),
+				wallet_id: query.Select('id', query.Select('ref', query.Create(query.Collection(WALLET_C), { data: { xpub: wallet.xpub, accounts: []}}))),
+				user_ref: query.Ref(ref),
 				user_doc: query.Get(query.Var('user_ref')),
 				user_wallets: query.Select(['data', 'wallets'], query.Var('user_doc'), []),
 			},
 			query.Update(query.Var('user_ref'), {
 					data: {
-						wallets: query.Append([wallet_ref.id], query.Var('user_wallets'))
+						wallets: query.Append([query.Var('wallet_id')], query.Var('user_wallets'))
 					}
 				}
 			))
         );
 
-		res.status(200).send({ data: result });
+		res.status(200).send({ data: { mnemonic: wallet.mnemonic} });
 
 	} catch (error) {
 		logger.error(error);
@@ -55,7 +42,7 @@ const createWallet = async (req, res) => {
 };
 
 const getWallet = async (req, res) => {
-	const { token, xpub } = req.body;
+	const { ref, xpub } = req.body;
 	logger.info('Start Get Wallet');
 
     try {
@@ -78,17 +65,16 @@ const getWallet = async (req, res) => {
 };
 
 const getWallets = async (req, res) => {
-	const { token } = req.body;
+	const { ref } = req.body;
 	logger.info('Start Get Wallets');
 
     try {
 		//const cli = client_users(token);
 		const cli = client();
-		const user_auth = await authUser(token);
 
 		const result = await cli.query(
 			query.Let({
-					user_doc: query.Get(query.Ref(query.Collection(USERS_C), user_auth.id)),
+					user_doc: query.Get(query.Ref(ref)),
 					wallets:  query.Select(['data', 'wallets'], query.Var('user_doc'), []),
 				},
 				query.Map(
@@ -100,7 +86,7 @@ const getWallets = async (req, res) => {
 			)
 		);
 
-        res.status(200).send({ data: { wallets: result }});
+        res.status(200).send({ data: result});
 
     } catch (error) {
 		logger.error(error);

@@ -3149,3 +3149,72 @@ For more info, see the docs: https://docs.fauna.com/fauna/current/api/fql/functi
 2023-02-23 11:34:15:3415 info: Start auth
 2023-02-23 11:34:15:3415 info: Start getting User
 2023-02-23 11:34:16:3416 info: GET /umg/info 200 485.502 ms - 2565
+2023-02-23 11:49:32:4932 info: Server listening on port 4000
+2023-02-23 11:49:32:4932 info: My secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-02-23 11:50:11:5011 info: Start adding in db
+2023-02-23 11:50:12:5012 info: POST /umg/signup 200 1249.562 ms - 72
+2023-02-23 11:51:52:5152 info: Server listening on port 4000
+2023-02-23 11:51:52:5152 info: My secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-02-23 11:51:54:5154 info: Start adding in db
+2023-02-23 11:51:55:5155 error: invalid expression
+2023-02-23 11:51:55:5155 info: POST /umg/signup 500 799.450 ms - 60
+2023-02-23 11:52:13:5213 info: Server listening on port 4000
+2023-02-23 11:52:13:5213 info: My secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-02-23 11:52:27:5227 info: Start adding in db
+2023-02-23 11:52:28:5228 error: value not found
+2023-02-23 11:52:28:5228 info: POST /umg/signup 500 930.476 ms - 52
+2023-02-23 11:53:05:535 info: Server listening on port 4000
+2023-02-23 11:53:05:535 info: My secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-02-23 11:53:06:536 info: Start adding in db
+2023-02-23 11:53:07:537 info: POST /umg/signup 200 982.755 ms - 72
+2023-02-23 11:54:12:5412 info: Server listening on port 4000
+2023-02-23 11:54:12:5412 info: My secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-02-23 11:54:13:5413 info: Start adding in db
+2023-02-23 11:54:15:5415 info: POST /umg/signup 200 1318.857 ms - 72
+2023-02-23 11:55:47:5547 info: Start auth
+2023-02-23 11:55:48:5548 info: Start getting User
+2023-02-23 11:55:48:5548 info: GET /umg/info 200 496.589 ms - 689
+2023-02-23 11:56:56:5656 info: Start auth
+2023-02-23 11:56:57:5657 error: unauthorized. Check that endpoint, schema, port and secret are correct during client’s instantiation
+2023-02-23 11:56:57:5657 info: Start getting User
+2023-02-23 11:56:57:5657 error: invalid expression
+2023-02-23 11:56:57:5657 info: GET /umg/info 500 360.486 ms - 53
+2023-02-23 11:58:20:5820 info: Server listening on port 4000
+2023-02-23 11:58:20:5820 info: My secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-02-23 11:58:23:5823 info: Start auth
+2023-02-23 11:58:23:5823 error: unauthorized. Check that endpoint, schema, port and secret are correct during client’s instantiation
+2023-02-23 11:58:23:5823 info: Start getting User
+2023-02-23 11:58:23:5823 error: invalid expression
+2023-02-23 11:58:23:5823 info: GET /umg/info 500 382.712 ms - 53
+2023-02-23 11:58:30:5830 info: Start auth
+2023-02-23 11:58:30:5830 info: Start getting User
+2023-02-23 11:58:30:5830 info: GET /umg/info 200 416.272 ms - 689
+2023-02-23 12:07:50:750 info: Server listening on port 4000
+2023-02-23 12:07:50:750 info: My secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-02-23 12:08:52:852 info: GET /wallet/addwallet 404 8.802 ms - 155
+2023-02-23 12:09:22:922 info: Start auth
+2023-02-23 12:09:22:922 info: Start Wallet Creation
+2023-02-23 12:14:37:1437 info: Server listening on port 4000
+2023-02-23 12:14:37:1437 info: My secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-02-23 12:14:41:1441 info: Start auth
+2023-02-23 12:14:41:1441 info: Start Wallet Creation
+2023-02-23 12:14:42:1442 info: POST /wallet/addwallet 200 1479.004 ms - 251
+2023-02-23 12:17:32:1732 info: Server listening on port 4000
+2023-02-23 12:17:32:1732 info: My secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-02-23 12:17:35:1735 info: Start auth
+2023-02-23 12:17:36:1736 info: Start Wallet Creation
+2023-02-23 12:17:36:1736 info: POST /wallet/addwallet 200 620.838 ms - 182
+2023-02-23 12:26:49:2649 info: Server listening on port 4000
+2023-02-23 12:26:49:2649 info: My secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-02-23 12:27:42:2742 info: Start auth
+2023-02-23 12:27:43:2743 info: Start Acc Creation
+2023-02-23 12:27:43:2743 info: POST /wallet/addacc 200 1166.752 ms - 430
+2023-02-23 12:30:59:3059 info: Start auth
+2023-02-23 12:30:59:3059 info: Start Deposit Creation
+2023-02-23 12:30:59:3059 error: unauthorized. Check that endpoint, schema, port and secret are correct during client’s instantiation
+2023-02-23 12:31:00:310 info: POST /wallet/adddeposit 200 1653.270 ms - 648
+2023-02-23 12:34:09:349 info: Server listening on port 4000
+2023-02-23 12:34:09:349 info: My secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-02-23 12:34:28:3428 info: Start auth
+2023-02-23 12:34:28:3428 info: Start Get Wallets
+2023-02-23 12:34:28:3428 info: GET /wallet/getwallets 200 830.645 ms - 1435

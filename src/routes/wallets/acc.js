@@ -9,12 +9,12 @@ import FaunaError from '../../errors/fauna-errors.js';
 import logger from '../../utils/logger.js';
 
 const createAcc = async (req, res) => {
-    const { token, currency, xpub } = req.body;
     logger.info('Start Acc Creation');
+
+    const { ref, currency, xpub } = req.body;
 
     try {
 		const cli = client();
-        const user_auth = await authUser(token);
 		const acc = await generateAcc(xpub, currency);
 
         const result = await cli.query(

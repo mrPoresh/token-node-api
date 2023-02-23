@@ -12,12 +12,11 @@ const checkToken = async (req, res, next) => {
 
     try {
         req.body.ref = await authUser(token);
+        return next();
     } catch (error) {
         logger.error(error);
         res.status(403).send('A token is required for authentication')
     }
-
-    return next();
 };
 
 const authUser = async (token) => {

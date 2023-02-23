@@ -24,11 +24,12 @@ function run() {
   server.post('/umg/signin', loginUser);
   server.get('/umg/info', checkToken, getUser);
 
-  server.post('/wallet/addwallet', createWallet);
-  server.get('/wallet/getwallet', getWallet);
-  server.get('/wallet/getwallets', getWallets);
-  server.post('/wallet/addacc', createAcc);
-  server.post('/wallet/adddeposit', createDeposit);
+  server.post('/wallet/addwallet', checkToken, createWallet);
+  server.post('/wallet/addacc', checkToken, createAcc);
+  server.post('/wallet/adddeposit', checkToken, createDeposit);
+
+  server.get('/wallet/getwallet', checkToken, getWallet);
+  server.get('/wallet/getwallets', checkToken, getWallets);
   
 }
 
