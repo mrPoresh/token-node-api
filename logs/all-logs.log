@@ -3218,3 +3218,416 @@ For more info, see the docs: https://docs.fauna.com/fauna/current/api/fql/functi
 2023-02-23 12:34:28:3428 info: Start auth
 2023-02-23 12:34:28:3428 info: Start Get Wallets
 2023-02-23 12:34:28:3428 info: GET /wallet/getwallets 200 830.645 ms - 1435
+2023-02-23 12:42:22:4222 info: Server listening on port 4000
+2023-02-23 12:42:22:4222 info: My secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-02-23 12:42:47:4247 info: Hello World!
+2023-02-23 12:42:47:4247 info: GET / 304 4.766 ms - -
+2023-02-23 12:42:47:4247 info: OPTIONS /umg/info 204 0.743 ms - 0
+2023-02-23 12:42:47:4247 info: Start auth
+2023-02-23 12:42:47:4247 error: unauthorized. Check that endpoint, schema, port and secret are correct during client’s instantiation
+2023-02-23 12:42:47:4247 info: Start getting User
+2023-02-23 12:42:47:4247 error: invalid expression
+2023-02-23 12:42:47:4247 info: GET /umg/info 500 828.668 ms - 53
+2023-02-23 12:42:50:4250 info: Hello World!
+2023-02-23 12:42:50:4250 info: GET / 304 0.806 ms - -
+2023-02-23 12:42:50:4250 info: Start auth
+2023-02-23 12:42:51:4251 error: unauthorized. Check that endpoint, schema, port and secret are correct during client’s instantiation
+2023-02-23 12:42:51:4251 info: Start getting User
+2023-02-23 12:42:51:4251 error: invalid expression
+2023-02-23 12:42:51:4251 info: GET /umg/info 500 442.225 ms - 53
+2023-02-23 12:43:01:431 info: Hello World!
+2023-02-23 12:43:01:431 info: GET / 304 0.438 ms - -
+2023-02-23 12:43:01:431 info: OPTIONS /umg/info 204 0.197 ms - 0
+2023-02-23 12:43:01:431 info: Start auth
+2023-02-23 12:43:02:432 error: unauthorized. Check that endpoint, schema, port and secret are correct during client’s instantiation
+2023-02-23 12:43:02:432 info: Start getting User
+2023-02-23 12:43:02:432 error: invalid expression
+2023-02-23 12:43:02:432 info: GET /umg/info 500 409.355 ms - 53
+2023-02-23 12:44:33:4433 info: Hello World!
+2023-02-23 12:44:33:4433 info: GET / 304 0.894 ms - -
+2023-02-23 12:44:33:4433 info: OPTIONS /umg/info 204 0.367 ms - 0
+2023-02-23 12:44:33:4433 info: Hello World!
+2023-02-23 12:44:33:4433 info: GET / 304 2.130 ms - -
+2023-02-23 12:44:33:4433 info: Start auth
+2023-02-23 12:44:33:4433 error: unauthorized. Check that endpoint, schema, port and secret are correct during client’s instantiation
+2023-02-23 12:44:33:4433 info: Start getting User
+2023-02-23 12:44:33:4433 error: invalid expression
+2023-02-23 12:44:33:4433 info: GET /umg/info 500 459.027 ms - 53
+2023-02-23 12:44:33:4433 info: Start auth
+2023-02-23 12:44:34:4434 error: unauthorized. Check that endpoint, schema, port and secret are correct during client’s instantiation
+2023-02-23 12:44:34:4434 info: Start getting User
+2023-02-23 12:44:34:4434 error: invalid expression
+2023-02-23 12:44:34:4434 info: GET /umg/info 500 441.177 ms - 53
+2023-02-23 12:44:47:4447 info: OPTIONS /umg/signin 204 0.162 ms - 0
+2023-02-23 12:44:47:4447 info: Start login
+2023-02-23 12:44:47:4447 info: POST /umg/signin 200 287.642 ms - 72
+2023-02-23 12:44:47:4447 info: OPTIONS /umg/info 204 0.157 ms - 0
+2023-02-23 12:44:47:4447 info: Start auth
+2023-02-23 12:44:47:4447 info: Start getting User
+2023-02-23 12:44:48:4448 info: GET /umg/info 200 461.339 ms - 1464
+2023-02-23 12:45:08:458 info: Hello World!
+2023-02-23 12:45:08:458 info: GET / 304 0.803 ms - -
+2023-02-23 12:45:08:458 info: OPTIONS /umg/info 204 0.225 ms - 0
+2023-02-23 12:45:08:458 info: Start auth
+2023-02-23 12:45:08:458 info: Start getting User
+2023-02-23 12:45:08:458 info: GET /umg/info 304 500.218 ms - -
+2023-02-23 12:45:21:4521 info: Hello World!
+2023-02-23 12:45:21:4521 info: GET / 304 0.585 ms - -
+2023-02-23 12:45:21:4521 info: OPTIONS /umg/info 204 0.188 ms - 0
+2023-02-23 12:45:21:4521 info: Start auth
+2023-02-23 12:45:21:4521 info: Start getting User
+2023-02-23 12:45:22:4522 info: GET /umg/info 304 647.704 ms - -
+2023-02-23 14:38:52:3852 info: Server listening on port 4000
+2023-02-23 14:38:52:3852 info: My secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-02-23 14:43:06:436 info: Hello World!
+2023-02-23 14:43:06:436 info: GET / 304 3.119 ms - -
+2023-02-23 14:43:06:436 info: OPTIONS /umg/info 204 0.663 ms - 0
+2023-02-23 14:43:06:436 info: Start auth
+2023-02-23 14:43:06:436 info: Start getting User
+2023-02-23 14:43:07:437 info: GET /umg/info 304 600.340 ms - -
+2023-02-23 14:43:14:4314 info: Hello World!
+2023-02-23 14:43:14:4314 info: GET / 304 0.758 ms - -
+2023-02-23 14:43:14:4314 info: OPTIONS /umg/info 204 0.187 ms - 0
+2023-02-23 14:43:14:4314 info: Start auth
+2023-02-23 14:43:14:4314 info: Start getting User
+2023-02-23 14:43:14:4314 info: GET /umg/info 304 403.912 ms - -
+2023-02-23 14:43:19:4319 info: Hello World!
+2023-02-23 14:43:19:4319 info: GET / 304 0.727 ms - -
+2023-02-23 14:43:19:4319 info: OPTIONS /umg/info 204 0.141 ms - 0
+2023-02-23 14:43:19:4319 info: Start auth
+2023-02-23 14:43:19:4319 info: Start getting User
+2023-02-23 14:43:20:4320 info: GET /umg/info 304 680.243 ms - -
+2023-02-23 14:57:12:5712 info: OPTIONS /umg/info 204 0.277 ms - 0
+2023-02-23 14:57:12:5712 info: Start auth
+2023-02-23 14:57:13:5713 error: unauthorized. Check that endpoint, schema, port and secret are correct during client’s instantiation
+2023-02-23 14:57:13:5713 info: Start getting User
+2023-02-23 14:57:13:5713 error: invalid expression
+2023-02-23 14:57:13:5713 info: GET /umg/info 500 465.437 ms - 53
+2023-02-23 14:57:13:5713 info: Start auth
+2023-02-23 14:57:13:5713 error: unauthorized. Check that endpoint, schema, port and secret are correct during client’s instantiation
+2023-02-23 14:57:13:5713 info: Start getting User
+2023-02-23 14:57:13:5713 error: invalid expression
+2023-02-23 14:57:13:5713 info: GET /umg/info 500 330.796 ms - 53
+2023-02-23 14:57:34:5734 info: OPTIONS /umg/info 204 0.133 ms - 0
+2023-02-23 14:57:34:5734 info: Start auth
+2023-02-23 14:57:34:5734 error: unauthorized. Check that endpoint, schema, port and secret are correct during client’s instantiation
+2023-02-23 14:57:34:5734 info: Start getting User
+2023-02-23 14:57:34:5734 error: invalid expression
+2023-02-23 14:57:34:5734 info: GET /umg/info 500 339.056 ms - 53
+2023-02-23 14:58:29:5829 info: OPTIONS /umg/info 204 0.205 ms - 0
+2023-02-23 14:58:29:5829 info: Start auth
+2023-02-23 14:58:29:5829 error: unauthorized. Check that endpoint, schema, port and secret are correct during client’s instantiation
+2023-02-23 14:58:29:5829 info: Start getting User
+2023-02-23 14:58:30:5830 error: invalid expression
+2023-02-23 14:58:30:5830 info: GET /umg/info 500 366.477 ms - 53
+2023-02-23 14:58:30:5830 info: Start auth
+2023-02-23 14:58:30:5830 error: unauthorized. Check that endpoint, schema, port and secret are correct during client’s instantiation
+2023-02-23 14:58:30:5830 info: Start getting User
+2023-02-23 14:58:30:5830 error: invalid expression
+2023-02-23 14:58:30:5830 info: GET /umg/info 500 314.767 ms - 53
+2023-02-23 14:59:00:590 info: OPTIONS /umg/info 204 0.163 ms - 0
+2023-02-23 14:59:00:590 info: Start auth
+2023-02-23 14:59:01:591 info: Start getting User
+2023-02-23 14:59:01:591 info: GET /umg/info 200 825.722 ms - 1464
+2023-02-23 14:59:01:591 info: Start auth
+2023-02-23 14:59:01:591 info: Start getting User
+2023-02-23 14:59:02:592 info: GET /umg/info 304 421.206 ms - -
+2023-02-23 15:02:49:249 info: Server listening on port 4000
+2023-02-23 15:02:49:249 info: My secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-02-23 15:03:15:315 info: Server listening on port 4000
+2023-02-23 15:03:15:315 info: My secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-02-23 15:03:48:348 info: OPTIONS /umg/info 204 2.145 ms - 0
+2023-02-23 15:03:48:348 info: Start auth
+2023-02-23 15:03:48:348 info: Start getting User
+2023-02-23 15:03:48:348 info: GET /umg/info 200 767.557 ms - 1459
+2023-02-23 15:03:48:348 info: Start auth
+2023-02-23 15:03:49:349 info: Start getting User
+2023-02-23 15:03:49:349 info: GET /umg/info 304 799.703 ms - -
+2023-02-23 15:04:08:48 info: OPTIONS /umg/info 204 0.212 ms - 0
+2023-02-23 15:04:08:48 info: Start auth
+2023-02-23 15:04:08:48 info: Start getting User
+2023-02-23 15:04:08:48 info: GET /umg/info 304 598.737 ms - -
+2023-02-23 15:20:31:2031 info: OPTIONS /umg/info 204 0.335 ms - 0
+2023-02-23 15:20:31:2031 info: Start auth
+2023-02-23 15:20:31:2031 info: Start getting User
+2023-02-23 15:20:32:2032 info: GET /umg/info 304 589.793 ms - -
+2023-02-23 15:20:32:2032 info: Start auth
+2023-02-23 15:20:32:2032 info: Start getting User
+2023-02-23 15:20:32:2032 info: GET /umg/info 304 416.061 ms - -
+2023-02-23 15:30:34:3034 info: OPTIONS /umg/info 204 0.187 ms - 0
+2023-02-23 15:30:34:3034 info: Start auth
+2023-02-23 15:30:34:3034 info: Start getting User
+2023-02-23 15:30:34:3034 info: GET /umg/info 304 634.925 ms - -
+2023-02-23 15:30:34:3034 info: Start auth
+2023-02-23 15:30:35:3035 info: Start getting User
+2023-02-23 15:30:35:3035 info: GET /umg/info 304 410.073 ms - -
+2023-02-23 15:30:38:3038 info: Start auth
+2023-02-23 15:30:39:3039 info: Start getting User
+2023-02-23 15:30:39:3039 info: GET /umg/info 304 520.462 ms - -
+2023-02-23 15:30:52:3052 info: OPTIONS /umg/info 204 0.201 ms - 0
+2023-02-23 15:30:52:3052 info: Start auth
+2023-02-23 15:30:52:3052 info: Start getting User
+2023-02-23 15:30:53:3053 info: GET /umg/info 304 521.385 ms - -
+2023-02-23 15:30:53:3053 info: Start auth
+2023-02-23 15:30:53:3053 info: Start getting User
+2023-02-23 15:30:53:3053 info: GET /umg/info 304 450.257 ms - -
+2023-02-23 15:32:03:323 info: OPTIONS /umg/info 204 0.184 ms - 0
+2023-02-23 15:32:03:323 info: Start auth
+2023-02-23 15:32:04:324 info: Start getting User
+2023-02-23 15:32:04:324 info: GET /umg/info 304 495.588 ms - -
+2023-02-23 15:32:04:324 info: Start auth
+2023-02-23 15:32:04:324 info: Start getting User
+2023-02-23 15:32:05:325 info: GET /umg/info 304 839.001 ms - -
+2023-02-23 15:32:10:3210 info: OPTIONS /umg/info 204 0.195 ms - 0
+2023-02-23 15:32:10:3210 info: Start auth
+2023-02-23 15:32:11:3211 info: Start getting User
+2023-02-23 15:32:11:3211 info: GET /umg/info 304 462.557 ms - -
+2023-02-23 15:32:35:3235 info: OPTIONS /umg/info 204 0.198 ms - 0
+2023-02-23 15:32:35:3235 info: Start auth
+2023-02-23 15:32:36:3236 info: Start getting User
+2023-02-23 15:32:36:3236 info: GET /umg/info 304 544.460 ms - -
+2023-02-23 15:32:36:3236 info: Start auth
+2023-02-23 15:32:36:3236 info: Start getting User
+2023-02-23 15:32:36:3236 info: GET /umg/info 304 437.775 ms - -
+2023-02-23 15:32:45:3245 info: OPTIONS /umg/info 204 0.285 ms - 0
+2023-02-23 15:32:45:3245 info: Start auth
+2023-02-23 15:32:45:3245 info: Start getting User
+2023-02-23 15:32:46:3246 info: GET /umg/info 304 405.015 ms - -
+2023-02-23 15:32:46:3246 info: Start auth
+2023-02-23 15:32:46:3246 info: Start getting User
+2023-02-23 15:32:46:3246 info: GET /umg/info 304 453.654 ms - -
+2023-02-23 15:33:09:339 info: OPTIONS /umg/info 204 0.378 ms - 0
+2023-02-23 15:33:09:339 info: Start auth
+2023-02-23 15:33:10:3310 info: Start getting User
+2023-02-23 15:33:10:3310 info: GET /umg/info 304 939.107 ms - -
+2023-02-23 15:33:10:3310 info: Start auth
+2023-02-23 15:33:11:3311 info: Start getting User
+2023-02-23 15:33:11:3311 info: GET /umg/info 304 437.465 ms - -
+2023-02-23 15:34:58:3458 info: OPTIONS /umg/info 204 0.278 ms - 0
+2023-02-23 15:34:58:3458 info: Start auth
+2023-02-23 15:34:58:3458 info: Start getting User
+2023-02-23 15:34:59:3459 info: GET /umg/info 304 459.036 ms - -
+2023-02-23 15:34:59:3459 info: Start auth
+2023-02-23 15:34:59:3459 info: Start getting User
+2023-02-23 15:34:59:3459 info: GET /umg/info 304 413.434 ms - -
+2023-02-23 15:36:19:3619 info: Server listening on port 4000
+2023-02-23 15:36:19:3619 info: My secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-02-23 15:37:15:3715 info: Start logout
+2023-02-23 15:37:15:3715 info: fnEE9e2ylJACWgTmg2LiYApaRU0Yt-KF0e8NslBlDmH8l_4iEnI
+2023-02-23 15:37:16:3716 info: POST /umg/logout 200 491.791 ms - 2
+2023-02-23 15:37:22:3722 info: OPTIONS /umg/info 204 0.718 ms - 0
+2023-02-23 15:37:22:3722 info: Start auth
+2023-02-23 15:37:22:3722 error: unauthorized. Check that endpoint, schema, port and secret are correct during client’s instantiation
+2023-02-23 15:37:22:3722 info: Start getting User
+2023-02-23 15:37:22:3722 error: invalid expression
+2023-02-23 15:37:22:3722 info: GET /umg/info 500 557.554 ms - 53
+2023-02-23 15:44:47:4447 info: OPTIONS /umg/info 204 0.348 ms - 0
+2023-02-23 15:44:47:4447 info: Start auth
+2023-02-23 15:44:48:4448 error: unauthorized. Check that endpoint, schema, port and secret are correct during client’s instantiation
+2023-02-23 15:44:48:4448 info: Start getting User
+2023-02-23 15:44:49:4449 error: invalid expression
+2023-02-23 15:44:49:4449 info: GET /umg/info 500 1157.303 ms - 53
+2023-02-23 15:44:49:4449 info: Start auth
+2023-02-23 15:44:49:4449 error: unauthorized. Check that endpoint, schema, port and secret are correct during client’s instantiation
+2023-02-23 15:44:49:4449 info: Start getting User
+2023-02-23 15:44:49:4449 error: invalid expression
+2023-02-23 15:44:49:4449 info: GET /umg/info 500 441.393 ms - 53
+2023-02-23 15:59:34:5934 info: OPTIONS /umg/info 204 0.183 ms - 0
+2023-02-23 15:59:34:5934 info: Start auth
+2023-02-23 15:59:34:5934 error: unauthorized. Check that endpoint, schema, port and secret are correct during client’s instantiation
+2023-02-23 15:59:34:5934 info: Start getting User
+2023-02-23 15:59:34:5934 error: invalid expression
+2023-02-23 15:59:34:5934 info: GET /umg/info 500 509.775 ms - 53
+2023-02-23 16:00:44:044 info: OPTIONS /umg/info 204 0.186 ms - 0
+2023-02-23 16:00:44:044 info: Start auth
+2023-02-23 16:00:45:045 error: unauthorized. Check that endpoint, schema, port and secret are correct during client’s instantiation
+2023-02-23 16:00:45:045 info: Start getting User
+2023-02-23 16:00:45:045 error: invalid expression
+2023-02-23 16:00:45:045 info: GET /umg/info 500 477.785 ms - 53
+2023-02-23 16:03:15:315 info: OPTIONS /umg/info 204 0.143 ms - 0
+2023-02-23 16:03:15:315 info: Start auth
+2023-02-23 16:03:16:316 error: unauthorized. Check that endpoint, schema, port and secret are correct during client’s instantiation
+2023-02-23 16:03:16:316 info: Start getting User
+2023-02-23 16:03:16:316 error: invalid expression
+2023-02-23 16:03:16:316 info: GET /umg/info 500 474.163 ms - 53
+2023-02-23 16:03:18:318 info: Start auth
+2023-02-23 16:03:18:318 error: unauthorized. Check that endpoint, schema, port and secret are correct during client’s instantiation
+2023-02-23 16:03:18:318 info: Start getting User
+2023-02-23 16:03:18:318 error: invalid expression
+2023-02-23 16:03:18:318 info: GET /umg/info 500 549.042 ms - 53
+2023-02-23 16:04:07:47 info: OPTIONS /umg/info 204 0.179 ms - 0
+2023-02-23 16:04:07:47 info: Start auth
+2023-02-23 16:04:07:47 error: unauthorized. Check that endpoint, schema, port and secret are correct during client’s instantiation
+2023-02-23 16:04:07:47 info: Start getting User
+2023-02-23 16:04:07:47 error: invalid expression
+2023-02-23 16:04:07:47 info: GET /umg/info 500 456.495 ms - 53
+2023-02-23 16:05:35:535 info: OPTIONS /umg/info 204 0.209 ms - 0
+2023-02-23 16:05:35:535 info: Start auth
+2023-02-23 16:05:35:535 error: unauthorized. Check that endpoint, schema, port and secret are correct during client’s instantiation
+2023-02-23 16:05:35:535 info: Start getting User
+2023-02-23 16:05:36:536 error: invalid expression
+2023-02-23 16:05:36:536 info: GET /umg/info 500 613.760 ms - 53
+2023-02-23 16:05:36:536 info: Start auth
+2023-02-23 16:05:36:536 error: unauthorized. Check that endpoint, schema, port and secret are correct during client’s instantiation
+2023-02-23 16:05:36:536 info: Start getting User
+2023-02-23 16:05:36:536 error: invalid expression
+2023-02-23 16:05:36:536 info: GET /umg/info 500 415.762 ms - 53
+2023-02-23 16:05:43:543 info: OPTIONS /umg/info 204 5.250 ms - 0
+2023-02-23 16:05:43:543 info: Start auth
+2023-02-23 16:05:43:543 error: unauthorized. Check that endpoint, schema, port and secret are correct during client’s instantiation
+2023-02-23 16:05:43:543 info: Start getting User
+2023-02-23 16:05:44:544 error: invalid expression
+2023-02-23 16:05:44:544 info: GET /umg/info 500 399.550 ms - 53
+2023-02-24 12:21:18:2118 info: Server listening on port 4000
+2023-02-24 12:21:18:2118 info: My secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-02-25 11:46:57:4657 info: Server listening on port 4000
+2023-02-25 11:46:57:4657 info: My secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-02-25 13:59:46:5946 info: Server listening on port 4000
+2023-02-25 13:59:46:5946 info: My secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-02-25 17:49:27:4927 info: Server listening on port 4000
+2023-02-25 17:49:27:4927 info: My secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-02-27 11:51:15:5115 info: Server listening on port 4000
+2023-02-27 11:51:15:5115 info: My secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-02-27 12:45:33:4533 info: Server listening on port 4000
+2023-02-27 12:45:33:4533 info: My secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-02-27 13:16:48:1648 info: OPTIONS /umg/signup 204 3.190 ms - 0
+2023-02-27 13:18:15:1815 info: Server listening on port 4000
+2023-02-27 13:18:15:1815 info: My secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-02-27 13:19:55:1955 info: Server listening on port 4000
+2023-02-27 13:19:55:1955 info: My secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-02-27 13:20:40:2040 info: OPTIONS /umg/signup 204 2.049 ms - 0
+2023-02-27 13:23:38:2338 info: Server listening on port 4000
+2023-02-27 13:23:38:2338 info: My secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-02-27 13:24:28:2428 info: OPTIONS /umg/signup 204 2.004 ms - 0
+2023-02-27 13:25:22:2522 info: Server listening on port 4000
+2023-02-27 13:25:22:2522 info: My secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-02-27 13:26:00:260 info: OPTIONS /umg/signup 204 1.738 ms - 0
+2023-02-27 13:26:56:2656 info: Server listening on port 4000
+2023-02-27 13:26:56:2656 info: My secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-02-27 13:27:12:2712 info: OPTIONS /umg/signup 204 2.485 ms - 0
+2023-02-27 13:28:12:2812 info: Server listening on port 4000
+2023-02-27 13:28:12:2812 info: My secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-02-27 13:28:35:2835 info: OPTIONS /umg/signup 204 2.338 ms - 0
+2023-02-27 13:28:53:2853 info: Server listening on port 4000
+2023-02-27 13:28:53:2853 info: My secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-02-27 13:29:11:2911 info: OPTIONS /umg/signup 204 2.205 ms - 0
+2023-02-27 13:29:11:2911 info: Start adding in db
+2023-02-27 13:29:13:2913 info: POST /umg/signup 200 1606.754 ms - 242
+2023-02-27 13:30:07:307 info: OPTIONS /umg/info 204 0.212 ms - 0
+2023-02-27 13:30:07:307 info: Start auth
+2023-02-27 13:30:08:308 info: Start getting User
+2023-02-27 13:30:08:308 error: invalid argument
+2023-02-27 13:30:08:308 info: GET /umg/info 500 599.053 ms - 63
+2023-02-27 13:31:18:3118 info: Server listening on port 4000
+2023-02-27 13:31:18:3118 info: My secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-02-27 13:31:21:3121 info: OPTIONS /umg/info 204 1.356 ms - 0
+2023-02-27 13:31:21:3121 info: Start auth
+2023-02-27 13:31:22:3122 info: Start getting User
+2023-02-27 13:31:38:3138 info: Server listening on port 4000
+2023-02-27 13:31:38:3138 info: My secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-02-27 13:31:40:3140 info: OPTIONS /umg/info 204 2.090 ms - 0
+2023-02-27 13:31:40:3140 info: Start auth
+2023-02-27 13:31:40:3140 info: Start getting User
+2023-02-27 13:31:41:3141 error: invalid argument
+2023-02-27 13:31:41:3141 info: GET /umg/info 500 927.894 ms - 63
+2023-02-27 13:32:08:328 info: Server listening on port 4000
+2023-02-27 13:32:08:328 info: My secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-02-27 13:32:10:3210 info: OPTIONS /umg/info 204 1.299 ms - 0
+2023-02-27 13:32:10:3210 info: Start auth
+2023-02-27 13:32:11:3211 info: Start getting User
+2023-02-27 13:32:11:3211 error: invalid argument
+2023-02-27 13:32:11:3211 info: GET /umg/info 500 1109.355 ms - 63
+2023-02-27 13:35:26:3526 info: Server listening on port 4000
+2023-02-27 13:35:26:3526 info: My secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-02-27 13:35:29:3529 info: OPTIONS /umg/info 204 1.767 ms - 0
+2023-02-27 13:35:29:3529 info: Start auth
+2023-02-27 13:35:29:3529 info: Start getting User
+2023-02-27 13:35:30:3530 error: invalid expression
+2023-02-27 13:35:30:3530 info: GET /umg/info 500 516.430 ms - 53
+2023-02-27 13:37:17:3717 info: Server listening on port 4000
+2023-02-27 13:37:17:3717 info: My secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-02-27 13:37:20:3720 info: OPTIONS /umg/info 204 1.306 ms - 0
+2023-02-27 13:37:20:3720 info: Start auth
+2023-02-27 13:37:20:3720 info: Start getting User
+2023-02-27 13:37:20:3720 error: invalid argument
+2023-02-27 13:37:20:3720 info: GET /umg/info 500 523.508 ms - 61
+2023-02-27 13:37:48:3748 info: Server listening on port 4000
+2023-02-27 13:37:48:3748 info: My secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-02-27 13:37:50:3750 info: OPTIONS /umg/info 204 1.870 ms - 0
+2023-02-27 13:37:50:3750 info: Start auth
+2023-02-27 13:37:50:3750 info: Start getting User
+2023-02-27 13:37:50:3750 error: invalid argument
+2023-02-27 13:37:50:3750 info: GET /umg/info 500 426.537 ms - 61
+2023-02-27 13:39:03:393 info: Server listening on port 4000
+2023-02-27 13:39:03:393 info: My secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-02-27 13:39:05:395 info: OPTIONS /umg/info 204 1.586 ms - 0
+2023-02-27 13:39:05:395 info: Start auth
+2023-02-27 13:39:06:396 info: Start getting User
+2023-02-27 13:39:06:396 error: invalid expression
+2023-02-27 13:39:06:396 info: GET /umg/info 500 493.678 ms - 53
+2023-02-27 13:41:56:4156 info: Server listening on port 4000
+2023-02-27 13:41:56:4156 info: My secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-02-27 13:42:05:425 info: OPTIONS /umg/info 204 2.067 ms - 0
+2023-02-27 13:42:05:425 info: Start auth
+2023-02-27 13:42:06:426 info: Start getting User
+2023-02-27 13:42:06:426 error: invalid expression
+2023-02-27 13:42:06:426 info: GET /umg/info 500 915.630 ms - 53
+2023-02-27 13:43:16:4316 info: Server listening on port 4000
+2023-02-27 13:43:16:4316 info: My secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-02-27 13:43:19:4319 info: OPTIONS /umg/info 204 1.341 ms - 0
+2023-02-27 13:43:19:4319 info: Start auth
+2023-02-27 13:43:19:4319 info: Start getting User
+2023-02-27 13:43:19:4319 error: invalid expression
+2023-02-27 13:43:19:4319 info: GET /umg/info 500 494.476 ms - 53
+2023-02-27 13:45:19:4519 info: Server listening on port 4000
+2023-02-27 13:45:19:4519 info: My secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-02-27 13:45:23:4523 info: OPTIONS /umg/info 204 2.053 ms - 0
+2023-02-27 13:45:23:4523 info: Start auth
+2023-02-27 13:45:23:4523 info: Start getting User
+2023-02-27 13:45:23:4523 error: invalid expression
+2023-02-27 13:45:23:4523 info: GET /umg/info 500 544.504 ms - 53
+2023-02-27 13:46:13:4613 info: Server listening on port 4000
+2023-02-27 13:46:13:4613 info: My secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-02-27 13:46:15:4615 info: OPTIONS /umg/info 204 2.021 ms - 0
+2023-02-27 13:46:15:4615 info: Start auth
+2023-02-27 13:46:16:4616 info: Start getting User
+2023-02-27 13:46:16:4616 error: invalid expression
+2023-02-27 13:46:16:4616 info: GET /umg/info 500 732.056 ms - 53
+2023-02-27 13:46:47:4647 info: Server listening on port 4000
+2023-02-27 13:46:47:4647 info: My secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-02-27 13:46:49:4649 info: OPTIONS /umg/info 204 1.320 ms - 0
+2023-02-27 13:46:49:4649 info: Start auth
+2023-02-27 13:46:49:4649 info: Start getting User
+2023-02-27 13:46:50:4650 info: GET /umg/info 200 569.668 ms - 835
+2023-02-27 13:47:21:4721 info: Server listening on port 4000
+2023-02-27 13:47:21:4721 info: My secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-02-27 13:47:22:4722 info: OPTIONS /umg/info 204 1.444 ms - 0
+2023-02-27 13:47:22:4722 info: Start auth
+2023-02-27 13:47:22:4722 info: Start getting User
+2023-02-27 13:47:22:4722 info: GET /umg/info 200 458.433 ms - 679
+2023-02-27 13:48:01:481 info: Server listening on port 4000
+2023-02-27 13:48:01:481 info: My secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-02-27 13:49:36:4936 info: OPTIONS /umg/info 204 2.788 ms - 0
+2023-02-27 13:49:36:4936 info: Start auth
+2023-02-27 13:49:37:4937 info: Start getting User
+2023-02-27 13:49:37:4937 info: GET /umg/info 304 839.684 ms - -
+2023-02-27 13:49:37:4937 info: Start auth
+2023-02-27 13:49:37:4937 info: Start getting User
+2023-02-27 13:49:38:4938 info: GET /umg/info 304 411.703 ms - -
+2023-02-27 13:49:43:4943 info: OPTIONS /umg/info 204 0.347 ms - 0
+2023-02-27 13:49:43:4943 info: Start auth
+2023-02-27 13:49:43:4943 info: Start getting User
+2023-02-27 13:49:44:4944 info: GET /umg/info 304 436.496 ms - -
+2023-02-27 13:50:28:5028 info: OPTIONS /umg/info 204 0.322 ms - 0
+2023-02-27 13:50:28:5028 info: Start auth
+2023-02-27 13:50:28:5028 info: Start getting User
+2023-02-27 13:50:28:5028 info: GET /umg/info 304 420.212 ms - -
+2023-02-27 13:50:28:5028 info: Start auth
+2023-02-27 13:50:29:5029 info: Start getting User
+2023-02-27 13:50:29:5029 info: GET /umg/info 304 419.934 ms - -
+2023-02-27 13:51:25:5125 info: Server listening on port 4000
+2023-02-27 13:51:25:5125 info: My secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-02-27 13:51:29:5129 info: OPTIONS /umg/info 204 1.245 ms - 0
+2023-02-27 13:51:29:5129 info: Start auth
+2023-02-27 13:51:29:5129 info: Start getting User
+2023-02-27 13:51:29:5129 info: GET /umg/info 200 511.749 ms - 718

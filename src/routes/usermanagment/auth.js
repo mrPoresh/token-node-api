@@ -19,7 +19,7 @@ const checkToken = async (req, res, next) => {
     }
 };
 
-const authUser = async (token) => {
+const authUser = async (token) => { /* returns user ref */
     try {
         const cli = client_users(token);
 

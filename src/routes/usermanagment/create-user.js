@@ -9,7 +9,9 @@ import logger from '../../utils/logger.js';
 const createUser = async (req, res) => {
     logger.info('Start adding in db');
     
-    const { username, password, currency } = req.body;
+    const { username, password, firstname, surname, currency } = req.body.params;
+
+    console.log(req.body)
 
     try {
         const cli = client();
@@ -20,18 +22,20 @@ const createUser = async (req, res) => {
 
         const result = await cli.query(
             query.Let({
-                    wallet_ref: query.Select('id', query.Select("ref", 
+                    wallet_ref: query.Select("ref", 
                         query.Create(query.Collection(WALLET_C), {
                             data: { 
                                 xpub: wallet.xpub,
                                 accounts: [acc],
                                 deposits: [deposit], 
                             }},
-                        ))),
+                        )),
                     user_ref: query.Select("ref",
                         query.Create(query.Collection(USERS_C), {
                             data: { 
                                 username: username,
+                                surname: surname,
+                                firstname: firstname,
                                 wallets: [query.Var('wallet_ref')]
                             },
                             credentials: { 

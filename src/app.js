@@ -20,9 +20,9 @@ function run() {
     res.status(200).send({ data: 'Hello world!' });
   });
 
-  server.post('/umg/signup', createUser);
-  server.post('/umg/signin', loginUser);
-  server.get('/umg/info', checkToken, getUser);
+  server.post('/umg/signup', createUser); /* return token */
+  server.post('/umg/signin', loginUser);  /* return token */
+  server.get('/umg/info', checkToken, getUser); /*  */
 
   server.post('/wallet/addwallet', checkToken, createWallet);
   server.post('/wallet/addacc', checkToken, createAcc);

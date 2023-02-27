@@ -28,14 +28,19 @@ const getUser = async (req, res) => {
 				},
                 query.Map(
                     query.Var('wallets'), 
-                    query.Lambda('id',
-                        query.Select('data', query.Get(query.Ref(query.Collection(WALLET_C), query.Var('id'))))
+                    query.Lambda('ref',
+                        query.Select(['data'], query.Get(query.Var('ref')), [])  
                     )
                 )
 			)
 		);
 
-        res.status(200).send({ data: { user: user.data.username, wallets: wallets }});
+        res.status(200).send({ 
+            username: user.data.username, 
+            surname: user.data.surname, 
+            firstname: user.data.firstname, 
+            wallets: wallets 
+        });
 
     } catch (error) {
         logger.error(error);
