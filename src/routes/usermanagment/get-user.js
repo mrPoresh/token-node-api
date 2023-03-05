@@ -12,6 +12,8 @@ const getUser = async (req, res) => {
 
     const ref = req.body.ref;
 
+    console.log(ref)
+
     try {
         //const cli = client_users(token);
         const cli = client();
@@ -19,6 +21,8 @@ const getUser = async (req, res) => {
         const user = await cli.query(       // unite this qu
             query.Get(query.Ref(ref))
         );
+
+        console.log(user)
 
         const wallets = await cli.query(
 			query.Let({

@@ -3631,3 +3631,859 @@ For more info, see the docs: https://docs.fauna.com/fauna/current/api/fql/functi
 2023-02-27 13:51:29:5129 info: Start auth
 2023-02-27 13:51:29:5129 info: Start getting User
 2023-02-27 13:51:29:5129 info: GET /umg/info 200 511.749 ms - 718
+2023-02-27 16:54:57:5457 info: Server listening on port 4000
+2023-02-27 16:54:57:5457 info: My secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-02-27 17:14:07:147 info: OPTIONS /umg/info 204 1.564 ms - 0
+2023-02-27 17:14:07:147 info: Start auth
+2023-02-27 17:14:08:148 info: Start getting User
+2023-02-27 17:14:08:148 info: GET /umg/info 304 937.558 ms - -
+2023-03-01 19:00:16:016 info: Server listening on port 4000
+2023-03-01 19:00:16:016 info: My secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-03-01 19:00:37:037 info: OPTIONS /umg/info 204 1.694 ms - 0
+2023-03-01 19:00:37:037 info: Start auth
+2023-03-01 19:00:38:038 info: Start getting User
+2023-03-01 19:00:38:038 info: GET /umg/info 304 730.217 ms - -
+2023-03-01 19:00:38:038 info: Start auth
+2023-03-01 19:00:38:038 info: Start getting User
+2023-03-01 19:00:39:039 info: GET /umg/info 304 424.309 ms - -
+2023-03-01 19:00:39:039 info: Start auth
+2023-03-01 19:00:39:039 info: Start getting User
+2023-03-01 19:00:39:039 info: GET /umg/info 304 402.539 ms - -
+2023-03-01 19:00:57:057 info: OPTIONS /umg/info 204 0.270 ms - 0
+2023-03-01 19:00:57:057 info: Start auth
+2023-03-01 19:00:57:057 info: Start getting User
+2023-03-01 19:00:57:057 info: GET /umg/info 304 511.162 ms - -
+2023-03-01 19:17:02:172 info: OPTIONS /umg/info 204 0.396 ms - 0
+2023-03-01 19:17:02:172 info: Start auth
+2023-03-01 19:17:02:172 info: Start getting User
+2023-03-01 19:17:02:172 info: GET /umg/info 304 557.790 ms - -
+2023-03-01 19:17:02:172 info: Start auth
+2023-03-01 19:17:03:173 info: Start getting User
+2023-03-01 19:17:03:173 info: GET /umg/info 304 498.085 ms - -
+2023-03-01 19:18:14:1814 info: OPTIONS /umg/info 204 0.299 ms - 0
+2023-03-01 19:18:14:1814 info: Start auth
+2023-03-01 19:18:15:1815 info: Start getting User
+2023-03-01 19:18:15:1815 info: GET /umg/info 304 504.566 ms - -
+2023-03-01 19:18:15:1815 info: Start auth
+2023-03-01 19:18:15:1815 info: Start getting User
+2023-03-01 19:18:15:1815 info: GET /umg/info 304 409.988 ms - -
+2023-03-01 19:19:16:1916 info: OPTIONS /umg/info 204 0.260 ms - 0
+2023-03-01 19:19:16:1916 info: Start auth
+2023-03-01 19:19:16:1916 info: Start getting User
+2023-03-01 19:19:16:1916 info: GET /umg/info 304 485.310 ms - -
+2023-03-01 19:19:17:1917 info: Start auth
+2023-03-01 19:19:17:1917 info: Start getting User
+2023-03-01 19:19:17:1917 info: GET /umg/info 304 397.267 ms - -
+2023-03-01 19:19:56:1956 info: OPTIONS /umg/info 204 0.215 ms - 0
+2023-03-01 19:19:56:1956 info: Start auth
+2023-03-01 19:19:56:1956 info: Start getting User
+2023-03-01 19:19:57:1957 info: GET /umg/info 304 404.684 ms - -
+2023-03-01 19:19:57:1957 info: Start auth
+2023-03-01 19:19:57:1957 info: Start getting User
+2023-03-01 19:19:57:1957 info: GET /umg/info 304 444.854 ms - -
+2023-03-01 19:20:38:2038 info: OPTIONS /umg/info 204 0.307 ms - 0
+2023-03-01 19:20:38:2038 info: Start auth
+2023-03-01 19:20:39:2039 info: Start getting User
+2023-03-01 19:20:39:2039 info: GET /umg/info 304 479.826 ms - -
+2023-03-01 19:20:39:2039 info: Start auth
+2023-03-01 19:20:39:2039 info: Start getting User
+2023-03-01 19:20:39:2039 info: GET /umg/info 304 405.910 ms - -
+2023-03-01 19:21:23:2123 info: OPTIONS /umg/info 204 0.254 ms - 0
+2023-03-01 19:21:23:2123 info: Start auth
+2023-03-01 19:21:23:2123 info: Start getting User
+2023-03-01 19:21:24:2124 info: GET /umg/info 304 413.653 ms - -
+2023-03-01 19:21:24:2124 info: Start auth
+2023-03-01 19:21:24:2124 info: Start getting User
+2023-03-01 19:21:24:2124 info: GET /umg/info 304 400.634 ms - -
+2023-03-01 19:22:58:2258 info: OPTIONS /umg/info 204 0.201 ms - 0
+2023-03-01 19:22:58:2258 info: Start auth
+2023-03-01 19:22:58:2258 info: Start getting User
+2023-03-01 19:22:58:2258 info: GET /umg/info 304 534.543 ms - -
+2023-03-01 19:22:58:2258 info: Start auth
+2023-03-01 19:22:58:2258 info: Start getting User
+2023-03-01 19:22:59:2259 info: GET /umg/info 304 441.855 ms - -
+2023-03-01 19:24:52:2452 info: OPTIONS /umg/info 204 0.336 ms - 0
+2023-03-01 19:24:52:2452 info: Start auth
+2023-03-01 19:24:52:2452 info: Start getting User
+2023-03-01 19:24:52:2452 info: GET /umg/info 304 471.247 ms - -
+2023-03-01 19:24:52:2452 info: Start auth
+2023-03-01 19:24:52:2452 info: Start getting User
+2023-03-01 19:24:53:2453 info: GET /umg/info 304 401.443 ms - -
+2023-03-01 19:34:39:3439 info: OPTIONS /umg/info 204 0.687 ms - 0
+2023-03-01 19:34:39:3439 info: Start auth
+2023-03-01 19:34:40:3440 info: Start getting User
+2023-03-01 19:34:40:3440 info: GET /umg/info 304 591.794 ms - -
+2023-03-01 19:34:40:3440 info: Start auth
+2023-03-01 19:34:40:3440 info: Start getting User
+2023-03-01 19:34:40:3440 info: GET /umg/info 304 414.273 ms - -
+2023-03-01 19:35:04:354 info: OPTIONS /umg/info 204 0.296 ms - 0
+2023-03-01 19:35:04:354 info: Start auth
+2023-03-01 19:35:04:354 info: Start getting User
+2023-03-01 19:35:04:354 info: GET /umg/info 304 431.991 ms - -
+2023-03-01 19:35:04:354 info: Start auth
+2023-03-01 19:35:04:354 info: Start getting User
+2023-03-01 19:35:05:355 info: GET /umg/info 304 402.394 ms - -
+2023-03-01 19:43:14:4314 info: OPTIONS /umg/info 204 0.200 ms - 0
+2023-03-01 19:43:14:4314 info: Start auth
+2023-03-01 19:43:15:4315 info: Start getting User
+2023-03-01 19:43:15:4315 info: GET /umg/info 304 631.519 ms - -
+2023-03-01 19:43:15:4315 info: Start auth
+2023-03-01 19:43:15:4315 info: Start getting User
+2023-03-01 19:43:15:4315 info: GET /umg/info 304 413.657 ms - -
+2023-03-01 19:43:40:4340 info: OPTIONS /umg/info 204 0.175 ms - 0
+2023-03-01 19:43:40:4340 info: Start auth
+2023-03-01 19:43:40:4340 info: Start getting User
+2023-03-01 19:43:40:4340 info: GET /umg/info 304 430.406 ms - -
+2023-03-01 19:43:40:4340 info: Start auth
+2023-03-01 19:43:41:4341 info: Start getting User
+2023-03-01 19:43:41:4341 info: GET /umg/info 304 431.791 ms - -
+2023-03-01 19:44:03:443 info: OPTIONS /umg/info 204 0.285 ms - 0
+2023-03-01 19:44:03:443 info: Start auth
+2023-03-01 19:44:03:443 info: Start getting User
+2023-03-01 19:44:04:444 info: GET /umg/info 304 477.836 ms - -
+2023-03-01 19:44:04:444 info: Start auth
+2023-03-01 19:44:04:444 info: Start getting User
+2023-03-01 19:44:04:444 info: GET /umg/info 304 408.776 ms - -
+2023-03-01 19:44:23:4423 info: OPTIONS /umg/info 204 0.217 ms - 0
+2023-03-01 19:44:23:4423 info: OPTIONS /umg/info 204 0.204 ms - 0
+2023-03-01 19:44:23:4423 info: Start auth
+2023-03-01 19:44:23:4423 info: Start getting User
+2023-03-01 19:44:24:4424 info: GET /umg/info 304 491.078 ms - -
+2023-03-01 19:44:24:4424 info: Start auth
+2023-03-01 19:44:24:4424 info: Start getting User
+2023-03-01 19:44:24:4424 info: GET /umg/info 304 460.063 ms - -
+2023-03-01 19:44:42:4442 info: OPTIONS /umg/info 204 0.186 ms - 0
+2023-03-01 19:44:42:4442 info: Start auth
+2023-03-01 19:44:42:4442 info: Start getting User
+2023-03-01 19:44:42:4442 info: GET /umg/info 304 518.331 ms - -
+2023-03-01 19:44:42:4442 info: Start auth
+2023-03-01 19:44:42:4442 info: Start getting User
+2023-03-01 19:44:42:4442 info: GET /umg/info 304 431.695 ms - -
+2023-03-01 19:47:42:4742 info: OPTIONS /umg/info 204 0.172 ms - 0
+2023-03-01 19:47:42:4742 info: Start auth
+2023-03-01 19:47:42:4742 info: Start getting User
+2023-03-01 19:47:42:4742 info: GET /umg/info 304 480.325 ms - -
+2023-03-01 19:47:42:4742 info: Start auth
+2023-03-01 19:47:42:4742 info: Start getting User
+2023-03-01 19:47:43:4743 info: GET /umg/info 304 388.079 ms - -
+2023-03-01 19:50:18:5018 info: OPTIONS /umg/info 204 0.158 ms - 0
+2023-03-01 19:50:18:5018 info: Start auth
+2023-03-01 19:50:19:5019 info: Start getting User
+2023-03-01 19:50:19:5019 info: GET /umg/info 304 506.561 ms - -
+2023-03-01 19:50:19:5019 info: Start auth
+2023-03-01 19:50:19:5019 info: Start getting User
+2023-03-01 19:50:19:5019 info: GET /umg/info 304 444.461 ms - -
+2023-03-01 19:50:45:5045 info: OPTIONS /umg/info 204 0.121 ms - 0
+2023-03-01 19:50:45:5045 info: Start auth
+2023-03-01 19:50:45:5045 info: Start getting User
+2023-03-01 19:50:45:5045 info: GET /umg/info 304 425.440 ms - -
+2023-03-01 19:50:45:5045 info: Start auth
+2023-03-01 19:50:45:5045 info: Start getting User
+2023-03-01 19:50:45:5045 info: GET /umg/info 304 391.763 ms - -
+2023-03-01 19:50:52:5052 info: OPTIONS /umg/info 204 0.180 ms - 0
+2023-03-01 19:50:52:5052 info: Start auth
+2023-03-01 19:50:52:5052 info: Start getting User
+2023-03-01 19:50:53:5053 info: GET /umg/info 304 480.788 ms - -
+2023-03-01 19:50:53:5053 info: Start auth
+2023-03-01 19:50:53:5053 info: Start getting User
+2023-03-01 19:50:53:5053 info: GET /umg/info 304 406.076 ms - -
+2023-03-01 20:06:36:636 info: OPTIONS /umg/info 204 0.213 ms - 0
+2023-03-01 20:06:36:636 info: Start auth
+2023-03-01 20:06:37:637 info: Start getting User
+2023-03-01 20:06:37:637 info: GET /umg/info 304 555.435 ms - -
+2023-03-01 20:06:37:637 info: Start auth
+2023-03-01 20:06:37:637 info: Start getting User
+2023-03-01 20:06:37:637 info: GET /umg/info 304 424.156 ms - -
+2023-03-01 20:06:50:650 info: OPTIONS /umg/info 204 0.164 ms - 0
+2023-03-01 20:06:50:650 info: Start auth
+2023-03-01 20:06:50:650 info: Start getting User
+2023-03-01 20:06:51:651 info: GET /umg/info 304 395.854 ms - -
+2023-03-01 20:07:02:72 info: OPTIONS /umg/info 204 0.139 ms - 0
+2023-03-01 20:07:02:72 info: Start auth
+2023-03-01 20:07:03:73 info: Start getting User
+2023-03-01 20:07:03:73 info: GET /umg/info 304 408.669 ms - -
+2023-03-01 20:07:15:715 info: OPTIONS /umg/info 204 0.148 ms - 0
+2023-03-01 20:07:15:715 info: Start auth
+2023-03-01 20:07:16:716 info: Start getting User
+2023-03-01 20:07:16:716 info: GET /umg/info 304 419.246 ms - -
+2023-03-01 20:07:46:746 info: OPTIONS /umg/info 204 0.203 ms - 0
+2023-03-01 20:07:46:746 info: Start auth
+2023-03-01 20:07:47:747 info: Start getting User
+2023-03-01 20:07:47:747 info: GET /umg/info 304 534.687 ms - -
+2023-03-01 20:07:47:747 info: Start auth
+2023-03-01 20:07:47:747 info: Start getting User
+2023-03-01 20:07:47:747 info: GET /umg/info 304 409.359 ms - -
+2023-03-01 20:07:58:758 info: OPTIONS /umg/info 204 0.152 ms - 0
+2023-03-01 20:07:58:758 info: Start auth
+2023-03-01 20:07:58:758 info: Start getting User
+2023-03-01 20:07:58:758 info: GET /umg/info 304 404.465 ms - -
+2023-03-01 20:09:10:910 info: OPTIONS /umg/info 204 0.391 ms - 0
+2023-03-01 20:09:10:910 info: Start auth
+2023-03-01 20:09:10:910 info: Start getting User
+2023-03-01 20:09:11:911 info: GET /umg/info 304 535.595 ms - -
+2023-03-01 20:09:11:911 info: Start auth
+2023-03-01 20:09:11:911 info: Start getting User
+2023-03-01 20:09:11:911 info: GET /umg/info 304 414.225 ms - -
+2023-03-01 20:11:52:1152 info: OPTIONS /umg/info 204 0.299 ms - 0
+2023-03-01 20:11:52:1152 info: Start auth
+2023-03-01 20:11:53:1153 info: Start getting User
+2023-03-01 20:11:53:1153 info: GET /umg/info 304 550.997 ms - -
+2023-03-01 20:11:53:1153 info: Start auth
+2023-03-01 20:11:53:1153 info: Start getting User
+2023-03-01 20:11:53:1153 info: GET /umg/info 304 400.677 ms - -
+2023-03-04 14:21:04:214 info: Server listening on port 4000
+2023-03-04 14:21:04:214 info: My secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-03-05 14:07:52:752 info: Server listening on port 4000
+2023-03-05 14:07:52:752 info: My secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-03-05 14:15:03:153 info: OPTIONS /umg/signin 204 1.238 ms - 0
+2023-03-05 14:15:03:153 info: Start login
+2023-03-05 14:15:04:154 error: authentication failed
+2023-03-05 14:15:07:157 info: Start login
+2023-03-05 14:15:08:158 error: authentication failed
+2023-03-05 14:18:28:1828 info: POST /umg/signin - - ms - -
+2023-03-05 14:18:28:1828 info: POST /umg/signin - - ms - -
+2023-03-05 14:19:01:191 info: OPTIONS /umg/signin 204 0.326 ms - 0
+2023-03-05 14:19:01:191 info: Start login
+2023-03-05 14:19:01:191 error: authentication failed
+2023-03-05 14:20:29:2029 info: OPTIONS /umg/signin 204 0.139 ms - 0
+2023-03-05 14:20:29:2029 info: Start login
+2023-03-05 14:20:30:2030 error: authentication failed
+2023-03-05 14:20:52:2052 info: OPTIONS /umg/signup 204 0.121 ms - 0
+2023-03-05 14:20:52:2052 info: Start adding in db
+2023-03-05 14:20:53:2053 info: POST /umg/signup 200 1345.965 ms - 238
+2023-03-05 14:21:03:213 info: POST /umg/signin - - ms - -
+2023-03-05 14:21:03:213 info: POST /umg/signin - - ms - -
+2023-03-05 14:21:04:214 info: OPTIONS /umg/info 204 0.310 ms - 0
+2023-03-05 14:21:04:214 info: Start auth
+2023-03-05 14:21:04:214 info: Start getting User
+2023-03-05 14:21:04:214 info: GET /umg/info 200 432.825 ms - 719
+2023-03-05 14:22:44:2244 info: OPTIONS /umg/info 204 0.178 ms - 0
+2023-03-05 14:22:44:2244 info: Start auth
+2023-03-05 14:22:44:2244 info: Start getting User
+2023-03-05 14:22:44:2244 info: GET /umg/info 304 500.213 ms - -
+2023-03-05 14:22:44:2244 info: Start auth
+2023-03-05 14:22:44:2244 info: Start getting User
+2023-03-05 14:22:45:2245 info: GET /umg/info 304 432.023 ms - -
+2023-03-05 14:26:25:2625 info: OPTIONS /umg/info 204 0.380 ms - 0
+2023-03-05 14:26:25:2625 info: Start auth
+2023-03-05 14:26:26:2626 info: Start getting User
+2023-03-05 14:26:26:2626 info: GET /umg/info 304 594.757 ms - -
+2023-03-05 14:26:26:2626 info: Start auth
+2023-03-05 14:26:26:2626 info: Start getting User
+2023-03-05 14:26:26:2626 info: GET /umg/info 304 424.647 ms - -
+2023-03-05 14:28:03:283 info: OPTIONS /umg/info 204 0.238 ms - 0
+2023-03-05 14:28:03:283 info: Start auth
+2023-03-05 14:28:03:283 info: Start getting User
+2023-03-05 14:28:04:284 info: GET /umg/info 304 498.232 ms - -
+2023-03-05 14:28:04:284 info: Start auth
+2023-03-05 14:28:04:284 info: Start getting User
+2023-03-05 14:28:04:284 info: GET /umg/info 304 412.225 ms - -
+2023-03-05 14:28:46:2846 info: OPTIONS /umg/info 204 0.221 ms - 0
+2023-03-05 14:28:46:2846 info: Start auth
+2023-03-05 14:28:46:2846 info: Start getting User
+2023-03-05 14:28:46:2846 info: GET /umg/info 304 504.155 ms - -
+2023-03-05 14:28:46:2846 info: Start auth
+2023-03-05 14:28:47:2847 info: Start getting User
+2023-03-05 14:28:47:2847 info: GET /umg/info 304 464.714 ms - -
+2023-03-05 14:29:39:2939 info: OPTIONS /umg/info 204 0.553 ms - 0
+2023-03-05 14:29:39:2939 info: Start auth
+2023-03-05 14:29:39:2939 info: Start getting User
+2023-03-05 14:29:40:2940 info: GET /umg/info 304 562.344 ms - -
+2023-03-05 14:29:40:2940 info: Start auth
+2023-03-05 14:29:40:2940 info: Start getting User
+2023-03-05 14:29:40:2940 info: GET /umg/info 304 496.059 ms - -
+2023-03-05 14:31:51:3151 info: OPTIONS /umg/info 204 0.253 ms - 0
+2023-03-05 14:31:51:3151 info: Start auth
+2023-03-05 14:31:51:3151 info: Start getting User
+2023-03-05 14:31:52:3152 info: GET /umg/info 304 642.541 ms - -
+2023-03-05 14:31:52:3152 info: Start auth
+2023-03-05 14:31:52:3152 info: Start getting User
+2023-03-05 14:31:52:3152 info: GET /umg/info 304 527.068 ms - -
+2023-03-05 14:32:23:3223 info: OPTIONS /umg/info 204 0.270 ms - 0
+2023-03-05 14:32:23:3223 info: Start auth
+2023-03-05 14:32:23:3223 info: Start getting User
+2023-03-05 14:32:23:3223 info: GET /umg/info 304 416.885 ms - -
+2023-03-05 14:32:23:3223 info: Start auth
+2023-03-05 14:32:23:3223 info: Start getting User
+2023-03-05 14:32:23:3223 info: GET /umg/info 304 478.699 ms - -
+2023-03-05 14:32:42:3242 info: OPTIONS /umg/info 204 0.325 ms - 0
+2023-03-05 14:32:42:3242 info: Start auth
+2023-03-05 14:32:42:3242 info: Start getting User
+2023-03-05 14:32:42:3242 info: GET /umg/info 304 451.374 ms - -
+2023-03-05 14:32:42:3242 info: Start auth
+2023-03-05 14:32:42:3242 info: Start getting User
+2023-03-05 14:32:43:3243 info: GET /umg/info 304 480.626 ms - -
+2023-03-05 14:32:45:3245 info: Start auth
+2023-03-05 14:32:45:3245 info: Start getting User
+2023-03-05 14:32:46:3246 info: GET /umg/info 304 411.199 ms - -
+2023-03-05 14:32:46:3246 info: Start auth
+2023-03-05 14:32:46:3246 info: Start getting User
+2023-03-05 14:32:46:3246 info: GET /umg/info 304 550.942 ms - -
+2023-03-05 14:32:51:3251 info: OPTIONS /umg/info 204 0.182 ms - 0
+2023-03-05 14:32:51:3251 info: Start auth
+2023-03-05 14:32:51:3251 info: Start getting User
+2023-03-05 14:32:52:3252 info: GET /umg/info 304 494.079 ms - -
+2023-03-05 14:32:52:3252 info: Start auth
+2023-03-05 14:32:52:3252 info: Start getting User
+2023-03-05 14:32:52:3252 info: GET /umg/info 304 452.465 ms - -
+2023-03-05 14:34:52:3452 info: OPTIONS /umg/info 204 0.232 ms - 0
+2023-03-05 14:34:52:3452 info: Start auth
+2023-03-05 14:34:52:3452 info: Start getting User
+2023-03-05 14:34:52:3452 info: GET /umg/info 304 479.690 ms - -
+2023-03-05 14:34:52:3452 info: Start auth
+2023-03-05 14:34:52:3452 info: Start getting User
+2023-03-05 14:34:53:3453 info: GET /umg/info 304 407.206 ms - -
+2023-03-05 14:39:20:3920 info: OPTIONS /umg/info 204 0.129 ms - 0
+2023-03-05 14:39:20:3920 info: Start auth
+2023-03-05 14:39:20:3920 info: Start getting User
+2023-03-05 14:39:20:3920 info: GET /umg/info 304 527.937 ms - -
+2023-03-05 14:39:20:3920 info: Start auth
+2023-03-05 14:39:20:3920 info: Start getting User
+2023-03-05 14:39:21:3921 info: GET /umg/info 304 423.156 ms - -
+2023-03-05 14:42:10:4210 info: OPTIONS /umg/info 204 0.160 ms - 0
+2023-03-05 14:42:10:4210 info: Start auth
+2023-03-05 14:42:10:4210 info: Start getting User
+2023-03-05 14:42:10:4210 info: GET /umg/info 304 495.684 ms - -
+2023-03-05 14:42:10:4210 info: Start auth
+2023-03-05 14:42:10:4210 info: Start getting User
+2023-03-05 14:42:11:4211 info: GET /umg/info 304 441.772 ms - -
+2023-03-05 14:42:16:4216 info: OPTIONS /umg/info 204 0.126 ms - 0
+2023-03-05 14:42:16:4216 info: Start auth
+2023-03-05 14:42:17:4217 info: Start getting User
+2023-03-05 14:42:17:4217 info: GET /umg/info 304 419.742 ms - -
+2023-03-05 14:53:04:534 info: OPTIONS /umg/info 204 0.203 ms - 0
+2023-03-05 14:53:04:534 info: Start auth
+2023-03-05 14:53:04:534 info: Start getting User
+2023-03-05 14:53:04:534 info: GET /umg/info 200 573.424 ms - 741
+2023-03-05 14:53:04:534 info: Start auth
+2023-03-05 14:53:05:535 info: Start getting User
+2023-03-05 14:53:05:535 info: GET /umg/info 304 395.829 ms - -
+2023-03-05 14:55:14:5514 info: OPTIONS /umg/info 204 0.164 ms - 0
+2023-03-05 14:55:14:5514 info: Start auth
+2023-03-05 14:55:15:5515 info: Start getting User
+2023-03-05 14:55:15:5515 info: GET /umg/info 304 505.244 ms - -
+2023-03-05 14:55:15:5515 info: Start auth
+2023-03-05 14:55:15:5515 info: Start getting User
+2023-03-05 14:55:15:5515 info: GET /umg/info 304 399.159 ms - -
+2023-03-05 14:56:44:5644 info: OPTIONS /umg/info 204 0.116 ms - 0
+2023-03-05 14:56:44:5644 info: Start auth
+2023-03-05 14:56:44:5644 info: Start getting User
+2023-03-05 14:56:45:5645 info: GET /umg/info 304 492.778 ms - -
+2023-03-05 14:56:45:5645 info: Start auth
+2023-03-05 14:56:45:5645 info: Start getting User
+2023-03-05 14:56:45:5645 info: GET /umg/info 304 421.048 ms - -
+2023-03-05 14:57:23:5723 info: OPTIONS /umg/info 204 0.117 ms - 0
+2023-03-05 14:57:23:5723 info: Start auth
+2023-03-05 14:57:23:5723 info: Start getting User
+2023-03-05 14:57:23:5723 info: GET /umg/info 304 455.881 ms - -
+2023-03-05 14:57:23:5723 info: Start auth
+2023-03-05 14:57:23:5723 info: Start getting User
+2023-03-05 14:57:23:5723 info: GET /umg/info 304 476.068 ms - -
+2023-03-05 14:58:00:580 info: OPTIONS /umg/info 204 0.181 ms - 0
+2023-03-05 14:58:00:580 info: Start auth
+2023-03-05 14:58:00:580 info: Start getting User
+2023-03-05 14:58:00:580 info: GET /umg/info 304 488.203 ms - -
+2023-03-05 14:58:00:580 info: Start auth
+2023-03-05 14:58:00:580 info: Start getting User
+2023-03-05 14:58:00:580 info: GET /umg/info 304 399.399 ms - -
+2023-03-05 14:58:17:5817 info: OPTIONS /umg/info 204 0.183 ms - 0
+2023-03-05 14:58:17:5817 info: Start auth
+2023-03-05 14:58:17:5817 info: Start getting User
+2023-03-05 14:58:18:5818 info: GET /umg/info 304 399.767 ms - -
+2023-03-05 14:58:18:5818 info: Start auth
+2023-03-05 14:58:18:5818 info: Start getting User
+2023-03-05 14:58:18:5818 info: GET /umg/info 304 414.330 ms - -
+2023-03-05 14:58:41:5841 info: OPTIONS /umg/info 204 0.147 ms - 0
+2023-03-05 14:58:41:5841 info: Start auth
+2023-03-05 14:58:41:5841 info: Start getting User
+2023-03-05 14:58:42:5842 info: GET /umg/info 304 416.716 ms - -
+2023-03-05 14:58:42:5842 info: Start auth
+2023-03-05 14:58:42:5842 info: Start getting User
+2023-03-05 14:58:42:5842 info: GET /umg/info 304 423.914 ms - -
+2023-03-05 15:00:10:010 info: OPTIONS /umg/info 204 0.191 ms - 0
+2023-03-05 15:00:10:010 info: Start auth
+2023-03-05 15:00:11:011 info: Start getting User
+2023-03-05 15:00:11:011 info: GET /umg/info 304 739.121 ms - -
+2023-03-05 15:00:11:011 info: Start auth
+2023-03-05 15:00:11:011 info: Start getting User
+2023-03-05 15:00:11:011 info: GET /umg/info 304 405.992 ms - -
+2023-03-05 15:03:29:329 info: OPTIONS /umg/info 204 0.164 ms - 0
+2023-03-05 15:03:29:329 info: Start auth
+2023-03-05 15:03:29:329 info: Start getting User
+2023-03-05 15:03:29:329 info: GET /umg/info 304 527.960 ms - -
+2023-03-05 15:03:29:329 info: Start auth
+2023-03-05 15:03:30:330 info: Start getting User
+2023-03-05 15:03:30:330 info: GET /umg/info 304 435.507 ms - -
+2023-03-05 15:04:23:423 info: OPTIONS /umg/info 204 0.263 ms - 0
+2023-03-05 15:04:23:423 info: Start auth
+2023-03-05 15:04:23:423 info: Start getting User
+2023-03-05 15:04:23:423 info: GET /umg/info 304 412.451 ms - -
+2023-03-05 15:04:23:423 info: Start auth
+2023-03-05 15:04:23:423 info: Start getting User
+2023-03-05 15:04:23:423 info: GET /umg/info 304 497.752 ms - -
+2023-03-05 15:05:23:523 info: OPTIONS /umg/info 204 0.150 ms - 0
+2023-03-05 15:05:23:523 info: Start auth
+2023-03-05 15:05:23:523 info: Start getting User
+2023-03-05 15:05:23:523 info: GET /umg/info 304 525.724 ms - -
+2023-03-05 15:05:23:523 info: Start auth
+2023-03-05 15:05:23:523 info: Start getting User
+2023-03-05 15:05:24:524 info: GET /umg/info 304 417.532 ms - -
+2023-03-05 15:07:05:75 info: OPTIONS /umg/info 204 0.131 ms - 0
+2023-03-05 15:07:05:75 info: Start auth
+2023-03-05 15:07:05:75 info: Start getting User
+2023-03-05 15:07:05:75 info: GET /umg/info 304 520.745 ms - -
+2023-03-05 15:07:05:75 info: Start auth
+2023-03-05 15:07:05:75 info: Start getting User
+2023-03-05 15:07:05:75 info: GET /umg/info 304 392.513 ms - -
+2023-03-05 15:11:42:1142 info: OPTIONS /umg/info 204 0.201 ms - 0
+2023-03-05 15:11:42:1142 info: Start auth
+2023-03-05 15:11:42:1142 info: Start getting User
+2023-03-05 15:11:43:1143 info: GET /umg/info 304 666.483 ms - -
+2023-03-05 15:11:43:1143 info: Start auth
+2023-03-05 15:11:43:1143 info: Start getting User
+2023-03-05 15:11:43:1143 info: GET /umg/info 304 425.095 ms - -
+2023-03-05 15:12:31:1231 info: OPTIONS /umg/info 204 0.118 ms - 0
+2023-03-05 15:12:31:1231 info: Start auth
+2023-03-05 15:12:31:1231 info: Start getting User
+2023-03-05 15:12:31:1231 info: GET /umg/info 304 453.047 ms - -
+2023-03-05 15:12:31:1231 info: Start auth
+2023-03-05 15:12:32:1232 info: Start getting User
+2023-03-05 15:12:32:1232 info: GET /umg/info 304 474.279 ms - -
+2023-03-05 15:13:13:1313 info: OPTIONS /umg/info 204 0.186 ms - 0
+2023-03-05 15:13:13:1313 info: Start auth
+2023-03-05 15:13:14:1314 info: Start getting User
+2023-03-05 15:13:14:1314 info: GET /umg/info 304 573.552 ms - -
+2023-03-05 15:13:14:1314 info: Start auth
+2023-03-05 15:13:14:1314 info: Start getting User
+2023-03-05 15:13:14:1314 info: GET /umg/info 304 401.510 ms - -
+2023-03-05 15:16:17:1617 info: OPTIONS /umg/info 204 0.136 ms - 0
+2023-03-05 15:16:17:1617 info: Start auth
+2023-03-05 15:16:17:1617 info: Start getting User
+2023-03-05 15:16:17:1617 info: GET /umg/info 304 533.050 ms - -
+2023-03-05 15:16:17:1617 info: Start auth
+2023-03-05 15:16:18:1618 info: Start getting User
+2023-03-05 15:16:18:1618 info: GET /umg/info 304 412.279 ms - -
+2023-03-05 15:16:41:1641 info: OPTIONS /umg/info 204 0.167 ms - 0
+2023-03-05 15:16:41:1641 info: Start auth
+2023-03-05 15:16:41:1641 info: Start getting User
+2023-03-05 15:16:41:1641 info: GET /umg/info 304 648.837 ms - -
+2023-03-05 15:16:41:1641 info: Start auth
+2023-03-05 15:16:42:1642 info: Start getting User
+2023-03-05 15:16:42:1642 info: GET /umg/info 304 404.135 ms - -
+2023-03-05 15:17:06:176 info: OPTIONS /umg/info 204 0.182 ms - 0
+2023-03-05 15:17:06:176 info: Start auth
+2023-03-05 15:17:07:177 info: Start getting User
+2023-03-05 15:17:07:177 info: GET /umg/info 304 762.006 ms - -
+2023-03-05 15:17:07:177 info: Start auth
+2023-03-05 15:17:07:177 info: Start getting User
+2023-03-05 15:17:08:178 info: GET /umg/info 304 707.766 ms - -
+2023-03-05 15:17:33:1733 info: OPTIONS /umg/info 204 0.145 ms - 0
+2023-03-05 15:17:33:1733 info: Start auth
+2023-03-05 15:17:34:1734 info: Start getting User
+2023-03-05 15:17:34:1734 info: GET /umg/info 304 869.767 ms - -
+2023-03-05 15:17:34:1734 info: Start auth
+2023-03-05 15:17:34:1734 info: Start getting User
+2023-03-05 15:17:35:1735 info: GET /umg/info 304 399.712 ms - -
+2023-03-05 15:18:28:1828 info: OPTIONS /umg/info 204 0.160 ms - 0
+2023-03-05 15:18:28:1828 info: Start auth
+2023-03-05 15:18:28:1828 info: Start getting User
+2023-03-05 15:18:28:1828 info: GET /umg/info 304 401.912 ms - -
+2023-03-05 15:18:28:1828 info: Start auth
+2023-03-05 15:18:28:1828 info: Start getting User
+2023-03-05 15:18:29:1829 info: GET /umg/info 304 407.732 ms - -
+2023-03-05 15:20:22:2022 info: Server listening on port 4000
+2023-03-05 15:20:22:2022 info: My secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-03-05 15:22:16:2216 info: Server listening on port 4000
+2023-03-05 15:22:16:2216 info: My secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-03-05 15:22:52:2252 info: Start auth
+2023-03-05 15:22:53:2253 error: unauthorized. Check that endpoint, schema, port and secret are correct during client’s instantiation
+2023-03-05 15:22:53:2253 info: Start Wallet Creation
+2023-03-05 15:22:53:2253 error: invalid expression
+2023-03-05 15:22:53:2253 info: POST /wallet/addwallet 500 491.622 ms - 53
+2023-03-05 15:23:52:2352 info: Start auth
+2023-03-05 15:23:52:2352 error: unauthorized. Check that endpoint, schema, port and secret are correct during client’s instantiation
+2023-03-05 15:23:52:2352 info: Start Wallet Creation
+2023-03-05 15:23:52:2352 error: invalid expression
+2023-03-05 15:23:52:2352 info: POST /wallet/addwallet 500 323.162 ms - 53
+2023-03-05 15:26:03:263 info: Server listening on port 4000
+2023-03-05 15:26:03:263 info: My secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-03-05 15:26:06:266 info: Start auth
+2023-03-05 15:26:06:266 error: unauthorized. Check that endpoint, schema, port and secret are correct during client’s instantiation
+2023-03-05 15:26:06:266 info: Start Wallet Creation
+2023-03-05 15:26:07:267 error: invalid expression
+2023-03-05 15:26:07:267 info: POST /wallet/addwallet 500 432.328 ms - 53
+2023-03-05 15:26:48:2648 info: Server listening on port 4000
+2023-03-05 15:26:48:2648 info: My secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-03-05 15:26:52:2652 info: Start auth
+2023-03-05 15:26:52:2652 error: unauthorized. Check that endpoint, schema, port and secret are correct during client’s instantiation
+2023-03-05 15:26:52:2652 info: Start Wallet Creation
+2023-03-05 15:26:52:2652 error: invalid expression
+2023-03-05 15:26:52:2652 info: POST /wallet/addwallet 500 347.464 ms - 53
+2023-03-05 15:27:10:2710 info: OPTIONS /umg/info 204 0.656 ms - 0
+2023-03-05 15:27:10:2710 info: Start auth
+2023-03-05 15:27:11:2711 info: Start getting User
+2023-03-05 15:27:11:2711 info: GET /umg/info 304 506.799 ms - -
+2023-03-05 15:28:41:2841 info: Start auth
+2023-03-05 15:28:41:2841 info: Start getting User
+2023-03-05 15:28:42:2842 info: GET /umg/info 200 722.789 ms - 741
+2023-03-05 15:29:27:2927 info: Start auth
+2023-03-05 15:29:27:2927 info: Start Wallet Creation
+2023-03-05 15:29:27:2927 info: POST /wallet/addwallet 200 496.746 ms - 181
+2023-03-05 15:29:43:2943 info: OPTIONS /umg/info 204 0.247 ms - 0
+2023-03-05 15:29:43:2943 info: Start auth
+2023-03-05 15:29:43:2943 info: Start getting User
+2023-03-05 15:29:43:2943 info: GET /umg/info 200 502.209 ms - 915
+2023-03-05 15:38:14:3814 info: OPTIONS /umg/info 204 0.485 ms - 0
+2023-03-05 15:38:14:3814 info: Start auth
+2023-03-05 15:38:14:3814 info: Start getting User
+2023-03-05 15:38:15:3815 info: GET /umg/info 304 804.627 ms - -
+2023-03-05 15:38:15:3815 info: Start auth
+2023-03-05 15:38:15:3815 info: Start getting User
+2023-03-05 15:38:15:3815 info: GET /umg/info 304 412.348 ms - -
+2023-03-05 15:40:28:4028 info: OPTIONS /umg/info 204 0.313 ms - 0
+2023-03-05 15:40:28:4028 info: Start auth
+2023-03-05 15:40:29:4029 info: Start getting User
+2023-03-05 15:40:29:4029 info: GET /umg/info 304 599.099 ms - -
+2023-03-05 15:40:29:4029 info: Start auth
+2023-03-05 15:40:29:4029 info: Start getting User
+2023-03-05 15:40:29:4029 info: GET /umg/info 304 419.848 ms - -
+2023-03-05 15:40:46:4046 info: OPTIONS /umg/info 204 0.171 ms - 0
+2023-03-05 15:40:46:4046 info: Start auth
+2023-03-05 15:40:46:4046 info: Start getting User
+2023-03-05 15:40:46:4046 info: GET /umg/info 304 665.393 ms - -
+2023-03-05 15:40:46:4046 info: Start auth
+2023-03-05 15:40:47:4047 info: Start getting User
+2023-03-05 15:40:47:4047 info: GET /umg/info 304 401.622 ms - -
+2023-03-05 15:42:08:428 info: OPTIONS /umg/info 204 0.362 ms - 0
+2023-03-05 15:42:08:428 info: Start auth
+2023-03-05 15:42:09:429 info: Start getting User
+2023-03-05 15:42:09:429 info: GET /umg/info 304 563.350 ms - -
+2023-03-05 15:42:09:429 info: Start auth
+2023-03-05 15:42:09:429 info: Start getting User
+2023-03-05 15:42:09:429 info: GET /umg/info 304 400.246 ms - -
+2023-03-05 15:43:01:431 info: OPTIONS /umg/info 204 0.135 ms - 0
+2023-03-05 15:43:01:431 info: Start auth
+2023-03-05 15:43:01:431 info: Start getting User
+2023-03-05 15:43:01:431 info: GET /umg/info 304 404.624 ms - -
+2023-03-05 15:43:01:431 info: Start auth
+2023-03-05 15:43:01:431 info: Start getting User
+2023-03-05 15:43:02:432 info: GET /umg/info 304 411.246 ms - -
+2023-03-05 15:43:11:4311 info: OPTIONS /umg/info 204 0.193 ms - 0
+2023-03-05 15:43:11:4311 info: Start auth
+2023-03-05 15:43:12:4312 info: Start getting User
+2023-03-05 15:43:12:4312 info: GET /umg/info 304 495.806 ms - -
+2023-03-05 15:43:12:4312 info: Start auth
+2023-03-05 15:43:12:4312 info: Start getting User
+2023-03-05 15:43:12:4312 info: GET /umg/info 304 408.728 ms - -
+2023-03-05 15:43:44:4344 info: OPTIONS /umg/info 204 0.267 ms - 0
+2023-03-05 15:43:44:4344 info: Start auth
+2023-03-05 15:43:44:4344 info: Start getting User
+2023-03-05 15:43:44:4344 info: GET /umg/info 304 528.803 ms - -
+2023-03-05 15:43:44:4344 info: Start auth
+2023-03-05 15:43:45:4345 info: Start getting User
+2023-03-05 15:43:45:4345 info: GET /umg/info 304 413.849 ms - -
+2023-03-05 15:43:56:4356 info: OPTIONS /umg/info 204 0.155 ms - 0
+2023-03-05 15:43:56:4356 info: Start auth
+2023-03-05 15:43:57:4357 info: Start getting User
+2023-03-05 15:43:57:4357 info: GET /umg/info 304 411.953 ms - -
+2023-03-05 15:43:57:4357 info: Start auth
+2023-03-05 15:43:57:4357 info: Start getting User
+2023-03-05 15:43:57:4357 info: GET /umg/info 304 408.838 ms - -
+2023-03-05 15:50:02:502 info: OPTIONS /umg/info 204 0.213 ms - 0
+2023-03-05 15:50:02:502 info: Start auth
+2023-03-05 15:50:02:502 info: Start getting User
+2023-03-05 15:50:03:503 info: GET /umg/info 304 597.473 ms - -
+2023-03-05 15:50:03:503 info: Start auth
+2023-03-05 15:50:03:503 info: Start getting User
+2023-03-05 15:50:03:503 info: GET /umg/info 304 418.651 ms - -
+2023-03-05 15:50:26:5026 info: OPTIONS /umg/info 204 0.191 ms - 0
+2023-03-05 15:50:26:5026 info: Start auth
+2023-03-05 15:50:26:5026 info: Start getting User
+2023-03-05 15:50:26:5026 info: GET /umg/info 304 398.785 ms - -
+2023-03-05 15:50:26:5026 info: Start auth
+2023-03-05 15:50:26:5026 info: Start getting User
+2023-03-05 15:50:26:5026 info: GET /umg/info 304 401.807 ms - -
+2023-03-05 15:51:35:5135 info: OPTIONS /umg/info 204 0.161 ms - 0
+2023-03-05 15:51:36:5136 info: Start auth
+2023-03-05 15:51:36:5136 info: Start getting User
+2023-03-05 15:51:36:5136 info: GET /umg/info 304 497.745 ms - -
+2023-03-05 15:51:36:5136 info: Start auth
+2023-03-05 15:51:36:5136 info: Start getting User
+2023-03-05 15:51:36:5136 info: GET /umg/info 304 399.221 ms - -
+2023-03-05 15:52:16:5216 info: OPTIONS /umg/info 204 0.189 ms - 0
+2023-03-05 15:52:16:5216 info: Start auth
+2023-03-05 15:52:16:5216 info: Start getting User
+2023-03-05 15:52:17:5217 info: GET /umg/info 304 406.645 ms - -
+2023-03-05 15:52:17:5217 info: Start auth
+2023-03-05 15:52:17:5217 info: Start getting User
+2023-03-05 15:52:17:5217 info: GET /umg/info 304 406.773 ms - -
+2023-03-05 15:53:34:5334 info: OPTIONS /umg/info 204 0.200 ms - 0
+2023-03-05 15:53:34:5334 info: Start auth
+2023-03-05 15:53:34:5334 info: Start getting User
+2023-03-05 15:53:35:5335 info: GET /umg/info 304 509.621 ms - -
+2023-03-05 15:53:35:5335 info: Start auth
+2023-03-05 15:53:35:5335 info: Start getting User
+2023-03-05 15:53:35:5335 info: GET /umg/info 304 412.212 ms - -
+2023-03-05 15:55:10:5510 info: OPTIONS /umg/info 204 0.180 ms - 0
+2023-03-05 15:55:10:5510 info: Start auth
+2023-03-05 15:55:10:5510 info: Start getting User
+2023-03-05 15:55:10:5510 info: GET /umg/info 304 581.986 ms - -
+2023-03-05 15:55:10:5510 info: Start auth
+2023-03-05 15:55:10:5510 info: Start getting User
+2023-03-05 15:55:11:5511 info: GET /umg/info 304 385.528 ms - -
+2023-03-05 15:55:39:5539 info: OPTIONS /umg/info 204 0.268 ms - 0
+2023-03-05 15:55:39:5539 info: Start auth
+2023-03-05 15:55:39:5539 info: Start getting User
+2023-03-05 15:55:39:5539 info: GET /umg/info 304 408.561 ms - -
+2023-03-05 15:55:39:5539 info: Start auth
+2023-03-05 15:55:40:5540 info: Start getting User
+2023-03-05 15:55:40:5540 info: GET /umg/info 304 404.703 ms - -
+2023-03-05 15:56:54:5654 info: OPTIONS /umg/info 204 0.107 ms - 0
+2023-03-05 15:56:54:5654 info: Start auth
+2023-03-05 15:56:55:5655 info: Start getting User
+2023-03-05 15:56:55:5655 info: GET /umg/info 304 500.471 ms - -
+2023-03-05 15:56:55:5655 info: Start auth
+2023-03-05 15:56:55:5655 info: Start getting User
+2023-03-05 15:56:55:5655 info: GET /umg/info 304 499.558 ms - -
+2023-03-05 16:16:03:163 info: OPTIONS /umg/info 204 0.132 ms - 0
+2023-03-05 16:16:03:163 info: Start auth
+2023-03-05 16:16:03:163 info: Start getting User
+2023-03-05 16:16:04:164 info: GET /umg/info 200 657.404 ms - 82
+2023-03-05 16:16:31:1631 info: Start auth
+2023-03-05 16:16:31:1631 info: Start Wallet Creation
+2023-03-05 16:16:31:1631 info: POST /wallet/addwallet 200 442.510 ms - 176
+2023-03-05 16:16:41:1641 info: Start auth
+2023-03-05 16:16:41:1641 info: Start Wallet Creation
+2023-03-05 16:16:42:1642 info: POST /wallet/addwallet 200 436.887 ms - 173
+2023-03-05 16:16:52:1652 info: Start auth
+2023-03-05 16:16:53:1653 info: Start Wallet Creation
+2023-03-05 16:16:53:1653 info: POST /wallet/addwallet 200 488.451 ms - 181
+2023-03-05 16:23:58:2358 info: Server listening on port 4000
+2023-03-05 16:23:58:2358 info: My secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-03-05 16:24:03:243 info: Start auth
+2023-03-05 16:24:04:244 info: Start Wallet Creation
+2023-03-05 16:24:04:244 info: POST /wallet/addwallet 200 836.710 ms - 172
+2023-03-05 16:24:07:247 info: Start auth
+2023-03-05 16:24:07:247 info: Start Wallet Creation
+2023-03-05 16:24:07:247 info: POST /wallet/addwallet 200 492.585 ms - 172
+2023-03-05 16:24:12:2412 info: Start auth
+2023-03-05 16:24:12:2412 info: Start Wallet Creation
+2023-03-05 16:24:12:2412 info: POST /wallet/addwallet 200 428.297 ms - 177
+2023-03-05 16:24:18:2418 info: OPTIONS /umg/info 204 0.812 ms - 0
+2023-03-05 16:24:18:2418 info: Start auth
+2023-03-05 16:24:18:2418 info: Start getting User
+2023-03-05 16:24:18:2418 error: instance not found
+2023-03-05 16:24:18:2418 info: GET /umg/info 404 426.411 ms - 42
+2023-03-05 16:24:24:2424 info: OPTIONS /umg/info 204 0.257 ms - 0
+2023-03-05 16:24:24:2424 info: Start auth
+2023-03-05 16:24:24:2424 info: Start getting User
+2023-03-05 16:24:24:2424 error: instance not found
+2023-03-05 16:24:24:2424 info: GET /umg/info 404 407.066 ms - 42
+2023-03-05 16:25:01:251 info: OPTIONS /umg/info 204 0.131 ms - 0
+2023-03-05 16:25:01:251 info: Start auth
+2023-03-05 16:25:01:251 info: Start getting User
+2023-03-05 16:25:02:252 error: instance not found
+2023-03-05 16:25:02:252 info: GET /umg/info 404 473.349 ms - 42
+2023-03-05 16:25:19:2519 info: Server listening on port 4000
+2023-03-05 16:25:19:2519 info: My secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-03-05 16:25:21:2521 info: OPTIONS /umg/info 204 1.251 ms - 0
+2023-03-05 16:25:21:2521 info: Start auth
+2023-03-05 16:25:21:2521 info: Start getting User
+2023-03-05 16:25:22:2522 error: instance not found
+2023-03-05 16:25:22:2522 info: GET /umg/info 404 527.034 ms - 42
+2023-03-05 16:26:09:269 info: Server listening on port 4000
+2023-03-05 16:26:09:269 info: My secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-03-05 16:26:10:2610 info: OPTIONS /umg/info 204 1.843 ms - 0
+2023-03-05 16:26:10:2610 info: Start auth
+2023-03-05 16:26:11:2611 info: Start getting User
+2023-03-05 16:26:11:2611 error: instance not found
+2023-03-05 16:26:11:2611 info: GET /umg/info 404 425.425 ms - 42
+2023-03-05 16:26:36:2636 info: OPTIONS /umg/info 204 0.275 ms - 0
+2023-03-05 16:26:36:2636 info: Start auth
+2023-03-05 16:26:36:2636 info: Start getting User
+2023-03-05 16:26:36:2636 info: GET /umg/info 200 483.209 ms - 601
+2023-03-05 16:27:57:2757 info: Start auth
+2023-03-05 16:27:57:2757 info: Start Acc Creation
+2023-03-05 16:27:58:2758 info: POST /wallet/addacc 200 880.515 ms - 466
+2023-03-05 16:28:00:280 info: Start auth
+2023-03-05 16:28:00:280 info: Start Acc Creation
+2023-03-05 16:28:01:281 info: POST /wallet/addacc 200 590.594 ms - 750
+2023-03-05 16:28:40:2840 info: Start auth
+2023-03-05 16:28:40:2840 info: Start Acc Creation
+2023-03-05 16:28:40:2840 info: POST /wallet/addacc 200 578.186 ms - 467
+2023-03-05 16:28:42:2842 info: Start auth
+2023-03-05 16:28:42:2842 info: Start Acc Creation
+2023-03-05 16:28:43:2843 info: POST /wallet/addacc 200 556.883 ms - 751
+2023-03-05 16:29:00:290 info: Start auth
+2023-03-05 16:29:00:290 info: Start Acc Creation
+2023-03-05 16:29:01:291 info: POST /wallet/addacc 200 774.005 ms - 466
+2023-03-05 16:29:02:292 info: Start auth
+2023-03-05 16:29:02:292 info: Start Acc Creation
+2023-03-05 16:29:02:292 info: POST /wallet/addacc 200 561.543 ms - 750
+2023-03-05 16:29:07:297 info: OPTIONS /umg/info 204 0.209 ms - 0
+2023-03-05 16:29:07:297 info: Start auth
+2023-03-05 16:29:07:297 info: Start getting User
+2023-03-05 16:29:07:297 info: GET /umg/info 200 419.952 ms - 2302
+2023-03-05 16:31:08:318 info: Start auth
+2023-03-05 16:31:09:319 info: Start Deposit Creation
+2023-03-05 16:31:09:319 info: POST /wallet/adddeposit 200 1081.656 ms - 954
+2023-03-05 16:31:13:3113 info: Start auth
+2023-03-05 16:31:13:3113 info: Start Deposit Creation
+2023-03-05 16:31:14:3114 info: POST /wallet/adddeposit 200 1244.818 ms - 1159
+2023-03-05 16:31:38:3138 info: Start auth
+2023-03-05 16:31:38:3138 info: Start Deposit Creation
+2023-03-05 16:31:39:3139 info: POST /wallet/adddeposit 200 1172.800 ms - 1364
+2023-03-05 16:31:44:3144 info: Start auth
+2023-03-05 16:31:44:3144 info: Start Deposit Creation
+2023-03-05 16:31:44:3144 info: POST /wallet/adddeposit 200 861.578 ms - 1569
+2023-03-05 16:32:45:3245 info: Start auth
+2023-03-05 16:32:45:3245 info: Start Deposit Creation
+2023-03-05 16:32:46:3246 info: POST /wallet/adddeposit 200 1037.410 ms - 955
+2023-03-05 16:32:47:3247 info: Start auth
+2023-03-05 16:32:47:3247 info: Start Deposit Creation
+2023-03-05 16:32:48:3248 info: POST /wallet/adddeposit 200 1090.014 ms - 1160
+2023-03-05 16:38:24:3824 info: OPTIONS /umg/info 204 0.156 ms - 0
+2023-03-05 16:38:24:3824 info: Start auth
+2023-03-05 16:38:24:3824 info: Start getting User
+2023-03-05 16:38:24:3824 info: GET /umg/info 200 556.357 ms - 3530
+2023-03-05 16:42:44:4244 info: Start adding in db
+2023-03-05 16:42:54:4254 info: Server listening on port 4000
+2023-03-05 16:42:54:4254 info: My secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-03-05 16:42:59:4259 info: Server listening on port 4000
+2023-03-05 16:42:59:4259 info: My secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-03-05 16:43:01:431 info: Start adding in db
+2023-03-05 16:43:28:4328 info: Server listening on port 4000
+2023-03-05 16:43:28:4328 info: My secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-03-05 16:43:29:4329 info: Start adding in db
+2023-03-05 16:44:34:4434 info: Server listening on port 4000
+2023-03-05 16:44:34:4434 info: My secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-03-05 16:44:35:4435 info: Start adding in db
+2023-03-05 16:44:54:4454 info: Server listening on port 4000
+2023-03-05 16:44:54:4454 info: My secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-03-05 16:44:55:4455 info: Start adding in db
+2023-03-05 16:44:56:4456 info: POST /umg/signup 200 1380.507 ms - 239
+2023-03-05 16:45:39:4539 info: OPTIONS /umg/info 204 0.758 ms - 0
+2023-03-05 16:45:39:4539 info: Start auth
+2023-03-05 16:45:39:4539 error: unauthorized. Check that endpoint, schema, port and secret are correct during client’s instantiation
+2023-03-05 16:45:39:4539 info: Start getting User
+2023-03-05 16:45:39:4539 error: invalid expression
+2023-03-05 16:45:39:4539 info: GET /umg/info 500 456.090 ms - 53
+2023-03-05 16:45:53:4553 info: OPTIONS /umg/signin 204 0.340 ms - 0
+2023-03-05 16:45:53:4553 info: Start login
+2023-03-05 16:45:53:4553 error: authentication failed
+2023-03-05 16:46:02:462 info: POST /umg/signin - - ms - -
+2023-03-05 16:46:03:463 info: OPTIONS /umg/info 204 0.167 ms - 0
+2023-03-05 16:46:03:463 info: Start auth
+2023-03-05 16:46:03:463 error: unauthorized. Check that endpoint, schema, port and secret are correct during client’s instantiation
+2023-03-05 16:46:03:463 info: Start getting User
+2023-03-05 16:46:03:463 error: invalid expression
+2023-03-05 16:46:03:463 info: GET /umg/info 500 537.318 ms - 53
+2023-03-05 16:47:05:475 info: Server listening on port 4000
+2023-03-05 16:47:05:475 info: My secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-03-05 16:47:35:4735 info: Start logout
+2023-03-05 16:47:35:4735 info: fnEE-TNp1gACWQTmg2LiYApaFM-gaEP9NFmDhq9cQiTxPefCH6M
+2023-03-05 16:47:35:4735 info: POST /logout 200 413.415 ms - 2
+2023-03-05 16:47:39:4739 info: OPTIONS /umg/info 204 0.672 ms - 0
+2023-03-05 16:47:39:4739 info: Start auth
+2023-03-05 16:47:39:4739 error: unauthorized. Check that endpoint, schema, port and secret are correct during client’s instantiation
+2023-03-05 16:47:39:4739 info: Start getting User
+2023-03-05 16:47:39:4739 error: invalid expression
+2023-03-05 16:47:39:4739 info: GET /umg/info 500 419.179 ms - 53
+2023-03-05 16:47:59:4759 info: OPTIONS /umg/signin 204 0.350 ms - 0
+2023-03-05 16:47:59:4759 info: Start login
+2023-03-05 16:47:59:4759 error: authentication failed
+2023-03-05 16:48:08:488 info: POST /umg/signin - - ms - -
+2023-03-05 16:48:09:489 info: OPTIONS /umg/info 204 0.118 ms - 0
+2023-03-05 16:48:09:489 info: Start auth
+2023-03-05 16:48:09:489 error: unauthorized. Check that endpoint, schema, port and secret are correct during client’s instantiation
+2023-03-05 16:48:09:489 info: Start getting User
+2023-03-05 16:48:09:489 error: invalid expression
+2023-03-05 16:48:09:489 info: GET /umg/info 500 422.435 ms - 53
+2023-03-05 16:52:08:528 info: OPTIONS /umg/info 204 0.166 ms - 0
+2023-03-05 16:52:08:528 info: Start auth
+2023-03-05 16:52:09:529 error: unauthorized. Check that endpoint, schema, port and secret are correct during client’s instantiation
+2023-03-05 16:52:09:529 info: Start getting User
+2023-03-05 16:52:09:529 error: invalid expression
+2023-03-05 16:52:09:529 info: GET /umg/info 500 572.403 ms - 53
+2023-03-05 16:52:19:5219 info: OPTIONS /umg/signin 204 0.288 ms - 0
+2023-03-05 16:52:19:5219 info: Start login
+2023-03-05 16:52:20:5220 error: authentication failed
+2023-03-05 16:52:31:5231 info: Server listening on port 4000
+2023-03-05 16:52:31:5231 info: My secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-03-05 16:52:32:5232 info: OPTIONS /umg/signin 204 2.527 ms - 0
+2023-03-05 16:52:32:5232 info: Start login
+2023-03-05 16:52:33:5233 error: authentication failed
+2023-03-05 16:54:27:5427 info: POST /umg/signin - - ms - -
+2023-03-05 16:54:27:5427 info: OPTIONS /umg/info 204 0.316 ms - 0
+2023-03-05 16:54:27:5427 info: Start auth
+2023-03-05 16:54:28:5428 error: unauthorized. Check that endpoint, schema, port and secret are correct during client’s instantiation
+2023-03-05 16:54:28:5428 info: Start getting User
+2023-03-05 16:54:28:5428 error: invalid expression
+2023-03-05 16:54:28:5428 info: GET /umg/info 500 498.283 ms - 53
+2023-03-05 16:54:28:5428 info: Start auth
+2023-03-05 16:54:28:5428 error: unauthorized. Check that endpoint, schema, port and secret are correct during client’s instantiation
+2023-03-05 16:54:28:5428 info: Start getting User
+2023-03-05 16:54:28:5428 error: invalid expression
+2023-03-05 16:54:28:5428 info: GET /umg/info 500 427.461 ms - 53
+2023-03-05 16:54:39:5439 info: OPTIONS /umg/signup 204 0.241 ms - 0
+2023-03-05 16:54:39:5439 info: Start adding in db
+2023-03-05 16:56:53:5653 info: Server listening on port 4000
+2023-03-05 16:56:53:5653 info: My secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-03-05 16:56:59:5659 info: OPTIONS /umg/info 204 1.549 ms - 0
+2023-03-05 16:56:59:5659 info: Start auth
+2023-03-05 16:56:59:5659 error: unauthorized. Check that endpoint, schema, port and secret are correct during client’s instantiation
+2023-03-05 16:56:59:5659 info: Start getting User
+2023-03-05 16:57:00:570 error: invalid expression
+2023-03-05 16:57:00:570 info: GET /umg/info 500 530.973 ms - 53
+2023-03-05 16:57:13:5713 info: OPTIONS /umg/signup 204 0.273 ms - 0
+2023-03-05 16:57:13:5713 info: Start adding in db
+2023-03-05 16:57:14:5714 info: POST /umg/signup 200 1193.030 ms - 244
+2023-03-05 16:57:19:5719 info: OPTIONS /umg/info 204 0.213 ms - 0
+2023-03-05 16:57:19:5719 info: Start auth
+2023-03-05 16:57:19:5719 info: Start getting User
+2023-03-05 16:57:19:5719 info: GET /umg/info 200 455.415 ms - 748
+2023-03-05 16:58:03:583 info: OPTIONS /umg/info 204 0.179 ms - 0
+2023-03-05 16:58:03:583 info: Start auth
+2023-03-05 16:58:03:583 info: Start getting User
+2023-03-05 16:58:04:584 info: GET /umg/info 304 663.868 ms - -
+2023-03-05 16:58:33:5833 info: Start auth
+2023-03-05 16:58:34:5834 info: Start Wallet Creation
+2023-03-05 16:58:34:5834 info: POST /wallet/addwallet 200 448.442 ms - 172
+2023-03-05 16:58:38:5838 info: OPTIONS /umg/info 204 0.270 ms - 0
+2023-03-05 16:58:38:5838 info: Start auth
+2023-03-05 16:58:38:5838 info: Start getting User
+2023-03-05 16:58:39:5839 info: GET /umg/info 200 409.817 ms - 922
+2023-03-05 17:02:23:223 info: OPTIONS /umg/info 204 0.378 ms - 0
+2023-03-05 17:02:23:223 info: Start auth
+2023-03-05 17:02:23:223 info: Start getting User
+2023-03-05 17:02:23:223 info: GET /umg/info 304 505.449 ms - -
+2023-03-05 17:02:23:223 info: Start auth
+2023-03-05 17:02:23:223 info: Start getting User
+2023-03-05 17:02:23:223 info: GET /umg/info 304 405.567 ms - -
+2023-03-05 17:05:13:513 info: Server listening on port 4000
+2023-03-05 17:05:13:513 info: My secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-03-05 17:06:34:634 info: Start auth
+2023-03-05 17:06:34:634 info: Start Acc Creation
+2023-03-05 17:06:35:635 info: POST /wallet/addacc 200 904.051 ms - 984
+2023-03-05 17:06:53:653 info: OPTIONS /umg/info 204 0.503 ms - 0
+2023-03-05 17:06:53:653 info: Start auth
+2023-03-05 17:06:53:653 info: Start getting User
+2023-03-05 17:06:54:654 info: GET /umg/info 200 412.031 ms - 1228
+2023-03-05 17:07:37:737 info: Start auth
+2023-03-05 17:07:37:737 info: Start Acc Creation
+2023-03-05 17:07:38:738 info: POST /wallet/addacc 200 695.458 ms - 489
+2023-03-05 17:07:54:754 info: OPTIONS /umg/info 204 0.284 ms - 0
+2023-03-05 17:07:54:754 info: Start auth
+2023-03-05 17:07:54:754 info: Start getting User
+2023-03-05 17:07:54:754 info: GET /umg/info 200 412.334 ms - 1519
+2023-03-05 19:31:29:3129 info: Server listening on port 4000
+2023-03-05 19:31:29:3129 info: My secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-03-05 19:33:59:3359 info: Start adding in db
+2023-03-05 19:34:41:3441 info: Server listening on port 4000
+2023-03-05 19:34:41:3441 info: My secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-03-05 19:34:46:3446 info: Start adding in db
+2023-03-05 19:34:47:3447 info: POST /umg/signup 200 1629.102 ms - 234
+2023-03-05 19:37:09:379 info: Server listening on port 4000
+2023-03-05 19:37:09:379 info: My secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-03-05 19:37:11:3711 info: Start adding in db
+2023-03-05 19:37:12:3712 info: POST /umg/signup 200 1283.577 ms - 231

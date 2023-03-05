@@ -10,7 +10,7 @@ import logger from '../../utils/logger.js';
 const createWallet = async (req, res) => {
 	logger.info('Start Wallet Creation');
 
-	const { ref, currency } = req.body;
+	const { ref, currency, walletname } = req.body;
 
 	try {
 		const cli = client();
@@ -18,14 +18,14 @@ const createWallet = async (req, res) => {
 
         const result = await cli.query(
 			query.Let({
-				wallet_id: query.Select('id', query.Select('ref', query.Create(query.Collection(WALLET_C), { data: { xpub: wallet.xpub, accounts: []}}))),
+				wallet_ref: query.Select('ref', query.Create(query.Collection(WALLET_C), { data: { name: walletname, xpub: wallet.xpub, accounts: []}})),
 				user_ref: query.Ref(ref),
 				user_doc: query.Get(query.Var('user_ref')),
 				user_wallets: query.Select(['data', 'wallets'], query.Var('user_doc'), []),
 			},
 			query.Update(query.Var('user_ref'), {
 					data: {
-						wallets: query.Append([query.Var('wallet_id')], query.Var('user_wallets'))
+						wallets: query.Append([query.Var('wallet_ref')], query.Var('user_wallets'))
 					}
 				}
 			))

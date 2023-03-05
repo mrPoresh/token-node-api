@@ -29,7 +29,7 @@ const createAcc = async (req, res) => {
                     query.Select('data',                     
                         query.Update(query.Var('wallet'), {
                             data: {
-                                accounts: query.Append([acc], query.Var('accounts'))
+                                accounts: query.Append([{acc: acc, deposits: []}], query.Var('accounts'))
                             }
                         }
                     )

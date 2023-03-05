@@ -30,6 +30,8 @@ function run() {
 
   server.get('/wallet/getwallet', checkToken, getWallet);
   server.get('/wallet/getwallets', checkToken, getWallets);
+
+  server.post('/logout', logoutUser);
   
 }
 
