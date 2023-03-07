@@ -15,31 +15,30 @@ const createAcc = async (req, res) => {
 
     try {
 		const cli = client();
-		const acc = await generateAcc(xpub, currency);
+		const account = await generateAcc(xpub, currency);
 
         const result = await cli.query(
-            query.Let({
-                wallet_ref: query.Select('data', query.Paginate(query.Match(query.Index(WALLET_I), xpub))),
-                wallet_doc: query.Get(query.Match(query.Index(WALLET_I), xpub)),
-                accounts:  query.Select(['data', 'accounts'], query.Var('wallet_doc'), []),
-            },
             query.Map(
-                query.Var('wallet_ref'),
-                query.Lambda('wallet', 
-                    query.Select('data',                     
-                        query.Update(query.Var('wallet'), {
-                            data: {
-                                accounts: query.Append([{acc: acc, deposits: []}], query.Var('accounts'))
-                            }
+                query.Paginate(
+                    query.Match(query.Index(WALLET_I), xpub)
+                ),
+                query.Lambda('wallet_ref',
+                    query.Update(query.Var('wallet_ref'), {
+                        data: {
+                            accounts: query.Append([
+                                query.Select('ref', query.Create(query.Collection(ACCOUNTS_C), 
+                                    { data: { ...account, ...{ deposits: [] }}}
+                                ))
+                            ], query.Select(['data', 'accounts'], query.Get(query.Var('wallet_ref'))))
                         }
-                    )
-                ))
-            ))
+                    })
+                )
+            )
         );
 
         console.log(result)
 
-		res.status(200).send({ data: result });
+		res.status(200).send({ message: "OK" });
         
 
     } catch (error) {

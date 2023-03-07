@@ -11,6 +11,8 @@ const getUser = async (req, res) => {
 
     const ref = req.body.ref;
 
+    const user = { }
+
     try {
         const cli = client();
 
@@ -40,35 +42,53 @@ const getUser = async (req, res) => {
                                         )
                                     },
                                     {    
-                                        account: query.Var('account'),
-                                        deposits: query.Var('deposits')
+                                        account: {
+                                            currency: query.Select(['currency'], query.Var('account')),
+                                            active: query.Select(['active'], query.Var('account')),
+                                            balance: query.Select(['balance'], query.Var('account')),
+                                            frozen: query.Select(['frozen'], query.Var('account')),
+                                            xpub: query.Select(['xpub'], query.Var('account')),
+                                            accountingCurrency: query.Select(['accountingCurrency'], query.Var('account')),
+                                            id: query.Select(['id'], query.Var('account')),
+                                            deposits: query.Var('deposits'),
+                                        }
                                     })
                                 )
                             )
                         },
                         {
-                            wallet: query.Var('wallet'),
-                            accounts: query.Var('accounts')
+                            wallet: {
+                                name: query.Select(['name'], query.Var('wallet')),
+                                xpub: query.Select(['xpub'], query.Var('wallet')),
+                                /* mnemonic: query.Select(['mnemonic'], query.Var('wallet')), */
+                                accounts: query.Var('accounts'),
+                            }
                         }),
                     ),
                 ),
             },
             {
-                user: query.Var('user'),
-                wallets: query.Var('wallets')
+                user: {
+                    username: query.Select(['username'], query.Var('user')),
+                    surname: query.Select(['surname'], query.Var('user')),
+                    firstname: query.Select(['firstname'], query.Var('user')),
+                    wallets: query.Var('wallets'),
+                }
             }),
         );
 
-        console.log('*--------------------------------*');
+        console.log('\n*--------------------------------*\n');
         console.log(result)
-        console.log('*--------------------------------*');
-        console.log(result.wallets)
-        console.log('*--------------------------------*');
-        console.log(result.wallets[0].accounts)
-        console.log('*--------------------------------*');
+        console.log('\n*--------------------------------*\n');
+        console.log(result.user.wallets)
+        console.log('\n*--------------------------------*\n');
+        console.log(result.user.wallets[0].wallet.accounts)
+        console.log('\n*--------------------------------*\n');
+        console.log(result.user.wallets[0].wallet.accounts[0].account.deposits)
+        console.log('\n*--------------------------------*\n');
 
 
-        res.status(200).send({ data: result });
+        res.status(200).send(result);
 
     } catch (error) {
 

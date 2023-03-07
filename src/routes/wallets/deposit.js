@@ -1,6 +1,6 @@
 import query from 'faunadb';
 
-import { client, update, getByIndex_id, DEPOSITS_C, DEPOSIT_I, WALLET_I } from '../../db/db.js';
+import { client, update, getByIndex_id, DEPOSITS_C, DEPOSIT_I, WALLET_I, ACCOUNT_I } from '../../db/db.js';
 import { authUser } from '../usermanagment/index.js';
 import { generateDeposit } from '../../wallets/wallets.js';
 
@@ -8,54 +8,35 @@ import FaunaError from '../../errors/fauna-errors.js';
 import logger from '../../utils/logger.js';
 
 const createDeposit = async (req, res) => {
-    const { ref, id, xpub } = req.body;
+    const { ref, id } = req.body;
     logger.info('Start Deposit Creation');
 
-    try {/* ---------------------------- */
+    try {
         const cli = client();
-        //const deposit = await generateDeposit(id);  //
+        const deposit = await generateDeposit(id);
 
         const result = await cli.query(
-            query.Let({
-                wallet_ref: query.Select('data', query.Paginate(query.Match(query.Index(WALLET_I), xpub))),
-                wallet_doc: query.Get(query.Match(query.Index(WALLET_I), xpub)),
-                accounts:  query.Select(['data', 'accounts'], query.Var('wallet_doc'), []),
-                acc:  query.Select([query.Var('wallet_doc'), ], query.Var('wallet_doc'), []),
-            },
             query.Map(
-                query.Var('wallet_ref'),
-                query.Lambda('wallet', 
-                    query.Select('data',                     
-                        query.Update(query.Var('wallet'), {
-                            data: {
-                                deposits: query.Append([{test: 'test'}], query.Var('deposits'))
-                            }
+                query.Paginate(
+                    query.Match(query.Index(ACCOUNT_I), id)
+                ),
+                query.Lambda('account_ref',
+                    query.Update(query.Var('account_ref'), {
+                        data: {
+                            deposits: query.Append([
+                                query.Select('ref', query.Create(query.Collection(DEPOSITS_C), 
+                                    { data: deposit }
+                                ))
+                            ], query.Select(['data', 'deposits'], query.Get(query.Var('account_ref'))))
                         }
-                    )
-                ))
-            ))
-            /* query.Let({
-                wallet_ref: query.Select('data', query.Paginate(query.Match(query.Index(WALLET_I), xpub))),
-                wallet_doc: query.Get(query.Match(query.Index(WALLET_I), xpub)),
-                deposits:  query.Select(['data', 'deposits'], query.Var('wallet_doc'), []),
-            },
-            query.Map(
-                query.Var('wallet_ref'),
-                query.Lambda('wallet', 
-                    query.Select('data',                     
-                        query.Update(query.Var('wallet'), {
-                            data: {
-                                deposits: query.Append([deposit], query.Var('deposits'))
-                            }
-                        }
-                    )
-                ))
-            )) */
+                    })
+                )
+            )
         );
 
         console.log(result)
 
-		res.status(200).send({ data: result });
+		res.status(200).send({ message: "OK" });
 
     } catch (error) {
         logger.error(error);
