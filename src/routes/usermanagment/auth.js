@@ -7,6 +7,8 @@ import logger from '../../utils/logger.js';
 const checkToken = async (req, res, next) => {
     logger.info('Start auth');
 
+    console.log(req.headers)
+
     const authHeader = req.headers['authorization'];
     const token = authHeader && authHeader.split(' ')[1];
 

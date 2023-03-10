@@ -10,6 +10,7 @@ const createUser = async (req, res) => {
     logger.info('Start adding in db');
     
     const { username, password, firstname, surname, currency, walletname } = req.body;
+    const q = query;
 
     try {
         const cli = client();
@@ -19,6 +20,43 @@ const createUser = async (req, res) => {
         const deposit = await generateDeposit(account.id);
 
         const result = await cli.query(
+            q.Let({
+                user_ref: q.Select("ref", 
+                    q.Create(q.Collection(USERS_C), {
+                        data: { 
+                            username: username,
+                            surname: surname,
+                            firstname: firstname,
+                        },
+                        credentials: { 
+                            password 
+                        },
+                    }),
+                ),
+                wallet_ref: q.Select("ref", 
+                    q.Create(q.Collection(WALLET_C), {
+                        data: {...wallet, ...{ owner: q.Var('user_ref') }},
+                    }),
+                ),
+                account_ref: q.Select("ref", 
+                    q.Create(q.Collection(ACCOUNTS_C), {
+                        data: {...account, ...{ owner: q.Var('wallet_ref') }},
+                    }),
+                ),
+                deposit_ref: q.Select("ref", 
+                    q.Create(q.Collection(DEPOSITS_C), {
+                        data: {...deposit, ...{ owner: q.Var('account_ref') }},
+                    }),
+                ),
+            },
+                q.Login(
+                    q.Match(q.Index(EMAIL_I), username),
+                    { password: password },
+                ),
+            ),
+        );
+
+/*         const result = await cli.query(
             query.Let({
                     deposit_ref: query.Select("ref", 
                         query.Create(query.Collection(DEPOSITS_C), {
@@ -59,7 +97,9 @@ const createUser = async (req, res) => {
                     { password: password },
                 )
             )
-        );
+        ); */
+
+        console.log(result);
 
         res.status(200).send({ data: { token: result.secret, mnemonic: wallet.mnemonic } });
 

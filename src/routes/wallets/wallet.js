@@ -12,6 +12,8 @@ const createWallet = async (req, res) => {
 
 	const { ref, currency, walletname } = req.body;
 
+	console.log(req.body)
+
 	try {
 		const cli = client();
 		const wallet = await generateWallet(currency);
