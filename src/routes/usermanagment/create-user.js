@@ -35,7 +35,7 @@ const createUser = async (req, res) => {
                 ),
                 wallet_ref: q.Select("ref", 
                     q.Create(q.Collection(WALLET_C), {
-                        data: {...wallet, ...{ owner: q.Var('user_ref') }},
+                        data: {...wallet, ...{ owner: q.Var('user_ref'), walletname: walletname }},
                     }),
                 ),
                 account_ref: q.Select("ref", 

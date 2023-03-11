@@ -1,6 +1,7 @@
 import query from 'faunadb';
+const q = query;
 
-import { client, update, WALLET_C, WALLET_I, USERS_C, getByIndex_id, client_users } from '../../db/db.js';
+import { client, update, WALLET_C, WALLET_I_R, USERS_C, getByIndex_id, client_users } from '../../db/db.js';
 import { authUser } from '../usermanagment/index.js';
 import { generateWallet } from '../../wallets/wallets.js';
 
@@ -18,20 +19,11 @@ const createWallet = async (req, res) => {
 		const cli = client();
 		const wallet = await generateWallet(currency);
 
-        const result = await cli.query(
-			query.Let({
-				wallet_ref: query.Select('ref', query.Create(query.Collection(WALLET_C), { data: { name: walletname, xpub: wallet.xpub, accounts: []}})),
-				user_ref: query.Ref(ref),
-				user_doc: query.Get(query.Var('user_ref')),
-				user_wallets: query.Select(['data', 'wallets'], query.Var('user_doc'), []),
-			},
-			query.Update(query.Var('user_ref'), {
-					data: {
-						wallets: query.Append([query.Var('wallet_ref')], query.Var('user_wallets'))
-					}
-				}
-			))
-        );
+		const result = await cli.query(
+			q.Create(q.Collection(WALLET_C), {
+				data: {...wallet, ...{ owner: ref, walletname:  walletname}},
+			}),
+		);
 
 		res.status(200).send({ data: { mnemonic: wallet.mnemonic} });
 
@@ -53,7 +45,7 @@ const getWallet = async (req, res) => {
 
         const result = await cli.query(
             query.Get(
-                query.Match(query.Index(WALLET_I), xpub),
+                query.Match(query.Index(WALLET_I_R), xpub),
             )
         );
 

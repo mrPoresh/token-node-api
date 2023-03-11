@@ -1,6 +1,6 @@
 import query from 'faunadb';
 
-import { client, update, getByIndex_id, DEPOSITS_C, DEPOSIT_I, WALLET_I, ACCOUNT_I } from '../../db/db.js';
+import { client, ACCOUNT_I_ID } from '../../db/db.js';
 import { authUser } from '../usermanagment/index.js';
 import { generateDeposit } from '../../wallets/wallets.js';
 
@@ -16,23 +16,19 @@ const createDeposit = async (req, res) => {
         const deposit = await generateDeposit(id);
 
         const result = await cli.query(
-            query.Map(
-                query.Paginate(
-                    query.Match(query.Index(ACCOUNT_I), id)
-                ),
-                query.Lambda('account_ref',
-                    query.Update(query.Var('account_ref'), {
-                        data: {
-                            deposits: query.Append([
-                                query.Select('ref', query.Create(query.Collection(DEPOSITS_C), 
-                                    { data: deposit }
-                                ))
-                            ], query.Select(['data', 'deposits'], query.Get(query.Var('account_ref'))))
-                        }
-                    })
-                )
-            )
+            q.Let({
+                account_ref: q.Select(['ref'], 
+                    q.Get(q.Match(q.Index(ACCOUNT_I_ID), id),
+                ))
+            },
+            q.Create(q.Collection(ACCOUNTS_C), {
+				data: {...deposit, ...{ owner: q.Var('account_ref') }},
+			})),
         );
+
+        console.log(result)
+
+		res.status(200).send({ message: "OK" });
 
         console.log(result)
 

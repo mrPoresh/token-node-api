@@ -5593,3 +5593,200 @@ For more info, see the docs: https://docs.fauna.com/fauna/current/api/fql/functi
 2023-03-10 20:17:07:177 info: My secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
 2023-03-10 20:17:09:179 info: Start adding in db
 2023-03-10 20:17:11:1711 info: POST /umg/signup 200 1261.185 ms - 237
+2023-03-11 11:49:31:4931 info: Server listening on port 4000
+2023-03-11 11:49:31:4931 info: My secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-03-11 11:50:25:5025 info: Server listening on port 4000
+2023-03-11 11:50:25:5025 info: My secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-03-11 11:50:57:5057 info: Start auth
+2023-03-11 11:50:57:5057 info: Start getting User
+2023-03-11 11:50:57:5057 info: GET /umg/info 200 414.022 ms - 2
+2023-03-11 11:52:13:5213 info: Server listening on port 4000
+2023-03-11 11:52:13:5213 info: My secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-03-11 11:52:13:5213 info: Start auth
+2023-03-11 11:52:14:5214 info: Start getting User
+2023-03-11 11:52:14:5214 info: GET /umg/info 200 271.002 ms - 2
+2023-03-11 11:58:35:5835 info: Server listening on port 4000
+2023-03-11 11:58:35:5835 info: My secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-03-11 11:58:36:5836 info: Start auth
+2023-03-11 11:58:36:5836 info: Start getting User
+2023-03-11 11:58:36:5836 info: GET /umg/info 200 322.157 ms - 2
+2023-03-11 11:58:58:5858 info: Server listening on port 4000
+2023-03-11 11:58:58:5858 info: My secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-03-11 11:58:59:5859 info: Start auth
+2023-03-11 11:58:59:5859 info: Start getting User
+2023-03-11 11:58:59:5859 info: GET /umg/info 200 190.082 ms - 2
+2023-03-11 11:59:21:5921 info: Server listening on port 4000
+2023-03-11 11:59:21:5921 info: My secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-03-11 11:59:22:5922 info: Start auth
+2023-03-11 11:59:22:5922 info: Start getting User
+2023-03-11 11:59:22:5922 info: GET /umg/info 200 193.057 ms - 2
+2023-03-11 12:01:09:19 info: Server listening on port 4000
+2023-03-11 12:01:09:19 info: My secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-03-11 12:01:13:113 info: Start auth
+2023-03-11 12:01:13:113 info: Start getting User
+2023-03-11 12:01:13:113 info: GET /umg/info 200 280.447 ms - 2
+2023-03-11 12:02:40:240 info: Server listening on port 4000
+2023-03-11 12:02:40:240 info: My secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-03-11 12:03:04:34 info: Server listening on port 4000
+2023-03-11 12:03:04:34 info: My secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-03-11 12:03:08:38 info: Start auth
+2023-03-11 12:03:09:39 info: Start getting User
+2023-03-11 12:03:09:39 info: GET /umg/info 200 273.056 ms - 11
+2023-03-11 12:03:25:325 info: Server listening on port 4000
+2023-03-11 12:03:25:325 info: My secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-03-11 12:03:26:326 info: Start auth
+2023-03-11 12:03:26:326 info: Start getting User
+2023-03-11 12:03:26:326 info: GET /umg/info 200 193.291 ms - 11
+2023-03-11 12:03:41:341 info: Server listening on port 4000
+2023-03-11 12:03:41:341 info: My secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-03-11 12:03:41:341 info: Start auth
+2023-03-11 12:03:41:341 info: Start getting User
+2023-03-11 12:03:41:341 info: GET /umg/info 200 363.339 ms - 78
+2023-03-11 12:07:56:756 info: Server listening on port 4000
+2023-03-11 12:07:56:756 info: My secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-03-11 12:07:57:757 info: Start auth
+2023-03-11 12:07:58:758 info: Start getting User
+2023-03-11 12:07:58:758 info: GET /umg/info 200 543.504 ms - 11
+2023-03-11 12:08:58:858 info: Server listening on port 4000
+2023-03-11 12:08:58:858 info: My secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-03-11 12:08:59:859 info: Start auth
+2023-03-11 12:08:59:859 info: Start getting User
+2023-03-11 12:08:59:859 info: GET /umg/info 200 467.052 ms - 43
+2023-03-11 12:10:05:105 info: Server listening on port 4000
+2023-03-11 12:10:05:105 info: My secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-03-11 12:10:07:107 info: Start auth
+2023-03-11 12:10:07:107 info: Start getting User
+2023-03-11 12:10:07:107 info: GET /umg/info 200 462.634 ms - 62
+2023-03-11 12:11:00:110 info: Server listening on port 4000
+2023-03-11 12:11:00:110 info: My secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-03-11 12:11:02:112 info: Start auth
+2023-03-11 12:11:02:112 info: Start getting User
+2023-03-11 12:11:03:113 info: GET /umg/info 200 377.013 ms - 32
+2023-03-11 12:16:28:1628 info: Server listening on port 4000
+2023-03-11 12:16:28:1628 info: My secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-03-11 12:16:28:1628 info: Start auth
+2023-03-11 12:16:29:1629 info: Start getting User
+2023-03-11 12:16:29:1629 info: GET /umg/info 200 521.006 ms - 240
+2023-03-11 12:17:36:1736 info: Server listening on port 4000
+2023-03-11 12:17:36:1736 info: My secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-03-11 12:17:38:1738 info: Start auth
+2023-03-11 12:17:38:1738 info: Start getting User
+2023-03-11 12:17:38:1738 info: GET /umg/info 200 466.145 ms - 32
+2023-03-11 12:20:43:2043 info: Server listening on port 4000
+2023-03-11 12:20:43:2043 info: My secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-03-11 12:20:44:2044 info: Start auth
+2023-03-11 12:20:44:2044 info: Start getting User
+2023-03-11 12:20:45:2045 info: GET /umg/info 200 460.940 ms - 150
+2023-03-11 12:24:44:2444 info: Server listening on port 4000
+2023-03-11 12:24:44:2444 info: My secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-03-11 12:24:45:2445 info: Start auth
+2023-03-11 12:24:45:2445 info: Start getting User
+2023-03-11 12:24:45:2445 error: invalid expression
+2023-03-11 12:24:45:2445 info: GET /umg/info 500 481.150 ms - 57
+2023-03-11 12:24:56:2456 info: Server listening on port 4000
+2023-03-11 12:24:56:2456 info: My secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-03-11 12:24:56:2456 info: Start auth
+2023-03-11 12:24:57:2457 info: Start getting User
+2023-03-11 12:24:57:2457 info: GET /umg/info 200 366.722 ms - 485
+2023-03-11 12:26:00:260 info: Server listening on port 4000
+2023-03-11 12:26:00:260 info: My secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-03-11 12:26:01:261 info: Start auth
+2023-03-11 12:26:01:261 info: Start getting User
+2023-03-11 12:26:01:261 info: GET /umg/info 200 474.711 ms - 541
+2023-03-11 12:28:57:2857 info: Server listening on port 4000
+2023-03-11 12:28:57:2857 info: My secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-03-11 12:28:58:2858 info: Start auth
+2023-03-11 12:28:58:2858 info: Start getting User
+2023-03-11 12:28:58:2858 info: GET /umg/info 200 447.997 ms - 523
+2023-03-11 12:30:59:3059 info: Server listening on port 4000
+2023-03-11 12:30:59:3059 info: My secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-03-11 12:31:01:311 info: Start auth
+2023-03-11 12:31:01:311 info: Start getting User
+2023-03-11 12:31:01:311 info: GET /umg/info 200 482.997 ms - 523
+2023-03-11 12:34:43:3443 info: Server listening on port 4000
+2023-03-11 12:34:43:3443 info: My secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-03-11 12:34:43:3443 info: Start auth
+2023-03-11 12:34:44:3444 info: Start getting User
+2023-03-11 12:34:44:3444 error: invalid argument
+2023-03-11 12:34:44:3444 info: GET /umg/info 500 496.014 ms - 69
+2023-03-11 12:36:10:3610 info: Server listening on port 4000
+2023-03-11 12:36:10:3610 info: My secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-03-11 12:36:13:3613 info: Start auth
+2023-03-11 12:36:14:3614 info: Start getting User
+2023-03-11 12:36:14:3614 info: GET /umg/info 200 668.016 ms - 523
+2023-03-11 12:38:50:3850 info: Server listening on port 4000
+2023-03-11 12:38:50:3850 info: My secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-03-11 12:38:52:3852 info: Start auth
+2023-03-11 12:38:52:3852 info: Start getting User
+2023-03-11 12:42:36:4236 info: Server listening on port 4000
+2023-03-11 12:42:36:4236 info: My secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-03-11 12:42:38:4238 info: Start auth
+2023-03-11 12:42:39:4239 info: Start getting User
+2023-03-11 12:42:39:4239 info: GET /umg/info 200 535.688 ms - 500
+2023-03-11 12:49:22:4922 info: Server listening on port 4000
+2023-03-11 12:49:22:4922 info: My secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-03-11 12:50:20:5020 info: Start auth
+2023-03-11 12:50:21:5021 info: Start Wallet Creation
+2023-03-11 12:50:21:5021 info: POST /wallet/addwallet 200 658.727 ms - 176
+2023-03-11 12:50:27:5027 info: Start auth
+2023-03-11 12:50:27:5027 info: Start getting User
+2023-03-11 12:50:27:5027 info: GET /umg/info 200 362.016 ms - 530
+2023-03-11 12:52:10:5210 info: Server listening on port 4000
+2023-03-11 12:52:10:5210 info: My secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-03-11 12:52:11:5211 info: Start auth
+2023-03-11 12:52:11:5211 info: Start getting User
+2023-03-11 12:52:11:5211 info: GET /umg/info 200 432.133 ms - 968
+2023-03-11 12:54:42:5442 info: Server listening on port 4000
+2023-03-11 12:54:42:5442 info: My secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-03-11 12:54:43:5443 info: Start auth
+2023-03-11 12:54:43:5443 info: Start getting User
+2023-03-11 12:54:43:5443 info: GET /umg/info 200 477.408 ms - 968
+2023-03-11 13:15:53:1553 info: Server listening on port 4000
+2023-03-11 13:15:53:1553 info: My secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-03-11 13:15:53:1553 info: Start auth
+2023-03-11 13:15:54:1554 info: Start getting User
+2023-03-11 13:15:54:1554 error: invalid expression
+2023-03-11 13:15:54:1554 info: GET /umg/info 500 523.280 ms - 57
+2023-03-11 13:16:09:169 info: Server listening on port 4000
+2023-03-11 13:16:09:169 info: My secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-03-11 13:16:09:169 info: Start auth
+2023-03-11 13:16:09:169 info: Start getting User
+2023-03-11 13:16:09:169 info: GET /umg/info 200 409.594 ms - 1396
+2023-03-11 13:18:12:1812 info: Server listening on port 4000
+2023-03-11 13:18:12:1812 info: My secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-03-11 13:18:12:1812 info: Start auth
+2023-03-11 13:18:12:1812 info: Start getting User
+2023-03-11 13:18:13:1813 info: GET /umg/info 200 976.787 ms - 1396
+2023-03-11 13:30:40:3040 info: Start auth
+2023-03-11 13:30:41:3041 info: Start Acc Creation
+2023-03-11 13:30:42:3042 info: POST /wallet/addacc 200 1097.761 ms - 16
+2023-03-11 13:30:54:3054 info: Start auth
+2023-03-11 13:30:54:3054 info: Start getting User
+2023-03-11 13:30:54:3054 info: GET /umg/info 200 390.948 ms - 1396
+2023-03-11 13:45:43:4543 info: Server listening on port 4000
+2023-03-11 13:45:43:4543 info: My secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-03-11 13:45:50:4550 info: Start auth
+2023-03-11 13:45:50:4550 info: Start Acc Creation
+2023-03-11 13:45:51:4551 info: POST /wallet/addacc 200 958.586 ms - 16
+2023-03-11 13:46:06:466 info: Start auth
+2023-03-11 13:46:06:466 info: Start getting User
+2023-03-11 13:46:07:467 info: GET /umg/info 200 358.419 ms - 1819
+2023-03-11 13:47:32:4732 info: Server listening on port 4000
+2023-03-11 13:47:32:4732 info: My secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-03-11 13:47:32:4732 info: Start auth
+2023-03-11 13:47:33:4733 info: Start getting User
+2023-03-11 13:47:33:4733 info: GET /umg/info 200 475.925 ms - 1819
+2023-03-11 13:52:06:526 info: Server listening on port 4000
+2023-03-11 13:52:06:526 info: My secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-03-11 13:52:08:528 info: Start auth
+2023-03-11 13:52:09:529 info: Start getting User
+2023-03-11 13:52:09:529 info: GET /umg/info 200 501.314 ms - 2167
+2023-03-11 13:53:16:5316 info: Server listening on port 4000
+2023-03-11 13:53:16:5316 info: My secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-03-11 13:53:29:5329 info: Server listening on port 4000
+2023-03-11 13:53:29:5329 info: My secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-03-11 13:53:31:5331 info: Start auth
+2023-03-11 13:53:32:5332 info: Start getting User
+2023-03-11 13:53:32:5332 info: GET /umg/info 200 522.051 ms - 2155
+2023-03-11 13:59:40:5940 info: Server listening on port 4000
+2023-03-11 13:59:40:5940 info: My secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh

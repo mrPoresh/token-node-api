@@ -1,6 +1,7 @@
 import query from 'faunadb';
+const q = query;
 
-import { client, update, getByIndex_id, ACCOUNTS_C, ACCOUNT_I, USERS_C, WALLET_I, WALLET_C } from '../../db/db.js';
+import { client, ACCOUNTS_C, WALLET_I_XPUB } from '../../db/db.js';
 import { authUser } from '../usermanagment/index.js';
 import { generateAcc } from '../../wallets/wallets.js';
 import { getWallet } from './index.js';
@@ -18,22 +19,14 @@ const createAcc = async (req, res) => {
 		const account = await generateAcc(xpub, currency);
 
         const result = await cli.query(
-            query.Map(
-                query.Paginate(
-                    query.Match(query.Index(WALLET_I), xpub)
-                ),
-                query.Lambda('wallet_ref',
-                    query.Update(query.Var('wallet_ref'), {
-                        data: {
-                            accounts: query.Append([
-                                query.Select('ref', query.Create(query.Collection(ACCOUNTS_C), 
-                                    { data: { ...account, ...{ deposits: [] }}}
-                                ))
-                            ], query.Select(['data', 'accounts'], query.Get(query.Var('wallet_ref'))))
-                        }
-                    })
-                )
-            )
+            q.Let({
+                wallet_ref: q.Select(['ref'], 
+                    q.Get(q.Match(q.Index(WALLET_I_XPUB), xpub),
+                ))
+            },
+            q.Create(q.Collection(ACCOUNTS_C), {
+				data: {...account, ...{ owner: q.Var('wallet_ref') }},
+			})),
         );
 
         console.log(result)

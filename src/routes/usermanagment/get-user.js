@@ -1,7 +1,7 @@
 import query from 'faunadb';
 const q = query;
 
-import { client_users, USERS_C, WALLET_C, client } from '../../db/db.js'
+import { client_users, client, WALLET_I_R, ACCOUNT_I_R, DEPOSIT_I_R } from '../../db/db.js'
 import { authUser } from './index.js';
 
 import FaunaError from '../../errors/fauna-errors.js';
@@ -11,22 +11,66 @@ const getUser = async (req, res) => {
     logger.info('Start getting User');
     const ref = req.body.ref;
 
+    console.log(ref)
+
     try {
         const cli = client();
-        const result = cli.query(
-            q.Let({ 
-                user: q.Select(['data'], q.Get(q.Ref(ref))),
-                wallets: q/* .Map(
-                    q.Pagin...
-                ) */,
-            },
-            {
 
-            })
+        const result = await cli.query(
+            q.Let({
+                user: q.Select(['data'], q.Get(q.Ref(ref))),
+                wallets: q.Map(
+                    q.Select(['data'], q.Paginate(q.Match(q.Index(WALLET_I_R), ref))),
+                    q.Lambda('wallet_ref',
+                        q.Let({
+                            wallet: q.Select(['data'], q.Get(q.Var('wallet_ref'))),
+                            accounts: q.Map(
+                                q.Select(['data'], q.Paginate(q.Match(q.Index(ACCOUNT_I_R), q.Var('wallet_ref')))),
+                                q.Lambda('account_ref',
+                                    q.Let({
+                                        account: q.Select(['data'], q.Get(q.Var('account_ref'))),
+                                        deposits: q.Map(
+                                            q.Select(['data'], q.Paginate(q.Match(q.Index(DEPOSIT_I_R), q.Var('account_ref')))),
+                                            q.Lambda('deposit_ref',
+                                                q.Let({
+                                                    deposit: q.Select(['data'], q.Get(q.Var('deposit_ref')))
+                                                },
+                                                q.Var('deposit')
+                                                )
+                                            )
+                                        )  
+                                    },
+                                    q.Merge(
+                                        q.Var('account'),
+                                        { deposits: q.Var('deposits') }
+                                    ))
+                                )
+                            )
+                        },
+                        q.Merge(
+                            q.Var('wallet'),
+                            { accounts: q.Var('accounts') },
+                        ))
+                    )
+                )
+            },
+            q.Merge(
+                q.Var('user'),
+                { wallets: q.Var('wallets') },
+            ))
         );
 
+        console.log('\n*-----------------------------------------*\n')
+        console.log(result)
+        console.log('\n*-----------------------------------------*\n')
+        console.log(result.wallets[0])
+        console.log('\n*-----------------------------------------*\n')
+        console.log(result.wallets[0].accounts[0])
+        console.log('\n*-----------------------------------------*\n')
+        console.log('\n*-----------------------------------------*\n')
 
-        res.status(200).send(result);
+
+        res.status(200).send({data: result});
 
     } catch (error) {
 
@@ -35,86 +79,5 @@ const getUser = async (req, res) => {
         res.status(err.statusCode).send({ status: err.statusCode, msg: err.message})
     }
 }
-
-/* const getUser = async (req, res) => {
-    logger.info('Start getting User');
-
-    const ref = req.body.ref;
-
-    const user = { }
-
-    try {
-        const cli = client();
-
-        const result = await cli.query(
-            query.Let({
-                user: query.Select(['data'], query.Get(query.Ref(ref))),
-                wallets: query.Map(
-                    query.Select(['wallets'], query.Var('user')),
-                    query.Lambda('wallet_ref',
-                        query.Let({
-                            wallet: query.Select(['data'], query.Get(query.Var('wallet_ref'))),
-                            accounts: query.Map(
-                                query.Select(['accounts'], query.Var('wallet')),
-                                query.Lambda('account_ref',
-                                    query.Let({
-                                        account: query.Select(['data'], query.Get(query.Var('account_ref'))),
-                                        deposits: query.Map(
-                                            query.Select(['deposits'], query.Var('account')),
-                                            query.Lambda('deposit_ref',
-                                                query.Let({
-                                                    deposit: query.Select(['data'], query.Get(query.Var('deposit_ref'))),
-                                                },
-                                                {
-                                                    deposit: query.Var('deposit')    
-                                                })
-                                            )
-                                        )
-                                    },
-                                    {    
-                                        account: {
-                                            currency: query.Select(['currency'], query.Var('account')),
-                                            active: query.Select(['active'], query.Var('account')),
-                                            balance: query.Select(['balance'], query.Var('account')),
-                                            frozen: query.Select(['frozen'], query.Var('account')),
-                                            xpub: query.Select(['xpub'], query.Var('account')),
-                                            accountingCurrency: query.Select(['accountingCurrency'], query.Var('account')),
-                                            id: query.Select(['id'], query.Var('account')),
-                                            deposits: query.Var('deposits'),
-                                        }
-                                    })
-                                )
-                            )
-                        },
-                        {
-                            wallet: {
-                                name: query.Select(['name'], query.Var('wallet')),
-                                xpub: query.Select(['xpub'], query.Var('wallet')),
-                                accounts: query.Var('accounts'),
-                            }
-                        }),
-                    ),
-                ),
-            },
-            {
-                user: {
-                    username: query.Select(['username'], query.Var('user')),
-                    surname: query.Select(['surname'], query.Var('user')),
-                    firstname: query.Select(['firstname'], query.Var('user')),
-                    wallets: query.Var('wallets'),
-                }
-            }),
-        );
-
-        res.status(200).send(result);
-
-    } catch (error) {
-
-        logger.error(error);
-        let err = new FaunaError(error);
-        res.status(err.statusCode).send({ status: err.statusCode, msg: err.message})
-    }
-
-} */
 
 export default getUser;
