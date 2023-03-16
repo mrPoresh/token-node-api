@@ -11,7 +11,8 @@ import logger from '../../utils/logger.js';
 const createWallet = async (req, res) => {
 	logger.info('Start Wallet Creation');
 
-	const { ref, currency, walletname } = req.body;
+	const { currency, walletname } = req.body.params;
+	const ref = req.body.ref;
 
 	console.log(req.body)
 

@@ -8,7 +8,9 @@ import FaunaError from '../../errors/fauna-errors.js';
 import logger from '../../utils/logger.js';
 
 const createDeposit = async (req, res) => {
-    const { ref, id } = req.body;
+    const { id } = req.body.params;
+    const ref = req.body.ref;
+    
     logger.info('Start Deposit Creation');
 
     try {

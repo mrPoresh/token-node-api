@@ -56,49 +56,6 @@ const createUser = async (req, res) => {
             ),
         );
 
-/*         const result = await cli.query(
-            query.Let({
-                    deposit_ref: query.Select("ref", 
-                        query.Create(query.Collection(DEPOSITS_C), {
-                            data: deposit
-                        })
-                    ),
-                    account_ref: query.Select("ref", 
-                        query.Create(query.Collection(ACCOUNTS_C), {
-                            data: {...account, ...{ deposits: [query.Var('deposit_ref')] }}
-                        })
-                    ),
-                    wallet_ref: query.Select("ref", 
-                        query.Create(query.Collection(WALLET_C), {
-                            data: {
-                                name: walletname, 
-                                xpub: wallet.xpub,
-                                mnemonic: wallet.mnemonic,
-                                accounts: [query.Var('account_ref')]
-                            }
-                        })
-                    ),
-                    user_ref: query.Select("ref",
-                        query.Create(query.Collection(USERS_C), {
-                            data: { 
-                                username: username,
-                                surname: surname,
-                                firstname: firstname,
-                                wallets: [query.Var('wallet_ref')],
-                            },
-                            credentials: { 
-                                password 
-                            }}
-                        )       
-                    )
-                },
-                query.Login(
-                    query.Match(query.Index(EMAIL_I), username),
-                    { password: password },
-                )
-            )
-        ); */
-
         console.log(result);
 
         res.status(200).send({ data: { token: result.secret, mnemonic: wallet.mnemonic } });

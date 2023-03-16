@@ -12,7 +12,8 @@ import logger from '../../utils/logger.js';
 const createAcc = async (req, res) => {
     logger.info('Start Acc Creation');
 
-    const { ref, currency, xpub } = req.body;
+    const { currency, xpub } = req.body.params;
+    const ref = req.body.ref;
 
     try {
 		const cli = client();

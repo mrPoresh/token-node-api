@@ -23,6 +23,7 @@ function run() {
   server.post('/umg/signup', createUser); /* return token */
   server.post('/umg/signin', loginUser);  /* return token */
   server.get('/umg/info', checkToken, getUser); /*  */
+  server.post('/umg/logout', logoutUser);
 
   server.post('/wallet/addwallet', checkToken, createWallet);
   server.post('/wallet/addacc', checkToken, createAcc);
@@ -30,8 +31,6 @@ function run() {
 
   server.get('/wallet/getwallet', checkToken, getWallet);
   server.get('/wallet/getwallets', checkToken, getWallets);
-
-  server.post('/logout', logoutUser);
   
 }
 

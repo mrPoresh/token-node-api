@@ -11,8 +11,6 @@ const getUser = async (req, res) => {
     logger.info('Start getting User');
     const ref = req.body.ref;
 
-    console.log(ref)
-
     try {
         const cli = client();
 
@@ -60,17 +58,7 @@ const getUser = async (req, res) => {
             ))
         );
 
-        console.log('\n*-----------------------------------------*\n')
-        console.log(result)
-        console.log('\n*-----------------------------------------*\n')
-        console.log(result.wallets[0])
-        console.log('\n*-----------------------------------------*\n')
-        console.log(result.wallets[0].accounts[0])
-        console.log('\n*-----------------------------------------*\n')
-        console.log('\n*-----------------------------------------*\n')
-
-
-        res.status(200).send({data: result});
+        res.status(200).send(result);
 
     } catch (error) {
 
