@@ -1,7 +1,7 @@
 import query from 'faunadb';
 
 import { client, USERS_C, WALLET_C, ACCOUNTS_C, DEPOSITS_C, EMAIL_I } from '../../db/db.js'
-import { generateWallet, generateAcc, generateDeposit } from '../../wallets/wallets.js';
+import { generateWallet, generateAcc, generateDeposit } from '../../tatum-sdk/index.js'
 
 import FaunaError from '../../errors/fauna-errors.js';
 import logger from '../../utils/logger.js';

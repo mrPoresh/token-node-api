@@ -8,6 +8,7 @@ import loggerHttp from './middlewares/logger-http.js';
 
 import { createUser, loginUser, checkToken, logoutUser, getUser } from './routes/usermanagment/index.js';
 import { createWallet, getWallet, getWallets, createAcc, createDeposit } from './routes/wallets/index.js';
+import { getCollectionNFTs, getOwnedByAddressNFTs, getMetadataForNFT } from './routes/nfts/index.js';
 
 const PORT = 4000;
 
@@ -28,9 +29,12 @@ function run() {
   server.post('/wallet/addwallet', checkToken, createWallet);
   server.post('/wallet/addacc', checkToken, createAcc);
   server.post('/wallet/adddeposit', checkToken, createDeposit);
-
   server.get('/wallet/getwallet', checkToken, getWallet);
   server.get('/wallet/getwallets', checkToken, getWallets);
+
+  server.get('/nfts/fromcollection', getCollectionNFTs);
+  server.get('/nfts/fromaddress', getOwnedByAddressNFTs);
+  server.get('/nfts/nftmetadata', getMetadataForNFT);
   
 }
 
@@ -43,7 +47,8 @@ function app() {
 
     server.listen(PORT, () => {
         logger.info(`Server listening on port ${PORT}`);
-        logger.info('My secret: ' + process.env.FAUNA_SERVER_KEY)
+        logger.info('My Fauna secret: ' + process.env.FAUNA_SERVER_KEY);
+        logger.info('My SDK secret: ' + process.env.API_KEY_MAINNET);
     });
 
     return server

@@ -6508,3 +6508,153 @@ For more info, see the docs: https://docs.fauna.com/fauna/current/api/fql/functi
 2023-03-16 18:51:33:5133 info: Start auth
 2023-03-16 18:51:33:5133 info: Start getting User
 2023-03-16 18:51:33:5133 info: GET /umg/info 304 440.063 ms - -
+2023-03-16 18:56:20:5620 info: Server listening on port 4000
+2023-03-16 18:56:20:5620 info: My secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-03-16 18:56:29:5629 info: OPTIONS /umg/info 204 1.693 ms - 0
+2023-03-16 18:56:29:5629 info: Start auth
+2023-03-16 18:56:29:5629 info: Start getting User
+2023-03-16 18:56:29:5629 info: GET /umg/info 304 505.669 ms - -
+2023-03-16 18:56:48:5648 info: OPTIONS /umg/info 204 0.479 ms - 0
+2023-03-16 18:56:48:5648 info: Start auth
+2023-03-16 18:56:48:5648 info: Start getting User
+2023-03-16 18:56:48:5648 info: GET /umg/info 304 377.423 ms - -
+2023-03-16 18:58:55:5855 info: OPTIONS /umg/signin 204 0.235 ms - 0
+2023-03-16 18:58:55:5855 info: Start login
+2023-03-16 18:58:55:5855 info: POST /umg/signin 200 410.624 ms - 72
+2023-03-16 18:58:55:5855 info: OPTIONS /umg/info 204 0.210 ms - 0
+2023-03-16 18:58:55:5855 info: Start auth
+2023-03-16 18:58:55:5855 info: Start getting User
+2023-03-16 18:58:56:5856 info: GET /umg/info 304 380.159 ms - -
+2023-03-16 19:02:52:252 info: OPTIONS /umg/info 204 0.156 ms - 0
+2023-03-16 19:02:52:252 info: Start auth
+2023-03-16 19:02:52:252 info: Start getting User
+2023-03-16 19:02:53:253 info: GET /umg/info 304 474.216 ms - -
+2023-03-16 19:05:11:511 info: OPTIONS /umg/signin 204 0.154 ms - 0
+2023-03-16 19:05:11:511 info: Start login
+2023-03-16 19:05:11:511 info: POST /umg/signin 200 487.097 ms - 72
+2023-03-16 19:05:11:511 info: OPTIONS /umg/info 204 0.309 ms - 0
+2023-03-16 19:05:11:511 info: Start auth
+2023-03-16 19:05:12:512 info: Start getting User
+2023-03-16 19:05:12:512 info: GET /umg/info 304 365.058 ms - -
+2023-03-16 19:06:50:650 info: OPTIONS /umg/signin 204 0.236 ms - 0
+2023-03-16 19:06:50:650 info: Start login
+2023-03-16 19:06:50:650 error: authentication failed
+2023-03-16 19:07:11:711 info: POST /umg/signin - - ms - -
+2023-03-16 19:08:26:826 info: OPTIONS /umg/signin 204 0.121 ms - 0
+2023-03-16 19:08:26:826 info: Start login
+2023-03-16 19:08:26:826 error: authentication failed
+2023-03-16 19:08:33:833 info: POST /umg/signin - - ms - -
+2023-03-16 19:08:39:839 info: OPTIONS /umg/signin 204 0.281 ms - 0
+2023-03-16 19:08:39:839 info: Start login
+2023-03-16 19:08:40:840 info: POST /umg/signin 200 330.792 ms - 72
+2023-03-16 19:08:40:840 info: OPTIONS /umg/info 204 0.163 ms - 0
+2023-03-16 19:08:40:840 info: Start auth
+2023-03-16 19:08:40:840 info: Start getting User
+2023-03-16 19:08:40:840 info: GET /umg/info 304 385.917 ms - -
+2023-03-17 08:33:16:3316 info: Server listening on port 4000
+2023-03-17 08:33:16:3316 info: My secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-03-17 08:36:37:3637 info: OPTIONS /umg/info 204 1.253 ms - 0
+2023-03-17 08:36:37:3637 info: Start auth
+2023-03-17 08:36:37:3637 info: Start getting User
+2023-03-17 08:36:37:3637 info: GET /umg/info 304 740.279 ms - -
+2023-03-17 08:36:39:3639 info: Start auth
+2023-03-17 08:36:39:3639 info: Start getting User
+2023-03-17 08:36:39:3639 info: GET /umg/info 304 430.591 ms - -
+2023-03-17 08:36:54:3654 info: OPTIONS /umg/info 204 0.243 ms - 0
+2023-03-17 08:36:54:3654 info: Start auth
+2023-03-17 08:36:54:3654 info: Start getting User
+2023-03-17 08:36:54:3654 info: GET /umg/info 304 351.414 ms - -
+2023-03-17 08:50:44:5044 info: OPTIONS /umg/signin 204 0.743 ms - 0
+2023-03-17 08:50:44:5044 info: Start login
+2023-03-17 08:50:45:5045 info: POST /umg/signin 200 429.066 ms - 72
+2023-03-17 08:50:45:5045 info: OPTIONS /umg/info 204 0.121 ms - 0
+2023-03-17 08:50:45:5045 info: Start auth
+2023-03-17 08:50:45:5045 info: Start getting User
+2023-03-17 08:50:45:5045 info: GET /umg/info 304 435.251 ms - -
+2023-03-17 08:54:26:5426 info: OPTIONS /wallet/addwallet 204 0.209 ms - 0
+2023-03-17 08:54:26:5426 info: Start auth
+2023-03-17 08:54:26:5426 info: Start Wallet Creation
+2023-03-17 08:54:26:5426 info: POST /wallet/addwallet 200 569.559 ms - 176
+2023-03-17 08:54:26:5426 info: OPTIONS /umg/info 204 0.171 ms - 0
+2023-03-17 08:54:26:5426 info: Start auth
+2023-03-17 08:54:27:5427 info: Start getting User
+2023-03-17 08:54:27:5427 info: GET /umg/info 200 371.388 ms - 4809
+2023-03-17 08:58:39:5839 info: OPTIONS /wallet/addacc 204 0.143 ms - 0
+2023-03-17 08:58:39:5839 info: Start auth
+2023-03-17 08:58:40:5840 info: Start Acc Creation
+2023-03-17 08:58:40:5840 info: POST /wallet/addacc 200 930.006 ms - 16
+2023-03-17 08:58:40:5840 info: OPTIONS /umg/info 204 0.207 ms - 0
+2023-03-17 08:58:40:5840 info: Start auth
+2023-03-17 08:58:40:5840 info: Start getting User
+2023-03-17 08:58:41:5841 info: GET /umg/info 200 361.468 ms - 5233
+2023-03-19 12:56:52:5652 info: Server listening on port 4000
+2023-03-19 12:56:52:5652 info: My secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-03-19 12:57:48:5748 info: Server listening on port 4000
+2023-03-19 12:57:48:5748 info: My Fauna secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-03-19 12:57:48:5748 info: My SDK secret: b1eea3fc-277f-4f81-8463-a1ce707791a3
+2023-03-19 13:16:38:1638 info: Server listening on port 4000
+2023-03-19 13:16:38:1638 info: My Fauna secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-03-19 13:16:38:1638 info: My SDK secret: b1eea3fc-277f-4f81-8463-a1ce707791a3
+2023-03-19 13:22:06:226 info: GET /nfts/fromcollection 400 11.848 ms - 1038
+2023-03-19 13:22:19:2219 info: Server listening on port 4000
+2023-03-19 13:22:19:2219 info: My Fauna secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-03-19 13:22:19:2219 info: My SDK secret: b1eea3fc-277f-4f81-8463-a1ce707791a3
+2023-03-19 13:22:52:2252 info: Start Getting NFT
+2023-03-19 13:22:52:2252 info: GET /nfts/fromcollection 200 677.338 ms - 1465
+2023-03-19 13:23:32:2332 info: Start Getting NFT
+2023-03-19 13:23:32:2332 info: GET /nfts/fromcollection 200 447.456 ms - 1465
+2023-03-19 13:27:23:2723 info: Start Getting NFT
+2023-03-19 13:27:24:2724 info: GET /nfts/fromcollection 200 680.726 ms - 4591
+2023-03-19 13:31:03:313 info: Server listening on port 4000
+2023-03-19 13:31:03:313 info: My Fauna secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-03-19 13:31:03:313 info: My SDK secret: b1eea3fc-277f-4f81-8463-a1ce707791a3
+2023-03-19 13:31:14:3114 info: Start Getting NFT
+2023-03-19 13:31:14:3114 info: GET /nfts/fromaddress 200 477.108 ms - 4591
+2023-03-19 13:32:28:3228 info: Server listening on port 4000
+2023-03-19 13:32:28:3228 info: My Fauna secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-03-19 13:32:28:3228 info: My SDK secret: b1eea3fc-277f-4f81-8463-a1ce707791a3
+2023-03-19 13:32:43:3243 info: Start Getting NFT
+2023-03-19 13:32:44:3244 info: GET /nfts/fromaddress 200 1773.332 ms - 5939
+2023-03-19 13:33:16:3316 info: Start Getting NFT
+2023-03-19 13:33:16:3316 info: GET /nfts/fromaddress 200 400.237 ms - 11
+2023-03-19 13:33:35:3335 info: Start Getting NFT
+2023-03-19 13:33:36:3336 error: {"statusCode":400,"errorCode":"validation.failed","message":"Request validation failed. Please see data for additional information.","data":["chain must be one of the following values: ALGO, CELO, ETH, MATIC, SOL, BSC"]}
+2023-03-19 14:00:32:032 info: Server listening on port 4000
+2023-03-19 14:00:32:032 info: My Fauna secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-03-19 14:00:32:032 info: My SDK secret: b1eea3fc-277f-4f81-8463-a1ce707791a3
+2023-03-19 14:03:28:328 info: Server listening on port 4000
+2023-03-19 14:03:28:328 info: My Fauna secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-03-19 14:03:28:328 info: My SDK secret: b1eea3fc-277f-4f81-8463-a1ce707791a3
+2023-03-19 14:04:04:44 info: Start Getting NFT
+2023-03-19 14:04:05:45 info: GET /nfts/fromcollection 200 1049.481 ms - 31
+2023-03-19 14:05:59:559 info: Server listening on port 4000
+2023-03-19 14:05:59:559 info: My Fauna secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-03-19 14:05:59:559 info: My SDK secret: b1eea3fc-277f-4f81-8463-a1ce707791a3
+2023-03-19 14:06:14:614 info: Start Getting NFT
+2023-03-19 14:06:15:615 info: GET /nfts/fromcollection 200 668.769 ms - 31
+2023-03-19 14:08:39:839 info: Server listening on port 4000
+2023-03-19 14:08:39:839 info: My Fauna secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-03-19 14:08:39:839 info: My SDK secret: b1eea3fc-277f-4f81-8463-a1ce707791a3
+2023-03-19 14:08:43:843 info: Start Getting NFT
+2023-03-19 14:09:47:947 info: Server listening on port 4000
+2023-03-19 14:09:47:947 info: My Fauna secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-03-19 14:09:47:947 info: My SDK secret: b1eea3fc-277f-4f81-8463-a1ce707791a3
+2023-03-19 14:09:50:950 info: Start Getting NFT
+2023-03-19 14:09:51:951 info: GET /nfts/fromcollection 200 660.445 ms - 39701
+2023-03-19 14:10:42:1042 info: Server listening on port 4000
+2023-03-19 14:10:42:1042 info: My Fauna secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-03-19 14:10:42:1042 info: My SDK secret: b1eea3fc-277f-4f81-8463-a1ce707791a3
+2023-03-19 14:10:44:1044 info: Start Getting NFT
+2023-03-19 14:10:45:1045 info: GET /nfts/fromcollection 200 382.330 ms - 39701
+2023-03-19 14:16:23:1623 info: Server listening on port 4000
+2023-03-19 14:16:23:1623 info: My Fauna secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-03-19 14:16:23:1623 info: My SDK secret: b1eea3fc-277f-4f81-8463-a1ce707791a3
+2023-03-19 14:16:27:1627 info: Start Getting NFT
+2023-03-19 14:16:27:1627 info: GET /nfts/fromcollection 200 600.374 ms - 35099
+2023-03-19 14:22:12:2212 info: Server listening on port 4000
+2023-03-19 14:22:12:2212 info: My Fauna secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-03-19 14:22:12:2212 info: My SDK secret: b1eea3fc-277f-4f81-8463-a1ce707791a3
+2023-03-19 14:22:49:2249 info: Start Getting NFT
+2023-03-19 14:22:50:2250 info: GET /nfts/nftmetadata 200 578.957 ms - 694
+2023-03-19 14:27:08:278 info: Start Getting NFT
+2023-03-19 14:27:08:278 info: GET /nfts/fromcollection 200 822.799 ms - 22380

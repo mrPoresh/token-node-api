@@ -2,7 +2,7 @@ import query from 'faunadb';
 
 import { client, ACCOUNT_I_ID } from '../../db/db.js';
 import { authUser } from '../usermanagment/index.js';
-import { generateDeposit } from '../../wallets/wallets.js';
+import { generateDeposit } from '../../tatum-sdk/index.js';
 
 import FaunaError from '../../errors/fauna-errors.js';
 import logger from '../../utils/logger.js';

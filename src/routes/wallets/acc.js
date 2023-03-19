@@ -3,7 +3,7 @@ const q = query;
 
 import { client, ACCOUNTS_C, WALLET_I_XPUB } from '../../db/db.js';
 import { authUser } from '../usermanagment/index.js';
-import { generateAcc } from '../../wallets/wallets.js';
+import { generateAcc } from '../../tatum-sdk/index.js';
 import { getWallet } from './index.js';
 
 import FaunaError from '../../errors/fauna-errors.js';
