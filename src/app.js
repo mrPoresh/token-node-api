@@ -8,34 +8,37 @@ import loggerHttp from './middlewares/logger-http.js';
 
 import { createUser, loginUser, checkToken, logoutUser, getUser } from './routes/usermanagment/index.js';
 import { createWallet, getWallet, getWallets, createAcc, createDeposit } from './routes/wallets/index.js';
-import { getCollectionNFTs, getOwnedByAddressNFTs, getMetadataForNFT } from './routes/nfts/index.js';
+import { getCollectionNFTs, getMetadataForNFT, getAddressBalances, getTokenOwners, checkIsOwner, getTransactions } from './routes/nfts/index.js';
 
 const PORT = 4000;
 
 function run() {
     
-  const server = app();
+    const server = app();
 
-  server.get('/', (req, res) => {
-    logger.info('Hello World!');
-    res.status(200).send({ data: 'Hello world!' });
-  });
+    server.get('/', (req, res) => {
+        logger.info('Hello World!');
+        res.status(200).send({ data: 'Hello world!' });
+    });
 
-  server.post('/umg/signup', createUser); /* return token */
-  server.post('/umg/signin', loginUser);  /* return token */
-  server.get('/umg/info', checkToken, getUser); /*  */
-  server.post('/umg/logout', logoutUser);
+    server.post('/umg/signup', createUser);
+    server.post('/umg/signin', loginUser);
+    server.get('/umg/info', checkToken, getUser);
+    server.post('/umg/logout', logoutUser);
 
-  server.post('/wallet/addwallet', checkToken, createWallet);
-  server.post('/wallet/addacc', checkToken, createAcc);
-  server.post('/wallet/adddeposit', checkToken, createDeposit);
-  server.get('/wallet/getwallet', checkToken, getWallet);
-  server.get('/wallet/getwallets', checkToken, getWallets);
+    server.post('/wallet/addwallet', checkToken, createWallet);
+    server.post('/wallet/addacc', checkToken, createAcc);
+    server.post('/wallet/adddeposit', checkToken, createDeposit);
+    server.get('/wallet/getwallet', checkToken, getWallet);
+    server.get('/wallet/getwallets', checkToken, getWallets);
 
-  server.get('/nfts/fromcollection', getCollectionNFTs);
-  server.get('/nfts/fromaddress', getOwnedByAddressNFTs);
-  server.get('/nfts/nftmetadata', getMetadataForNFT);
-  
+    server.get('/nfts/nftsfrom', getCollectionNFTs);
+    server.get('/nfts/metadataof', getMetadataForNFT);
+    server.get('/nfts/balancesof', getAddressBalances);
+    server.get('/nfts/ownersof', getTokenOwners);
+    server.get('/nfts/isowner', checkIsOwner);
+    server.get('/nfts/transactions', getTransactions);
+
 }
 
 function app() {

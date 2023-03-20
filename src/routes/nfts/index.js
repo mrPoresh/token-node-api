@@ -1,7 +1,10 @@
-import { getCollectionNFTs, getOwnedByAddressNFTs, getMetadataForNFT } from './get-nfts.js';
+import { getCollectionNFTs, getAddressBalances, getMetadataForNFT, getTokenOwners, checkIsOwner, getTransactions } from './data-api.js';
 
 export {
     getCollectionNFTs,
-    getOwnedByAddressNFTs,
+    getAddressBalances,
     getMetadataForNFT,
+    getTokenOwners,
+    checkIsOwner,
+    getTransactions,
 };

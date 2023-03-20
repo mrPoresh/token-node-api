@@ -6658,3 +6658,39 @@ For more info, see the docs: https://docs.fauna.com/fauna/current/api/fql/functi
 2023-03-19 14:22:50:2250 info: GET /nfts/nftmetadata 200 578.957 ms - 694
 2023-03-19 14:27:08:278 info: Start Getting NFT
 2023-03-19 14:27:08:278 info: GET /nfts/fromcollection 200 822.799 ms - 22380
+2023-03-20 18:24:04:244 info: Server listening on port 4000
+2023-03-20 18:24:04:244 info: My Fauna secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-03-20 18:24:04:244 info: My SDK secret: b1eea3fc-277f-4f81-8463-a1ce707791a3
+2023-03-20 19:06:49:649 info: Server listening on port 4000
+2023-03-20 19:06:49:649 info: My Fauna secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-03-20 19:06:49:649 info: My SDK secret: b1eea3fc-277f-4f81-8463-a1ce707791a3
+2023-03-20 19:08:16:816 info: GET /nfts/nfts/from 404 11.697 ms - 153
+2023-03-20 19:08:24:824 info: Start Getting NFT
+2023-03-20 19:08:25:825 info: GET /nfts/nftsfrom 200 554.924 ms - 35099
+2023-03-20 19:09:52:952 info: Start Getting NFT
+2023-03-20 19:09:53:953 info: GET /nfts/metadataof 200 464.119 ms - 694
+2023-03-20 19:12:13:1213 info: GET /nfts/balanceof 404 0.677 ms - 153
+2023-03-20 19:12:38:1238 info: Start Getting Balances
+2023-03-20 19:12:39:1239 info: GET /nfts/balancesof 200 730.671 ms - 12495
+2023-03-20 19:14:24:1424 info: Start Getting Token Owners
+2023-03-20 19:14:33:1433 info: GET /nfts/ownersof 200 9538.982 ms - 2299
+2023-03-20 19:16:51:1651 info: Start checking is Owner
+2023-03-20 19:16:52:1652 info: GET /nfts/isowner 200 530.416 ms - 14
+2023-03-20 19:18:10:1810 info: Start checking is Owner
+2023-03-20 19:18:10:1810 info: GET /nfts/transactions 200 175.153 ms - 314
+2023-03-20 19:20:15:2015 info: Start checking is Owner
+2023-03-20 19:20:15:2015 info: GET /nfts/transactions 200 295.019 ms - 314
+2023-03-20 19:20:44:2044 info: Server listening on port 4000
+2023-03-20 19:20:44:2044 info: My Fauna secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-03-20 19:20:44:2044 info: My SDK secret: b1eea3fc-277f-4f81-8463-a1ce707791a3
+2023-03-20 19:20:46:2046 info: Start checking is Owner
+2023-03-20 19:20:46:2046 info: GET /nfts/transactions 200 112.759 ms - 303
+2023-03-20 19:20:51:2051 info: Start checking is Owner
+2023-03-20 19:20:51:2051 info: GET /nfts/transactions 200 92.822 ms - 303
+2023-03-20 19:21:47:2147 info: Start checking is Owner
+2023-03-20 19:21:47:2147 info: GET /nfts/transactions 200 94.373 ms - 303
+2023-03-20 19:23:04:234 info: Server listening on port 4000
+2023-03-20 19:23:04:234 info: My Fauna secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-03-20 19:23:04:234 info: My SDK secret: b1eea3fc-277f-4f81-8463-a1ce707791a3
+2023-03-20 19:23:07:237 info: Start checking is Owner
+2023-03-20 19:23:08:238 info: GET /nfts/transactions 200 595.182 ms - 17030
