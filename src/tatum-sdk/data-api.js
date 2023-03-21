@@ -2,9 +2,9 @@ import logger from '../utils/logger.js';
 
 // TODO: ADD a page size params //
 
-const getNFTsFromCollection = async (chain, collectionAddresses) => {   // address can be an array
+const getNFTsFromCollection = async (chain, collectionAddresses, pageSize) => {   // address can be an array
     try {
-        const query = new URLSearchParams({chain: chain, collectionAddresses: collectionAddresses}).toString();
+        const query = new URLSearchParams({chain: chain, collectionAddresses: collectionAddresses, pageSize: pageSize}).toString();
 
         return await fetch(
             `https://api.tatum.io/v3/data/collections?${query}`,
@@ -96,7 +96,6 @@ const checkOwnerOfanNFT = async (chain, tokenAddress, address) => {
 const getTransactionsOfWallet = async (chain, addresses) => {    // address can be an array + not req
     try {
         const query = new URLSearchParams({chain: chain, addresses: addresses}).toString();
-
 
         return await fetch(
             `https://api.tatum.io/v3/data/transactions?${query}`,

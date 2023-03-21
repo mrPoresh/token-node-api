@@ -6,11 +6,11 @@ import { getNFTsFromCollection, getNFTMetadata, getBalancesOfAddress, getOwnersO
 /* ?create getCollections? probably i can send an array of addresses */
 const getCollectionNFTs = async (req, res) => {
 	logger.info('Start Getting NFT');
-	const { chain, collectionAddresses } = req.body.params;
+	const { chain, collectionAddresses, pageSize } = req.body.params;
 
 	try {
 
-		const result = await getNFTsFromCollection(chain, collectionAddresses);
+		const result = await getNFTsFromCollection(chain, collectionAddresses, pageSize);
 		const data = await result.json();
 
 		console.log(data);
@@ -105,13 +105,68 @@ const checkIsOwner = async (req, res) => {
 };
 
 const getTransactions = async (req, res) => {
-	logger.info('Start checking is Owner');
+	logger.info('Start checking Transactions');
 	const { chain, addresses } = req.body.params;	//	address is a user wallet adr
 
 	try {
 
 		const result = await getTransactionsOfWallet(chain, addresses);
 		const data = await result.json();
+
+		console.log(data);
+
+		res.status(200).send({ data: data });
+
+	} catch (error) {
+		logger.error(error);
+		res.status(err.statusCode).send({ status: err.statusCode })
+	}
+
+};
+/* 
+	input: 
+		addresses: [
+			{ topAll: ['some collection adr', ... , 'some collection adr'] },
+			...
+			{ topArt: ['some collection adr', ... , 'some collection adr'] },
+		],
+		chain: 'eth | bsc | ... ',
+		pageSize: 'count of nfts from adr'
+
+	output: [
+		data: [
+			{ topAll: [
+				[{ item }, ... , { item }]	// for example 10
+			]},
+			{ ... },
+			{ topArt: [
+				[{ item }, ... , { item }] // with metadata
+			]},
+		]
+	]
+*/
+
+const getFrontPageLists = async (req, res) => {
+	logger.info('Start getting Front Page Data');
+	const { chain, addresses, pageSize } = req.body.params;
+	const data = [];
+
+	try {
+
+		for (let i = 0; i < addresses.length; i++) {
+			for (const [key, value] of Object.entries(addresses[i])) {
+				let result = [];
+				
+				for (let k = 0; k < value.length; k++) {
+					let nfts = await getNFTsFromCollection(chain, value[k], pageSize);
+					let _nfts = await nfts.json();	
+
+					result.push(_nfts);
+				}
+
+				data.push({[key]: result})
+			}
+		}
 
 		console.log(data);
 
@@ -131,4 +186,5 @@ export {
 	getTokenOwners,
 	checkIsOwner,
 	getTransactions,
+	getFrontPageLists,
 }

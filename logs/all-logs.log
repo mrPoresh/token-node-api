@@ -6694,3 +6694,388 @@ For more info, see the docs: https://docs.fauna.com/fauna/current/api/fql/functi
 2023-03-20 19:23:04:234 info: My SDK secret: b1eea3fc-277f-4f81-8463-a1ce707791a3
 2023-03-20 19:23:07:237 info: Start checking is Owner
 2023-03-20 19:23:08:238 info: GET /nfts/transactions 200 595.182 ms - 17030
+2023-03-21 09:59:46:5946 info: Server listening on port 4000
+2023-03-21 09:59:46:5946 info: My Fauna secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-03-21 09:59:46:5946 info: My SDK secret: b1eea3fc-277f-4f81-8463-a1ce707791a3
+2023-03-21 10:07:22:722 info: GET /nfts/getfrontpagelit 404 90.018 ms - 159
+2023-03-21 10:07:41:741 info: Start getting Front Page Data
+2023-03-21 10:08:08:88 info: Server listening on port 4000
+2023-03-21 10:08:08:88 info: My Fauna secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-03-21 10:08:08:88 info: My SDK secret: b1eea3fc-277f-4f81-8463-a1ce707791a3
+2023-03-21 10:08:11:811 info: Start getting Front Page Data
+2023-03-21 10:08:11:811 info: GET /nfts/getfrontpagelists 200 11.493 ms - 11
+2023-03-21 10:08:49:849 info: Server listening on port 4000
+2023-03-21 10:08:49:849 info: My Fauna secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-03-21 10:08:49:849 info: My SDK secret: b1eea3fc-277f-4f81-8463-a1ce707791a3
+2023-03-21 10:08:49:849 info: Start getting Front Page Data
+2023-03-21 10:09:01:91 info: Server listening on port 4000
+2023-03-21 10:09:01:91 info: My Fauna secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-03-21 10:09:01:91 info: My SDK secret: b1eea3fc-277f-4f81-8463-a1ce707791a3
+2023-03-21 10:09:03:93 info: Start getting Front Page Data
+2023-03-21 10:13:50:1350 info: Server listening on port 4000
+2023-03-21 10:13:50:1350 info: My Fauna secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-03-21 10:13:50:1350 info: My SDK secret: b1eea3fc-277f-4f81-8463-a1ce707791a3
+2023-03-21 10:14:51:1451 info: GET /nfts/getfrontpagelists 400 9.676 ms - 1039
+2023-03-21 10:16:14:1614 info: Start getting Front Page Data
+2023-03-21 10:16:14:1614 info: GET /nfts/getfrontpagelists 200 4.723 ms - 48
+2023-03-21 10:16:47:1647 info: Start getting Front Page Data
+2023-03-21 10:16:47:1647 info: GET /nfts/getfrontpagelists 200 1.234 ms - 132
+2023-03-21 10:17:10:1710 info: Start getting Front Page Data
+2023-03-21 10:17:10:1710 info: GET /nfts/getfrontpagelists 200 1.064 ms - 216
+2023-03-21 10:28:53:2853 info: Server listening on port 4000
+2023-03-21 10:28:53:2853 info: My Fauna secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-03-21 10:28:53:2853 info: My SDK secret: b1eea3fc-277f-4f81-8463-a1ce707791a3
+2023-03-21 10:28:53:2853 info: Start getting Front Page Data
+2023-03-21 10:28:53:2853 info: GET /nfts/getfrontpagelists 200 11.940 ms - 216
+2023-03-21 10:32:06:326 info: Server listening on port 4000
+2023-03-21 10:32:06:326 info: My Fauna secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-03-21 10:32:06:326 info: My SDK secret: b1eea3fc-277f-4f81-8463-a1ce707791a3
+2023-03-21 10:32:06:326 info: Start getting Front Page Data
+2023-03-21 10:32:06:326 info: GET /nfts/getfrontpagelists 200 11.225 ms - 11
+2023-03-21 10:32:38:3238 info: Server listening on port 4000
+2023-03-21 10:32:38:3238 info: My Fauna secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-03-21 10:32:38:3238 info: My SDK secret: b1eea3fc-277f-4f81-8463-a1ce707791a3
+2023-03-21 10:32:40:3240 info: Start getting Front Page Data
+2023-03-21 10:32:40:3240 info: GET /nfts/getfrontpagelists 200 12.659 ms - 11
+2023-03-21 10:35:18:3518 info: Server listening on port 4000
+2023-03-21 10:35:18:3518 info: My Fauna secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-03-21 10:35:18:3518 info: My SDK secret: b1eea3fc-277f-4f81-8463-a1ce707791a3
+2023-03-21 10:35:18:3518 info: Start getting Front Page Data
+2023-03-21 10:35:43:3543 info: Server listening on port 4000
+2023-03-21 10:35:43:3543 info: My Fauna secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-03-21 10:35:43:3543 info: My SDK secret: b1eea3fc-277f-4f81-8463-a1ce707791a3
+2023-03-21 10:35:44:3544 info: Start getting Front Page Data
+2023-03-21 10:35:44:3544 info: GET /nfts/getfrontpagelists 200 11.198 ms - 11
+2023-03-21 10:37:09:379 info: Server listening on port 4000
+2023-03-21 10:37:09:379 info: My Fauna secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-03-21 10:37:09:379 info: My SDK secret: b1eea3fc-277f-4f81-8463-a1ce707791a3
+2023-03-21 10:37:10:3710 info: Start getting Front Page Data
+2023-03-21 10:37:10:3710 info: GET /nfts/getfrontpagelists 200 11.248 ms - 28
+2023-03-21 10:37:39:3739 info: Server listening on port 4000
+2023-03-21 10:37:39:3739 info: My Fauna secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-03-21 10:37:39:3739 info: My SDK secret: b1eea3fc-277f-4f81-8463-a1ce707791a3
+2023-03-21 10:37:41:3741 info: Start getting Front Page Data
+2023-03-21 10:37:41:3741 info: GET /nfts/getfrontpagelists 200 11.503 ms - 210
+2023-03-21 10:40:30:4030 info: Server listening on port 4000
+2023-03-21 10:40:30:4030 info: My Fauna secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-03-21 10:40:30:4030 info: My SDK secret: b1eea3fc-277f-4f81-8463-a1ce707791a3
+2023-03-21 10:40:31:4031 info: Start getting Front Page Data
+2023-03-21 10:43:26:4326 info: Server listening on port 4000
+2023-03-21 10:43:26:4326 info: My Fauna secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-03-21 10:43:26:4326 info: My SDK secret: b1eea3fc-277f-4f81-8463-a1ce707791a3
+2023-03-21 10:43:26:4326 info: Start getting Front Page Data
+2023-03-21 10:43:26:4326 info: GET /nfts/getfrontpagelists 200 11.539 ms - 214
+2023-03-21 10:48:43:4843 info: Server listening on port 4000
+2023-03-21 10:48:43:4843 info: My Fauna secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-03-21 10:48:43:4843 info: My SDK secret: b1eea3fc-277f-4f81-8463-a1ce707791a3
+2023-03-21 10:48:44:4844 info: Start getting Front Page Data
+2023-03-21 10:48:44:4844 info: GET /nfts/getfrontpagelists 200 11.534 ms - 44
+2023-03-21 10:53:41:5341 info: Server listening on port 4000
+2023-03-21 10:53:41:5341 info: My Fauna secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-03-21 10:53:41:5341 info: My SDK secret: b1eea3fc-277f-4f81-8463-a1ce707791a3
+2023-03-21 10:53:42:5342 info: Start getting Front Page Data
+2023-03-21 10:53:42:5342 info: GET /nfts/getfrontpagelists 200 11.096 ms - 11
+2023-03-21 10:55:02:552 info: Server listening on port 4000
+2023-03-21 10:55:02:552 info: My Fauna secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-03-21 10:55:02:552 info: My SDK secret: b1eea3fc-277f-4f81-8463-a1ce707791a3
+2023-03-21 10:55:04:554 info: Start getting Front Page Data
+2023-03-21 10:55:04:554 info: GET /nfts/getfrontpagelists 200 11.319 ms - 11
+2023-03-21 10:55:59:5559 info: Server listening on port 4000
+2023-03-21 10:55:59:5559 info: My Fauna secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-03-21 10:55:59:5559 info: My SDK secret: b1eea3fc-277f-4f81-8463-a1ce707791a3
+2023-03-21 10:56:00:560 info: Start getting Front Page Data
+2023-03-21 10:59:03:593 info: Server listening on port 4000
+2023-03-21 10:59:03:593 info: My Fauna secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-03-21 10:59:03:593 info: My SDK secret: b1eea3fc-277f-4f81-8463-a1ce707791a3
+2023-03-21 10:59:04:594 info: Start getting Front Page Data
+2023-03-21 10:59:04:594 info: GET /nfts/getfrontpagelists 200 11.047 ms - 11
+2023-03-21 10:59:29:5929 info: Server listening on port 4000
+2023-03-21 10:59:29:5929 info: My Fauna secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-03-21 10:59:29:5929 info: My SDK secret: b1eea3fc-277f-4f81-8463-a1ce707791a3
+2023-03-21 10:59:29:5929 info: Start getting Front Page Data
+2023-03-21 10:59:29:5929 info: GET /nfts/getfrontpagelists 200 10.583 ms - 11
+2023-03-21 10:59:49:5949 info: Server listening on port 4000
+2023-03-21 10:59:49:5949 info: My Fauna secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-03-21 10:59:49:5949 info: My SDK secret: b1eea3fc-277f-4f81-8463-a1ce707791a3
+2023-03-21 10:59:50:5950 info: Start getting Front Page Data
+2023-03-21 10:59:50:5950 info: GET /nfts/getfrontpagelists 200 10.638 ms - 11
+2023-03-21 11:00:50:050 info: Server listening on port 4000
+2023-03-21 11:00:50:050 info: My Fauna secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-03-21 11:00:50:050 info: My SDK secret: b1eea3fc-277f-4f81-8463-a1ce707791a3
+2023-03-21 11:00:51:051 info: Start getting Front Page Data
+2023-03-21 11:00:51:051 info: GET /nfts/getfrontpagelists 200 10.741 ms - 11
+2023-03-21 11:01:10:110 info: Server listening on port 4000
+2023-03-21 11:01:10:110 info: My Fauna secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-03-21 11:01:10:110 info: My SDK secret: b1eea3fc-277f-4f81-8463-a1ce707791a3
+2023-03-21 11:01:11:111 info: Start getting Front Page Data
+2023-03-21 11:02:10:210 info: Server listening on port 4000
+2023-03-21 11:02:10:210 info: My Fauna secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-03-21 11:02:10:210 info: My SDK secret: b1eea3fc-277f-4f81-8463-a1ce707791a3
+2023-03-21 11:02:10:210 info: Start getting Front Page Data
+2023-03-21 11:02:10:210 info: GET /nfts/getfrontpagelists 200 11.486 ms - 11
+2023-03-21 11:04:32:432 info: Server listening on port 4000
+2023-03-21 11:04:32:432 info: My Fauna secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-03-21 11:04:32:432 info: My SDK secret: b1eea3fc-277f-4f81-8463-a1ce707791a3
+2023-03-21 11:04:32:432 info: Start getting Front Page Data
+2023-03-21 11:04:32:432 info: GET /nfts/getfrontpagelists 200 11.788 ms - 11
+2023-03-21 11:05:29:529 info: Server listening on port 4000
+2023-03-21 11:05:29:529 info: My Fauna secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-03-21 11:05:29:529 info: My SDK secret: b1eea3fc-277f-4f81-8463-a1ce707791a3
+2023-03-21 11:05:30:530 info: Start getting Front Page Data
+2023-03-21 11:05:30:530 info: GET /nfts/getfrontpagelists 200 11.531 ms - 11
+2023-03-21 11:06:07:67 info: Server listening on port 4000
+2023-03-21 11:06:07:67 info: My Fauna secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-03-21 11:06:07:67 info: My SDK secret: b1eea3fc-277f-4f81-8463-a1ce707791a3
+2023-03-21 11:06:08:68 info: Start getting Front Page Data
+2023-03-21 11:06:08:68 info: GET /nfts/getfrontpagelists 200 11.371 ms - 11
+2023-03-21 11:07:08:78 info: Server listening on port 4000
+2023-03-21 11:07:08:78 info: My Fauna secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-03-21 11:07:08:78 info: My SDK secret: b1eea3fc-277f-4f81-8463-a1ce707791a3
+2023-03-21 11:07:08:78 info: Start getting Front Page Data
+2023-03-21 11:07:08:78 info: GET /nfts/getfrontpagelists 200 11.552 ms - 11
+2023-03-21 11:07:53:753 info: Server listening on port 4000
+2023-03-21 11:07:53:753 info: My Fauna secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-03-21 11:07:53:753 info: My SDK secret: b1eea3fc-277f-4f81-8463-a1ce707791a3
+2023-03-21 11:07:53:753 info: Start getting Front Page Data
+2023-03-21 11:14:40:1440 info: Server listening on port 4000
+2023-03-21 11:14:40:1440 info: My Fauna secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-03-21 11:14:40:1440 info: My SDK secret: b1eea3fc-277f-4f81-8463-a1ce707791a3
+2023-03-21 11:14:42:1442 info: Start getting Front Page Data
+2023-03-21 11:15:05:155 info: Server listening on port 4000
+2023-03-21 11:15:05:155 info: My Fauna secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-03-21 11:15:05:155 info: My SDK secret: b1eea3fc-277f-4f81-8463-a1ce707791a3
+2023-03-21 11:15:07:157 info: Start getting Front Page Data
+2023-03-21 11:15:07:157 info: GET /nfts/getfrontpagelists 200 12.325 ms - 11
+2023-03-21 11:16:19:1619 info: Server listening on port 4000
+2023-03-21 11:16:19:1619 info: My Fauna secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-03-21 11:16:19:1619 info: My SDK secret: b1eea3fc-277f-4f81-8463-a1ce707791a3
+2023-03-21 11:16:19:1619 info: Start getting Front Page Data
+2023-03-21 11:16:53:1653 info: Server listening on port 4000
+2023-03-21 11:16:53:1653 info: My Fauna secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-03-21 11:16:53:1653 info: My SDK secret: b1eea3fc-277f-4f81-8463-a1ce707791a3
+2023-03-21 11:16:53:1653 info: Start getting Front Page Data
+2023-03-21 11:16:53:1653 info: GET /nfts/getfrontpagelists 200 11.530 ms - 11
+2023-03-21 11:17:16:1716 info: Server listening on port 4000
+2023-03-21 11:17:16:1716 info: My Fauna secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-03-21 11:17:16:1716 info: My SDK secret: b1eea3fc-277f-4f81-8463-a1ce707791a3
+2023-03-21 11:17:17:1717 info: Start getting Front Page Data
+2023-03-21 11:17:17:1717 info: GET /nfts/getfrontpagelists 200 12.229 ms - 11
+2023-03-21 11:18:09:189 info: Server listening on port 4000
+2023-03-21 11:18:09:189 info: My Fauna secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-03-21 11:18:09:189 info: My SDK secret: b1eea3fc-277f-4f81-8463-a1ce707791a3
+2023-03-21 11:18:11:1811 info: Start getting Front Page Data
+2023-03-21 11:18:11:1811 info: GET /nfts/getfrontpagelists 200 12.357 ms - 11
+2023-03-21 11:18:44:1844 info: Server listening on port 4000
+2023-03-21 11:18:44:1844 info: My Fauna secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-03-21 11:18:44:1844 info: My SDK secret: b1eea3fc-277f-4f81-8463-a1ce707791a3
+2023-03-21 11:18:45:1845 info: Start getting Front Page Data
+2023-03-21 11:18:45:1845 info: GET /nfts/getfrontpagelists 200 11.280 ms - 11
+2023-03-21 11:20:13:2013 info: Server listening on port 4000
+2023-03-21 11:20:13:2013 info: My Fauna secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-03-21 11:20:13:2013 info: My SDK secret: b1eea3fc-277f-4f81-8463-a1ce707791a3
+2023-03-21 11:20:16:2016 info: Start getting Front Page Data
+2023-03-21 11:20:16:2016 info: GET /nfts/getfrontpagelists 200 11.209 ms - 11
+2023-03-21 11:20:40:2040 info: Server listening on port 4000
+2023-03-21 11:20:40:2040 info: My Fauna secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-03-21 11:20:40:2040 info: My SDK secret: b1eea3fc-277f-4f81-8463-a1ce707791a3
+2023-03-21 11:20:42:2042 info: Start getting Front Page Data
+2023-03-21 11:20:42:2042 info: GET /nfts/getfrontpagelists 200 11.581 ms - 11
+2023-03-21 11:21:13:2113 info: Server listening on port 4000
+2023-03-21 11:21:13:2113 info: My Fauna secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-03-21 11:21:13:2113 info: My SDK secret: b1eea3fc-277f-4f81-8463-a1ce707791a3
+2023-03-21 11:21:14:2114 info: Start getting Front Page Data
+2023-03-21 11:21:14:2114 info: GET /nfts/getfrontpagelists 200 10.982 ms - 11
+2023-03-21 11:22:29:2229 info: Server listening on port 4000
+2023-03-21 11:22:29:2229 info: My Fauna secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-03-21 11:22:29:2229 info: My SDK secret: b1eea3fc-277f-4f81-8463-a1ce707791a3
+2023-03-21 11:22:29:2229 info: Start getting Front Page Data
+2023-03-21 11:22:29:2229 info: GET /nfts/getfrontpagelists 200 11.035 ms - 11
+2023-03-21 11:22:58:2258 info: Server listening on port 4000
+2023-03-21 11:22:58:2258 info: My Fauna secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-03-21 11:22:58:2258 info: My SDK secret: b1eea3fc-277f-4f81-8463-a1ce707791a3
+2023-03-21 11:23:00:230 info: Start getting Front Page Data
+2023-03-21 11:23:00:230 info: GET /nfts/getfrontpagelists 200 10.794 ms - 11
+2023-03-21 11:24:19:2419 info: Server listening on port 4000
+2023-03-21 11:24:19:2419 info: My Fauna secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-03-21 11:24:19:2419 info: My SDK secret: b1eea3fc-277f-4f81-8463-a1ce707791a3
+2023-03-21 11:24:19:2419 info: Start getting Front Page Data
+2023-03-21 11:24:31:2431 info: Server listening on port 4000
+2023-03-21 11:24:31:2431 info: My Fauna secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-03-21 11:24:31:2431 info: My SDK secret: b1eea3fc-277f-4f81-8463-a1ce707791a3
+2023-03-21 11:24:33:2433 info: Start getting Front Page Data
+2023-03-21 11:24:54:2454 info: Server listening on port 4000
+2023-03-21 11:24:54:2454 info: My Fauna secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-03-21 11:24:54:2454 info: My SDK secret: b1eea3fc-277f-4f81-8463-a1ce707791a3
+2023-03-21 11:24:54:2454 info: Start getting Front Page Data
+2023-03-21 11:24:54:2454 info: GET /nfts/getfrontpagelists 200 14.262 ms - 46
+2023-03-21 11:25:09:259 info: Server listening on port 4000
+2023-03-21 11:25:09:259 info: My Fauna secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-03-21 11:25:09:259 info: My SDK secret: b1eea3fc-277f-4f81-8463-a1ce707791a3
+2023-03-21 11:25:11:2511 info: Start getting Front Page Data
+2023-03-21 11:25:11:2511 info: GET /nfts/getfrontpagelists 200 13.302 ms - 414
+2023-03-21 11:25:51:2551 info: Server listening on port 4000
+2023-03-21 11:25:51:2551 info: My Fauna secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-03-21 11:25:51:2551 info: My SDK secret: b1eea3fc-277f-4f81-8463-a1ce707791a3
+2023-03-21 11:26:02:262 info: Start getting Front Page Data
+2023-03-21 11:26:02:262 info: GET /nfts/getfrontpagelists 200 12.243 ms - 478
+2023-03-21 11:26:23:2623 info: Server listening on port 4000
+2023-03-21 11:26:23:2623 info: My Fauna secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-03-21 11:26:23:2623 info: My SDK secret: b1eea3fc-277f-4f81-8463-a1ce707791a3
+2023-03-21 11:26:24:2624 info: Start getting Front Page Data
+2023-03-21 11:26:24:2624 info: GET /nfts/getfrontpagelists 200 15.050 ms - 410
+2023-03-21 11:27:56:2756 info: Server listening on port 4000
+2023-03-21 11:27:56:2756 info: My Fauna secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-03-21 11:27:56:2756 info: My SDK secret: b1eea3fc-277f-4f81-8463-a1ce707791a3
+2023-03-21 11:27:57:2757 info: Start getting Front Page Data
+2023-03-21 11:28:10:2810 info: Server listening on port 4000
+2023-03-21 11:28:10:2810 info: My Fauna secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-03-21 11:28:10:2810 info: My SDK secret: b1eea3fc-277f-4f81-8463-a1ce707791a3
+2023-03-21 11:28:14:2814 info: Start getting Front Page Data
+2023-03-21 11:28:14:2814 info: GET /nfts/getfrontpagelists 200 31.961 ms - 11
+2023-03-21 11:35:19:3519 info: Server listening on port 4000
+2023-03-21 11:35:19:3519 info: My Fauna secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-03-21 11:35:19:3519 info: My SDK secret: b1eea3fc-277f-4f81-8463-a1ce707791a3
+2023-03-21 11:35:30:3530 info: Server listening on port 4000
+2023-03-21 11:35:30:3530 info: My Fauna secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-03-21 11:35:30:3530 info: My SDK secret: b1eea3fc-277f-4f81-8463-a1ce707791a3
+2023-03-21 11:35:32:3532 info: Start getting Front Page Data
+2023-03-21 11:36:12:3612 info: Server listening on port 4000
+2023-03-21 11:36:12:3612 info: My Fauna secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-03-21 11:36:12:3612 info: My SDK secret: b1eea3fc-277f-4f81-8463-a1ce707791a3
+2023-03-21 11:36:15:3615 info: Start getting Front Page Data
+2023-03-21 11:36:15:3615 info: GET /nfts/getfrontpagelists 200 14.215 ms - 28
+2023-03-21 11:36:29:3629 info: Server listening on port 4000
+2023-03-21 11:36:29:3629 info: My Fauna secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-03-21 11:36:29:3629 info: My SDK secret: b1eea3fc-277f-4f81-8463-a1ce707791a3
+2023-03-21 11:36:32:3632 info: Start getting Front Page Data
+2023-03-21 11:36:32:3632 info: GET /nfts/getfrontpagelists 200 13.709 ms - 194
+2023-03-21 11:38:18:3818 info: Server listening on port 4000
+2023-03-21 11:38:18:3818 info: My Fauna secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-03-21 11:38:18:3818 info: My SDK secret: b1eea3fc-277f-4f81-8463-a1ce707791a3
+2023-03-21 11:38:20:3820 info: Start getting Front Page Data
+2023-03-21 11:38:20:3820 info: GET /nfts/getfrontpagelists 200 12.060 ms - 44
+2023-03-21 11:40:27:4027 info: Server listening on port 4000
+2023-03-21 11:40:27:4027 info: My Fauna secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-03-21 11:40:27:4027 info: My SDK secret: b1eea3fc-277f-4f81-8463-a1ce707791a3
+2023-03-21 11:40:32:4032 info: Start getting Front Page Data
+2023-03-21 11:40:32:4032 info: GET /nfts/getfrontpagelists 200 12.275 ms - 216
+2023-03-21 11:42:22:4222 info: Server listening on port 4000
+2023-03-21 11:42:22:4222 info: My Fauna secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-03-21 11:42:22:4222 info: My SDK secret: b1eea3fc-277f-4f81-8463-a1ce707791a3
+2023-03-21 11:42:24:4224 info: Start getting Front Page Data
+2023-03-21 11:42:24:4224 info: GET /nfts/getfrontpagelists 200 26.024 ms - 11
+2023-03-21 11:43:14:4314 info: Server listening on port 4000
+2023-03-21 11:43:14:4314 info: My Fauna secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-03-21 11:43:14:4314 info: My SDK secret: b1eea3fc-277f-4f81-8463-a1ce707791a3
+2023-03-21 11:43:15:4315 info: Start getting Front Page Data
+2023-03-21 11:43:15:4315 info: GET /nfts/getfrontpagelists 200 46.349 ms - 11
+2023-03-21 11:43:35:4335 info: Server listening on port 4000
+2023-03-21 11:43:35:4335 info: My Fauna secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-03-21 11:43:35:4335 info: My SDK secret: b1eea3fc-277f-4f81-8463-a1ce707791a3
+2023-03-21 11:43:37:4337 info: Start getting Front Page Data
+2023-03-21 11:44:06:446 info: Server listening on port 4000
+2023-03-21 11:44:06:446 info: My Fauna secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-03-21 11:44:06:446 info: My SDK secret: b1eea3fc-277f-4f81-8463-a1ce707791a3
+2023-03-21 11:44:08:448 info: Start getting Front Page Data
+2023-03-21 11:44:08:448 info: GET /nfts/getfrontpagelists 200 26.269 ms - 11
+2023-03-21 11:45:21:4521 info: Start getting Front Page Data
+2023-03-21 11:45:21:4521 info: GET /nfts/getfrontpagelists 200 8.807 ms - 11
+2023-03-21 11:47:03:473 info: Server listening on port 4000
+2023-03-21 11:47:03:473 info: My Fauna secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-03-21 11:47:03:473 info: My SDK secret: b1eea3fc-277f-4f81-8463-a1ce707791a3
+2023-03-21 11:47:06:476 info: Start getting Front Page Data
+2023-03-21 11:47:06:476 info: GET /nfts/getfrontpagelists 200 24.470 ms - 11
+2023-03-21 11:48:58:4858 info: Server listening on port 4000
+2023-03-21 11:48:58:4858 info: My Fauna secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-03-21 11:48:58:4858 info: My SDK secret: b1eea3fc-277f-4f81-8463-a1ce707791a3
+2023-03-21 11:48:59:4859 info: Start getting Front Page Data
+2023-03-21 11:48:59:4859 info: GET /nfts/getfrontpagelists 200 25.278 ms - 11
+2023-03-21 11:49:41:4941 info: Server listening on port 4000
+2023-03-21 11:49:41:4941 info: My Fauna secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-03-21 11:49:41:4941 info: My SDK secret: b1eea3fc-277f-4f81-8463-a1ce707791a3
+2023-03-21 11:49:43:4943 info: Start getting Front Page Data
+2023-03-21 11:49:43:4943 info: GET /nfts/getfrontpagelists 200 26.517 ms - 11
+2023-03-21 11:50:39:5039 info: Server listening on port 4000
+2023-03-21 11:50:39:5039 info: My Fauna secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-03-21 11:50:39:5039 info: My SDK secret: b1eea3fc-277f-4f81-8463-a1ce707791a3
+2023-03-21 11:50:44:5044 info: Start getting Front Page Data
+2023-03-21 11:50:44:5044 info: GET /nfts/getfrontpagelists 200 26.847 ms - 11
+2023-03-21 11:51:58:5158 info: Server listening on port 4000
+2023-03-21 11:51:58:5158 info: My Fauna secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-03-21 11:51:58:5158 info: My SDK secret: b1eea3fc-277f-4f81-8463-a1ce707791a3
+2023-03-21 11:52:01:521 info: Start getting Front Page Data
+2023-03-21 11:52:01:521 info: GET /nfts/getfrontpagelists 200 27.419 ms - 16
+2023-03-21 11:52:24:5224 info: Server listening on port 4000
+2023-03-21 11:52:24:5224 info: My Fauna secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-03-21 11:52:24:5224 info: My SDK secret: b1eea3fc-277f-4f81-8463-a1ce707791a3
+2023-03-21 11:52:25:5225 info: Start getting Front Page Data
+2023-03-21 11:52:25:5225 info: GET /nfts/getfrontpagelists 200 26.597 ms - 11
+2023-03-21 11:53:34:5334 info: Server listening on port 4000
+2023-03-21 11:53:34:5334 info: My Fauna secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-03-21 11:53:34:5334 info: My SDK secret: b1eea3fc-277f-4f81-8463-a1ce707791a3
+2023-03-21 11:53:36:5336 info: Start getting Front Page Data
+2023-03-21 11:53:36:5336 info: GET /nfts/getfrontpagelists 200 11.424 ms - 216
+2023-03-21 11:54:19:5419 info: Server listening on port 4000
+2023-03-21 11:54:19:5419 info: My Fauna secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-03-21 11:54:19:5419 info: My SDK secret: b1eea3fc-277f-4f81-8463-a1ce707791a3
+2023-03-21 11:54:21:5421 info: Start getting Front Page Data
+2023-03-21 11:54:21:5421 info: GET /nfts/getfrontpagelists 200 11.708 ms - 254
+2023-03-21 11:55:37:5537 info: Start getting Front Page Data
+2023-03-21 11:55:37:5537 info: GET /nfts/getfrontpagelists 200 2.029 ms - 254
+2023-03-21 11:55:43:5543 info: Server listening on port 4000
+2023-03-21 11:55:43:5543 info: My Fauna secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-03-21 11:55:43:5543 info: My SDK secret: b1eea3fc-277f-4f81-8463-a1ce707791a3
+2023-03-21 11:55:58:5558 info: Start getting Front Page Data
+2023-03-21 11:55:59:5559 info: GET /nfts/getfrontpagelists 200 25.222 ms - 11
+2023-03-21 11:56:50:5650 info: Server listening on port 4000
+2023-03-21 11:56:50:5650 info: My Fauna secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-03-21 11:56:50:5650 info: My SDK secret: b1eea3fc-277f-4f81-8463-a1ce707791a3
+2023-03-21 11:56:51:5651 info: Start getting Front Page Data
+2023-03-21 11:56:51:5651 info: GET /nfts/getfrontpagelists 200 14.748 ms - 234
+2023-03-21 11:57:09:579 info: Server listening on port 4000
+2023-03-21 11:57:09:579 info: My Fauna secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-03-21 11:57:09:579 info: My SDK secret: b1eea3fc-277f-4f81-8463-a1ce707791a3
+2023-03-21 11:57:10:5710 info: Start getting Front Page Data
+2023-03-21 11:57:10:5710 info: GET /nfts/getfrontpagelists 200 12.216 ms - 254
+2023-03-21 11:58:01:581 info: Server listening on port 4000
+2023-03-21 11:58:01:581 info: My Fauna secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-03-21 11:58:01:581 info: My SDK secret: b1eea3fc-277f-4f81-8463-a1ce707791a3
+2023-03-21 11:58:03:583 info: Start getting Front Page Data
+2023-03-21 11:58:03:583 info: GET /nfts/getfrontpagelists 200 11.799 ms - 16
+2023-03-21 12:02:18:218 info: Server listening on port 4000
+2023-03-21 12:02:18:218 info: My Fauna secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-03-21 12:02:18:218 info: My SDK secret: b1eea3fc-277f-4f81-8463-a1ce707791a3
+2023-03-21 12:02:20:220 info: Start getting Front Page Data
+2023-03-21 12:02:20:220 info: GET /nfts/getfrontpagelists 200 13.135 ms - 11
+2023-03-21 12:02:59:259 info: Server listening on port 4000
+2023-03-21 12:02:59:259 info: My Fauna secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-03-21 12:02:59:259 info: My SDK secret: b1eea3fc-277f-4f81-8463-a1ce707791a3
+2023-03-21 12:03:01:31 info: Start getting Front Page Data
+2023-03-21 12:03:01:31 info: GET /nfts/getfrontpagelists 200 12.330 ms - 234
+2023-03-21 12:03:43:343 info: Server listening on port 4000
+2023-03-21 12:03:43:343 info: My Fauna secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-03-21 12:03:43:343 info: My SDK secret: b1eea3fc-277f-4f81-8463-a1ce707791a3
+2023-03-21 12:03:45:345 info: Start getting Front Page Data
+2023-03-21 12:03:45:345 info: GET /nfts/getfrontpagelists 200 13.616 ms - 214
+2023-03-21 12:06:16:616 info: Server listening on port 4000
+2023-03-21 12:06:16:616 info: My Fauna secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-03-21 12:06:16:616 info: My SDK secret: b1eea3fc-277f-4f81-8463-a1ce707791a3
+2023-03-21 12:06:17:617 info: Start getting Front Page Data
+2023-03-21 12:06:28:628 info: Server listening on port 4000
+2023-03-21 12:06:28:628 info: My Fauna secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-03-21 12:06:28:628 info: My SDK secret: b1eea3fc-277f-4f81-8463-a1ce707791a3
+2023-03-21 12:06:28:628 info: Start getting Front Page Data
+2023-03-21 12:06:28:628 info: GET /nfts/getfrontpagelists 200 12.083 ms - 216
+2023-03-21 12:10:29:1029 info: Server listening on port 4000
+2023-03-21 12:10:29:1029 info: My Fauna secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-03-21 12:10:29:1029 info: My SDK secret: b1eea3fc-277f-4f81-8463-a1ce707791a3
+2023-03-21 12:10:33:1033 info: Start getting Front Page Data
+2023-03-21 12:10:53:1053 info: Server listening on port 4000
+2023-03-21 12:10:53:1053 info: My Fauna secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-03-21 12:10:53:1053 info: My SDK secret: b1eea3fc-277f-4f81-8463-a1ce707791a3
+2023-03-21 12:10:56:1056 info: Start getting Front Page Data
+2023-03-21 12:10:59:1059 info: GET /nfts/getfrontpagelists 200 2407.566 ms - 1036731
+2023-03-21 12:22:05:225 info: Start getting Front Page Data
+2023-03-21 12:22:07:227 info: GET /nfts/getfrontpagelists 200 2459.487 ms - 2097
+2023-03-21 12:25:56:2556 info: Start getting Front Page Data
+2023-03-21 12:25:59:2559 info: GET /nfts/getfrontpagelists 200 3240.217 ms - 4105686
