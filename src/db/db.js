@@ -8,15 +8,17 @@ export const USERS_C = 'users';
 export const WALLET_C = 'wallets';
 export const ACCOUNTS_C = 'accounts';
 export const DEPOSITS_C = 'deposits';
+export const APP_DATA_C = 'deposits';
 
 export const EMAIL_I = 'users_by_email';
-
 export const WALLET_I_R = 'wallet_by_user_ref';
 export const ACCOUNT_I_R = 'account_by_wallet_ref';
 export const DEPOSIT_I_R = 'deposit_by_account_ref';
-
 export const WALLET_I_XPUB = 'wallet_by_xpub';
 export const ACCOUNT_I_ID = 'account_by_id';
+export const APP_DATA_I_TAG = 'app_data_by_tag';
+
+export const TAG_FRONT_PAGE = 'frontPage';
 
 const q = query;
 

@@ -21,6 +21,25 @@ const getNFTsFromCollection = async (chain, collectionAddresses, pageSize) => { 
     }
 };
 
+const getTokenData = async (chain, tokenAddress, tokenId) => {   // address can be an array
+    try {
+        const query = new URLSearchParams({chain: chain, tokenAddress: tokenAddress, tokenId: tokenId}).toString();
+
+        return await fetch(
+            `https://api.tatum.io/v3/data/tokens?${query}`,
+            {
+                method: 'GET',
+                headers: {
+                    'x-api-key': process.env.API_KEY_MAINNET
+                }
+            }
+        );
+    } catch(err) {
+        logger.error(err);
+        return err
+    }
+};
+
 const getNFTMetadata = async (chain, tokenAddress, tokenIds) => {  // address can be an array
     try {
         const query = new URLSearchParams({chain: chain, tokenAddress: tokenAddress, tokenIds: tokenIds}).toString();
@@ -114,6 +133,7 @@ const getTransactionsOfWallet = async (chain, addresses) => {    // address can 
 
 export {
     getNFTsFromCollection,
+    getTokenData,
     getNFTMetadata,
     getBalancesOfAddress,
     getOwnersOfToken,

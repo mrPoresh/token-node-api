@@ -8,7 +8,7 @@ import loggerHttp from './middlewares/logger-http.js';
 
 import { createUser, loginUser, checkToken, logoutUser, getUser } from './routes/usermanagment/index.js';
 import { createWallet, getWallet, getWallets, createAcc, createDeposit } from './routes/wallets/index.js';
-import { getCollectionNFTs, getMetadataForNFT, getAddressBalances, getTokenOwners, checkIsOwner, getTransactions, getFrontPageLists } from './routes/nfts/index.js';
+import { getCollectionNFTs, getMetadataForNFT, getAddressBalances, getTokenOwners, checkIsOwner, getTransactions, getFrontPageLists, getFrontPageData } from './routes/nfts/index.js';
 
 const PORT = 4000;
 
@@ -38,7 +38,8 @@ function run() {
     server.get('/nfts/ownersof', getTokenOwners);
     server.get('/nfts/isowner', checkIsOwner);
     server.get('/nfts/transactions', getTransactions);
-    server.get('/nfts/getfrontpagelists', getFrontPageLists);
+    server.get('/nfts/getfrontpagedata', getFrontPageData);
+    server.post('/nfts/getfrontpagelists', getFrontPageLists);  //
 
 }
 

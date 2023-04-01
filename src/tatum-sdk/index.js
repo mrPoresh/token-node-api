@@ -1,5 +1,5 @@
 import { generateWallet, generateAcc, generateDeposit } from './wallets.js';
-import { getNFTsFromCollection, getNFTMetadata, getOwnersOfToken, getBalancesOfAddress, checkOwnerOfanNFT, getTransactionsOfWallet } from './data-api.js';
+import { getNFTsFromCollection, getNFTMetadata, getOwnersOfToken, getBalancesOfAddress, checkOwnerOfanNFT, getTransactionsOfWallet, getTokenData } from './data-api.js';
 
 import { TatumSDK } from "@tatumio/sdk";
 
@@ -15,5 +15,6 @@ export {
     getOwnersOfToken,
     getBalancesOfAddress,
     checkOwnerOfanNFT,
-    getTransactionsOfWallet
+    getTransactionsOfWallet,
+    getTokenData
 };
