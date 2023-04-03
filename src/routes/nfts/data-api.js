@@ -91,6 +91,42 @@ const getFrontPageData = async (req, res) => {
 
 };
 
+const upFrontPageData = async (req, res) => {
+	logger.info('Start up front doc');
+	const { chain, tokenAddress, tokenId, type, section } = req.body.params;
+
+	console.log(req.body.params)
+
+	try {
+
+		const cli = client();
+
+		const result = await cli.query(
+			q.Update(q.Match(q.Index(APP_DATA_I_TAG), TAG_FRONT_PAGE),
+				{
+					data: {
+						data: {
+							[section]: [{
+								tokenAddress: tokenAddress,
+								tokenId: tokenId,
+								chain: chain,
+								type: type,
+							}]
+						}
+					}
+				}
+			)
+		);
+
+		res.status(200).send({ data: "ok" });
+
+	} catch (error) {
+		logger.error(error);
+		res.status(err.statusCode).send({ status: err.statusCode })
+	}
+
+};
+
 function sleep(ms) {
 	return new Promise(resolve => setTimeout(resolve, ms));
 }
@@ -283,4 +319,184 @@ export {
 	getTransactions,
 	getFrontPageLists,
 	getFrontPageData,
+	upFrontPageData,
 }
+
+
+export const back = {
+	tag: "frontPage",
+	data: {
+	  tabs: [
+		{
+		  tokenAddress: "0xed5af388653567af2f388e6224dc7c4b3241c544",
+		  tokenId: "7726",
+		  chain: "ethereum",
+		  type: "Trending"
+		},
+		{
+		  tokenAddress: "0x1a92f7381b9f03921564a437210bb9396471050c",
+		  tokenId: "1090",
+		  chain: "ethereum",
+		  type: "Trending"
+		},
+		{
+		  tokenAddress: "0xed5af388653567af2f388e6224dc7c4b3241c544",
+		  tokenId: "2471",
+		  chain: "ethereum",
+		  type: "Trending"
+		},
+		{
+		  tokenAddress: "0x1a92f7381b9f03921564a437210bb9396471050c",
+		  tokenId: "4638",
+		  chain: "ethereum",
+		  type: "Trending"
+		},
+		{
+		  tokenAddress: "0xed5af388653567af2f388e6224dc7c4b3241c544",
+		  tokenId: "2883",
+		  chain: "ethereum",
+		  type: "Top"
+		},
+		{
+		  tokenAddress: "0x1a92f7381b9f03921564a437210bb9396471050c",
+		  tokenId: "2158",
+		  chain: "ethereum",
+		  type: "Top"
+		},
+		{
+		  tokenAddress: "0xed5af388653567af2f388e6224dc7c4b3241c544",
+		  tokenId: "5739",
+		  chain: "ethereum",
+		  type: "Top"
+		},
+		{
+		  tokenAddress: "0x1a92f7381b9f03921564a437210bb9396471050c",
+		  tokenId: "7475",
+		  chain: "ethereum",
+		  type: "Top"
+		},
+		{
+		  tokenAddress: "0x69988cd7d86151244e9b2a2a80d0925195055f48",
+		  tokenId: "1568",
+		  chain: "bsc",
+		  type: "Top"
+		},
+		{
+		  tokenAddress: "0x69988cd7d86151244e9b2a2a80d0925195055f48",
+		  tokenId: "1568",
+		  chain: "bsc",
+		  type: "Top"
+		},
+		{
+		  tokenAddress: "0x69988cd7d86151244e9b2a2a80d0925195055f48",
+		  tokenId: "1568",
+		  chain: "bsc",
+		  type: "Trending"
+		},
+		{
+		  tokenAddress: "0x69988cd7d86151244e9b2a2a80d0925195055f48",
+		  tokenId: "1568",
+		  chain: "bsc",
+		  type: "Trending"
+		}
+	  ],
+	  lists: [
+		{
+		  tokenAddress: "0xed5af388653567af2f388e6224dc7c4b3241c544",
+		  tokenId: "7726",
+		  chain: "ethereum",
+		  type: "Trending"
+		},
+		{
+		  tokenAddress: "0x1a92f7381b9f03921564a437210bb9396471050c",
+		  tokenId: "1090",
+		  chain: "ethereum",
+		  type: "Trending"
+		},
+		{
+		  tokenAddress: "0xed5af388653567af2f388e6224dc7c4b3241c544",
+		  tokenId: "2471",
+		  chain: "ethereum",
+		  type: "Trending"
+		},
+		{
+		  tokenAddress: "0x1a92f7381b9f03921564a437210bb9396471050c",
+		  tokenId: "4638",
+		  chain: "ethereum",
+		  type: "Trending"
+		},
+		{
+		  tokenAddress: "0xed5af388653567af2f388e6224dc7c4b3241c544",
+		  tokenId: "2883",
+		  chain: "ethereum",
+		  type: "Trending"
+		},
+		{
+		  tokenAddress: "0x1a92f7381b9f03921564a437210bb9396471050c",
+		  tokenId: "2158",
+		  chain: "ethereum",
+		  type: "Trending"
+		},
+		{
+		  tokenAddress: "0xed5af388653567af2f388e6224dc7c4b3241c544",
+		  tokenId: "5739",
+		  chain: "ethereum",
+		  type: "Trending"
+		},
+		{
+		  tokenAddress: "0x1a92f7381b9f03921564a437210bb9396471050c",
+		  tokenId: "7475",
+		  chain: "ethereum",
+		  type: "Trending"
+		},
+		{
+		  tokenAddress: "0xed5af388653567af2f388e6224dc7c4b3241c544",
+		  tokenId: "2883",
+		  chain: "ethereum",
+		  type: "Top"
+		},
+		{
+		  tokenAddress: "0x1a92f7381b9f03921564a437210bb9396471050c",
+		  tokenId: "2158",
+		  chain: "ethereum",
+		  type: "Top"
+		},
+		{
+		  tokenAddress: "0xed5af388653567af2f388e6224dc7c4b3241c544",
+		  tokenId: "5739",
+		  chain: "ethereum",
+		  type: "Top"
+		},
+		{
+		  tokenAddress: "0x1a92f7381b9f03921564a437210bb9396471050c",
+		  tokenId: "7475",
+		  chain: "ethereum",
+		  type: "Top"
+		},
+		{
+		  tokenAddress: "0xed5af388653567af2f388e6224dc7c4b3241c544",
+		  tokenId: "7726",
+		  chain: "ethereum",
+		  type: "Top"
+		},
+		{
+		  tokenAddress: "0x1a92f7381b9f03921564a437210bb9396471050c",
+		  tokenId: "1090",
+		  chain: "ethereum",
+		  type: "Top"
+		},
+		{
+		  tokenAddress: "0xed5af388653567af2f388e6224dc7c4b3241c544",
+		  tokenId: "2471",
+		  chain: "ethereum",
+		  type: "Top"
+		},
+		{
+		  tokenAddress: "0x1a92f7381b9f03921564a437210bb9396471050c",
+		  tokenId: "4638",
+		  chain: "ethereum",
+		  type: "Top"
+		}
+	  ]
+	}
+  }

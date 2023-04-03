@@ -1,4 +1,4 @@
-import { getCollectionNFTs, getAddressBalances, getMetadataForNFT, getTokenOwners, checkIsOwner, getTransactions, getFrontPageLists, getFrontPageData } from './data-api.js';
+import { getCollectionNFTs, getAddressBalances, getMetadataForNFT, getTokenOwners, checkIsOwner, getTransactions, getFrontPageLists, getFrontPageData, upFrontPageData } from './data-api.js';
 
 export {
     getCollectionNFTs,
@@ -9,4 +9,5 @@ export {
     getTransactions,
     getFrontPageLists,
     getFrontPageData,
+    upFrontPageData,
 };
