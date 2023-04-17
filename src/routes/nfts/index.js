@@ -1,4 +1,17 @@
-import { getCollectionNFTs, getAddressBalances, getMetadataForNFT, getTokenOwners, checkIsOwner, getTransactions, getFrontPageLists, getFrontPageData, upFrontPageData } from './data-api.js';
+import { 
+    getCollectionNFTs, 
+    getAddressBalances, 
+    getMetadataForNFT, 
+    getTokenOwners, 
+    checkIsOwner, 
+    getTransactions, 
+    getFrontPageLists, 
+
+    getFrontPageData, 
+    getFrontListsData,
+    getCollectionsRankingByVolume,
+    getCollectionsRankingByMints
+} from './data-api.js';
 
 export {
     getCollectionNFTs,
@@ -8,6 +21,9 @@ export {
     checkIsOwner,
     getTransactions,
     getFrontPageLists,
+
     getFrontPageData,
-    upFrontPageData,
+    getFrontListsData,
+    getCollectionsRankingByVolume,
+    getCollectionsRankingByMints,
 };

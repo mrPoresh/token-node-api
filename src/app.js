@@ -8,7 +8,19 @@ import loggerHttp from './middlewares/logger-http.js';
 
 import { createUser, loginUser, checkToken, logoutUser, getUser } from './routes/usermanagment/index.js';
 import { createWallet, getWallet, getWallets, createAcc, createDeposit } from './routes/wallets/index.js';
-import { getCollectionNFTs, getMetadataForNFT, getAddressBalances, getTokenOwners, checkIsOwner, getTransactions, upFrontPageData, getFrontPageData } from './routes/nfts/index.js';
+import { 
+    getCollectionNFTs, 
+    getMetadataForNFT, 
+    getAddressBalances, 
+    getTokenOwners, 
+    checkIsOwner, 
+    getTransactions, 
+
+    getFrontPageData, 
+    getFrontListsData,
+    getCollectionsRankingByVolume,
+    getCollectionsRankingByMints,
+} from './routes/nfts/index.js';
 
 const PORT = 4000;
 
@@ -38,9 +50,12 @@ function run() {
     server.get('/nfts/ownersof', getTokenOwners);
     server.get('/nfts/isowner', checkIsOwner);
     server.get('/nfts/transactions', getTransactions);
-    server.get('/nfts/getfrontpagedata', getFrontPageData);
-    server.post('/nfts/upfrontpagedata', upFrontPageData);
     //server.post('/nfts/getfrontpagelists', getFrontPageLists);  //
+
+    server.get('/nfts/getFrontPageData', getFrontPageData);
+    server.get('/nfts/getFrontListsData', getFrontListsData);
+    server.get('/nfts/collectionsRankingByVolume', getCollectionsRankingByVolume);
+    server.get('/nfts/collectionsRankingByMints', getCollectionsRankingByMints);
 
 }
 

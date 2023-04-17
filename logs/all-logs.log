@@ -8946,3 +8946,449 @@ For more info, see the docs: https://docs.fauna.com/fauna/current/api/fql/functi
 2023-04-03 10:15:16:1516 info: OPTIONS /nfts/getfrontpagedata 204 0.364 ms - 0
 2023-04-03 10:15:16:1516 info: Start Getting Front Page Data
 2023-04-03 10:15:27:1527 info: GET /nfts/getfrontpagedata 200 10870.918 ms - 23307
+2023-04-16 13:48:10:4810 info: Server listening on port 4000
+2023-04-16 13:48:10:4810 info: My Fauna secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-04-16 13:48:10:4810 info: My SDK secret: b1eea3fc-277f-4f81-8463-a1ce707791a3
+2023-04-16 14:05:01:51 info: Server listening on port 4000
+2023-04-16 14:05:01:51 info: My Fauna secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-04-16 14:05:01:51 info: My SDK secret: b1eea3fc-277f-4f81-8463-a1ce707791a3
+2023-04-16 14:08:43:843 info: Server listening on port 4000
+2023-04-16 14:08:43:843 info: My Fauna secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-04-16 14:08:43:843 info: My SDK secret: b1eea3fc-277f-4f81-8463-a1ce707791a3
+2023-04-16 14:08:46:846 info: Start Getting CollectionRankingByVolume
+2023-04-16 14:08:46:846 error: invalid json response body at https://api.rarible.org/data/rankings/collections/volume?limit=10&sort=VOLUME_USD_DESC&source=RARIBLE&blockchain=ETHEREUM&period=D30 reason: Unexpected token < in JSON at position 0
+2023-04-16 14:10:20:1020 info: Server listening on port 4000
+2023-04-16 14:10:20:1020 info: My Fauna secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-04-16 14:10:20:1020 info: My SDK secret: b1eea3fc-277f-4f81-8463-a1ce707791a3
+2023-04-16 14:10:25:1025 info: Start Getting CollectionRankingByVolume
+2023-04-16 14:10:25:1025 info: GET /nfts/CollectionRankingByVolume 200 132.718 ms - 31
+2023-04-16 14:11:23:1123 info: Start Getting CollectionRankingByVolume
+2023-04-16 14:11:23:1123 info: GET /nfts/CollectionRankingByVolume 200 85.195 ms - 31
+2023-04-16 14:13:02:132 info: Server listening on port 4000
+2023-04-16 14:13:02:132 info: My Fauna secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-04-16 14:13:02:132 info: My SDK secret: b1eea3fc-277f-4f81-8463-a1ce707791a3
+2023-04-16 14:13:04:134 info: Start Getting CollectionRankingByVolume
+2023-04-16 14:13:05:135 info: GET /nfts/CollectionRankingByVolume 200 341.345 ms - 31
+2023-04-16 14:13:30:1330 info: Server listening on port 4000
+2023-04-16 14:13:30:1330 info: My Fauna secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-04-16 14:13:30:1330 info: My SDK secret: b1eea3fc-277f-4f81-8463-a1ce707791a3
+2023-04-16 14:13:31:1331 info: Start Getting CollectionRankingByVolume
+2023-04-16 14:13:32:1332 info: GET /nfts/CollectionRankingByVolume 200 154.549 ms - 3477
+2023-04-16 14:21:00:210 info: Server listening on port 4000
+2023-04-16 14:21:00:210 info: My Fauna secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-04-16 14:21:00:210 info: My SDK secret: b1eea3fc-277f-4f81-8463-a1ce707791a3
+2023-04-16 14:21:01:211 info: Start Getting CollectionRankingByVolume
+2023-04-16 14:21:02:212 info: GET /nfts/getfrontpagedata 200 312.750 ms - 3477
+2023-04-16 14:25:35:2535 info: Server listening on port 4000
+2023-04-16 14:25:35:2535 info: My Fauna secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-04-16 14:25:35:2535 info: My SDK secret: b1eea3fc-277f-4f81-8463-a1ce707791a3
+2023-04-16 14:25:37:2537 info: Start Getting CollectionRankingByVolume
+2023-04-16 14:25:51:2551 info: Server listening on port 4000
+2023-04-16 14:25:51:2551 info: My Fauna secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-04-16 14:25:51:2551 info: My SDK secret: b1eea3fc-277f-4f81-8463-a1ce707791a3
+2023-04-16 14:25:59:2559 info: GET /nfts/getfrontpagedata 400 14.590 ms - 1039
+2023-04-16 14:26:39:2639 info: Start Getting CollectionRankingByVolume
+2023-04-16 14:26:39:2639 info: GET /nfts/getfrontpagedata 200 16.916 ms - 11
+2023-04-16 14:26:53:2653 info: Server listening on port 4000
+2023-04-16 14:26:53:2653 info: My Fauna secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-04-16 14:26:53:2653 info: My SDK secret: b1eea3fc-277f-4f81-8463-a1ce707791a3
+2023-04-16 14:27:02:272 info: Server listening on port 4000
+2023-04-16 14:27:02:272 info: My Fauna secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-04-16 14:27:02:272 info: My SDK secret: b1eea3fc-277f-4f81-8463-a1ce707791a3
+2023-04-16 14:27:04:274 info: Start Getting CollectionRankingByVolume
+2023-04-16 14:27:04:274 info: GET /nfts/getfrontpagedata 200 31.129 ms - 11
+2023-04-16 14:27:17:2717 info: Server listening on port 4000
+2023-04-16 14:27:17:2717 info: My Fauna secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-04-16 14:27:17:2717 info: My SDK secret: b1eea3fc-277f-4f81-8463-a1ce707791a3
+2023-04-16 14:27:21:2721 info: Start Getting CollectionRankingByVolume
+2023-04-16 14:27:21:2721 info: GET /nfts/getfrontpagedata 200 29.672 ms - 11
+2023-04-16 14:28:31:2831 info: Server listening on port 4000
+2023-04-16 14:28:31:2831 info: My Fauna secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-04-16 14:28:31:2831 info: My SDK secret: b1eea3fc-277f-4f81-8463-a1ce707791a3
+2023-04-16 14:28:33:2833 info: Start Getting CollectionRankingByVolume
+2023-04-16 14:28:33:2833 info: GET /nfts/getfrontpagedata 200 30.643 ms - 11
+2023-04-16 14:29:09:299 info: Server listening on port 4000
+2023-04-16 14:29:09:299 info: My Fauna secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-04-16 14:29:09:299 info: My SDK secret: b1eea3fc-277f-4f81-8463-a1ce707791a3
+2023-04-16 14:29:10:2910 info: Start Getting CollectionRankingByVolume
+2023-04-16 14:29:10:2910 info: GET /nfts/getfrontpagedata 200 29.170 ms - 11
+2023-04-16 14:30:41:3041 info: Server listening on port 4000
+2023-04-16 14:30:41:3041 info: My Fauna secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-04-16 14:30:41:3041 info: My SDK secret: b1eea3fc-277f-4f81-8463-a1ce707791a3
+2023-04-16 14:30:42:3042 info: Start Getting CollectionRankingByVolume
+2023-04-16 14:30:42:3042 info: GET /nfts/getfrontpagedata 200 29.134 ms - 24
+2023-04-16 14:31:07:317 info: Server listening on port 4000
+2023-04-16 14:31:07:317 info: My Fauna secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-04-16 14:31:07:317 info: My SDK secret: b1eea3fc-277f-4f81-8463-a1ce707791a3
+2023-04-16 14:31:08:318 info: Start Getting CollectionRankingByVolume
+2023-04-16 14:31:08:318 info: GET /nfts/getfrontpagedata 200 32.704 ms - 24
+2023-04-16 14:31:26:3126 info: Server listening on port 4000
+2023-04-16 14:31:26:3126 info: My Fauna secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-04-16 14:31:26:3126 info: My SDK secret: b1eea3fc-277f-4f81-8463-a1ce707791a3
+2023-04-16 14:31:27:3127 info: Start Getting CollectionRankingByVolume
+2023-04-16 14:31:27:3127 info: GET /nfts/getfrontpagedata 200 29.309 ms - 24
+2023-04-16 14:32:57:3257 info: Server listening on port 4000
+2023-04-16 14:32:57:3257 info: My Fauna secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-04-16 14:32:57:3257 info: My SDK secret: b1eea3fc-277f-4f81-8463-a1ce707791a3
+2023-04-16 14:32:58:3258 info: Start Getting CollectionRankingByVolume
+2023-04-16 14:32:58:3258 info: GET /nfts/getfrontpagedata 200 32.404 ms - 24
+2023-04-16 14:37:13:3713 info: Server listening on port 4000
+2023-04-16 14:37:13:3713 info: My Fauna secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-04-16 14:37:13:3713 info: My SDK secret: b1eea3fc-277f-4f81-8463-a1ce707791a3
+2023-04-16 14:37:14:3714 info: Start Getting CollectionRankingByVolume
+2023-04-16 14:37:14:3714 info: GET /nfts/getfrontpagedata 200 17.903 ms - 64
+2023-04-16 14:38:31:3831 info: Server listening on port 4000
+2023-04-16 14:38:31:3831 info: My Fauna secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-04-16 14:38:31:3831 info: My SDK secret: b1eea3fc-277f-4f81-8463-a1ce707791a3
+2023-04-16 14:38:35:3835 info: Start Getting CollectionRankingByVolume
+2023-04-16 14:38:35:3835 info: GET /nfts/getfrontpagedata 200 16.306 ms - 82
+2023-04-16 14:39:13:3913 info: Server listening on port 4000
+2023-04-16 14:39:13:3913 info: My Fauna secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-04-16 14:39:13:3913 info: My SDK secret: b1eea3fc-277f-4f81-8463-a1ce707791a3
+2023-04-16 14:39:13:3913 info: Start Getting CollectionRankingByVolume
+2023-04-16 14:39:13:3913 info: GET /nfts/getfrontpagedata 200 15.958 ms - 166
+2023-04-16 14:40:26:4026 info: Server listening on port 4000
+2023-04-16 14:40:26:4026 info: My Fauna secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-04-16 14:40:26:4026 info: My SDK secret: b1eea3fc-277f-4f81-8463-a1ce707791a3
+2023-04-16 14:40:29:4029 info: Start Getting CollectionRankingByVolume
+2023-04-16 14:40:30:4030 info: GET /nfts/getfrontpagedata 200 800.071 ms - 11296
+2023-04-16 14:40:56:4056 info: Server listening on port 4000
+2023-04-16 14:40:56:4056 info: My Fauna secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-04-16 14:40:56:4056 info: My SDK secret: b1eea3fc-277f-4f81-8463-a1ce707791a3
+2023-04-16 14:40:57:4057 info: Start Getting CollectionRankingByVolume
+2023-04-16 14:40:58:4058 info: GET /nfts/getfrontpagedata 200 778.891 ms - 11242
+2023-04-16 14:43:17:4317 info: Server listening on port 4000
+2023-04-16 14:43:17:4317 info: My Fauna secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-04-16 14:43:17:4317 info: My SDK secret: b1eea3fc-277f-4f81-8463-a1ce707791a3
+2023-04-16 14:43:18:4318 info: Start Getting CollectionRankingByVolume
+2023-04-16 14:43:18:4318 error: Cannot set properties of undefined (setting 'D1')
+2023-04-16 14:43:51:4351 info: Server listening on port 4000
+2023-04-16 14:43:51:4351 info: My Fauna secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-04-16 14:43:51:4351 info: My SDK secret: b1eea3fc-277f-4f81-8463-a1ce707791a3
+2023-04-16 14:43:51:4351 info: Start Getting CollectionRankingByVolume
+2023-04-16 14:44:20:4420 info: Server listening on port 4000
+2023-04-16 14:44:20:4420 info: My Fauna secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-04-16 14:44:20:4420 info: My SDK secret: b1eea3fc-277f-4f81-8463-a1ce707791a3
+2023-04-16 14:44:21:4421 info: Start Getting CollectionRankingByVolume
+2023-04-16 14:44:21:4421 info: GET /nfts/getfrontpagedata 200 697.319 ms - 11268
+2023-04-16 14:46:52:4652 info: Server listening on port 4000
+2023-04-16 14:46:52:4652 info: My Fauna secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-04-16 14:46:52:4652 info: My SDK secret: b1eea3fc-277f-4f81-8463-a1ce707791a3
+2023-04-16 14:47:50:4750 info: Start Getting CollectionRankingByVolume
+2023-04-16 14:47:51:4751 info: GET /nfts/getfrontpagedata 200 1243.392 ms - 1625
+2023-04-16 14:49:09:499 info: Start Getting CollectionRankingByVolume
+2023-04-16 14:49:10:4910 info: GET /nfts/getfrontpagedata 200 1235.224 ms - 1625
+2023-04-16 14:50:01:501 info: Server listening on port 4000
+2023-04-16 14:50:01:501 info: My Fauna secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-04-16 14:50:01:501 info: My SDK secret: b1eea3fc-277f-4f81-8463-a1ce707791a3
+2023-04-16 14:50:02:502 info: Start Getting CollectionRankingByVolume
+2023-04-16 14:50:11:5011 info: GET /nfts/getfrontpagedata 200 9027.833 ms - 20857
+2023-04-16 17:40:16:4016 info: Server listening on port 4000
+2023-04-16 17:40:16:4016 info: My Fauna secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-04-16 17:40:16:4016 info: My SDK secret: b1eea3fc-277f-4f81-8463-a1ce707791a3
+2023-04-16 17:40:56:4056 info: Start Getting CollectionRankingByVolume
+2023-04-16 17:41:06:416 info: GET /nfts/getfrontpagedata 200 10267.259 ms - 20850
+2023-04-16 17:54:38:5438 info: Server listening on port 4000
+2023-04-16 17:54:38:5438 info: My Fauna secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-04-16 17:54:38:5438 info: My SDK secret: b1eea3fc-277f-4f81-8463-a1ce707791a3
+2023-04-16 17:54:39:5439 info: Start Getting CollectionRankingByVolume
+2023-04-16 17:54:47:5447 info: GET /nfts/getfrontpagedata 200 7599.607 ms - 20843
+2023-04-16 17:55:12:5512 info: Server listening on port 4000
+2023-04-16 17:55:12:5512 info: My Fauna secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-04-16 17:55:12:5512 info: My SDK secret: b1eea3fc-277f-4f81-8463-a1ce707791a3
+2023-04-16 17:55:13:5513 info: Start Getting CollectionRankingByVolume
+2023-04-16 17:55:21:5521 info: GET /nfts/getfrontpagedata 200 8005.014 ms - 20843
+2023-04-16 17:57:47:5747 info: Server listening on port 4000
+2023-04-16 17:57:47:5747 info: My Fauna secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-04-16 17:57:47:5747 info: My SDK secret: b1eea3fc-277f-4f81-8463-a1ce707791a3
+2023-04-16 17:57:49:5749 info: Start Getting CollectionRankingByVolume
+2023-04-16 17:57:49:5749 error: data.result.length is not a function
+2023-04-16 17:58:08:588 info: Server listening on port 4000
+2023-04-16 17:58:08:588 info: My Fauna secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-04-16 17:58:08:588 info: My SDK secret: b1eea3fc-277f-4f81-8463-a1ce707791a3
+2023-04-16 17:58:09:589 info: Start Getting CollectionRankingByVolume
+2023-04-16 17:58:16:5816 info: GET /nfts/getfrontpagedata 200 7446.233 ms - 20843
+2023-04-16 17:58:39:5839 info: Start Getting CollectionRankingByVolume
+2023-04-16 17:58:43:5843 info: GET /nfts/getfrontpagedata 200 3945.833 ms - 15662
+2023-04-16 18:00:49:049 info: Server listening on port 4000
+2023-04-16 18:00:49:049 info: My Fauna secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-04-16 18:00:49:049 info: My SDK secret: b1eea3fc-277f-4f81-8463-a1ce707791a3
+2023-04-16 18:00:51:051 info: Start Getting CollectionRankingByVolume
+2023-04-16 18:00:58:058 info: GET /nfts/getfrontpagedata 200 6889.827 ms - 21541
+2023-04-16 18:02:19:219 info: Server listening on port 4000
+2023-04-16 18:02:19:219 info: My Fauna secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-04-16 18:02:19:219 info: My SDK secret: b1eea3fc-277f-4f81-8463-a1ce707791a3
+2023-04-16 18:02:21:221 info: Start Getting CollectionRankingByVolume
+2023-04-16 18:02:29:229 info: GET /nfts/getfrontpagedata 200 7072.695 ms - 21541
+2023-04-16 18:02:56:256 info: Server listening on port 4000
+2023-04-16 18:02:56:256 info: My Fauna secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-04-16 18:02:56:256 info: My SDK secret: b1eea3fc-277f-4f81-8463-a1ce707791a3
+2023-04-16 18:02:59:259 info: Start Getting CollectionRankingByVolume
+2023-04-16 18:03:07:37 info: GET /nfts/getfrontpagedata 200 7586.849 ms - 21271
+2023-04-16 18:04:24:424 info: Server listening on port 4000
+2023-04-16 18:04:24:424 info: My Fauna secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-04-16 18:04:24:424 info: My SDK secret: b1eea3fc-277f-4f81-8463-a1ce707791a3
+2023-04-16 18:04:26:426 info: Start Getting CollectionRankingByVolume
+2023-04-16 18:04:34:434 info: GET /nfts/getfrontpagedata 200 8306.490 ms - 15662
+2023-04-16 18:04:54:454 info: Server listening on port 4000
+2023-04-16 18:04:54:454 info: My Fauna secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-04-16 18:04:54:454 info: My SDK secret: b1eea3fc-277f-4f81-8463-a1ce707791a3
+2023-04-16 18:04:57:457 info: Start Getting CollectionRankingByVolume
+2023-04-16 18:05:06:56 info: GET /nfts/getfrontpagedata 200 8937.296 ms - 15663
+2023-04-16 18:05:17:517 info: Server listening on port 4000
+2023-04-16 18:05:17:517 info: My Fauna secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-04-16 18:05:17:517 info: My SDK secret: b1eea3fc-277f-4f81-8463-a1ce707791a3
+2023-04-16 18:05:19:519 info: Start Getting CollectionRankingByVolume
+2023-04-16 18:05:26:526 info: GET /nfts/getfrontpagedata 200 7098.472 ms - 42879
+2023-04-16 18:06:31:631 info: Server listening on port 4000
+2023-04-16 18:06:31:631 info: My Fauna secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-04-16 18:06:31:631 info: My SDK secret: b1eea3fc-277f-4f81-8463-a1ce707791a3
+2023-04-16 18:06:35:635 info: Start Getting CollectionRankingByVolume
+2023-04-16 18:06:45:645 info: GET /nfts/getfrontpagedata 200 9814.589 ms - 51469
+2023-04-16 18:08:30:830 info: Start Getting CollectionRankingByVolume
+2023-04-16 18:08:47:847 info: GET /nfts/getfrontpagedata 200 16719.981 ms - 60121
+2023-04-16 18:49:37:4937 info: Server listening on port 4000
+2023-04-16 18:49:37:4937 info: My Fauna secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-04-16 18:49:37:4937 info: My SDK secret: b1eea3fc-277f-4f81-8463-a1ce707791a3
+2023-04-16 18:49:42:4942 info: Start Getting CollectionRankingByVolume
+2023-04-16 18:49:43:4943 info: GET /nfts/collectionsRankingByVolume 200 173.176 ms - 114
+2023-04-16 18:50:10:5010 info: Server listening on port 4000
+2023-04-16 18:50:10:5010 info: My Fauna secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-04-16 18:50:10:5010 info: My SDK secret: b1eea3fc-277f-4f81-8463-a1ce707791a3
+2023-04-16 18:50:12:5012 info: Start Getting CollectionRankingByVolume
+2023-04-16 18:50:12:5012 info: GET /nfts/collectionsRankingByVolume 200 135.301 ms - 114
+2023-04-16 18:50:39:5039 info: Start Getting CollectionRankingByVolume
+2023-04-16 18:50:39:5039 info: GET /nfts/collectionsRankingByVolume 200 83.954 ms - 114
+2023-04-16 18:51:01:511 info: Server listening on port 4000
+2023-04-16 18:51:01:511 info: My Fauna secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-04-16 18:51:01:511 info: My SDK secret: b1eea3fc-277f-4f81-8463-a1ce707791a3
+2023-04-16 18:51:02:512 info: Start Getting CollectionRankingByVolume
+2023-04-16 18:51:02:512 info: GET /nfts/collectionsRankingByVolume 200 164.030 ms - 114
+2023-04-16 18:51:52:5152 info: Start Getting CollectionRankingByVolume
+2023-04-16 18:51:52:5152 info: GET /nfts/collectionsRankingByVolume 200 105.783 ms - 114
+2023-04-16 18:51:59:5159 info: Server listening on port 4000
+2023-04-16 18:51:59:5159 info: My Fauna secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-04-16 18:51:59:5159 info: My SDK secret: b1eea3fc-277f-4f81-8463-a1ce707791a3
+2023-04-16 18:52:00:520 info: Start Getting CollectionRankingByVolume
+2023-04-16 18:52:00:520 info: GET /nfts/collectionsRankingByVolume 200 275.604 ms - 3361
+2023-04-16 18:53:33:5333 info: Server listening on port 4000
+2023-04-16 18:53:33:5333 info: My Fauna secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-04-16 18:53:33:5333 info: My SDK secret: b1eea3fc-277f-4f81-8463-a1ce707791a3
+2023-04-16 18:53:35:5335 info: Start Getting CollectionRankingByVolume
+2023-04-16 18:53:35:5335 info: GET /nfts/collectionsRankingByVolume 200 183.865 ms - 3266
+2023-04-16 18:57:54:5754 info: Server listening on port 4000
+2023-04-16 18:57:54:5754 info: My Fauna secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-04-16 18:57:54:5754 info: My SDK secret: b1eea3fc-277f-4f81-8463-a1ce707791a3
+2023-04-16 18:57:56:5756 info: Start Getting CollectionRankingByVolume
+2023-04-16 18:57:56:5756 error: body used already for: https://api.rarible.org/v0.1/data/rankings/collections/volume?limit=10&source=RARIBLE&blockchain=ETHEREUM&period=D7
+2023-04-16 18:58:31:5831 info: Server listening on port 4000
+2023-04-16 18:58:31:5831 info: My Fauna secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-04-16 18:58:31:5831 info: My SDK secret: b1eea3fc-277f-4f81-8463-a1ce707791a3
+2023-04-16 18:58:42:5842 info: Start Getting CollectionRankingByVolume
+2023-04-16 18:58:42:5842 error: body used already for: https://api.rarible.org/v0.1/data/rankings/collections/volume?limit=10&source=RARIBLE&blockchain=ETHEREUM&period=D7
+2023-04-16 18:59:07:597 info: Server listening on port 4000
+2023-04-16 18:59:07:597 info: My Fauna secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-04-16 18:59:07:597 info: My SDK secret: b1eea3fc-277f-4f81-8463-a1ce707791a3
+2023-04-16 18:59:08:598 info: Start Getting CollectionRankingByVolume
+2023-04-16 18:59:09:599 info: GET /nfts/collectionsRankingByVolume 200 1126.974 ms - 3267
+2023-04-16 19:00:04:04 info: Server listening on port 4000
+2023-04-16 19:00:04:04 info: My Fauna secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-04-16 19:00:04:04 info: My SDK secret: b1eea3fc-277f-4f81-8463-a1ce707791a3
+2023-04-16 19:00:06:06 info: Start Getting CollectionRankingByVolume
+2023-04-16 19:00:07:07 info: GET /nfts/collectionsRankingByVolume 200 1160.209 ms - 12553
+2023-04-16 19:03:55:355 info: Server listening on port 4000
+2023-04-16 19:03:55:355 info: My Fauna secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-04-16 19:03:55:355 info: My SDK secret: b1eea3fc-277f-4f81-8463-a1ce707791a3
+2023-04-16 19:03:56:356 info: Start Getting CollectionRankingByVolume
+2023-04-16 19:03:57:357 info: GET /nfts/collectionsRankingByVolume 200 1213.492 ms - 12557
+2023-04-16 19:04:53:453 info: Server listening on port 4000
+2023-04-16 19:04:53:453 info: My Fauna secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-04-16 19:04:53:453 info: My SDK secret: b1eea3fc-277f-4f81-8463-a1ce707791a3
+2023-04-16 19:04:57:457 info: Start Getting CollectionRankingByVolume
+2023-04-16 19:04:57:457 error: data is not defined
+2023-04-16 19:05:10:510 info: Server listening on port 4000
+2023-04-16 19:05:10:510 info: My Fauna secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-04-16 19:05:10:510 info: My SDK secret: b1eea3fc-277f-4f81-8463-a1ce707791a3
+2023-04-16 19:05:12:512 info: Start Getting CollectionRankingByVolume
+2023-04-16 19:05:13:513 info: GET /nfts/collectionsRankingByVolume 200 1111.389 ms - 12557
+2023-04-16 19:06:48:648 info: Server listening on port 4000
+2023-04-16 19:06:48:648 info: My Fauna secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-04-16 19:06:48:648 info: My SDK secret: b1eea3fc-277f-4f81-8463-a1ce707791a3
+2023-04-16 19:06:57:657 info: Start Getting CollectionRankingByVolume
+2023-04-16 19:06:57:657 error: Cannot read properties of undefined (reading 'length')
+2023-04-16 19:07:27:727 info: Server listening on port 4000
+2023-04-16 19:07:27:727 info: My Fauna secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-04-16 19:07:27:727 info: My SDK secret: b1eea3fc-277f-4f81-8463-a1ce707791a3
+2023-04-16 19:07:54:754 info: Server listening on port 4000
+2023-04-16 19:07:54:754 info: My Fauna secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-04-16 19:07:54:754 info: My SDK secret: b1eea3fc-277f-4f81-8463-a1ce707791a3
+2023-04-16 19:07:56:756 info: Start Getting CollectionRankingByVolume
+2023-04-16 19:07:58:758 info: GET /nfts/collectionsRankingByMints 200 2127.556 ms - 4645
+2023-04-16 19:08:00:80 info: Start Getting CollectionRankingByVolume
+2023-04-16 19:08:01:81 info: GET /nfts/collectionsRankingByVolume 200 1093.291 ms - 12557
+2023-04-16 19:08:10:810 info: Start Getting CollectionRankingByVolume
+2023-04-16 19:08:12:812 info: GET /nfts/collectionsRankingByMints 200 2079.907 ms - 4645
+2023-04-17 08:30:41:3041 info: Server listening on port 4000
+2023-04-17 08:30:41:3041 info: My Fauna secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-04-17 08:30:41:3041 info: My SDK secret: b1eea3fc-277f-4f81-8463-a1ce707791a3
+2023-04-17 08:34:06:346 info: Start Getting CollectionRankingByVolume
+2023-04-17 08:34:08:348 info: GET /nfts/collectionsRankingByVolume 200 2346.351 ms - 10427
+2023-04-17 08:38:25:3825 info: Start Getting CollectionRankingByVolume
+2023-04-17 08:38:27:3827 info: GET /nfts/collectionsRankingByVolume 200 2410.161 ms - 10428
+2023-04-17 08:45:29:4529 info: Server listening on port 4000
+2023-04-17 08:45:29:4529 info: My Fauna secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-04-17 08:45:29:4529 info: My SDK secret: b1eea3fc-277f-4f81-8463-a1ce707791a3
+2023-04-17 08:45:36:4536 info: Start Getting CollectionRankingByVolume
+2023-04-17 08:45:38:4538 info: GET /nfts/collectionsRankingByVolume 200 2396.290 ms - 10428
+2023-04-17 08:45:51:4551 info: Start Getting CollectionRankingByVolume
+2023-04-17 08:45:53:4553 info: GET /nfts/collectionsRankingByVolume 200 2301.496 ms - 19729
+2023-04-17 08:47:10:4710 info: Start Getting getCollectionsRankingByMints
+2023-04-17 08:47:40:4740 info: Server listening on port 4000
+2023-04-17 08:47:40:4740 info: My Fauna secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-04-17 08:47:40:4740 info: My SDK secret: b1eea3fc-277f-4f81-8463-a1ce707791a3
+2023-04-17 08:47:41:4741 info: Start Getting getCollectionsRankingByMints
+2023-04-17 08:47:45:4745 info: GET /nfts/collectionsRankingByMints 200 4217.323 ms - 4620
+2023-04-17 19:04:16:416 info: Server listening on port 4000
+2023-04-17 19:04:16:416 info: My Fauna secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-04-17 19:04:16:416 info: My SDK secret: b1eea3fc-277f-4f81-8463-a1ce707791a3
+2023-04-17 19:13:28:1328 info: Start Getting CollectionRankingByVolume
+2023-04-17 19:13:28:1328 error: Cannot read properties of undefined (reading 'length')
+2023-04-17 19:14:13:1413 info: Server listening on port 4000
+2023-04-17 19:14:13:1413 info: My Fauna secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-04-17 19:14:13:1413 info: My SDK secret: b1eea3fc-277f-4f81-8463-a1ce707791a3
+2023-04-17 19:14:23:1423 info: Start Getting CollectionRankingByVolume
+2023-04-17 19:14:23:1423 error: Cannot read properties of undefined (reading 'length')
+2023-04-17 19:14:42:1442 info: Server listening on port 4000
+2023-04-17 19:14:42:1442 info: My Fauna secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-04-17 19:14:42:1442 info: My SDK secret: b1eea3fc-277f-4f81-8463-a1ce707791a3
+2023-04-17 19:14:44:1444 info: Start Getting CollectionRankingByVolume
+2023-04-17 19:14:44:1444 info: GET /nfts/collectionsRankingByVolume 200 135.806 ms - 132
+2023-04-17 19:15:33:1533 info: Server listening on port 4000
+2023-04-17 19:15:33:1533 info: My Fauna secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-04-17 19:15:33:1533 info: My SDK secret: b1eea3fc-277f-4f81-8463-a1ce707791a3
+2023-04-17 19:16:06:166 info: Start Getting CollectionRankingByVolume
+2023-04-17 19:16:07:167 info: GET /nfts/collectionsRankingByVolume 200 1222.006 ms - 18617
+2023-04-17 19:29:19:2919 info: Server listening on port 4000
+2023-04-17 19:29:19:2919 info: My Fauna secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-04-17 19:29:19:2919 info: My SDK secret: b1eea3fc-277f-4f81-8463-a1ce707791a3
+2023-04-17 19:29:35:2935 info: Server listening on port 4000
+2023-04-17 19:29:35:2935 info: My Fauna secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-04-17 19:29:35:2935 info: My SDK secret: b1eea3fc-277f-4f81-8463-a1ce707791a3
+2023-04-17 19:29:58:2958 info: Start Getting CollectionRankingByVolume
+2023-04-17 19:29:58:2958 info: GET /nfts/getfrontpagedata 200 495.338 ms - 11
+2023-04-17 19:30:56:3056 info: Server listening on port 4000
+2023-04-17 19:30:56:3056 info: My Fauna secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-04-17 19:30:56:3056 info: My SDK secret: b1eea3fc-277f-4f81-8463-a1ce707791a3
+2023-04-17 19:30:58:3058 info: Start Getting CollectionRankingByVolume
+2023-04-17 19:30:59:3059 info: GET /nfts/getfrontpagedata 200 278.831 ms - 11
+2023-04-17 19:31:14:3114 info: Server listening on port 4000
+2023-04-17 19:31:14:3114 info: My Fauna secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-04-17 19:31:14:3114 info: My SDK secret: b1eea3fc-277f-4f81-8463-a1ce707791a3
+2023-04-17 19:31:16:3116 info: Start Getting CollectionRankingByVolume
+2023-04-17 19:31:16:3116 info: GET /nfts/getfrontpagedata 200 200.911 ms - 11
+2023-04-17 19:31:28:3128 info: Server listening on port 4000
+2023-04-17 19:31:28:3128 info: My Fauna secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-04-17 19:31:28:3128 info: My SDK secret: b1eea3fc-277f-4f81-8463-a1ce707791a3
+2023-04-17 19:31:30:3130 info: Start Getting CollectionRankingByVolume
+2023-04-17 19:31:30:3130 info: GET /nfts/getfrontpagedata 200 229.206 ms - 11
+2023-04-17 19:39:30:3930 info: Server listening on port 4000
+2023-04-17 19:39:30:3930 info: My Fauna secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-04-17 19:39:30:3930 info: My SDK secret: b1eea3fc-277f-4f81-8463-a1ce707791a3
+2023-04-17 19:40:06:406 info: Start Getting getFrontListsData
+2023-04-17 19:40:07:407 info: GET /nfts/getFrontListsData 200 319.280 ms - 11
+2023-04-17 19:51:08:518 info: Server listening on port 4000
+2023-04-17 19:51:08:518 info: My Fauna secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-04-17 19:51:08:518 info: My SDK secret: b1eea3fc-277f-4f81-8463-a1ce707791a3
+2023-04-17 19:51:10:5110 info: Start Getting getFrontListsData
+2023-04-17 19:51:10:5110 info: GET /nfts/getFrontListsData 200 346.728 ms - 11
+2023-04-17 19:53:50:5350 info: Server listening on port 4000
+2023-04-17 19:53:50:5350 info: My Fauna secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-04-17 19:53:50:5350 info: My SDK secret: b1eea3fc-277f-4f81-8463-a1ce707791a3
+2023-04-17 19:53:59:5359 info: Start Getting getFrontPageData
+2023-04-17 19:53:59:5359 info: GET /nfts/getfrontpagedata 200 300.830 ms - 11
+2023-04-17 19:57:42:5742 info: Server listening on port 4000
+2023-04-17 19:57:42:5742 info: My Fauna secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-04-17 19:57:42:5742 info: My SDK secret: b1eea3fc-277f-4f81-8463-a1ce707791a3
+2023-04-17 19:57:44:5744 info: Start Getting getFrontListsData
+2023-04-17 19:57:49:5749 info: GET /nfts/getFrontListsData 200 5127.169 ms - 11
+2023-04-17 19:59:50:5950 info: Start Getting getFrontListsData
+2023-04-17 19:59:57:5957 info: GET /nfts/getFrontListsData 200 6652.794 ms - 11
+2023-04-17 20:01:08:18 info: Start Getting getFrontListsData
+2023-04-17 20:01:15:115 info: GET /nfts/getFrontListsData 200 6756.904 ms - 11
+2023-04-17 20:01:53:153 info: Start Getting getFrontListsData
+2023-04-17 20:01:57:157 info: GET /nfts/getFrontListsData 200 3939.646 ms - 11
+2023-04-17 20:02:04:24 info: Start Getting getFrontListsData
+2023-04-17 20:02:07:27 info: GET /nfts/getFrontListsData 200 3164.716 ms - 11
+2023-04-17 20:10:47:1047 info: Server listening on port 4000
+2023-04-17 20:10:47:1047 info: My Fauna secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-04-17 20:10:47:1047 info: My SDK secret: b1eea3fc-277f-4f81-8463-a1ce707791a3
+2023-04-17 20:10:49:1049 info: Start Getting getFrontListsData
+2023-04-17 20:10:53:1053 info: GET /nfts/getFrontListsData 200 4581.852 ms - 21953
+2023-04-17 20:11:10:1110 info: Start Getting getFrontListsData
+2023-04-17 20:11:13:1113 info: GET /nfts/getFrontListsData 200 3026.673 ms - 21953
+2023-04-17 20:15:15:1515 info: Server listening on port 4000
+2023-04-17 20:15:15:1515 info: My Fauna secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-04-17 20:15:15:1515 info: My SDK secret: b1eea3fc-277f-4f81-8463-a1ce707791a3
+2023-04-17 20:15:17:1517 info: Start Getting getFrontListsData
+2023-04-17 20:15:22:1522 info: GET /nfts/getFrontListsData 200 4632.317 ms - 21953
+2023-04-17 20:17:42:1742 info: Server listening on port 4000
+2023-04-17 20:17:42:1742 info: My Fauna secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-04-17 20:17:42:1742 info: My SDK secret: b1eea3fc-277f-4f81-8463-a1ce707791a3
+2023-04-17 20:17:59:1759 info: Start Getting getFrontPageData
+2023-04-17 20:18:00:180 info: Start Getting getFrontListsData
+2023-04-17 20:19:13:1913 info: Server listening on port 4000
+2023-04-17 20:19:13:1913 info: My Fauna secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-04-17 20:19:13:1913 info: My SDK secret: b1eea3fc-277f-4f81-8463-a1ce707791a3
+2023-04-17 20:19:14:1914 info: Start Getting getFrontPageData
+2023-04-17 20:19:20:1920 info: GET /nfts/getFrontPageData 200 5385.098 ms - 21963
+2023-04-17 20:25:03:253 info: Server listening on port 4000
+2023-04-17 20:25:03:253 info: My Fauna secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-04-17 20:25:03:253 info: My SDK secret: b1eea3fc-277f-4f81-8463-a1ce707791a3
+2023-04-17 20:25:10:2510 info: Start Getting getFrontPageData
+2023-04-17 20:25:15:2515 info: GET /nfts/getFrontPageData 200 4596.812 ms - 25646
+2023-04-17 20:27:13:2713 info: Server listening on port 4000
+2023-04-17 20:27:13:2713 info: My Fauna secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-04-17 20:27:13:2713 info: My SDK secret: b1eea3fc-277f-4f81-8463-a1ce707791a3
+2023-04-17 20:27:14:2714 info: Start Getting getFrontPageData
+2023-04-17 20:27:19:2719 info: GET /nfts/getFrontPageData 200 5139.755 ms - 25646
+2023-04-17 20:29:04:294 info: Server listening on port 4000
+2023-04-17 20:29:04:294 info: My Fauna secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-04-17 20:29:04:294 info: My SDK secret: b1eea3fc-277f-4f81-8463-a1ce707791a3
+2023-04-17 20:29:06:296 info: Start Getting getFrontPageData
+2023-04-17 20:29:11:2911 info: GET /nfts/getFrontPageData 200 4406.080 ms - 25646
+2023-04-17 20:31:59:3159 info: Server listening on port 4000
+2023-04-17 20:31:59:3159 info: My Fauna secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-04-17 20:31:59:3159 info: My SDK secret: b1eea3fc-277f-4f81-8463-a1ce707791a3
+2023-04-17 20:32:02:322 info: Start Getting getFrontPageData
+2023-04-17 20:32:07:327 info: GET /nfts/getFrontPageData 200 4903.989 ms - 25646
+2023-04-17 20:32:25:3225 info: Server listening on port 4000
+2023-04-17 20:32:25:3225 info: My Fauna secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-04-17 20:32:25:3225 info: My SDK secret: b1eea3fc-277f-4f81-8463-a1ce707791a3
+2023-04-17 20:32:28:3228 info: Start Getting getFrontPageData
+2023-04-17 20:32:31:3231 info: GET /nfts/getFrontPageData 200 3413.633 ms - 25646
+2023-04-17 20:33:09:339 info: Start Getting CollectionRankingByVolume
+2023-04-17 20:33:10:3310 info: GET /nfts/collectionsRankingByVolume 200 1084.560 ms - 18623
+2023-04-17 20:34:31:3431 info: Server listening on port 4000
+2023-04-17 20:34:31:3431 info: My Fauna secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-04-17 20:34:31:3431 info: My SDK secret: b1eea3fc-277f-4f81-8463-a1ce707791a3
+2023-04-17 20:34:33:3433 info: Start Getting CollectionRankingByVolume
+2023-04-17 20:34:34:3434 info: GET /nfts/collectionsRankingByVolume 200 1130.411 ms - 18622
+2023-04-17 20:34:57:3457 info: Server listening on port 4000
+2023-04-17 20:34:57:3457 info: My Fauna secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-04-17 20:34:57:3457 info: My SDK secret: b1eea3fc-277f-4f81-8463-a1ce707791a3
+2023-04-17 20:34:59:3459 info: Start Getting getFrontPageData
+2023-04-17 20:35:04:354 info: GET /nfts/getFrontPageData 200 4574.821 ms - 25646
+2023-04-17 20:36:19:3619 info: Start Getting CollectionRankingByVolume
+2023-04-17 20:36:21:3621 info: GET /nfts/collectionsRankingByVolume 200 1215.070 ms - 18623
+2023-04-17 20:36:27:3627 info: Start Getting getFrontPageData
+2023-04-17 20:36:32:3632 info: GET /nfts/getFrontPageData 200 4975.291 ms - 40584
+2023-04-17 20:37:31:3731 info: Server listening on port 4000
+2023-04-17 20:37:31:3731 info: My Fauna secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-04-17 20:37:31:3731 info: My SDK secret: b1eea3fc-277f-4f81-8463-a1ce707791a3
+2023-04-17 20:37:35:3735 info: Start Getting getFrontPageData
+2023-04-17 20:37:41:3741 info: GET /nfts/getFrontPageData 200 5591.610 ms - 40582
+2023-04-17 20:37:52:3752 info: Server listening on port 4000
+2023-04-17 20:37:52:3752 info: My Fauna secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-04-17 20:37:52:3752 info: My SDK secret: b1eea3fc-277f-4f81-8463-a1ce707791a3
+2023-04-17 20:37:56:3756 info: Start Getting getFrontPageData
+2023-04-17 20:38:00:380 info: GET /nfts/getFrontPageData 200 4189.798 ms - 40582

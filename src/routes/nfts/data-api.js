@@ -14,8 +14,157 @@ import {
 	getTokenData 
 } from '../../tatum-sdk/index.js';
 
-/* server key? */
+import {
+	getCollectionRankingByVolume,
+	getCollectionRankingByMints,
+	getCollectionById,
+	getItemsByCollectionId,
+} from '../../rarible-sdk/index.js';
+
+
+/* ----- Rarible ----------------------------------- */ 
+
+const collectionsRankingByVolume = async (limit, source, blockchain, period, sort) => {
+	try {
+		const result = (await (await getCollectionRankingByVolume(limit, source, blockchain, period, sort)).json()).result;
+
+		for (let i = 0; i < result.length; i++) {
+			const collection = await (await getCollectionById(result[i].id)).json();
+			Object.assign(result[i], collection);
+		}
+
+		return result
+
+	} catch (error) {
+		logger.error(error);
+		return error
+	}
+
+};
+
+const getCollectionsRankingByVolume = async (req, res) => {
+	logger.info('Start Getting CollectionRankingByVolume');
+
+	const { limit, source, blockchain, period, sort } = req.body.params;
+
+	try {
+
+		const result = await collectionsRankingByVolume(limit, source, blockchain, period, sort)
+
+		res.status(200).send({ data: result });
+
+	} catch (error) {
+		logger.error(error);
+		res.status(err.statusCode).send({ status: err.statusCode })
+	}
+
+};
+
+const getCollectionsRankingByMints = async (req, res) => {
+	logger.info('Start Getting getCollectionsRankingByMints');
+
+	const { limit, blockchain, period, sort } = req.body.params;
+
+	try {
+
+		const result = (await (await getCollectionRankingByMints(limit, blockchain, period, sort)).json()).result;
+
+		for (let i = 0; i < result.length; i++) {
+			const collection = await (await getCollectionById(result[i].id)).json();
+			Object.assign(result[i], collection);
+		}
+
+		console.log(result)
+
+		res.status(200).send({ data: result });
+
+	} catch (error) {
+		logger.error(error);
+		res.status(err.statusCode).send({ status: err.statusCode })
+	}
+
+};
+
+const frontListsData = async (chain) => {
+	try {
+		const cli = client();
+		const result = {};
+		const size = 1;
+
+		const { lists } = await cli.query(
+			q.Select(['data', 'data'], q.Get(q.Match(q.Index(APP_DATA_I_TAG), TAG_FRONT_PAGE)))
+		);
+
+		for (const item of lists) {
+			if (chain == item.chain) {
+				const nft = (await (await getItemsByCollectionId(item.id, size)).json()).items[0];
+
+				if (result.hasOwnProperty(item.type)) {
+					result[item.type].push(nft);
+				} else {
+					result[item.type] = [];
+					result[item.type].push(nft);
+				}
+				
+			}
+		};
+
+		return result
+
+	} catch (error) {
+		logger.error(error);
+		return error
+	}
+};
+
+const getFrontListsData = async (req, res) => {
+	logger.info('Start Getting getFrontListsData');
+
+	const { chain } = req.body.params;
+
+	try {
+
+		const result = await frontListsData(chain);
+
+		res.status(200).send({ data: result });
+
+	} catch (error) {
+		logger.error(error);
+		res.status(err.statusCode).send({ status: err.statusCode })
+	}
+
+};
+
 const getFrontPageData = async (req, res) => {
+	logger.info('Start Getting getFrontPageData');
+
+	try {
+
+		const cli = client();
+		const result = { tab: [], lists: {}};
+
+		const { tab } = await cli.query(
+			q.Select(['data', 'data'], q.Get(q.Match(q.Index(APP_DATA_I_TAG), TAG_FRONT_PAGE)))
+		);
+
+		result.tab = await collectionsRankingByVolume(tab.limit, tab.source, tab.blockchain, tab.period, tab.sort);
+		result.lists = await frontListsData(tab.chain);
+
+		console.log(result)
+
+		res.status(200).send({ data: result });
+
+	} catch (error) {
+		logger.error(error);
+		res.status(err.statusCode).send({ status: err.statusCode })
+	}
+
+};
+
+/* ------------------------------------------------- */
+
+/* server key? */
+const _getFrontPageData = async (req, res) => {
 	logger.info('Start Getting Front Page Data');
 	//const {  } = req.body.params;
 
@@ -27,29 +176,6 @@ const getFrontPageData = async (req, res) => {
 		const address = await cli.query(
 			q.Select(['data', 'data'], q.Get(q.Match(q.Index(APP_DATA_I_TAG), TAG_FRONT_PAGE)))
 		);
-
-		/* //await sleep(100); ? to many req */
-		/* Object.keys(address).forEach(async (category_key) => {
-			if (address.hasOwnProperty(category_key)) {
-				result[category_key] = {};
-				address[category_key].forEach(async (item) => {
-					
-					if (result[category_key][item.type]?.hasOwnProperty(item.chain)) {
-						result[category_key][item.type][item.chain].push(item);
-					} else {
-						if (!(result[category_key].hasOwnProperty(item.type))) {
-							result[category_key][item.type] = {};
-							result[category_key][item.type][item.chain] = [];
-						} else {
-							result[category_key][item.type][item.chain] = [];
-						}
-
-						result[category_key][item.type][item.chain].push(item);
-					}
-
-				});
-			}
-		}); */
 
 		for (const category_key of Object.keys(address)) {	// ~ 10-12 sec
 			if (address.hasOwnProperty(category_key)) {
@@ -75,13 +201,6 @@ const getFrontPageData = async (req, res) => {
 			}
 		}
 
-		/* console.log('*****************************************');
-		console.log(result);
-		console.log('*****************************************');
-		console.log(result.tabs);
-		console.log('*****************************************');
-		console.log(result.tabs.Trending); */
-
 		res.status(200).send({ data: result });
 
 	} catch (error) {
@@ -90,46 +209,6 @@ const getFrontPageData = async (req, res) => {
 	}
 
 };
-
-const upFrontPageData = async (req, res) => {
-	logger.info('Start up front doc');
-	const { chain, tokenAddress, tokenId, type, section } = req.body.params;
-
-	console.log(req.body.params)
-
-	try {
-
-		const cli = client();
-
-		const result = await cli.query(
-			q.Update(q.Match(q.Index(APP_DATA_I_TAG), TAG_FRONT_PAGE),
-				{
-					data: {
-						data: {
-							[section]: [{
-								tokenAddress: tokenAddress,
-								tokenId: tokenId,
-								chain: chain,
-								type: type,
-							}]
-						}
-					}
-				}
-			)
-		);
-
-		res.status(200).send({ data: "ok" });
-
-	} catch (error) {
-		logger.error(error);
-		res.status(err.statusCode).send({ status: err.statusCode })
-	}
-
-};
-
-function sleep(ms) {
-	return new Promise(resolve => setTimeout(resolve, ms));
-}
 
 /* ?create getCollections? probably i can send an array of addresses */
 const getCollectionNFTs = async (req, res) => {
@@ -318,185 +397,9 @@ export {
 	checkIsOwner,
 	getTransactions,
 	getFrontPageLists,
+
 	getFrontPageData,
-	upFrontPageData,
+	getFrontListsData,
+	getCollectionsRankingByVolume,
+	getCollectionsRankingByMints,
 }
-
-
-export const back = {
-	tag: "frontPage",
-	data: {
-	  tabs: [
-		{
-		  tokenAddress: "0xed5af388653567af2f388e6224dc7c4b3241c544",
-		  tokenId: "7726",
-		  chain: "ethereum",
-		  type: "Trending"
-		},
-		{
-		  tokenAddress: "0x1a92f7381b9f03921564a437210bb9396471050c",
-		  tokenId: "1090",
-		  chain: "ethereum",
-		  type: "Trending"
-		},
-		{
-		  tokenAddress: "0xed5af388653567af2f388e6224dc7c4b3241c544",
-		  tokenId: "2471",
-		  chain: "ethereum",
-		  type: "Trending"
-		},
-		{
-		  tokenAddress: "0x1a92f7381b9f03921564a437210bb9396471050c",
-		  tokenId: "4638",
-		  chain: "ethereum",
-		  type: "Trending"
-		},
-		{
-		  tokenAddress: "0xed5af388653567af2f388e6224dc7c4b3241c544",
-		  tokenId: "2883",
-		  chain: "ethereum",
-		  type: "Top"
-		},
-		{
-		  tokenAddress: "0x1a92f7381b9f03921564a437210bb9396471050c",
-		  tokenId: "2158",
-		  chain: "ethereum",
-		  type: "Top"
-		},
-		{
-		  tokenAddress: "0xed5af388653567af2f388e6224dc7c4b3241c544",
-		  tokenId: "5739",
-		  chain: "ethereum",
-		  type: "Top"
-		},
-		{
-		  tokenAddress: "0x1a92f7381b9f03921564a437210bb9396471050c",
-		  tokenId: "7475",
-		  chain: "ethereum",
-		  type: "Top"
-		},
-		{
-		  tokenAddress: "0x69988cd7d86151244e9b2a2a80d0925195055f48",
-		  tokenId: "1568",
-		  chain: "bsc",
-		  type: "Top"
-		},
-		{
-		  tokenAddress: "0x69988cd7d86151244e9b2a2a80d0925195055f48",
-		  tokenId: "1568",
-		  chain: "bsc",
-		  type: "Top"
-		},
-		{
-		  tokenAddress: "0x69988cd7d86151244e9b2a2a80d0925195055f48",
-		  tokenId: "1568",
-		  chain: "bsc",
-		  type: "Trending"
-		},
-		{
-		  tokenAddress: "0x69988cd7d86151244e9b2a2a80d0925195055f48",
-		  tokenId: "1568",
-		  chain: "bsc",
-		  type: "Trending"
-		}
-	  ],
-	  lists: [
-		{
-		  tokenAddress: "0xed5af388653567af2f388e6224dc7c4b3241c544",
-		  tokenId: "7726",
-		  chain: "ethereum",
-		  type: "Trending"
-		},
-		{
-		  tokenAddress: "0x1a92f7381b9f03921564a437210bb9396471050c",
-		  tokenId: "1090",
-		  chain: "ethereum",
-		  type: "Trending"
-		},
-		{
-		  tokenAddress: "0xed5af388653567af2f388e6224dc7c4b3241c544",
-		  tokenId: "2471",
-		  chain: "ethereum",
-		  type: "Trending"
-		},
-		{
-		  tokenAddress: "0x1a92f7381b9f03921564a437210bb9396471050c",
-		  tokenId: "4638",
-		  chain: "ethereum",
-		  type: "Trending"
-		},
-		{
-		  tokenAddress: "0xed5af388653567af2f388e6224dc7c4b3241c544",
-		  tokenId: "2883",
-		  chain: "ethereum",
-		  type: "Trending"
-		},
-		{
-		  tokenAddress: "0x1a92f7381b9f03921564a437210bb9396471050c",
-		  tokenId: "2158",
-		  chain: "ethereum",
-		  type: "Trending"
-		},
-		{
-		  tokenAddress: "0xed5af388653567af2f388e6224dc7c4b3241c544",
-		  tokenId: "5739",
-		  chain: "ethereum",
-		  type: "Trending"
-		},
-		{
-		  tokenAddress: "0x1a92f7381b9f03921564a437210bb9396471050c",
-		  tokenId: "7475",
-		  chain: "ethereum",
-		  type: "Trending"
-		},
-		{
-		  tokenAddress: "0xed5af388653567af2f388e6224dc7c4b3241c544",
-		  tokenId: "2883",
-		  chain: "ethereum",
-		  type: "Top"
-		},
-		{
-		  tokenAddress: "0x1a92f7381b9f03921564a437210bb9396471050c",
-		  tokenId: "2158",
-		  chain: "ethereum",
-		  type: "Top"
-		},
-		{
-		  tokenAddress: "0xed5af388653567af2f388e6224dc7c4b3241c544",
-		  tokenId: "5739",
-		  chain: "ethereum",
-		  type: "Top"
-		},
-		{
-		  tokenAddress: "0x1a92f7381b9f03921564a437210bb9396471050c",
-		  tokenId: "7475",
-		  chain: "ethereum",
-		  type: "Top"
-		},
-		{
-		  tokenAddress: "0xed5af388653567af2f388e6224dc7c4b3241c544",
-		  tokenId: "7726",
-		  chain: "ethereum",
-		  type: "Top"
-		},
-		{
-		  tokenAddress: "0x1a92f7381b9f03921564a437210bb9396471050c",
-		  tokenId: "1090",
-		  chain: "ethereum",
-		  type: "Top"
-		},
-		{
-		  tokenAddress: "0xed5af388653567af2f388e6224dc7c4b3241c544",
-		  tokenId: "2471",
-		  chain: "ethereum",
-		  type: "Top"
-		},
-		{
-		  tokenAddress: "0x1a92f7381b9f03921564a437210bb9396471050c",
-		  tokenId: "4638",
-		  chain: "ethereum",
-		  type: "Top"
-		}
-	  ]
-	}
-  }
