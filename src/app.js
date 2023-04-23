@@ -18,8 +18,8 @@ import {
 
     getFrontPageData, 
     getFrontListsData,
-    getCollectionsRankingByVolume,
-    getCollectionsRankingByMints,
+    getFrontTabsByVolume,
+    getFrontTabsByMints,
 } from './routes/nfts/index.js';
 
 const PORT = 4000;
@@ -52,10 +52,11 @@ function run() {
     server.get('/nfts/transactions', getTransactions);
     //server.post('/nfts/getfrontpagelists', getFrontPageLists);  //
 
+    /* Front Page methods */
     server.get('/nfts/getFrontPageData', getFrontPageData);
-    server.get('/nfts/getFrontListsData', getFrontListsData);
-    server.get('/nfts/collectionsRankingByVolume', getCollectionsRankingByVolume);
-    server.get('/nfts/collectionsRankingByMints', getCollectionsRankingByMints);
+    server.post('/nfts/getFrontListsData', getFrontListsData);
+    server.post('/nfts/getFrontTabsByVolume', getFrontTabsByVolume);
+    server.post('/nfts/getFrontTabsByMints', getFrontTabsByMints);
 
 }
 

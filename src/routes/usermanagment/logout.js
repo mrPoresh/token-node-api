@@ -16,7 +16,7 @@ const logoutUser = async (req, res) => {
             query.Logout(true)
         );
   
-        res.status(200).send({ data: result.data });
+        res.status(200).send({ data: "OK" });
   
     } catch (error) {
         logger.error(error);

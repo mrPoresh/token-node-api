@@ -9,8 +9,8 @@ import {
 
     getFrontPageData, 
     getFrontListsData,
-    getCollectionsRankingByVolume,
-    getCollectionsRankingByMints
+    getFrontTabsByVolume,
+    getFrontTabsByMints
 } from './data-api.js';
 
 export {
@@ -24,6 +24,6 @@ export {
 
     getFrontPageData,
     getFrontListsData,
-    getCollectionsRankingByVolume,
-    getCollectionsRankingByMints,
+    getFrontTabsByVolume,
+    getFrontTabsByMints,
 };

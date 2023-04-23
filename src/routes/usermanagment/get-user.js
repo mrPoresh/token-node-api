@@ -64,7 +64,7 @@ const getUser = async (req, res) => {
 
         logger.error(error);
         let err = new FaunaError(error);
-        res.status(err.statusCode).send({ status: err.statusCode, msg: err.message})
+        res.status(401).send('A token is required for authentication')
     }
 }
 

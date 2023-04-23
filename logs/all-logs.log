@@ -9392,3 +9392,1527 @@ For more info, see the docs: https://docs.fauna.com/fauna/current/api/fql/functi
 2023-04-17 20:37:52:3752 info: My SDK secret: b1eea3fc-277f-4f81-8463-a1ce707791a3
 2023-04-17 20:37:56:3756 info: Start Getting getFrontPageData
 2023-04-17 20:38:00:380 info: GET /nfts/getFrontPageData 200 4189.798 ms - 40582
+2023-04-18 10:16:09:169 info: Server listening on port 4000
+2023-04-18 10:16:09:169 info: My Fauna secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-04-18 10:16:09:169 info: My SDK secret: b1eea3fc-277f-4f81-8463-a1ce707791a3
+2023-04-18 10:30:19:3019 info: Start Getting getFrontPageData
+2023-04-18 10:30:31:3031 info: GET /nfts/getFrontPageData 200 11811.704 ms - 41101
+2023-04-18 10:32:08:328 info: Server listening on port 4000
+2023-04-18 10:32:08:328 info: My Fauna secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-04-18 10:32:08:328 info: My SDK secret: b1eea3fc-277f-4f81-8463-a1ce707791a3
+2023-04-18 10:32:26:3226 info: GET /nfts/getFrontPageData 200 5639.960 ms - 41101
+2023-04-18 10:36:07:367 info: OPTIONS /nfts/getfrontpagedata 204 0.574 ms - 0
+2023-04-18 10:36:15:3615 info: GET /nfts/getfrontpagedata 200 7426.031 ms - 41101
+2023-04-18 10:36:27:3627 info: OPTIONS /nfts/getfrontpagedata 204 0.390 ms - 0
+2023-04-18 10:36:33:3633 info: GET /nfts/getfrontpagedata 200 5152.803 ms - 41100
+2023-04-18 13:39:24:3924 info: Server listening on port 4000
+2023-04-18 13:39:24:3924 info: My Fauna secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-04-18 13:39:24:3924 info: My SDK secret: b1eea3fc-277f-4f81-8463-a1ce707791a3
+2023-04-18 14:27:07:277 info: Server listening on port 4000
+2023-04-18 14:27:07:277 info: My Fauna secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-04-18 14:27:07:277 info: My SDK secret: b1eea3fc-277f-4f81-8463-a1ce707791a3
+2023-04-18 14:27:10:2710 info: OPTIONS /nfts/getFrontPageData 204 8.692 ms - 0
+2023-04-18 14:27:16:2716 info: GET /nfts/getFrontPageData 200 5668.912 ms - 41109
+2023-04-18 14:30:12:3012 info: Server listening on port 4000
+2023-04-18 14:30:12:3012 info: My Fauna secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-04-18 14:30:12:3012 info: My SDK secret: b1eea3fc-277f-4f81-8463-a1ce707791a3
+2023-04-18 14:30:14:3014 info: OPTIONS /nfts/getFrontPageData 204 1.814 ms - 0
+2023-04-18 14:30:21:3021 info: GET /nfts/getFrontPageData 200 7148.629 ms - 41078
+2023-04-18 14:31:20:3120 info: Server listening on port 4000
+2023-04-18 14:31:20:3120 info: My Fauna secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-04-18 14:31:20:3120 info: My SDK secret: b1eea3fc-277f-4f81-8463-a1ce707791a3
+2023-04-18 14:31:21:3121 info: OPTIONS /nfts/getFrontPageData 204 8.693 ms - 0
+2023-04-18 14:31:27:3127 info: GET /nfts/getFrontPageData 200 5762.876 ms - 41024
+2023-04-18 17:11:44:1144 info: OPTIONS /nfts/getFrontPageData 204 0.534 ms - 0
+2023-04-18 17:11:50:1150 info: GET /nfts/getFrontPageData 200 5229.065 ms - 41025
+2023-04-18 17:11:53:1153 info: GET /nfts/getFrontPageData 200 3211.455 ms - 41025
+2023-04-18 17:13:05:135 info: OPTIONS /nfts/getFrontPageData 204 0.182 ms - 0
+2023-04-18 17:13:10:1310 info: GET /nfts/getFrontPageData 200 4677.056 ms - 41024
+2023-04-18 17:13:13:1313 info: GET /nfts/getFrontPageData 304 2616.353 ms - -
+2023-04-18 17:13:40:1340 info: OPTIONS /nfts/getFrontPageData 204 0.195 ms - 0
+2023-04-18 17:13:42:1342 info: GET /nfts/getFrontPageData 200 2607.218 ms - 41024
+2023-04-18 17:13:45:1345 info: GET /nfts/getFrontPageData 304 2636.258 ms - -
+2023-04-18 17:14:40:1440 info: OPTIONS /nfts/getFrontPageData 204 0.247 ms - 0
+2023-04-18 17:14:45:1445 info: GET /nfts/getFrontPageData 200 4630.811 ms - 41025
+2023-04-18 17:14:48:1448 info: GET /nfts/getFrontPageData 304 2644.902 ms - -
+2023-04-18 17:15:14:1514 info: OPTIONS /nfts/getFrontPageData 204 0.253 ms - 0
+2023-04-18 17:15:18:1518 info: GET /nfts/getFrontPageData 200 4504.732 ms - 41025
+2023-04-18 17:15:21:1521 info: GET /nfts/getFrontPageData 304 2699.146 ms - -
+2023-04-18 17:16:03:163 info: OPTIONS /nfts/getFrontPageData 204 0.231 ms - 0
+2023-04-18 17:16:08:168 info: GET /nfts/getFrontPageData 200 4284.232 ms - 41025
+2023-04-18 17:16:11:1611 info: GET /nfts/getFrontPageData 200 3212.949 ms - 41025
+2023-04-18 17:16:31:1631 info: OPTIONS /nfts/getFrontPageData 204 0.270 ms - 0
+2023-04-18 17:16:34:1634 info: GET /nfts/getFrontPageData 200 3104.932 ms - 41025
+2023-04-18 17:16:37:1637 info: GET /nfts/getFrontPageData 304 2458.640 ms - -
+2023-04-18 17:25:23:2523 info: OPTIONS /nfts/getFrontPageData 204 0.199 ms - 0
+2023-04-18 17:25:27:2527 info: GET /nfts/getFrontPageData 200 4221.092 ms - 41020
+2023-04-18 17:25:30:2530 info: GET /nfts/getFrontPageData 200 2664.122 ms - 41020
+2023-04-18 17:27:40:2740 info: OPTIONS /nfts/getFrontPageData 204 0.247 ms - 0
+2023-04-18 17:27:45:2745 info: GET /nfts/getFrontPageData 200 4973.558 ms - 41020
+2023-04-18 17:27:48:2748 info: GET /nfts/getFrontPageData 304 2992.473 ms - -
+2023-04-18 17:28:42:2842 info: OPTIONS /nfts/getFrontPageData 204 0.245 ms - 0
+2023-04-18 17:28:45:2845 info: GET /nfts/getFrontPageData 200 3699.293 ms - 41020
+2023-04-18 17:28:48:2848 info: GET /nfts/getFrontPageData 304 2932.771 ms - -
+2023-04-18 17:29:06:296 info: OPTIONS /nfts/getFrontPageData 204 1.212 ms - 0
+2023-04-18 17:29:09:299 info: GET /nfts/getFrontPageData 200 2671.383 ms - 41020
+2023-04-18 17:29:12:2912 info: GET /nfts/getFrontPageData 304 3039.092 ms - -
+2023-04-18 17:29:33:2933 info: OPTIONS /nfts/getFrontPageData 204 0.189 ms - 0
+2023-04-18 17:29:37:2937 info: GET /nfts/getFrontPageData 200 4532.462 ms - 41021
+2023-04-18 17:29:40:2940 info: GET /nfts/getFrontPageData 304 2454.097 ms - -
+2023-04-18 17:31:39:3139 info: OPTIONS /nfts/getFrontPageData 204 0.198 ms - 0
+2023-04-18 17:31:44:3144 info: GET /nfts/getFrontPageData 200 5034.238 ms - 41013
+2023-04-18 17:31:47:3147 info: GET /nfts/getFrontPageData 304 3049.355 ms - -
+2023-04-18 17:31:55:3155 info: OPTIONS /nfts/getFrontPageData 204 0.513 ms - 0
+2023-04-18 17:31:58:3158 info: GET /nfts/getFrontPageData 200 2649.051 ms - 41013
+2023-04-18 17:32:00:320 info: GET /nfts/getFrontPageData 304 2407.839 ms - -
+2023-04-18 17:34:02:342 info: OPTIONS /nfts/getFrontPageData 204 0.183 ms - 0
+2023-04-18 17:34:07:347 info: GET /nfts/getFrontPageData 200 5090.455 ms - 41010
+2023-04-18 17:34:14:3414 info: GET /nfts/getFrontPageData 304 7130.627 ms - -
+2023-04-19 10:05:05:55 info: Server listening on port 4000
+2023-04-19 10:05:05:55 info: My Fauna secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-04-19 10:05:05:55 info: My SDK secret: b1eea3fc-277f-4f81-8463-a1ce707791a3
+2023-04-19 10:05:42:542 info: OPTIONS /nfts/getFrontPageData 204 1.582 ms - 0
+2023-04-19 10:05:47:547 info: GET /nfts/getFrontPageData 200 5505.946 ms - 43395
+2023-04-19 10:06:03:63 info: OPTIONS /nfts/getFrontPageData 204 0.273 ms - 0
+2023-04-19 10:06:09:69 info: GET /nfts/getFrontPageData 200 6445.170 ms - 43396
+2023-04-19 10:10:54:1054 info: OPTIONS /nfts/getFrontPageData 204 0.207 ms - 0
+2023-04-19 10:11:00:110 info: GET /nfts/getFrontPageData 200 5805.096 ms - 43396
+2023-04-19 10:11:04:114 info: GET /nfts/getFrontPageData 304 3991.085 ms - -
+2023-04-19 10:12:48:1248 info: OPTIONS /nfts/getFrontPageData 204 0.261 ms - 0
+2023-04-19 10:12:53:1253 info: GET /nfts/getFrontPageData 200 4695.463 ms - 43396
+2023-04-19 10:12:56:1256 info: GET /nfts/getFrontPageData 304 3335.070 ms - -
+2023-04-19 10:13:41:1341 info: OPTIONS /nfts/getFrontPageData 204 0.233 ms - 0
+2023-04-19 10:13:47:1347 info: GET /nfts/getFrontPageData 200 5473.493 ms - 43396
+2023-04-19 10:13:50:1350 info: GET /nfts/getFrontPageData 304 3007.784 ms - -
+2023-04-19 10:15:12:1512 info: OPTIONS /nfts/getFrontPageData 204 0.232 ms - 0
+2023-04-19 10:15:18:1518 info: GET /nfts/getFrontPageData 200 5693.441 ms - 43397
+2023-04-19 10:15:21:1521 info: GET /nfts/getFrontPageData 200 3422.968 ms - 43398
+2023-04-19 10:16:08:168 info: OPTIONS /nfts/getFrontPageData 204 0.226 ms - 0
+2023-04-19 10:16:14:1614 info: GET /nfts/getFrontPageData 200 5524.493 ms - 43398
+2023-04-19 10:16:17:1617 info: GET /nfts/getFrontPageData 304 2931.966 ms - -
+2023-04-19 10:18:41:1841 info: OPTIONS /nfts/getFrontPageData 204 0.220 ms - 0
+2023-04-19 10:18:47:1847 info: GET /nfts/getFrontPageData 200 6271.526 ms - 43398
+2023-04-19 10:18:50:1850 info: GET /nfts/getFrontPageData 304 3208.581 ms - -
+2023-04-19 10:29:12:2912 info: OPTIONS /nfts/getFrontPageData 204 0.161 ms - 0
+2023-04-19 10:29:17:2917 info: GET /nfts/getFrontPageData 200 4936.278 ms - 43399
+2023-04-19 10:29:19:2919 info: GET /nfts/getFrontPageData 304 2791.909 ms - -
+2023-04-19 10:29:29:2929 info: OPTIONS /nfts/getFrontPageData 204 0.417 ms - 0
+2023-04-19 10:29:32:2932 info: GET /nfts/getFrontPageData 304 2668.281 ms - -
+2023-04-19 10:29:34:2934 info: GET /nfts/getFrontPageData 200 2657.915 ms - 43399
+2023-04-19 10:29:57:2957 info: OPTIONS /nfts/getFrontPageData 204 0.226 ms - 0
+2023-04-19 10:30:00:300 info: GET /nfts/getFrontPageData 200 3447.279 ms - 43399
+2023-04-19 10:30:03:303 info: GET /nfts/getFrontPageData 200 2692.526 ms - 43399
+2023-04-19 10:30:16:3016 info: OPTIONS /nfts/getFrontPageData 204 0.166 ms - 0
+2023-04-19 10:30:19:3019 info: GET /nfts/getFrontPageData 304 3096.645 ms - -
+2023-04-19 10:30:22:3022 info: GET /nfts/getFrontPageData 304 2533.851 ms - -
+2023-04-19 10:30:42:3042 info: OPTIONS /nfts/getFrontPageData 204 0.227 ms - 0
+2023-04-19 10:30:47:3047 info: GET /nfts/getFrontPageData 304 4216.852 ms - -
+2023-04-19 10:30:49:3049 info: GET /nfts/getFrontPageData 304 2598.567 ms - -
+2023-04-19 10:31:04:314 info: OPTIONS /nfts/getFrontPageData 204 0.235 ms - 0
+2023-04-19 10:31:08:318 info: GET /nfts/getFrontPageData 304 3470.555 ms - -
+2023-04-19 10:31:10:3110 info: GET /nfts/getFrontPageData 304 2587.713 ms - -
+2023-04-19 10:31:51:3151 info: OPTIONS /nfts/getFrontPageData 204 0.198 ms - 0
+2023-04-19 10:31:56:3156 info: GET /nfts/getFrontPageData 304 5144.476 ms - -
+2023-04-19 10:32:00:320 info: GET /nfts/getFrontPageData 304 3753.409 ms - -
+2023-04-19 10:32:33:3233 info: OPTIONS /nfts/getFrontPageData 204 0.647 ms - 0
+2023-04-19 10:32:39:3239 info: GET /nfts/getFrontPageData 200 5937.120 ms - 43398
+2023-04-19 10:32:43:3243 info: GET /nfts/getFrontPageData 304 3583.737 ms - -
+2023-04-19 10:32:52:3252 info: OPTIONS /nfts/getFrontPageData 204 0.221 ms - 0
+2023-04-19 10:32:55:3255 info: GET /nfts/getFrontPageData 304 2713.196 ms - -
+2023-04-19 10:32:57:3257 info: GET /nfts/getFrontPageData 304 2696.616 ms - -
+2023-04-19 10:33:33:3333 info: OPTIONS /nfts/getFrontPageData 204 0.220 ms - 0
+2023-04-19 10:33:38:3338 info: GET /nfts/getFrontPageData 200 5126.523 ms - 43398
+2023-04-19 10:33:42:3342 info: GET /nfts/getFrontPageData 304 3704.326 ms - -
+2023-04-19 10:35:22:3522 info: OPTIONS /nfts/getFrontPageData 204 0.289 ms - 0
+2023-04-19 10:35:27:3527 info: GET /nfts/getFrontPageData 200 5412.975 ms - 43397
+2023-04-19 10:35:30:3530 info: GET /nfts/getFrontPageData 304 2733.558 ms - -
+2023-04-19 10:36:23:3623 info: OPTIONS /nfts/getFrontPageData 204 0.206 ms - 0
+2023-04-19 10:36:30:3630 info: GET /nfts/getFrontPageData 200 7609.018 ms - 43397
+2023-04-19 10:36:37:3637 info: GET /nfts/getFrontPageData 200 6447.975 ms - 43397
+2023-04-19 10:37:47:3747 info: OPTIONS /nfts/getFrontPageData 204 0.285 ms - 0
+2023-04-19 10:37:52:3752 info: GET /nfts/getFrontPageData 304 5053.624 ms - -
+2023-04-19 10:37:55:3755 info: GET /nfts/getFrontPageData 304 3677.333 ms - -
+2023-04-19 10:38:05:385 info: OPTIONS /nfts/getFrontPageData 204 0.182 ms - 0
+2023-04-19 10:38:09:389 info: GET /nfts/getFrontPageData 200 3649.952 ms - 43400
+2023-04-19 10:38:12:3812 info: GET /nfts/getFrontPageData 304 3259.730 ms - -
+2023-04-19 10:39:28:3928 info: OPTIONS /nfts/getFrontPageData 204 0.264 ms - 0
+2023-04-19 10:39:35:3935 info: GET /nfts/getFrontPageData 200 7564.851 ms - 43520
+2023-04-19 10:39:38:3938 info: GET /nfts/getFrontPageData 304 3135.011 ms - -
+2023-04-19 10:42:08:428 info: OPTIONS /nfts/getFrontPageData 204 0.240 ms - 0
+2023-04-19 10:42:15:4215 info: GET /nfts/getFrontPageData 200 7065.847 ms - 43642
+2023-04-19 10:42:19:4219 info: GET /nfts/getFrontPageData 304 4195.197 ms - -
+2023-04-19 10:42:34:4234 info: OPTIONS /nfts/getFrontPageData 204 0.369 ms - 0
+2023-04-19 10:42:40:4240 info: GET /nfts/getFrontPageData 304 5666.640 ms - -
+2023-04-19 10:42:43:4243 info: GET /nfts/getFrontPageData 304 3177.033 ms - -
+2023-04-19 10:46:16:4616 info: OPTIONS /nfts/getFrontPageData 204 0.199 ms - 0
+2023-04-19 10:46:22:4622 info: GET /nfts/getFrontPageData 200 6388.562 ms - 43642
+2023-04-19 10:46:26:4626 info: GET /nfts/getFrontPageData 304 3571.885 ms - -
+2023-04-19 10:46:46:4646 info: OPTIONS /nfts/getFrontPageData 204 0.279 ms - 0
+2023-04-19 10:46:51:4651 info: GET /nfts/getFrontPageData 200 5025.052 ms - 43638
+2023-04-19 10:46:55:4655 info: GET /nfts/getFrontPageData 304 3356.443 ms - -
+2023-04-19 10:47:13:4713 info: OPTIONS /nfts/getFrontPageData 204 0.192 ms - 0
+2023-04-19 10:47:18:4718 info: GET /nfts/getFrontPageData 304 4770.411 ms - -
+2023-04-19 10:47:21:4721 info: GET /nfts/getFrontPageData 200 3735.630 ms - 43638
+2023-04-19 10:47:40:4740 info: OPTIONS /nfts/getFrontPageData 204 0.227 ms - 0
+2023-04-19 10:47:44:4744 info: GET /nfts/getFrontPageData 200 4810.570 ms - 43638
+2023-04-19 10:47:47:4747 info: GET /nfts/getFrontPageData 304 3017.524 ms - -
+2023-04-19 10:48:30:4830 info: OPTIONS /nfts/getFrontPageData 204 0.134 ms - 0
+2023-04-19 10:48:34:4834 info: GET /nfts/getFrontPageData 200 4057.779 ms - 43638
+2023-04-19 10:48:59:4859 info: OPTIONS /nfts/getFrontPageData 204 0.189 ms - 0
+2023-04-19 10:49:04:494 info: GET /nfts/getFrontPageData 200 4889.313 ms - 43638
+2023-04-19 10:49:07:497 info: GET /nfts/getFrontPageData 304 3803.225 ms - -
+2023-04-19 10:53:40:5340 info: OPTIONS /nfts/getFrontPageData 204 0.154 ms - 0
+2023-04-19 10:53:46:5346 info: GET /nfts/getFrontPageData 200 6196.533 ms - 43637
+2023-04-19 10:53:50:5350 info: GET /nfts/getFrontPageData 304 3532.885 ms - -
+2023-04-19 10:55:20:5520 info: OPTIONS /nfts/getFrontPageData 204 0.268 ms - 0
+2023-04-19 10:55:26:5526 info: GET /nfts/getFrontPageData 200 6003.852 ms - 43639
+2023-04-19 10:55:30:5530 info: GET /nfts/getFrontPageData 304 3693.421 ms - -
+2023-04-19 10:56:13:5613 info: OPTIONS /nfts/getFrontPageData 204 0.260 ms - 0
+2023-04-19 10:56:18:5618 info: GET /nfts/getFrontPageData 200 4838.702 ms - 43639
+2023-04-19 10:56:21:5621 info: GET /nfts/getFrontPageData 200 3154.026 ms - 43639
+2023-04-19 11:09:01:91 info: OPTIONS /nfts/getFrontPageData 204 1.688 ms - 0
+2023-04-19 11:09:08:98 info: GET /nfts/getFrontPageData 200 6953.882 ms - 43627
+2023-04-19 11:09:12:912 info: GET /nfts/getFrontPageData 304 3991.044 ms - -
+2023-04-19 11:18:57:1857 info: OPTIONS /nfts/getFrontPageData 204 0.183 ms - 0
+2023-04-19 11:19:04:194 info: GET /nfts/getFrontPageData 200 7698.700 ms - 43636
+2023-04-19 11:19:08:198 info: GET /nfts/getFrontPageData 304 3891.569 ms - -
+2023-04-19 11:19:32:1932 info: OPTIONS /nfts/getFrontPageData 204 0.129 ms - 0
+2023-04-19 11:19:40:1940 info: GET /nfts/getFrontPageData 200 8134.973 ms - 43636
+2023-04-19 11:20:08:208 info: OPTIONS /nfts/getFrontPageData 204 0.139 ms - 0
+2023-04-19 11:20:14:2014 info: GET /nfts/getFrontPageData 200 6172.615 ms - 43637
+2023-04-19 11:29:21:2921 info: OPTIONS /nfts/getFrontPageData 204 0.162 ms - 0
+2023-04-19 11:29:29:2929 info: GET /nfts/getFrontPageData 200 7406.827 ms - 43630
+2023-04-19 11:29:32:2932 info: GET /nfts/getFrontPageData 200 3645.367 ms - 43631
+2023-04-19 11:29:34:2934 info: OPTIONS /nfts/getFrontTabsByVolume 204 0.126 ms - 0
+2023-04-19 11:29:34:2934 info: POST /nfts/getFrontTabsByVolume 404 17.982 ms - 165
+2023-04-19 11:29:45:2945 info: Server listening on port 4000
+2023-04-19 11:29:45:2945 info: My Fauna secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-04-19 11:29:45:2945 info: My SDK secret: b1eea3fc-277f-4f81-8463-a1ce707791a3
+2023-04-19 11:29:45:2945 info: OPTIONS /nfts/getFrontPageData 204 8.081 ms - 0
+2023-04-19 11:29:51:2951 info: GET /nfts/getFrontPageData 304 6122.841 ms - -
+2023-04-19 11:29:57:2957 info: OPTIONS /nfts/getFrontTabsByVolume 204 0.448 ms - 0
+2023-04-19 11:29:57:2957 info: POST /nfts/getFrontTabsByVolume 404 8.249 ms - 165
+2023-04-19 11:30:32:3032 info: Server listening on port 4000
+2023-04-19 11:30:32:3032 info: My Fauna secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-04-19 11:30:32:3032 info: My SDK secret: b1eea3fc-277f-4f81-8463-a1ce707791a3
+2023-04-19 11:30:33:3033 info: OPTIONS /nfts/getFrontPageData 204 10.241 ms - 0
+2023-04-19 11:30:40:3040 info: GET /nfts/getFrontPageData 200 7391.674 ms - 43633
+2023-04-19 11:30:46:3046 info: OPTIONS /nfts/getFrontTabsByVolume 204 0.232 ms - 0
+2023-04-19 11:30:46:3046 info: Start Getting CollectionRankingByVolume
+2023-04-19 11:30:47:3047 info: POST /nfts/getFrontTabsByVolume 200 1420.512 ms - 15402
+2023-04-19 11:30:57:3057 info: OPTIONS /nfts/getFrontTabsByMints 204 0.160 ms - 0
+2023-04-19 11:30:57:3057 info: Start Getting getCollectionsRankingByMints
+2023-04-19 11:30:57:3057 error: Cannot read properties of undefined (reading 'length')
+2023-04-19 11:30:57:3057 info: POST /nfts/getFrontTabsByMints 200 98.084 ms - 65
+2023-04-19 11:32:08:328 info: Server listening on port 4000
+2023-04-19 11:32:08:328 info: My Fauna secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-04-19 11:32:08:328 info: My SDK secret: b1eea3fc-277f-4f81-8463-a1ce707791a3
+2023-04-19 11:32:30:3230 info: OPTIONS /nfts/getFrontTabsByMints 204 1.703 ms - 0
+2023-04-19 11:32:30:3230 info: Start Getting getCollectionsRankingByMints
+2023-04-19 11:32:30:3230 error: Cannot read properties of undefined (reading 'length')
+2023-04-19 11:32:30:3230 info: POST /nfts/getFrontTabsByMints 200 130.450 ms - 65
+2023-04-19 11:32:42:3242 info: Server listening on port 4000
+2023-04-19 11:32:42:3242 info: My Fauna secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-04-19 11:32:42:3242 info: My SDK secret: b1eea3fc-277f-4f81-8463-a1ce707791a3
+2023-04-19 11:32:56:3256 info: OPTIONS /nfts/getFrontTabsByMints 204 5.867 ms - 0
+2023-04-19 11:32:56:3256 info: Start Getting getCollectionsRankingByMints
+2023-04-19 11:32:56:3256 error: Cannot read properties of undefined (reading 'length')
+2023-04-19 11:32:56:3256 info: POST /nfts/getFrontTabsByMints 200 130.368 ms - 65
+2023-04-19 11:33:37:3337 info: OPTIONS /nfts/getFrontPageData 204 0.540 ms - 0
+2023-04-19 11:33:46:3346 info: GET /nfts/getFrontPageData 200 8352.607 ms - 43634
+2023-04-19 11:33:49:3349 info: GET /nfts/getFrontPageData 304 3503.282 ms - -
+2023-04-19 11:33:50:3350 info: OPTIONS /nfts/getFrontTabsByVolume 204 0.132 ms - 0
+2023-04-19 11:33:50:3350 info: Start Getting CollectionRankingByVolume
+2023-04-19 11:33:52:3352 info: POST /nfts/getFrontTabsByVolume 200 1175.238 ms - 20066
+2023-04-19 11:34:44:3444 info: Server listening on port 4000
+2023-04-19 11:34:44:3444 info: My Fauna secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-04-19 11:34:44:3444 info: My SDK secret: b1eea3fc-277f-4f81-8463-a1ce707791a3
+2023-04-19 11:35:01:351 info: OPTIONS /nfts/getFrontPageData 204 1.448 ms - 0
+2023-04-19 11:35:08:358 info: GET /nfts/getFrontPageData 200 6896.654 ms - 43633
+2023-04-19 11:35:08:358 info: GET /nfts/getFrontPageData - - ms - -
+2023-04-19 11:35:09:359 info: OPTIONS /nfts/getFrontPageData 204 0.342 ms - 0
+2023-04-19 11:35:12:3512 info: GET /nfts/getFrontPageData 200 2742.752 ms - 43633
+2023-04-19 11:35:15:3515 info: GET /nfts/getFrontPageData 304 2855.512 ms - -
+2023-04-19 11:35:19:3519 info: OPTIONS /nfts/getFrontTabsByVolume 204 0.134 ms - 0
+2023-04-19 11:35:19:3519 info: Start Getting CollectionRankingByVolume
+2023-04-19 11:35:20:3520 info: POST /nfts/getFrontTabsByVolume 200 1039.257 ms - 15399
+2023-04-19 11:35:31:3531 info: OPTIONS /nfts/getFrontTabsByVolume 204 0.196 ms - 0
+2023-04-19 11:35:31:3531 info: Start Getting CollectionRankingByVolume
+2023-04-19 11:35:32:3532 info: POST /nfts/getFrontTabsByVolume 200 1169.356 ms - 20066
+2023-04-19 11:35:57:3557 info: OPTIONS /nfts/getFrontTabsByVolume 204 0.247 ms - 0
+2023-04-19 11:35:57:3557 info: Start Getting CollectionRankingByVolume
+2023-04-19 11:35:58:3558 info: POST /nfts/getFrontTabsByVolume 200 1140.813 ms - 18561
+2023-04-19 11:36:02:362 info: Start Getting CollectionRankingByVolume
+2023-04-19 11:36:03:363 info: POST /nfts/getFrontTabsByVolume 200 1110.686 ms - 19434
+2023-04-19 11:38:09:389 info: OPTIONS /nfts/getFrontPageData 204 0.245 ms - 0
+2023-04-19 11:38:16:3816 info: GET /nfts/getFrontPageData 200 7113.406 ms - 43632
+2023-04-19 11:38:20:3820 info: GET /nfts/getFrontPageData 200 3675.212 ms - 43632
+2023-04-19 11:38:20:3820 info: OPTIONS /nfts/getFrontTabsByVolume 204 0.187 ms - 0
+2023-04-19 11:38:20:3820 info: Start Getting CollectionRankingByVolume
+2023-04-19 11:38:22:3822 info: POST /nfts/getFrontTabsByVolume 200 2294.690 ms - 20066
+2023-04-19 11:38:29:3829 info: OPTIONS /nfts/getFrontTabsByVolume 204 0.189 ms - 0
+2023-04-19 11:38:29:3829 info: Start Getting CollectionRankingByVolume
+2023-04-19 11:38:30:3830 info: POST /nfts/getFrontTabsByVolume 200 1086.514 ms - 15411
+2023-04-19 11:38:36:3836 info: OPTIONS /nfts/getFrontTabsByVolume 204 0.151 ms - 0
+2023-04-19 11:38:36:3836 info: Start Getting CollectionRankingByVolume
+2023-04-19 11:38:37:3837 info: POST /nfts/getFrontTabsByVolume 200 1144.057 ms - 18561
+2023-04-19 11:38:40:3840 info: Start Getting CollectionRankingByVolume
+2023-04-19 11:38:41:3841 info: POST /nfts/getFrontTabsByVolume 200 1109.704 ms - 19435
+2023-04-19 11:38:43:3843 info: OPTIONS /nfts/getFrontTabsByVolume 204 0.205 ms - 0
+2023-04-19 11:38:43:3843 info: Start Getting CollectionRankingByVolume
+2023-04-19 11:38:45:3845 info: POST /nfts/getFrontTabsByVolume 200 1083.401 ms - 20066
+2023-04-19 11:38:47:3847 info: OPTIONS /nfts/getFrontTabsByMints 204 0.175 ms - 0
+2023-04-19 11:38:47:3847 info: Start Getting getCollectionsRankingByMints
+2023-04-19 11:38:47:3847 error: Cannot read properties of undefined (reading 'length')
+2023-04-19 11:38:47:3847 info: POST /nfts/getFrontTabsByMints 200 89.536 ms - 65
+2023-04-19 11:41:06:416 info: Server listening on port 4000
+2023-04-19 11:41:06:416 info: My Fauna secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-04-19 11:41:06:416 info: My SDK secret: b1eea3fc-277f-4f81-8463-a1ce707791a3
+2023-04-19 11:41:08:418 info: OPTIONS /nfts/getFrontPageData 204 10.831 ms - 0
+2023-04-19 11:41:15:4115 info: GET /nfts/getFrontPageData 200 6998.030 ms - 43635
+2023-04-19 11:41:19:4119 info: OPTIONS /nfts/getFrontTabsByMints 204 0.236 ms - 0
+2023-04-19 11:41:19:4119 info: Start Getting getCollectionsRankingByMints
+2023-04-19 11:41:19:4119 error: Cannot read properties of undefined (reading 'length')
+2023-04-19 11:41:19:4119 info: POST /nfts/getFrontTabsByMints 200 97.628 ms - 65
+2023-04-19 11:42:08:428 info: Server listening on port 4000
+2023-04-19 11:42:08:428 info: My Fauna secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-04-19 11:42:08:428 info: My SDK secret: b1eea3fc-277f-4f81-8463-a1ce707791a3
+2023-04-19 11:42:11:4211 info: OPTIONS /nfts/getFrontPageData 204 7.111 ms - 0
+2023-04-19 11:42:17:4217 info: GET /nfts/getFrontPageData 200 5769.404 ms - 43636
+2023-04-19 11:42:23:4223 info: OPTIONS /nfts/getFrontTabsByMints 204 0.351 ms - 0
+2023-04-19 11:42:23:4223 info: Start Getting getCollectionsRankingByMints
+2023-04-19 11:42:23:4223 error: Cannot read properties of undefined (reading 'length')
+2023-04-19 11:42:23:4223 info: POST /nfts/getFrontTabsByMints 200 112.868 ms - 65
+2023-04-19 11:43:25:4325 info: Server listening on port 4000
+2023-04-19 11:43:25:4325 info: My Fauna secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-04-19 11:43:25:4325 info: My SDK secret: b1eea3fc-277f-4f81-8463-a1ce707791a3
+2023-04-19 11:43:27:4327 info: OPTIONS /nfts/getFrontPageData 204 1.489 ms - 0
+2023-04-19 11:43:36:4336 info: GET /nfts/getFrontPageData 200 9652.970 ms - 43636
+2023-04-19 11:43:41:4341 info: OPTIONS /nfts/getFrontPageData 204 0.269 ms - 0
+2023-04-19 11:43:47:4347 info: GET /nfts/getFrontPageData 200 5722.494 ms - 43636
+2023-04-19 11:43:54:4354 info: OPTIONS /nfts/getFrontTabsByMints 204 0.204 ms - 0
+2023-04-19 11:43:54:4354 info: Start Getting getCollectionsRankingByMints
+2023-04-19 11:43:54:4354 error: Cannot read properties of undefined (reading 'length')
+2023-04-19 11:43:54:4354 info: POST /nfts/getFrontTabsByMints 200 114.021 ms - 65
+2023-04-19 11:45:37:4537 info: Server listening on port 4000
+2023-04-19 11:45:37:4537 info: My Fauna secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-04-19 11:45:37:4537 info: My SDK secret: b1eea3fc-277f-4f81-8463-a1ce707791a3
+2023-04-19 11:45:42:4542 info: OPTIONS /nfts/getFrontPageData 204 7.449 ms - 0
+2023-04-19 11:45:55:4555 info: GET /nfts/getFrontPageData 200 12801.879 ms - 43635
+2023-04-19 11:46:04:464 info: OPTIONS /nfts/getFrontTabsByMints 204 0.320 ms - 0
+2023-04-19 11:46:04:464 info: Start Getting getCollectionsRankingByMints
+2023-04-19 11:46:06:466 info: POST /nfts/getFrontTabsByMints 200 2321.791 ms - 4489
+2023-04-19 11:47:19:4719 info: Server listening on port 4000
+2023-04-19 11:47:19:4719 info: My Fauna secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-04-19 11:47:19:4719 info: My SDK secret: b1eea3fc-277f-4f81-8463-a1ce707791a3
+2023-04-19 11:47:59:4759 info: OPTIONS /nfts/getFrontPageData 204 2.393 ms - 0
+2023-04-19 11:48:07:487 info: GET /nfts/getFrontPageData 200 7452.098 ms - 43635
+2023-04-19 11:48:10:4810 info: OPTIONS /nfts/getFrontTabsByMints 204 0.306 ms - 0
+2023-04-19 11:48:10:4810 info: Start Getting getCollectionsRankingByMints
+2023-04-19 11:48:10:4810 info: GET /nfts/getFrontPageData 304 3602.809 ms - -
+2023-04-19 11:48:12:4812 info: POST /nfts/getFrontTabsByMints 200 2362.171 ms - 6147
+2023-04-19 11:48:44:4844 info: OPTIONS /nfts/getFrontPageData 204 0.255 ms - 0
+2023-04-19 11:48:50:4850 info: GET /nfts/getFrontPageData 200 6845.222 ms - 43635
+2023-04-19 11:48:54:4854 info: GET /nfts/getFrontPageData 200 3224.229 ms - 43635
+2023-04-19 11:48:57:4857 info: OPTIONS /nfts/getFrontTabsByMints 204 0.206 ms - 0
+2023-04-19 11:48:57:4857 info: Start Getting getCollectionsRankingByMints
+2023-04-19 11:49:46:4946 info: POST /nfts/getFrontTabsByMints - - ms - -
+2023-04-19 11:49:46:4946 info: OPTIONS /nfts/getFrontPageData 204 0.225 ms - 0
+2023-04-19 11:49:53:4953 info: GET /nfts/getFrontPageData 200 6432.964 ms - 43635
+2023-04-19 11:49:58:4958 info: OPTIONS /nfts/getFrontTabsByVolume 204 0.131 ms - 0
+2023-04-19 11:49:58:4958 info: Start Getting CollectionRankingByVolume
+2023-04-19 11:49:59:4959 info: POST /nfts/getFrontTabsByVolume 200 1089.665 ms - 15406
+2023-04-19 11:50:01:501 info: Start Getting CollectionRankingByVolume
+2023-04-19 11:50:02:502 info: POST /nfts/getFrontTabsByVolume 200 1153.918 ms - 20066
+2023-04-19 11:50:03:503 info: Start Getting CollectionRankingByVolume
+2023-04-19 11:50:04:504 info: POST /nfts/getFrontTabsByVolume 200 1142.385 ms - 18564
+2023-04-19 11:50:35:5035 info: Server listening on port 4000
+2023-04-19 11:50:35:5035 info: My Fauna secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-04-19 11:50:35:5035 info: My SDK secret: b1eea3fc-277f-4f81-8463-a1ce707791a3
+2023-04-19 11:50:35:5035 info: OPTIONS /nfts/getFrontPageData 204 8.777 ms - 0
+2023-04-19 11:50:42:5042 info: GET /nfts/getFrontPageData 200 7370.137 ms - 43635
+2023-04-19 11:51:00:510 info: OPTIONS /nfts/getFrontTabsByVolume 204 0.357 ms - 0
+2023-04-19 11:51:00:510 info: Start Getting CollectionRankingByVolume
+2023-04-19 11:51:01:511 info: POST /nfts/getFrontTabsByVolume 200 1178.019 ms - 20066
+2023-04-19 11:51:08:518 info: OPTIONS /nfts/getFrontTabsByVolume 204 0.129 ms - 0
+2023-04-19 11:51:08:518 info: Start Getting CollectionRankingByVolume
+2023-04-19 11:51:08:518 info: OPTIONS /nfts/getFrontListsData 204 0.166 ms - 0
+2023-04-19 11:51:08:518 info: Start Getting getFrontListsData
+2023-04-19 11:51:08:518 error: Cannot read properties of undefined (reading 'content')
+2023-04-19 11:51:08:518 info: POST /nfts/getFrontTabsByVolume 200 190.039 ms - 64
+2023-04-19 11:51:08:518 info: POST /nfts/getFrontListsData 200 254.678 ms - 11
+2023-04-19 11:52:05:525 info: OPTIONS /nfts/getFrontPageData 204 0.438 ms - 0
+2023-04-19 11:52:10:5210 info: GET /nfts/getFrontPageData 200 4949.605 ms - 43635
+2023-04-19 11:52:13:5213 info: GET /nfts/getFrontPageData 304 3103.191 ms - -
+2023-04-19 11:52:14:5214 info: OPTIONS /nfts/getFrontTabsByVolume 204 0.187 ms - 0
+2023-04-19 11:52:14:5214 info: Start Getting CollectionRankingByVolume
+2023-04-19 11:52:15:5215 info: POST /nfts/getFrontTabsByVolume 200 1286.599 ms - 11979
+2023-04-19 11:52:25:5225 info: OPTIONS /nfts/getFrontTabsByVolume 204 0.169 ms - 0
+2023-04-19 11:52:25:5225 info: Start Getting CollectionRankingByVolume
+2023-04-19 11:52:26:5226 info: POST /nfts/getFrontTabsByVolume 200 1206.948 ms - 19436
+2023-04-19 11:53:02:532 info: OPTIONS /nfts/getFrontTabsByVolume 204 0.161 ms - 0
+2023-04-19 11:53:02:532 info: Start Getting CollectionRankingByVolume
+2023-04-19 11:53:03:533 info: POST /nfts/getFrontTabsByVolume 200 1261.898 ms - 11975
+2023-04-19 11:53:05:535 info: Start Getting CollectionRankingByVolume
+2023-04-19 11:53:07:537 info: POST /nfts/getFrontTabsByVolume 200 1169.042 ms - 16808
+2023-04-19 11:53:31:5331 info: OPTIONS /nfts/getFrontTabsByVolume 204 0.185 ms - 0
+2023-04-19 11:53:31:5331 info: Start Getting CollectionRankingByVolume
+2023-04-19 11:53:32:5332 info: POST /nfts/getFrontTabsByVolume 200 1176.374 ms - 19447
+2023-04-19 11:53:35:5335 info: Start Getting CollectionRankingByVolume
+2023-04-19 11:53:36:5336 info: POST /nfts/getFrontTabsByVolume 200 1135.213 ms - 11975
+2023-04-20 19:33:45:3345 info: Server listening on port 4000
+2023-04-20 19:33:45:3345 info: My Fauna secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-04-20 19:33:45:3345 info: My SDK secret: b1eea3fc-277f-4f81-8463-a1ce707791a3
+2023-04-20 19:34:02:342 info: OPTIONS /nfts/getFrontPageData 204 13.317 ms - 0
+2023-04-20 19:34:07:347 info: GET /nfts/getFrontPageData 200 4971.143 ms - 43735
+2023-04-20 19:34:10:3410 info: GET /nfts/getFrontPageData 304 2721.702 ms - -
+2023-04-20 19:34:17:3417 info: OPTIONS /nfts/getFrontTabsByVolume 204 0.345 ms - 0
+2023-04-20 19:34:17:3417 info: Start Getting CollectionRankingByVolume
+2023-04-20 19:34:18:3418 info: POST /nfts/getFrontTabsByVolume 200 1119.315 ms - 21747
+2023-04-20 19:34:22:3422 info: OPTIONS /nfts/getFrontTabsByVolume 204 0.165 ms - 0
+2023-04-20 19:34:22:3422 info: Start Getting CollectionRankingByVolume
+2023-04-20 19:34:23:3423 info: POST /nfts/getFrontTabsByVolume 200 202.077 ms - 1541
+2023-04-20 19:35:04:354 info: OPTIONS /nfts/getFrontTabsByVolume 204 0.168 ms - 0
+2023-04-20 19:35:04:354 info: Start Getting CollectionRankingByVolume
+2023-04-20 19:35:04:354 info: Start Getting CollectionRankingByVolume
+2023-04-20 19:35:05:355 info: POST /nfts/getFrontTabsByVolume 200 1100.578 ms - 18285
+2023-04-20 19:35:06:356 info: POST /nfts/getFrontTabsByVolume 200 1181.996 ms - 19806
+2023-04-20 19:35:08:358 info: Start Getting CollectionRankingByVolume
+2023-04-20 19:35:09:359 info: POST /nfts/getFrontTabsByVolume 200 1133.736 ms - 13654
+2023-04-20 19:35:19:3519 info: OPTIONS /nfts/getFrontTabsByVolume 204 0.149 ms - 0
+2023-04-20 19:35:19:3519 info: Start Getting CollectionRankingByVolume
+2023-04-20 19:35:20:3520 info: POST /nfts/getFrontTabsByVolume 200 1035.619 ms - 13654
+2023-04-20 19:35:22:3522 info: Start Getting CollectionRankingByVolume
+2023-04-20 19:35:23:3523 info: POST /nfts/getFrontTabsByVolume 200 1135.756 ms - 19438
+2023-04-20 19:38:46:3846 info: OPTIONS /nfts/getFrontPageData 204 0.200 ms - 0
+2023-04-20 19:38:47:3847 info: GET /nfts/getFrontPageData - - ms - -
+2023-04-20 19:38:48:3848 info: GET /nfts/getFrontPageData - - ms - -
+2023-04-20 19:38:54:3854 info: GET /nfts/getFrontPageData 200 5200.544 ms - 43732
+2023-04-20 19:38:56:3856 info: GET /nfts/getFrontPageData 304 2257.227 ms - -
+2023-04-20 19:39:05:395 info: OPTIONS /nfts/getFrontTabsByVolume 204 0.118 ms - 0
+2023-04-20 19:39:05:395 info: Start Getting CollectionRankingByVolume
+2023-04-20 19:39:06:396 info: POST /nfts/getFrontTabsByVolume 200 1095.139 ms - 19435
+2023-04-20 19:39:08:398 info: Start Getting CollectionRankingByVolume
+2023-04-20 19:39:09:399 info: POST /nfts/getFrontTabsByVolume 200 1073.062 ms - 11975
+2023-04-20 19:39:18:3918 info: OPTIONS /nfts/getFrontTabsByVolume 204 0.206 ms - 0
+2023-04-20 19:39:18:3918 info: Start Getting CollectionRankingByVolume
+2023-04-20 19:39:19:3919 info: POST /nfts/getFrontTabsByVolume 200 1012.329 ms - 19435
+2023-04-20 19:39:21:3921 info: Start Getting CollectionRankingByVolume
+2023-04-20 19:39:22:3922 info: POST /nfts/getFrontTabsByVolume 200 1075.003 ms - 19302
+2023-04-20 19:39:28:3928 info: OPTIONS /nfts/getFrontTabsByVolume 204 0.173 ms - 0
+2023-04-20 19:39:28:3928 info: Start Getting CollectionRankingByVolume
+2023-04-20 19:39:29:3929 info: POST /nfts/getFrontTabsByVolume 200 1000.980 ms - 19435
+2023-04-22 17:02:17:217 info: Server listening on port 4000
+2023-04-22 17:02:17:217 info: My Fauna secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-04-22 17:02:17:217 info: My SDK secret: b1eea3fc-277f-4f81-8463-a1ce707791a3
+2023-04-22 17:32:13:3213 info: OPTIONS /nfts/getFrontPageData 204 144.872 ms - 0
+2023-04-22 17:32:18:3218 info: GET /nfts/getFrontPageData 200 4892.863 ms - 40818
+2023-04-22 17:32:28:3228 info: OPTIONS /nfts/getFrontPageData 204 0.419 ms - 0
+2023-04-22 17:32:31:3231 info: GET /nfts/getFrontPageData 200 2996.804 ms - 40818
+2023-04-22 17:32:40:3240 info: OPTIONS /nfts/getFrontTabsByVolume 204 0.462 ms - 0
+2023-04-22 17:32:40:3240 info: Start Getting CollectionRankingByVolume
+2023-04-22 17:32:41:3241 info: POST /nfts/getFrontTabsByVolume 200 1135.707 ms - 18258
+2023-04-22 17:32:42:3242 info: Start Getting CollectionRankingByVolume
+2023-04-22 17:32:43:3243 info: POST /nfts/getFrontTabsByVolume 200 1021.063 ms - 12183
+2023-04-22 17:32:47:3247 info: OPTIONS /nfts/getFrontTabsByVolume 204 0.185 ms - 0
+2023-04-22 17:32:47:3247 info: Start Getting CollectionRankingByVolume
+2023-04-22 17:32:48:3248 info: POST /nfts/getFrontTabsByVolume 200 1081.945 ms - 22085
+2023-04-22 17:32:50:3250 info: Start Getting CollectionRankingByVolume
+2023-04-22 17:32:51:3251 info: POST /nfts/getFrontTabsByVolume 200 1055.275 ms - 20406
+2023-04-22 17:34:08:348 info: OPTIONS /umg/signin 204 0.223 ms - 0
+2023-04-22 17:34:08:348 info: Start login
+2023-04-22 17:34:09:349 error: authentication failed
+2023-04-22 17:34:26:3426 info: POST /umg/signin - - ms - -
+2023-04-22 17:34:28:3428 info: OPTIONS /nfts/getFrontPageData 204 0.138 ms - 0
+2023-04-22 17:34:34:3434 info: GET /nfts/getFrontPageData 200 5951.610 ms - 40816
+2023-04-22 17:34:38:3438 info: OPTIONS /umg/signin 204 0.190 ms - 0
+2023-04-22 17:34:38:3438 info: Start login
+2023-04-22 17:34:38:3438 error: authentication failed
+2023-04-22 17:35:19:3519 info: POST /umg/signin - - ms - -
+2023-04-22 17:35:21:3521 info: OPTIONS /nfts/getFrontPageData 204 0.190 ms - 0
+2023-04-22 17:35:26:3526 info: GET /nfts/getFrontPageData 304 4972.884 ms - -
+2023-04-22 17:35:42:3542 info: OPTIONS /umg/signin 204 0.159 ms - 0
+2023-04-22 17:35:42:3542 info: Start login
+2023-04-22 17:35:43:3543 info: POST /umg/signin 200 286.624 ms - 72
+2023-04-22 17:35:43:3543 info: OPTIONS /umg/info 204 0.356 ms - 0
+2023-04-22 17:35:43:3543 info: Start auth
+2023-04-22 17:35:43:3543 info: Start getting User
+2023-04-22 17:35:43:3543 info: GET /umg/info 304 453.022 ms - -
+2023-04-23 17:08:41:841 info: Server listening on port 4000
+2023-04-23 17:08:41:841 info: My Fauna secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-04-23 17:08:41:841 info: My SDK secret: b1eea3fc-277f-4f81-8463-a1ce707791a3
+2023-04-23 17:08:50:850 info: OPTIONS /nfts/getFrontPageData 204 10.311 ms - 0
+2023-04-23 17:09:58:958 info: OPTIONS /nfts/getFrontPageData 204 0.439 ms - 0
+2023-04-23 17:11:11:1111 info: OPTIONS /nfts/getFrontPageData 204 0.296 ms - 0
+2023-04-23 17:11:36:1136 info: OPTIONS /nfts/getFrontPageData 204 0.196 ms - 0
+2023-04-23 17:11:42:1142 info: GET /nfts/getFrontPageData 200 5810.217 ms - 41310
+2023-04-23 17:14:30:1430 info: OPTIONS /nfts/getFrontPageData 204 0.182 ms - 0
+2023-04-23 17:14:36:1436 info: GET /nfts/getFrontPageData 200 5546.174 ms - 41310
+2023-04-23 17:14:54:1454 info: Server listening on port 4000
+2023-04-23 17:14:54:1454 info: My Fauna secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-04-23 17:14:54:1454 info: My SDK secret: b1eea3fc-277f-4f81-8463-a1ce707791a3
+2023-04-23 17:14:55:1455 info: OPTIONS /nfts/getFrontPageData 204 8.472 ms - 0
+2023-04-23 17:14:59:1459 info: GET /nfts/getFrontPageData 200 3321.254 ms - 41309
+2023-04-23 17:17:46:1746 info: OPTIONS /nfts/getFrontPageData 204 0.377 ms - 0
+2023-04-23 17:17:52:1752 info: GET /nfts/getFrontPageData 200 5840.360 ms - 41309
+2023-04-23 17:18:23:1823 info: OPTIONS /umg/signin 204 0.179 ms - 0
+2023-04-23 17:18:23:1823 info: OPTIONS /umg/info 204 0.202 ms - 0
+2023-04-23 17:18:56:1856 info: OPTIONS /nfts/getFrontPageData 204 0.136 ms - 0
+2023-04-23 17:19:01:191 info: GET /nfts/getFrontPageData 200 4457.293 ms - 41307
+2023-04-23 17:19:10:1910 info: OPTIONS /umg/signin 204 0.154 ms - 0
+2023-04-23 17:20:02:202 info: Server listening on port 4000
+2023-04-23 17:20:02:202 info: My Fauna secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-04-23 17:20:02:202 info: My SDK secret: b1eea3fc-277f-4f81-8463-a1ce707791a3
+2023-04-23 17:20:09:209 info: OPTIONS /umg/signin 204 8.667 ms - 0
+2023-04-23 17:20:09:209 info: Start login
+2023-04-23 17:20:10:2010 info: POST /umg/signin 200 363.067 ms - 72
+2023-04-23 17:20:10:2010 info: OPTIONS /umg/info 204 0.431 ms - 0
+2023-04-23 17:20:10:2010 info: Start auth
+2023-04-23 17:20:10:2010 info: Start getting User
+2023-04-23 17:20:10:2010 info: GET /umg/info 304 695.294 ms - -
+2023-04-23 17:20:21:2021 info: OPTIONS /nfts/getFrontPageData 204 0.166 ms - 0
+2023-04-23 17:20:24:2024 info: GET /nfts/getFrontPageData 200 3390.147 ms - 41306
+2023-04-23 17:22:17:2217 info: OPTIONS /nfts/getFrontPageData 204 0.154 ms - 0
+2023-04-23 17:22:22:2222 info: GET /nfts/getFrontPageData 200 5258.142 ms - 41309
+2023-04-23 17:22:52:2252 info: OPTIONS /nfts/getFrontPageData 204 0.236 ms - 0
+2023-04-23 17:22:55:2255 info: GET /nfts/getFrontPageData 200 3275.518 ms - 41308
+2023-04-23 17:23:03:233 info: Server listening on port 4000
+2023-04-23 17:23:03:233 info: My Fauna secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-04-23 17:23:03:233 info: My SDK secret: b1eea3fc-277f-4f81-8463-a1ce707791a3
+2023-04-23 17:23:06:236 info: OPTIONS /nfts/getFrontPageData 204 6.815 ms - 0
+2023-04-23 17:23:09:239 info: GET /nfts/getFrontPageData 200 3660.733 ms - 41308
+2023-04-23 17:24:52:2452 info: Server listening on port 4000
+2023-04-23 17:24:52:2452 info: My Fauna secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-04-23 17:24:52:2452 info: My SDK secret: b1eea3fc-277f-4f81-8463-a1ce707791a3
+2023-04-23 17:24:55:2455 info: OPTIONS /umg/info 204 6.342 ms - 0
+2023-04-23 17:24:55:2455 info: Start auth
+2023-04-23 17:24:55:2455 info: OPTIONS /nfts/getFrontPageData 204 0.317 ms - 0
+2023-04-23 17:24:56:2456 info: Start getting User
+2023-04-23 17:24:56:2456 info: GET /umg/info 304 609.505 ms - -
+2023-04-23 17:25:00:250 info: GET /nfts/getFrontPageData 200 4270.599 ms - 41308
+2023-04-23 17:25:39:2539 info: OPTIONS /umg/info 204 0.247 ms - 0
+2023-04-23 17:25:39:2539 info: Start auth
+2023-04-23 17:25:39:2539 info: OPTIONS /nfts/getFrontPageData 204 0.328 ms - 0
+2023-04-23 17:25:39:2539 info: Start getting User
+2023-04-23 17:25:39:2539 info: GET /umg/info 304 409.312 ms - -
+2023-04-23 17:25:48:2548 info: GET /nfts/getFrontPageData 200 9211.333 ms - 41306
+2023-04-23 17:26:37:2637 info: OPTIONS /umg/info 204 0.204 ms - 0
+2023-04-23 17:26:37:2637 info: Start auth
+2023-04-23 17:26:37:2637 info: OPTIONS /nfts/getFrontPageData 204 0.198 ms - 0
+2023-04-23 17:26:38:2638 info: Start getting User
+2023-04-23 17:26:38:2638 info: GET /umg/info 304 397.889 ms - -
+2023-04-23 17:26:42:2642 info: GET /nfts/getFrontPageData 200 4791.509 ms - 41306
+2023-04-23 17:29:39:2939 info: OPTIONS /umg/info 204 0.153 ms - 0
+2023-04-23 17:29:39:2939 info: Start auth
+2023-04-23 17:29:39:2939 info: OPTIONS /nfts/getFrontPageData 204 0.240 ms - 0
+2023-04-23 17:29:39:2939 info: Start getting User
+2023-04-23 17:29:39:2939 info: GET /umg/info 304 382.492 ms - -
+2023-04-23 17:29:43:2943 info: GET /nfts/getFrontPageData 200 4289.089 ms - 41308
+2023-04-23 17:29:59:2959 info: OPTIONS /umg/info 204 0.144 ms - 0
+2023-04-23 17:29:59:2959 info: Start auth
+2023-04-23 17:29:59:2959 info: OPTIONS /nfts/getFrontPageData 204 0.216 ms - 0
+2023-04-23 17:29:59:2959 info: Start getting User
+2023-04-23 17:29:59:2959 info: GET /umg/info 304 362.323 ms - -
+2023-04-23 17:30:02:302 info: GET /nfts/getFrontPageData 200 3117.493 ms - 41308
+2023-04-23 17:37:44:3744 info: OPTIONS /umg/info 204 0.156 ms - 0
+2023-04-23 17:37:44:3744 info: Start auth
+2023-04-23 17:37:44:3744 info: OPTIONS /nfts/getFrontPageData 204 0.198 ms - 0
+2023-04-23 17:37:44:3744 info: Start getting User
+2023-04-23 17:37:44:3744 info: GET /umg/info 304 522.274 ms - -
+2023-04-23 17:37:48:3748 info: GET /nfts/getFrontPageData 200 4142.638 ms - 40805
+2023-04-23 17:40:10:4010 info: OPTIONS /umg/info 204 0.144 ms - 0
+2023-04-23 17:40:10:4010 info: Start auth
+2023-04-23 17:40:11:4011 info: OPTIONS /nfts/getFrontPageData 204 0.172 ms - 0
+2023-04-23 17:40:11:4011 info: Start getting User
+2023-04-23 17:40:12:4012 info: GET /umg/info 304 1590.505 ms - -
+2023-04-23 17:40:15:4015 info: GET /nfts/getFrontPageData 200 4927.890 ms - 40813
+2023-04-23 17:41:51:4151 info: OPTIONS /umg/info 204 0.208 ms - 0
+2023-04-23 17:41:51:4151 info: Start auth
+2023-04-23 17:41:51:4151 info: OPTIONS /nfts/getFrontPageData 204 0.119 ms - 0
+2023-04-23 17:41:51:4151 info: Start getting User
+2023-04-23 17:41:51:4151 info: GET /umg/info 304 357.097 ms - -
+2023-04-23 17:41:57:4157 info: GET /nfts/getFrontPageData 200 5567.753 ms - 40814
+2023-04-23 17:43:16:4316 info: OPTIONS /umg/info 204 0.191 ms - 0
+2023-04-23 17:43:16:4316 info: Start auth
+2023-04-23 17:43:16:4316 info: OPTIONS /nfts/getFrontPageData 204 0.166 ms - 0
+2023-04-23 17:43:16:4316 info: Start getting User
+2023-04-23 17:43:16:4316 info: GET /umg/info 304 397.881 ms - -
+2023-04-23 17:43:21:4321 info: GET /nfts/getFrontPageData 200 5529.647 ms - 40814
+2023-04-23 17:44:46:4446 info: OPTIONS /umg/info 204 0.153 ms - 0
+2023-04-23 17:44:46:4446 info: Start auth
+2023-04-23 17:44:47:4447 info: OPTIONS /nfts/getFrontPageData 204 0.170 ms - 0
+2023-04-23 17:44:47:4447 info: Start getting User
+2023-04-23 17:44:47:4447 info: GET /umg/info 304 385.090 ms - -
+2023-04-23 17:44:51:4451 info: GET /nfts/getFrontPageData 200 4015.253 ms - 40813
+2023-04-23 17:46:37:4637 info: OPTIONS /umg/info 204 0.101 ms - 0
+2023-04-23 17:46:37:4637 info: Start auth
+2023-04-23 17:46:37:4637 info: OPTIONS /nfts/getFrontPageData 204 0.108 ms - 0
+2023-04-23 17:46:37:4637 info: Start getting User
+2023-04-23 17:46:38:4638 info: GET /umg/info 304 361.176 ms - -
+2023-04-23 17:46:42:4642 info: GET /nfts/getFrontPageData 200 5078.573 ms - 40806
+2023-04-23 17:49:11:4911 info: OPTIONS /umg/info 204 0.189 ms - 0
+2023-04-23 17:49:11:4911 info: Start auth
+2023-04-23 17:49:12:4912 info: OPTIONS /nfts/getFrontPageData 204 0.172 ms - 0
+2023-04-23 17:49:12:4912 info: Start getting User
+2023-04-23 17:49:12:4912 info: GET /umg/info 304 365.120 ms - -
+2023-04-23 17:49:15:4915 info: GET /nfts/getFrontPageData 200 3270.547 ms - 40810
+2023-04-23 17:49:32:4932 info: OPTIONS /nfts/getFrontPageData 204 0.172 ms - 0
+2023-04-23 17:49:35:4935 info: GET /nfts/getFrontPageData 200 2929.291 ms - 40810
+2023-04-23 17:50:09:509 info: OPTIONS /umg/info 204 0.105 ms - 0
+2023-04-23 17:50:09:509 info: Start auth
+2023-04-23 17:50:09:509 info: OPTIONS /nfts/getFrontPageData 204 0.108 ms - 0
+2023-04-23 17:50:09:509 info: Start getting User
+2023-04-23 17:50:09:509 info: GET /umg/info 304 369.578 ms - -
+2023-04-23 17:50:13:5013 info: GET /nfts/getFrontPageData 200 4014.465 ms - 40809
+2023-04-23 17:50:37:5037 info: OPTIONS /umg/info 204 0.144 ms - 0
+2023-04-23 17:50:37:5037 info: Start auth
+2023-04-23 17:50:37:5037 info: OPTIONS /nfts/getFrontPageData 204 0.127 ms - 0
+2023-04-23 17:50:38:5038 error: unauthorized. Check that endpoint, schema, port and secret are correct during client’s instantiation
+2023-04-23 17:50:38:5038 info: Start getting User
+2023-04-23 17:50:38:5038 error: invalid expression
+2023-04-23 17:50:38:5038 info: GET /umg/info 500 395.512 ms - 53
+2023-04-23 17:50:41:5041 info: GET /nfts/getFrontPageData 200 3156.199 ms - 40809
+2023-04-23 17:52:27:5227 info: OPTIONS /umg/info 204 0.156 ms - 0
+2023-04-23 17:52:27:5227 info: Start auth
+2023-04-23 17:52:27:5227 info: OPTIONS /nfts/getFrontPageData 204 0.154 ms - 0
+2023-04-23 17:52:27:5227 error: unauthorized. Check that endpoint, schema, port and secret are correct during client’s instantiation
+2023-04-23 17:52:27:5227 info: Start getting User
+2023-04-23 17:52:27:5227 error: invalid expression
+2023-04-23 17:52:27:5227 info: GET /umg/info 500 349.222 ms - 53
+2023-04-23 17:52:32:5232 info: GET /nfts/getFrontPageData 200 5687.187 ms - 40809
+2023-04-23 17:52:41:5241 info: OPTIONS /umg/signin 204 0.146 ms - 0
+2023-04-23 17:52:41:5241 info: Start login
+2023-04-23 17:52:41:5241 info: POST /umg/signin 200 285.595 ms - 72
+2023-04-23 17:52:41:5241 info: OPTIONS /umg/info 204 0.202 ms - 0
+2023-04-23 17:52:41:5241 info: Start auth
+2023-04-23 17:52:41:5241 info: Start getting User
+2023-04-23 17:52:41:5241 info: GET /umg/info 200 393.375 ms - 5233
+2023-04-23 17:52:50:5250 info: OPTIONS /umg/logout 204 0.158 ms - 0
+2023-04-23 17:52:50:5250 info: Start logout
+2023-04-23 17:52:50:5250 info: fnEFCPlVFIACUATmg2LiYApaIpnYZh9_Bm9LIHYmTlHxZffePZs
+2023-04-23 17:52:50:5250 info: POST /umg/logout 200 267.798 ms - 2
+2023-04-23 17:52:50:5250 info: OPTIONS /umg/info 204 0.116 ms - 0
+2023-04-23 17:52:50:5250 info: Start auth
+2023-04-23 17:52:51:5251 error: unauthorized. Check that endpoint, schema, port and secret are correct during client’s instantiation
+2023-04-23 17:52:51:5251 info: Start getting User
+2023-04-23 17:52:51:5251 error: invalid expression
+2023-04-23 17:52:51:5251 info: GET /umg/info 500 305.664 ms - 53
+2023-04-23 17:52:51:5251 info: Start auth
+2023-04-23 17:52:51:5251 error: unauthorized. Check that endpoint, schema, port and secret are correct during client’s instantiation
+2023-04-23 17:52:51:5251 info: Start getting User
+2023-04-23 17:52:51:5251 error: invalid expression
+2023-04-23 17:52:51:5251 info: GET /umg/info 500 312.437 ms - 53
+2023-04-23 17:52:51:5251 info: Start auth
+2023-04-23 17:52:51:5251 error: unauthorized. Check that endpoint, schema, port and secret are correct during client’s instantiation
+2023-04-23 17:52:51:5251 info: Start getting User
+2023-04-23 17:52:51:5251 error: invalid expression
+2023-04-23 17:52:51:5251 info: GET /umg/info 500 311.753 ms - 53
+2023-04-23 17:52:51:5251 info: Start auth
+2023-04-23 17:52:51:5251 error: unauthorized. Check that endpoint, schema, port and secret are correct during client’s instantiation
+2023-04-23 17:52:51:5251 info: Start getting User
+2023-04-23 17:52:52:5252 error: invalid expression
+2023-04-23 17:52:52:5252 info: GET /umg/info 500 313.125 ms - 53
+2023-04-23 17:52:52:5252 info: Start auth
+2023-04-23 17:52:52:5252 error: unauthorized. Check that endpoint, schema, port and secret are correct during client’s instantiation
+2023-04-23 17:52:52:5252 info: Start getting User
+2023-04-23 17:52:52:5252 error: invalid expression
+2023-04-23 17:52:52:5252 info: GET /umg/info 500 310.843 ms - 53
+2023-04-23 17:52:52:5252 info: Start auth
+2023-04-23 17:52:52:5252 error: unauthorized. Check that endpoint, schema, port and secret are correct during client’s instantiation
+2023-04-23 17:52:52:5252 info: Start getting User
+2023-04-23 17:52:52:5252 error: invalid expression
+2023-04-23 17:52:52:5252 info: GET /umg/info 500 310.453 ms - 53
+2023-04-23 17:52:52:5252 info: Start auth
+2023-04-23 17:52:52:5252 error: unauthorized. Check that endpoint, schema, port and secret are correct during client’s instantiation
+2023-04-23 17:52:52:5252 info: Start getting User
+2023-04-23 17:52:53:5253 error: invalid expression
+2023-04-23 17:52:53:5253 info: GET /umg/info 500 303.956 ms - 53
+2023-04-23 17:52:53:5253 info: Start auth
+2023-04-23 17:52:53:5253 error: unauthorized. Check that endpoint, schema, port and secret are correct during client’s instantiation
+2023-04-23 17:52:53:5253 info: Start getting User
+2023-04-23 17:52:53:5253 error: invalid expression
+2023-04-23 17:52:53:5253 info: GET /umg/info 500 312.398 ms - 53
+2023-04-23 17:52:53:5253 info: Start auth
+2023-04-23 17:52:53:5253 error: unauthorized. Check that endpoint, schema, port and secret are correct during client’s instantiation
+2023-04-23 17:52:53:5253 info: Start getting User
+2023-04-23 17:52:53:5253 error: invalid expression
+2023-04-23 17:52:53:5253 info: GET /umg/info 500 303.298 ms - 53
+2023-04-23 17:52:53:5253 info: Start auth
+2023-04-23 17:52:53:5253 error: unauthorized. Check that endpoint, schema, port and secret are correct during client’s instantiation
+2023-04-23 17:52:53:5253 info: Start getting User
+2023-04-23 17:52:54:5254 error: invalid expression
+2023-04-23 17:52:54:5254 info: GET /umg/info 500 312.669 ms - 53
+2023-04-23 17:52:54:5254 info: Start auth
+2023-04-23 17:52:54:5254 error: unauthorized. Check that endpoint, schema, port and secret are correct during client’s instantiation
+2023-04-23 17:52:54:5254 info: Start getting User
+2023-04-23 17:52:54:5254 error: invalid expression
+2023-04-23 17:52:54:5254 info: GET /umg/info 500 310.605 ms - 53
+2023-04-23 17:52:54:5254 info: Start auth
+2023-04-23 17:52:54:5254 error: unauthorized. Check that endpoint, schema, port and secret are correct during client’s instantiation
+2023-04-23 17:52:54:5254 info: Start getting User
+2023-04-23 17:52:54:5254 error: invalid expression
+2023-04-23 17:52:54:5254 info: GET /umg/info 500 309.094 ms - 53
+2023-04-23 17:52:54:5254 info: Start auth
+2023-04-23 17:52:54:5254 error: unauthorized. Check that endpoint, schema, port and secret are correct during client’s instantiation
+2023-04-23 17:52:54:5254 info: Start getting User
+2023-04-23 17:52:55:5255 error: invalid expression
+2023-04-23 17:52:55:5255 info: GET /umg/info 500 312.746 ms - 53
+2023-04-23 17:52:55:5255 info: Start auth
+2023-04-23 17:52:55:5255 error: unauthorized. Check that endpoint, schema, port and secret are correct during client’s instantiation
+2023-04-23 17:52:55:5255 info: Start getting User
+2023-04-23 17:52:55:5255 error: invalid expression
+2023-04-23 17:52:55:5255 info: GET /umg/info 500 296.640 ms - 53
+2023-04-23 17:52:55:5255 info: Start auth
+2023-04-23 17:52:55:5255 error: unauthorized. Check that endpoint, schema, port and secret are correct during client’s instantiation
+2023-04-23 17:52:55:5255 info: Start getting User
+2023-04-23 17:52:55:5255 error: invalid expression
+2023-04-23 17:52:55:5255 info: GET /umg/info 500 300.065 ms - 53
+2023-04-23 17:52:55:5255 info: Start auth
+2023-04-23 17:52:55:5255 error: unauthorized. Check that endpoint, schema, port and secret are correct during client’s instantiation
+2023-04-23 17:52:55:5255 info: Start getting User
+2023-04-23 17:52:55:5255 error: invalid expression
+2023-04-23 17:52:55:5255 info: GET /umg/info 500 332.388 ms - 53
+2023-04-23 17:52:55:5255 info: OPTIONS /umg/info 204 0.171 ms - 0
+2023-04-23 17:52:56:5256 info: Start auth
+2023-04-23 17:52:56:5256 error: unauthorized. Check that endpoint, schema, port and secret are correct during client’s instantiation
+2023-04-23 17:52:56:5256 info: Start getting User
+2023-04-23 17:52:56:5256 error: invalid expression
+2023-04-23 17:52:56:5256 info: GET /umg/info 500 314.684 ms - 53
+2023-04-23 17:52:56:5256 info: Start auth
+2023-04-23 17:52:56:5256 error: unauthorized. Check that endpoint, schema, port and secret are correct during client’s instantiation
+2023-04-23 17:52:56:5256 info: Start getting User
+2023-04-23 17:52:56:5256 error: invalid expression
+2023-04-23 17:52:56:5256 info: GET /umg/info 500 302.777 ms - 53
+2023-04-23 17:52:56:5256 info: Start auth
+2023-04-23 17:52:56:5256 error: unauthorized. Check that endpoint, schema, port and secret are correct during client’s instantiation
+2023-04-23 17:52:56:5256 info: Start getting User
+2023-04-23 17:52:57:5257 error: invalid expression
+2023-04-23 17:52:57:5257 info: GET /umg/info 500 368.328 ms - 53
+2023-04-23 17:52:57:5257 info: Start auth
+2023-04-23 17:52:57:5257 error: unauthorized. Check that endpoint, schema, port and secret are correct during client’s instantiation
+2023-04-23 17:52:57:5257 info: Start getting User
+2023-04-23 17:52:57:5257 error: invalid expression
+2023-04-23 17:52:57:5257 info: GET /umg/info 500 307.218 ms - 53
+2023-04-23 17:52:57:5257 info: Start auth
+2023-04-23 17:52:57:5257 error: unauthorized. Check that endpoint, schema, port and secret are correct during client’s instantiation
+2023-04-23 17:52:57:5257 info: Start getting User
+2023-04-23 17:52:57:5257 error: invalid expression
+2023-04-23 17:52:57:5257 info: GET /umg/info 500 311.603 ms - 53
+2023-04-23 17:52:57:5257 info: Start auth
+2023-04-23 17:52:57:5257 error: unauthorized. Check that endpoint, schema, port and secret are correct during client’s instantiation
+2023-04-23 17:52:57:5257 info: Start getting User
+2023-04-23 17:52:58:5258 error: invalid expression
+2023-04-23 17:52:58:5258 info: GET /umg/info 500 338.302 ms - 53
+2023-04-23 17:52:58:5258 info: Start auth
+2023-04-23 17:52:58:5258 error: unauthorized. Check that endpoint, schema, port and secret are correct during client’s instantiation
+2023-04-23 17:52:58:5258 info: Start getting User
+2023-04-23 17:52:58:5258 error: invalid expression
+2023-04-23 17:52:58:5258 info: GET /umg/info 500 488.309 ms - 53
+2023-04-23 17:52:58:5258 info: Start auth
+2023-04-23 17:52:58:5258 error: unauthorized. Check that endpoint, schema, port and secret are correct during client’s instantiation
+2023-04-23 17:52:58:5258 info: Start getting User
+2023-04-23 17:52:58:5258 info: GET /umg/info - - ms - -
+2023-04-23 17:52:58:5258 error: invalid expression
+2023-04-23 17:53:00:530 info: Start auth
+2023-04-23 17:53:00:530 info: OPTIONS /nfts/getFrontPageData 204 0.112 ms - 0
+2023-04-23 17:53:00:530 error: unauthorized. Check that endpoint, schema, port and secret are correct during client’s instantiation
+2023-04-23 17:53:00:530 info: Start getting User
+2023-04-23 17:53:01:531 error: invalid expression
+2023-04-23 17:53:01:531 info: GET /umg/info 500 315.459 ms - 53
+2023-04-23 17:53:04:534 info: GET /nfts/getFrontPageData 200 3135.318 ms - 40809
+2023-04-23 17:53:44:5344 info: OPTIONS /umg/info 204 0.150 ms - 0
+2023-04-23 17:53:44:5344 info: Start auth
+2023-04-23 17:53:44:5344 error: unauthorized. Check that endpoint, schema, port and secret are correct during client’s instantiation
+2023-04-23 17:53:44:5344 info: Start getting User
+2023-04-23 17:53:44:5344 info: OPTIONS /nfts/getFrontPageData 204 0.155 ms - 0
+2023-04-23 17:53:44:5344 error: invalid expression
+2023-04-23 17:53:44:5344 info: GET /umg/info 500 319.438 ms - 53
+2023-04-23 17:53:47:5347 info: GET /nfts/getFrontPageData 200 2965.194 ms - 40809
+2023-04-23 17:53:57:5357 info: OPTIONS /umg/signin 204 0.144 ms - 0
+2023-04-23 17:53:57:5357 info: Start login
+2023-04-23 17:53:57:5357 info: POST /umg/signin 200 265.486 ms - 72
+2023-04-23 17:53:57:5357 info: OPTIONS /umg/info 204 0.160 ms - 0
+2023-04-23 17:53:57:5357 info: Start auth
+2023-04-23 17:53:57:5357 info: Start getting User
+2023-04-23 17:53:57:5357 info: GET /umg/info 200 367.938 ms - 5233
+2023-04-23 17:54:02:542 info: OPTIONS /umg/logout 204 0.140 ms - 0
+2023-04-23 17:54:02:542 info: Start logout
+2023-04-23 17:54:02:542 info: fnEFCPlno1ACUATmg2LiYApa_P8JvsaSoFezZXuq6Jm1B5u3-QM
+2023-04-23 17:54:02:542 info: POST /umg/logout 200 264.110 ms - 2
+2023-04-23 17:54:02:542 info: OPTIONS /umg/info 204 0.147 ms - 0
+2023-04-23 17:54:02:542 info: Start auth
+2023-04-23 17:54:02:542 error: unauthorized. Check that endpoint, schema, port and secret are correct during client’s instantiation
+2023-04-23 17:54:02:542 info: Start getting User
+2023-04-23 17:54:02:542 error: invalid expression
+2023-04-23 17:54:02:542 info: GET /umg/info 500 307.504 ms - 53
+2023-04-23 17:54:02:542 info: Start auth
+2023-04-23 17:54:02:542 error: unauthorized. Check that endpoint, schema, port and secret are correct during client’s instantiation
+2023-04-23 17:54:02:542 info: Start getting User
+2023-04-23 17:54:03:543 error: invalid expression
+2023-04-23 17:54:03:543 info: GET /umg/info 500 305.427 ms - 53
+2023-04-23 17:54:03:543 info: Start auth
+2023-04-23 17:54:03:543 error: unauthorized. Check that endpoint, schema, port and secret are correct during client’s instantiation
+2023-04-23 17:54:03:543 info: Start getting User
+2023-04-23 17:54:03:543 error: invalid expression
+2023-04-23 17:54:03:543 info: GET /umg/info 500 306.653 ms - 53
+2023-04-23 17:54:03:543 info: Start auth
+2023-04-23 17:54:03:543 error: unauthorized. Check that endpoint, schema, port and secret are correct during client’s instantiation
+2023-04-23 17:54:03:543 info: Start getting User
+2023-04-23 17:54:03:543 error: invalid expression
+2023-04-23 17:54:03:543 info: GET /umg/info 500 300.871 ms - 53
+2023-04-23 17:54:03:543 info: Start auth
+2023-04-23 17:54:03:543 error: unauthorized. Check that endpoint, schema, port and secret are correct during client’s instantiation
+2023-04-23 17:54:03:543 info: Start getting User
+2023-04-23 17:54:04:544 error: invalid expression
+2023-04-23 17:54:04:544 info: GET /umg/info 500 304.197 ms - 53
+2023-04-23 17:54:04:544 info: Start auth
+2023-04-23 17:54:04:544 error: unauthorized. Check that endpoint, schema, port and secret are correct during client’s instantiation
+2023-04-23 17:54:04:544 info: Start getting User
+2023-04-23 17:54:04:544 error: invalid expression
+2023-04-23 17:54:04:544 info: GET /umg/info 500 308.015 ms - 53
+2023-04-23 17:54:04:544 info: Start auth
+2023-04-23 17:54:04:544 error: unauthorized. Check that endpoint, schema, port and secret are correct during client’s instantiation
+2023-04-23 17:54:04:544 info: Start getting User
+2023-04-23 17:54:04:544 error: invalid expression
+2023-04-23 17:54:04:544 info: GET /umg/info 500 313.989 ms - 53
+2023-04-23 17:54:04:544 info: Start auth
+2023-04-23 17:54:04:544 error: unauthorized. Check that endpoint, schema, port and secret are correct during client’s instantiation
+2023-04-23 17:54:04:544 info: Start getting User
+2023-04-23 17:54:04:544 error: invalid expression
+2023-04-23 17:54:04:544 info: GET /umg/info 500 302.518 ms - 53
+2023-04-23 17:54:04:544 info: Start auth
+2023-04-23 17:54:05:545 error: unauthorized. Check that endpoint, schema, port and secret are correct during client’s instantiation
+2023-04-23 17:54:05:545 info: Start getting User
+2023-04-23 17:58:50:5850 info: Server listening on port 4000
+2023-04-23 17:58:50:5850 info: My Fauna secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-04-23 17:58:50:5850 info: My SDK secret: b1eea3fc-277f-4f81-8463-a1ce707791a3
+2023-04-23 17:58:58:5858 info: OPTIONS /umg/info 204 6.014 ms - 0
+2023-04-23 17:58:58:5858 info: Start auth
+2023-04-23 17:58:58:5858 info: OPTIONS /nfts/getFrontPageData 204 0.354 ms - 0
+2023-04-23 17:58:58:5858 error: unauthorized. Check that endpoint, schema, port and secret are correct during client’s instantiation
+2023-04-23 17:58:58:5858 info: Start getting User
+2023-04-23 17:58:58:5858 error: invalid expression
+2023-04-23 17:58:58:5858 info: GET /umg/info 500 454.178 ms - 53
+2023-04-23 17:59:03:593 info: GET /nfts/getFrontPageData 200 5035.313 ms - 40812
+2023-04-23 18:00:34:034 info: Server listening on port 4000
+2023-04-23 18:00:34:034 info: My Fauna secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-04-23 18:00:34:034 info: My SDK secret: b1eea3fc-277f-4f81-8463-a1ce707791a3
+2023-04-23 18:00:37:037 info: OPTIONS /umg/info 204 6.603 ms - 0
+2023-04-23 18:00:37:037 info: Start auth
+2023-04-23 18:00:37:037 info: OPTIONS /nfts/getFrontPageData 204 0.353 ms - 0
+2023-04-23 18:00:37:037 error: unauthorized. Check that endpoint, schema, port and secret are correct during client’s instantiation
+2023-04-23 18:00:37:037 info: Start getting User
+2023-04-23 18:00:37:037 error: invalid expression
+2023-04-23 18:00:37:037 info: GET /umg/info 403 344.270 ms - 38
+2023-04-23 18:00:41:041 info: GET /nfts/getFrontPageData 200 3905.847 ms - 40810
+2023-04-23 18:02:39:239 info: OPTIONS /umg/info 204 0.165 ms - 0
+2023-04-23 18:02:39:239 info: Start auth
+2023-04-23 18:02:39:239 info: OPTIONS /nfts/getFrontPageData 204 0.161 ms - 0
+2023-04-23 18:02:40:240 error: unauthorized. Check that endpoint, schema, port and secret are correct during client’s instantiation
+2023-04-23 18:02:40:240 info: Start getting User
+2023-04-23 18:02:40:240 error: invalid expression
+2023-04-23 18:02:40:240 info: GET /umg/info 403 413.450 ms - 38
+2023-04-23 18:02:45:245 info: GET /nfts/getFrontPageData 200 5372.297 ms - 40810
+2023-04-23 18:02:56:256 info: OPTIONS /umg/signin 204 0.226 ms - 0
+2023-04-23 18:02:56:256 info: Start login
+2023-04-23 18:02:57:257 info: POST /umg/signin 200 295.270 ms - 72
+2023-04-23 18:02:57:257 info: OPTIONS /umg/info 204 0.144 ms - 0
+2023-04-23 18:02:57:257 info: Start auth
+2023-04-23 18:02:57:257 info: Start getting User
+2023-04-23 18:02:57:257 info: GET /umg/info 200 397.957 ms - 5233
+2023-04-23 18:03:03:33 info: OPTIONS /umg/logout 204 0.252 ms - 0
+2023-04-23 18:03:03:33 info: Start logout
+2023-04-23 18:03:03:33 info: fnEFCPnrcTACUATmg2LiYApaYGpTUOu_cOQ6Au2se1gZ_JkluXY
+2023-04-23 18:03:03:33 info: POST /umg/logout - - ms - -
+2023-04-23 18:03:19:319 info: OPTIONS /umg/info 204 0.135 ms - 0
+2023-04-23 18:03:19:319 info: Start auth
+2023-04-23 18:03:19:319 info: OPTIONS /nfts/getFrontPageData 204 0.168 ms - 0
+2023-04-23 18:03:19:319 error: unauthorized. Check that endpoint, schema, port and secret are correct during client’s instantiation
+2023-04-23 18:03:19:319 info: Start getting User
+2023-04-23 18:03:19:319 error: invalid expression
+2023-04-23 18:03:19:319 info: GET /umg/info 403 334.475 ms - 38
+2023-04-23 18:03:23:323 info: GET /nfts/getFrontPageData 200 4249.750 ms - 40812
+2023-04-23 18:06:54:654 info: Server listening on port 4000
+2023-04-23 18:06:54:654 info: My Fauna secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-04-23 18:06:54:654 info: My SDK secret: b1eea3fc-277f-4f81-8463-a1ce707791a3
+2023-04-23 18:06:58:658 info: OPTIONS /umg/info 204 6.117 ms - 0
+2023-04-23 18:06:58:658 info: Start auth
+2023-04-23 18:06:58:658 info: OPTIONS /nfts/getFrontPageData 204 0.284 ms - 0
+2023-04-23 18:06:58:658 error: unauthorized. Check that endpoint, schema, port and secret are correct during client’s instantiation
+2023-04-23 18:06:58:658 info: Start getting User
+2023-04-23 18:06:59:659 error: invalid expression
+2023-04-23 18:06:59:659 info: GET /umg/info 403 360.345 ms - 38
+2023-04-23 18:07:03:73 info: GET /nfts/getFrontPageData 200 4931.747 ms - 40809
+2023-04-23 18:07:08:78 info: OPTIONS /umg/signin 204 0.246 ms - 0
+2023-04-23 18:07:08:78 info: Start login
+2023-04-23 18:07:08:78 info: POST /umg/signin 200 273.507 ms - 72
+2023-04-23 18:07:08:78 info: OPTIONS /umg/info 204 0.187 ms - 0
+2023-04-23 18:07:08:78 info: Start auth
+2023-04-23 18:07:09:79 info: Start getting User
+2023-04-23 18:07:09:79 info: GET /umg/info 200 392.143 ms - 5233
+2023-04-23 18:07:15:715 info: OPTIONS /umg/logout 204 0.176 ms - 0
+2023-04-23 18:07:15:715 info: Start logout
+2023-04-23 18:07:15:715 info: fnEFCPoo3TACUQTmg2LiYApa6lDHYULee75IBM0j1U_6W-Iy0cI
+2023-04-23 18:07:15:715 info: POST /umg/logout - - ms - -
+2023-04-23 18:07:29:729 info: OPTIONS /umg/info 204 0.223 ms - 0
+2023-04-23 18:07:29:729 info: Start auth
+2023-04-23 18:07:29:729 info: OPTIONS /nfts/getFrontPageData 204 0.253 ms - 0
+2023-04-23 18:07:29:729 error: unauthorized. Check that endpoint, schema, port and secret are correct during client’s instantiation
+2023-04-23 18:07:29:729 info: Start getting User
+2023-04-23 18:07:29:729 error: invalid expression
+2023-04-23 18:07:29:729 info: GET /umg/info 403 312.449 ms - 38
+2023-04-23 18:07:32:732 info: GET /nfts/getFrontPageData 304 3344.629 ms - -
+2023-04-23 18:08:42:842 info: OPTIONS /umg/info 204 0.225 ms - 0
+2023-04-23 18:08:42:842 info: Start auth
+2023-04-23 18:08:42:842 info: OPTIONS /nfts/getFrontPageData 204 0.132 ms - 0
+2023-04-23 18:08:42:842 error: unauthorized. Check that endpoint, schema, port and secret are correct during client’s instantiation
+2023-04-23 18:08:42:842 info: Start getting User
+2023-04-23 18:08:43:843 error: invalid expression
+2023-04-23 18:08:43:843 info: GET /umg/info 403 303.727 ms - 38
+2023-04-23 18:08:46:846 info: GET /nfts/getFrontPageData 200 3914.648 ms - 40813
+2023-04-23 18:08:51:851 info: OPTIONS /umg/signin 204 0.206 ms - 0
+2023-04-23 18:08:51:851 info: Start login
+2023-04-23 18:08:52:852 info: POST /umg/signin 200 257.659 ms - 72
+2023-04-23 18:08:52:852 info: OPTIONS /umg/info 204 0.166 ms - 0
+2023-04-23 18:08:52:852 info: Start auth
+2023-04-23 18:08:52:852 info: Start getting User
+2023-04-23 18:08:52:852 info: GET /umg/info 200 362.912 ms - 5233
+2023-04-23 18:08:56:856 info: OPTIONS /umg/logout 204 0.203 ms - 0
+2023-04-23 18:08:56:856 info: Start logout
+2023-04-23 18:08:56:856 info: fnEFCPpCHIACUATmg2LiYApaDAj0PAvOga8cRsUb4x8WSKjeu5U
+2023-04-23 18:08:56:856 info: POST /umg/logout - - ms - -
+2023-04-23 18:09:13:913 info: OPTIONS /umg/info 204 0.142 ms - 0
+2023-04-23 18:09:13:913 info: Start auth
+2023-04-23 18:09:13:913 info: OPTIONS /nfts/getFrontPageData 204 0.123 ms - 0
+2023-04-23 18:09:13:913 error: unauthorized. Check that endpoint, schema, port and secret are correct during client’s instantiation
+2023-04-23 18:09:13:913 info: Start getting User
+2023-04-23 18:09:13:913 error: invalid expression
+2023-04-23 18:09:13:913 info: GET /umg/info 403 315.723 ms - 38
+2023-04-23 18:09:16:916 info: GET /nfts/getFrontPageData 304 3479.630 ms - -
+2023-04-23 18:09:35:935 info: OPTIONS /umg/info 204 0.171 ms - 0
+2023-04-23 18:09:35:935 info: Start auth
+2023-04-23 18:09:35:935 info: OPTIONS /nfts/getFrontPageData 204 0.198 ms - 0
+2023-04-23 18:09:35:935 error: unauthorized. Check that endpoint, schema, port and secret are correct during client’s instantiation
+2023-04-23 18:09:35:935 info: Start getting User
+2023-04-23 18:09:35:935 error: invalid expression
+2023-04-23 18:09:35:935 info: GET /umg/info 403 319.110 ms - 38
+2023-04-23 18:09:38:938 info: GET /nfts/getFrontPageData 200 3158.751 ms - 40813
+2023-04-23 18:09:44:944 info: OPTIONS /umg/signin 204 0.172 ms - 0
+2023-04-23 18:09:44:944 info: Start login
+2023-04-23 18:09:44:944 info: POST /umg/signin 200 252.455 ms - 72
+2023-04-23 18:09:44:944 info: OPTIONS /umg/info 204 0.138 ms - 0
+2023-04-23 18:09:44:944 info: Start auth
+2023-04-23 18:09:44:944 info: Start getting User
+2023-04-23 18:09:44:944 info: GET /umg/info 200 371.957 ms - 5233
+2023-04-23 18:09:49:949 info: OPTIONS /umg/logout 204 0.115 ms - 0
+2023-04-23 18:09:49:949 info: Start logout
+2023-04-23 18:09:49:949 info: fnEFCPpO4zACUQTmg2LiYApaXMz8gy5XYNtE6LqhCgm9ucqlKDY
+2023-04-23 18:09:49:949 info: POST /umg/logout - - ms - -
+2023-04-23 18:10:08:108 info: OPTIONS /umg/info 204 0.159 ms - 0
+2023-04-23 18:10:08:108 info: Start auth
+2023-04-23 18:10:08:108 info: OPTIONS /nfts/getFrontPageData 204 0.168 ms - 0
+2023-04-23 18:10:08:108 error: unauthorized. Check that endpoint, schema, port and secret are correct during client’s instantiation
+2023-04-23 18:10:08:108 info: Start getting User
+2023-04-23 18:10:08:108 error: invalid expression
+2023-04-23 18:10:08:108 info: GET /umg/info 403 311.060 ms - 38
+2023-04-23 18:10:11:1011 info: GET /nfts/getFrontPageData 200 3049.704 ms - 40813
+2023-04-23 18:10:16:1016 info: OPTIONS /umg/signin 204 0.115 ms - 0
+2023-04-23 18:10:16:1016 info: Start login
+2023-04-23 18:10:16:1016 info: POST /umg/signin 200 323.907 ms - 72
+2023-04-23 18:10:16:1016 info: OPTIONS /umg/info 204 0.168 ms - 0
+2023-04-23 18:10:16:1016 info: Start auth
+2023-04-23 18:10:17:1017 info: Start getting User
+2023-04-23 18:10:17:1017 info: GET /umg/info 200 364.417 ms - 5233
+2023-04-23 18:10:20:1020 info: OPTIONS /umg/logout 204 0.139 ms - 0
+2023-04-23 18:10:20:1020 info: Start logout
+2023-04-23 18:10:20:1020 info: fnEFCPpWy9ACUATmg2LiYApaRPHHRAJU8YUAsVcJlcCktDSehhw
+2023-04-23 18:10:20:1020 info: POST /umg/logout 200 252.742 ms - 2
+2023-04-23 18:10:20:1020 info: Start auth
+2023-04-23 18:10:21:1021 error: unauthorized. Check that endpoint, schema, port and secret are correct during client’s instantiation
+2023-04-23 18:10:21:1021 info: Start getting User
+2023-04-23 18:10:21:1021 error: invalid expression
+2023-04-23 18:10:21:1021 info: GET /umg/info 403 348.809 ms - 38
+2023-04-23 18:11:21:1121 info: OPTIONS /umg/info 204 0.158 ms - 0
+2023-04-23 18:11:21:1121 info: Start auth
+2023-04-23 18:11:22:1122 info: OPTIONS /nfts/getFrontPageData 204 0.108 ms - 0
+2023-04-23 18:11:22:1122 error: unauthorized. Check that endpoint, schema, port and secret are correct during client’s instantiation
+2023-04-23 18:11:22:1122 info: Start getting User
+2023-04-23 18:11:22:1122 error: invalid expression
+2023-04-23 18:11:22:1122 info: GET /umg/info 403 393.196 ms - 38
+2023-04-23 18:11:27:1127 info: GET /nfts/getFrontPageData 200 5503.494 ms - 40812
+2023-04-23 18:11:32:1132 info: OPTIONS /umg/signin 204 0.116 ms - 0
+2023-04-23 18:11:32:1132 info: Start login
+2023-04-23 18:11:33:1133 info: POST /umg/signin 200 260.125 ms - 72
+2023-04-23 18:11:33:1133 info: OPTIONS /umg/info 204 0.166 ms - 0
+2023-04-23 18:11:33:1133 info: Start auth
+2023-04-23 18:11:33:1133 info: Start getting User
+2023-04-23 18:11:33:1133 info: GET /umg/info 200 374.442 ms - 5233
+2023-04-23 18:11:37:1137 info: OPTIONS /umg/logout 204 0.149 ms - 0
+2023-04-23 18:11:37:1137 info: Start logout
+2023-04-23 18:11:37:1137 info: fnEFCPppXPACUATmg2LiYApaFzqKub5qgbmJ8FB9GCQ5k3ZRNqM
+2023-04-23 18:11:37:1137 info: POST /umg/logout 200 263.780 ms - 2
+2023-04-23 18:11:37:1137 info: Start auth
+2023-04-23 18:11:37:1137 error: unauthorized. Check that endpoint, schema, port and secret are correct during client’s instantiation
+2023-04-23 18:11:37:1137 info: Start getting User
+2023-04-23 18:11:38:1138 error: invalid expression
+2023-04-23 18:11:38:1138 info: GET /umg/info 403 340.888 ms - 38
+2023-04-23 18:12:29:1229 info: OPTIONS /umg/info 204 0.171 ms - 0
+2023-04-23 18:12:29:1229 info: Start auth
+2023-04-23 18:12:29:1229 info: OPTIONS /nfts/getFrontPageData 204 0.109 ms - 0
+2023-04-23 18:12:29:1229 error: unauthorized. Check that endpoint, schema, port and secret are correct during client’s instantiation
+2023-04-23 18:12:29:1229 info: Start getting User
+2023-04-23 18:12:29:1229 error: invalid expression
+2023-04-23 18:12:29:1229 info: GET /umg/info 403 314.205 ms - 38
+2023-04-23 18:12:34:1234 info: GET /nfts/getFrontPageData 200 5214.163 ms - 40812
+2023-04-23 18:12:54:1254 info: OPTIONS /umg/info 204 0.194 ms - 0
+2023-04-23 18:12:54:1254 info: Start auth
+2023-04-23 18:12:54:1254 info: OPTIONS /nfts/getFrontPageData 204 0.167 ms - 0
+2023-04-23 18:12:55:1255 error: unauthorized. Check that endpoint, schema, port and secret are correct during client’s instantiation
+2023-04-23 18:12:55:1255 info: Start getting User
+2023-04-23 18:12:55:1255 error: invalid expression
+2023-04-23 18:12:55:1255 info: GET /umg/info 403 360.592 ms - 38
+2023-04-23 18:12:58:1258 info: GET /nfts/getFrontPageData 200 3391.258 ms - 40808
+2023-04-23 18:13:16:1316 info: Server listening on port 4000
+2023-04-23 18:13:16:1316 info: My Fauna secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-04-23 18:13:16:1316 info: My SDK secret: b1eea3fc-277f-4f81-8463-a1ce707791a3
+2023-04-23 18:13:35:1335 info: OPTIONS /umg/info 204 6.965 ms - 0
+2023-04-23 18:13:35:1335 info: Start auth
+2023-04-23 18:13:35:1335 info: OPTIONS /nfts/getFrontPageData 204 0.529 ms - 0
+2023-04-23 18:13:35:1335 error: unauthorized. Check that endpoint, schema, port and secret are correct during client’s instantiation
+2023-04-23 18:13:35:1335 info: Start getting User
+2023-04-23 18:13:35:1335 error: invalid expression
+2023-04-23 18:13:35:1335 info: GET /umg/info 401 394.002 ms - 38
+2023-04-23 18:13:38:1338 info: GET /nfts/getFrontPageData 200 3288.983 ms - 40808
+2023-04-23 18:14:00:140 info: Server listening on port 4000
+2023-04-23 18:14:00:140 info: My Fauna secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-04-23 18:14:00:140 info: My SDK secret: b1eea3fc-277f-4f81-8463-a1ce707791a3
+2023-04-23 18:14:05:145 info: OPTIONS /umg/signin 204 6.557 ms - 0
+2023-04-23 18:14:05:145 info: Start login
+2023-04-23 18:14:05:145 info: POST /umg/signin 200 294.495 ms - 72
+2023-04-23 18:14:05:145 info: OPTIONS /umg/info 204 0.352 ms - 0
+2023-04-23 18:14:05:145 info: Start auth
+2023-04-23 18:14:05:145 info: Start getting User
+2023-04-23 18:14:05:145 info: GET /umg/info 200 408.471 ms - 5233
+2023-04-23 18:14:10:1410 info: OPTIONS /umg/logout 204 0.179 ms - 0
+2023-04-23 18:14:10:1410 info: Start logout
+2023-04-23 18:14:10:1410 info: fnEFCPqOjjACUQTmg2LiYApaZ_qCD7kO7BhF2DfTD_Z8e8TJK4Y
+2023-04-23 18:14:10:1410 info: POST /umg/logout 200 255.386 ms - 13
+2023-04-23 18:14:10:1410 info: OPTIONS /umg/info 204 0.199 ms - 0
+2023-04-23 18:14:10:1410 info: Start auth
+2023-04-23 18:14:10:1410 error: unauthorized. Check that endpoint, schema, port and secret are correct during client’s instantiation
+2023-04-23 18:14:10:1410 info: Start getting User
+2023-04-23 18:14:10:1410 error: invalid expression
+2023-04-23 18:14:10:1410 info: GET /umg/info 401 340.576 ms - 38
+2023-04-23 18:14:14:1414 info: OPTIONS /umg/signin 204 0.115 ms - 0
+2023-04-23 18:14:14:1414 info: Start login
+2023-04-23 18:14:14:1414 error: authentication failed
+2023-04-23 18:15:45:1545 info: Server listening on port 4000
+2023-04-23 18:15:45:1545 info: My Fauna secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-04-23 18:15:45:1545 info: My SDK secret: b1eea3fc-277f-4f81-8463-a1ce707791a3
+2023-04-23 18:15:50:1550 info: OPTIONS /umg/info 204 9.213 ms - 0
+2023-04-23 18:15:50:1550 info: Start auth
+2023-04-23 18:15:50:1550 info: OPTIONS /nfts/getFrontPageData 204 0.371 ms - 0
+2023-04-23 18:15:50:1550 error: unauthorized. Check that endpoint, schema, port and secret are correct during client’s instantiation
+2023-04-23 18:15:50:1550 info: Start getting User
+2023-04-23 18:15:50:1550 error: invalid expression
+2023-04-23 18:15:50:1550 info: GET /umg/info 401 346.503 ms - 38
+2023-04-23 18:15:55:1555 info: GET /nfts/getFrontPageData 200 4996.179 ms - 40811
+2023-04-23 18:16:01:161 info: OPTIONS /umg/signin 204 0.210 ms - 0
+2023-04-23 18:16:01:161 info: Start login
+2023-04-23 18:16:01:161 error: authentication failed
+2023-04-23 18:16:01:161 info: POST /umg/signin 401 191.359 ms - 38
+2023-04-23 18:16:01:161 info: OPTIONS /umg/info 204 0.333 ms - 0
+2023-04-23 18:16:01:161 info: Start auth
+2023-04-23 18:16:01:161 error: unauthorized. Check that endpoint, schema, port and secret are correct during client’s instantiation
+2023-04-23 18:16:01:161 info: Start getting User
+2023-04-23 18:16:01:161 error: invalid expression
+2023-04-23 18:16:01:161 info: GET /umg/info 401 330.816 ms - 38
+2023-04-23 18:16:28:1628 info: OPTIONS /umg/signin 204 0.211 ms - 0
+2023-04-23 18:16:28:1628 info: Start login
+2023-04-23 18:16:28:1628 info: POST /umg/signin 200 260.339 ms - 72
+2023-04-23 18:16:28:1628 info: OPTIONS /umg/info 204 0.241 ms - 0
+2023-04-23 18:16:28:1628 info: Start auth
+2023-04-23 18:16:29:1629 info: Start getting User
+2023-04-23 18:16:29:1629 info: GET /umg/info 304 393.087 ms - -
+2023-04-23 18:16:32:1632 info: OPTIONS /umg/logout 204 0.373 ms - 0
+2023-04-23 18:16:32:1632 info: Start logout
+2023-04-23 18:16:32:1632 info: fnEFCPqxk9ACUATmg2LiYApanqABnYJW_TPstPMjJMu7BCtVMaU
+2023-04-23 18:16:32:1632 info: POST /umg/logout 200 266.823 ms - 13
+2023-04-23 18:16:32:1632 info: Start auth
+2023-04-23 18:16:32:1632 error: unauthorized. Check that endpoint, schema, port and secret are correct during client’s instantiation
+2023-04-23 18:16:32:1632 info: Start getting User
+2023-04-23 18:16:33:1633 error: invalid expression
+2023-04-23 18:16:33:1633 info: GET /umg/info 401 397.456 ms - 38
+2023-04-23 18:16:52:1652 info: OPTIONS /umg/info 204 0.152 ms - 0
+2023-04-23 18:16:52:1652 info: Start auth
+2023-04-23 18:16:52:1652 error: unauthorized. Check that endpoint, schema, port and secret are correct during client’s instantiation
+2023-04-23 18:16:52:1652 info: Start getting User
+2023-04-23 18:16:52:1652 info: OPTIONS /nfts/getFrontPageData 204 0.165 ms - 0
+2023-04-23 18:16:53:1653 error: invalid expression
+2023-04-23 18:16:53:1653 info: GET /umg/info 401 310.988 ms - 38
+2023-04-23 18:16:56:1656 info: GET /nfts/getFrontPageData 200 3702.573 ms - 40811
+2023-04-23 18:17:01:171 info: OPTIONS /umg/signin 204 0.296 ms - 0
+2023-04-23 18:17:01:171 info: Start login
+2023-04-23 18:17:01:171 info: POST /umg/signin 200 335.819 ms - 72
+2023-04-23 18:17:01:171 info: OPTIONS /umg/info 204 0.260 ms - 0
+2023-04-23 18:17:01:171 info: Start auth
+2023-04-23 18:17:01:171 info: Start getting User
+2023-04-23 18:17:01:171 info: GET /umg/info 304 387.979 ms - -
+2023-04-23 18:21:05:215 info: OPTIONS /umg/info 204 0.264 ms - 0
+2023-04-23 18:21:05:215 info: Start auth
+2023-04-23 18:21:05:215 info: OPTIONS /nfts/getFrontPageData 204 0.116 ms - 0
+2023-04-23 18:21:05:215 info: Start getting User
+2023-04-23 18:21:06:216 info: GET /umg/info 304 394.398 ms - -
+2023-04-23 18:21:10:2110 info: GET /nfts/getFrontPageData 200 4249.326 ms - 40806
+2023-04-23 20:05:44:544 info: Server listening on port 4000
+2023-04-23 20:05:44:544 info: My Fauna secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-04-23 20:05:44:544 info: My SDK secret: b1eea3fc-277f-4f81-8463-a1ce707791a3
+2023-04-23 20:09:14:914 info: OPTIONS /umg/info 204 1.332 ms - 0
+2023-04-23 20:09:14:914 info: Start auth
+2023-04-23 20:09:14:914 info: OPTIONS /nfts/getFrontPageData 204 0.410 ms - 0
+2023-04-23 20:09:14:914 info: Start getting User
+2023-04-23 20:09:14:914 info: GET /umg/info 304 498.348 ms - -
+2023-04-23 20:09:19:919 info: GET /nfts/getFrontPageData 200 4854.022 ms - 40809
+2023-04-23 20:09:42:942 info: OPTIONS /umg/info 204 0.126 ms - 0
+2023-04-23 20:09:42:942 info: Start auth
+2023-04-23 20:09:42:942 info: OPTIONS /nfts/getFrontPageData 204 0.277 ms - 0
+2023-04-23 20:09:42:942 info: Start getting User
+2023-04-23 20:09:43:943 info: GET /umg/info 304 362.686 ms - -
+2023-04-23 20:09:46:946 info: GET /nfts/getFrontPageData 200 3286.296 ms - 40809
+2023-04-23 20:10:31:1031 info: OPTIONS /umg/info 204 0.206 ms - 0
+2023-04-23 20:10:31:1031 info: Start auth
+2023-04-23 20:10:31:1031 info: OPTIONS /nfts/getFrontPageData 204 0.256 ms - 0
+2023-04-23 20:10:31:1031 info: Start getting User
+2023-04-23 20:10:31:1031 info: GET /umg/info 304 405.004 ms - -
+2023-04-23 20:10:36:1036 info: GET /nfts/getFrontPageData 200 4633.195 ms - 40809
+2023-04-23 20:11:11:1111 info: OPTIONS /umg/info 204 0.297 ms - 0
+2023-04-23 20:11:11:1111 info: Start auth
+2023-04-23 20:11:11:1111 info: OPTIONS /nfts/getFrontPageData 204 0.222 ms - 0
+2023-04-23 20:11:12:1112 info: Start getting User
+2023-04-23 20:11:12:1112 info: GET /umg/info 304 382.265 ms - -
+2023-04-23 20:11:17:1117 info: GET /nfts/getFrontPageData 200 5129.958 ms - 40809
+2023-04-23 20:11:21:1121 info: OPTIONS /umg/logout 204 0.158 ms - 0
+2023-04-23 20:11:21:1121 info: Start logout
+2023-04-23 20:11:21:1121 info: fnEFCPq5jYACUQTmg2LiYApajp9s_vc_4E9G2igY5MBf6R6_ag4
+2023-04-23 20:11:22:1122 info: POST /umg/logout 200 307.304 ms - 13
+2023-04-23 20:11:22:1122 info: OPTIONS /umg/info 204 0.464 ms - 0
+2023-04-23 20:11:22:1122 info: Start auth
+2023-04-23 20:11:22:1122 error: unauthorized. Check that endpoint, schema, port and secret are correct during client’s instantiation
+2023-04-23 20:11:22:1122 info: Start getting User
+2023-04-23 20:11:22:1122 error: invalid expression
+2023-04-23 20:11:22:1122 info: GET /umg/info 401 325.190 ms - 38
+2023-04-23 20:11:29:1129 info: OPTIONS /umg/signin 204 0.158 ms - 0
+2023-04-23 20:11:29:1129 info: Start login
+2023-04-23 20:11:29:1129 info: POST /umg/signin 200 284.695 ms - 72
+2023-04-23 20:11:29:1129 info: OPTIONS /umg/info 204 0.149 ms - 0
+2023-04-23 20:11:29:1129 info: Start auth
+2023-04-23 20:11:29:1129 info: Start getting User
+2023-04-23 20:11:29:1129 info: GET /umg/info 304 406.609 ms - -
+2023-04-23 20:12:03:123 info: OPTIONS /umg/info 204 0.164 ms - 0
+2023-04-23 20:12:03:123 info: Start auth
+2023-04-23 20:12:03:123 info: OPTIONS /nfts/getFrontPageData 204 0.124 ms - 0
+2023-04-23 20:12:03:123 info: Start getting User
+2023-04-23 20:12:03:123 info: GET /umg/info 304 375.104 ms - -
+2023-04-23 20:12:07:127 info: GET /nfts/getFrontPageData 200 3620.038 ms - 40810
+2023-04-23 20:12:39:1239 info: OPTIONS /umg/info 204 0.207 ms - 0
+2023-04-23 20:12:39:1239 info: Start auth
+2023-04-23 20:12:39:1239 info: OPTIONS /nfts/getFrontPageData 204 0.120 ms - 0
+2023-04-23 20:12:39:1239 info: Start getting User
+2023-04-23 20:12:39:1239 info: GET /umg/info 304 380.238 ms - -
+2023-04-23 20:12:42:1242 info: GET /nfts/getFrontPageData 200 3445.204 ms - 40810
+2023-04-23 20:12:55:1255 info: OPTIONS /nfts/getFrontTabsByVolume 204 0.122 ms - 0
+2023-04-23 20:12:58:1258 info: OPTIONS /nfts/getFrontTabsByVolume 204 0.121 ms - 0
+2023-04-23 20:13:20:1320 info: OPTIONS /umg/info 204 0.212 ms - 0
+2023-04-23 20:13:20:1320 info: Start auth
+2023-04-23 20:13:20:1320 info: OPTIONS /nfts/getFrontPageData 204 0.168 ms - 0
+2023-04-23 20:13:20:1320 info: Start getting User
+2023-04-23 20:13:20:1320 info: GET /umg/info 304 378.484 ms - -
+2023-04-23 20:13:24:1324 info: GET /nfts/getFrontPageData 200 3465.951 ms - 40810
+2023-04-23 20:13:29:1329 info: OPTIONS /nfts/getFrontTabsByVolume 204 0.212 ms - 0
+2023-04-23 20:13:29:1329 info: Start Getting CollectionRankingByVolume
+2023-04-23 20:14:32:1432 info: Server listening on port 4000
+2023-04-23 20:14:32:1432 info: My Fauna secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-04-23 20:14:32:1432 info: My SDK secret: b1eea3fc-277f-4f81-8463-a1ce707791a3
+2023-04-23 20:14:55:1455 info: OPTIONS /nfts/getFrontTabsByVolume 204 1.965 ms - 0
+2023-04-23 20:14:55:1455 info: Start Getting CollectionRankingByVolume
+2023-04-23 20:14:56:1456 info: POST /nfts/getFrontTabsByVolume 200 1218.583 ms - 19425
+2023-04-23 20:14:59:1459 info: Start Getting CollectionRankingByVolume
+2023-04-23 20:15:00:150 info: POST /nfts/getFrontTabsByVolume 200 1103.471 ms - 16970
+2023-04-23 20:15:02:152 info: OPTIONS /nfts/getFrontTabsByVolume 204 0.296 ms - 0
+2023-04-23 20:15:02:152 info: Start Getting CollectionRankingByVolume
+2023-04-23 20:15:03:153 info: POST /nfts/getFrontTabsByVolume 200 1116.251 ms - 19448
+2023-04-23 20:15:05:155 info: Start Getting CollectionRankingByVolume
+2023-04-23 20:15:06:156 info: POST /nfts/getFrontTabsByVolume 200 1199.446 ms - 19425
+2023-04-23 20:15:07:157 info: OPTIONS /nfts/getFrontTabsByVolume 204 0.173 ms - 0
+2023-04-23 20:15:07:157 info: Start Getting CollectionRankingByVolume
+2023-04-23 20:15:08:158 info: POST /nfts/getFrontTabsByVolume 200 1270.512 ms - 18329
+2023-04-23 20:15:37:1537 info: OPTIONS /nfts/getFrontTabsByMints 204 0.170 ms - 0
+2023-04-23 20:15:37:1537 info: Start Getting getCollectionsRankingByMints
+2023-04-23 20:15:41:1541 info: OPTIONS /nfts/getFrontTabsByVolume 204 0.157 ms - 0
+2023-04-23 20:15:41:1541 info: Start Getting CollectionRankingByVolume
+2023-04-23 20:15:42:1542 info: POST /nfts/getFrontTabsByVolume 200 1044.082 ms - 12687
+2023-04-23 20:15:42:1542 info: Start Getting CollectionRankingByVolume
+2023-04-23 20:15:43:1543 info: POST /nfts/getFrontTabsByVolume 200 1058.715 ms - 16626
+2023-04-23 20:15:44:1544 info: POST /nfts/getFrontTabsByMints - - ms - -
+2023-04-23 20:15:46:1546 info: OPTIONS /umg/info 204 0.138 ms - 0
+2023-04-23 20:15:46:1546 info: Start auth
+2023-04-23 20:15:46:1546 info: OPTIONS /nfts/getFrontPageData 204 0.153 ms - 0
+2023-04-23 20:15:47:1547 info: Start getting User
+2023-04-23 20:15:47:1547 info: GET /umg/info 304 408.716 ms - -
+2023-04-23 20:15:51:1551 info: GET /nfts/getFrontPageData 200 4916.255 ms - 40810
+2023-04-23 20:15:53:1553 info: OPTIONS /nfts/getFrontTabsByVolume 204 0.265 ms - 0
+2023-04-23 20:15:53:1553 info: Start Getting CollectionRankingByVolume
+2023-04-23 20:15:55:1555 info: POST /nfts/getFrontTabsByVolume 200 1295.641 ms - 19448
+2023-04-23 20:15:57:1557 info: Start Getting CollectionRankingByVolume
+2023-04-23 20:15:59:1559 info: POST /nfts/getFrontTabsByVolume 200 1438.590 ms - 16968
+2023-04-23 20:16:00:160 info: OPTIONS /nfts/getFrontTabsByVolume 204 0.199 ms - 0
+2023-04-23 20:16:00:160 info: Start Getting CollectionRankingByVolume
+2023-04-23 20:16:01:161 info: POST /nfts/getFrontTabsByVolume 200 1253.558 ms - 18330
+2023-04-23 20:16:02:162 info: OPTIONS /nfts/getFrontTabsByMints 204 0.273 ms - 0
+2023-04-23 20:16:02:162 info: Start Getting getCollectionsRankingByMints
+2023-04-23 20:16:04:164 info: Start Getting CollectionRankingByVolume
+2023-04-23 20:16:05:165 info: POST /nfts/getFrontTabsByVolume 200 1193.520 ms - 12687
+2023-04-23 20:16:06:166 info: OPTIONS /nfts/getFrontTabsByVolume 204 0.207 ms - 0
+2023-04-23 20:16:06:166 info: Start Getting CollectionRankingByVolume
+2023-04-23 20:16:07:167 info: POST /nfts/getFrontTabsByVolume 200 1081.412 ms - 13532
+2023-04-23 20:16:11:1611 info: Start Getting CollectionRankingByVolume
+2023-04-23 20:16:12:1612 info: POST /nfts/getFrontTabsByVolume 200 1261.167 ms - 16626
+2023-04-23 20:16:13:1613 info: OPTIONS /nfts/getFrontTabsByVolume 204 0.208 ms - 0
+2023-04-23 20:16:13:1613 info: Start Getting CollectionRankingByVolume
+2023-04-23 20:16:13:1613 info: POST /nfts/getFrontTabsByVolume 200 100.077 ms - 11
+2023-04-23 20:16:18:1618 info: Start Getting CollectionRankingByVolume
+2023-04-23 20:16:19:1619 info: POST /nfts/getFrontTabsByVolume 200 1155.355 ms - 9410
+2023-04-23 20:16:20:1620 info: OPTIONS /nfts/getFrontTabsByVolume 204 0.163 ms - 0
+2023-04-23 20:16:20:1620 info: Start Getting CollectionRankingByVolume
+2023-04-23 20:16:20:1620 info: POST /nfts/getFrontTabsByMints 200 18515.070 ms - 5239
+2023-04-23 20:16:20:1620 info: POST /nfts/getFrontTabsByVolume 200 702.523 ms - 7905
+2023-04-23 20:16:26:1626 info: OPTIONS /nfts/getFrontTabsByVolume 204 0.191 ms - 0
+2023-04-23 20:16:26:1626 info: Start Getting CollectionRankingByVolume
+2023-04-23 20:16:27:1627 info: POST /nfts/getFrontTabsByVolume 200 1091.128 ms - 13651
+2023-04-23 20:16:28:1628 info: Start Getting CollectionRankingByVolume
+2023-04-23 20:16:29:1629 info: POST /nfts/getFrontTabsByVolume 200 1333.007 ms - 16029
+2023-04-23 20:16:34:1634 info: OPTIONS /nfts/getFrontTabsByVolume 204 0.180 ms - 0
+2023-04-23 20:16:34:1634 info: Start Getting CollectionRankingByVolume
+2023-04-23 20:16:35:1635 info: POST /nfts/getFrontTabsByVolume 200 1113.012 ms - 9410
+2023-04-23 20:16:42:1642 info: OPTIONS /nfts/getFrontTabsByVolume 204 0.126 ms - 0
+2023-04-23 20:16:42:1642 info: Start Getting CollectionRankingByVolume
+2023-04-23 20:16:43:1643 info: Start Getting CollectionRankingByVolume
+2023-04-23 20:16:44:1644 info: POST /nfts/getFrontTabsByVolume 200 1286.015 ms - 9410
+2023-04-23 20:16:44:1644 info: POST /nfts/getFrontTabsByVolume 200 1038.414 ms - 9410
+2023-04-23 20:16:47:1647 info: OPTIONS /umg/info 204 0.120 ms - 0
+2023-04-23 20:16:47:1647 info: Start auth
+2023-04-23 20:16:47:1647 info: OPTIONS /nfts/getFrontPageData 204 0.151 ms - 0
+2023-04-23 20:16:47:1647 info: Start getting User
+2023-04-23 20:16:47:1647 info: GET /umg/info 304 402.405 ms - -
+2023-04-23 20:16:51:1651 info: GET /nfts/getFrontPageData 200 4251.688 ms - 40811
+2023-04-23 20:16:53:1653 info: OPTIONS /nfts/getFrontTabsByVolume 204 0.109 ms - 0
+2023-04-23 20:16:53:1653 info: Start Getting CollectionRankingByVolume
+2023-04-23 20:16:54:1654 info: POST /nfts/getFrontTabsByVolume 200 1212.056 ms - 19451
+2023-04-23 20:17:01:171 info: OPTIONS /nfts/getFrontTabsByVolume 204 0.105 ms - 0
+2023-04-23 20:17:01:171 info: Start Getting CollectionRankingByVolume
+2023-04-23 20:17:02:172 info: POST /nfts/getFrontTabsByVolume 200 1110.753 ms - 14993
+2023-04-23 20:26:04:264 info: OPTIONS /umg/info 204 0.162 ms - 0
+2023-04-23 20:26:04:264 info: Start auth
+2023-04-23 20:26:05:265 info: OPTIONS /nfts/getFrontPageData 204 0.101 ms - 0
+2023-04-23 20:26:05:265 info: Start getting User
+2023-04-23 20:26:05:265 info: GET /umg/info 304 501.012 ms - -
+2023-04-23 20:26:08:268 info: GET /nfts/getFrontPageData 200 3906.155 ms - 40811
+2023-04-23 20:27:52:2752 info: OPTIONS /umg/info 204 0.366 ms - 0
+2023-04-23 20:27:52:2752 info: Start auth
+2023-04-23 20:27:53:2753 info: OPTIONS /nfts/getFrontPageData 204 0.202 ms - 0
+2023-04-23 20:27:53:2753 info: Start getting User
+2023-04-23 20:27:53:2753 info: GET /umg/info 304 444.676 ms - -
+2023-04-23 20:27:57:2757 info: GET /nfts/getFrontPageData 200 3983.498 ms - 40810
+2023-04-23 20:29:25:2925 info: OPTIONS /umg/info 204 0.142 ms - 0
+2023-04-23 20:29:25:2925 info: Start auth
+2023-04-23 20:29:25:2925 info: OPTIONS /nfts/getFrontPageData 204 0.106 ms - 0
+2023-04-23 20:29:25:2925 info: Start getting User
+2023-04-23 20:29:26:2926 info: GET /umg/info 304 408.237 ms - -
+2023-04-23 20:29:29:2929 info: GET /nfts/getFrontPageData 200 3778.867 ms - 40810
+2023-04-23 20:30:07:307 info: OPTIONS /umg/info 204 0.189 ms - 0
+2023-04-23 20:30:07:307 info: Start auth
+2023-04-23 20:30:07:307 info: OPTIONS /nfts/getFrontPageData 204 0.103 ms - 0
+2023-04-23 20:30:07:307 info: Start getting User
+2023-04-23 20:30:07:307 info: GET /umg/info 304 400.372 ms - -
+2023-04-23 20:30:11:3011 info: GET /nfts/getFrontPageData 200 3938.662 ms - 40810
+2023-04-23 20:31:28:3128 info: OPTIONS /umg/info 204 0.130 ms - 0
+2023-04-23 20:31:28:3128 info: Start auth
+2023-04-23 20:31:28:3128 info: OPTIONS /nfts/getFrontPageData 204 0.099 ms - 0
+2023-04-23 20:31:28:3128 info: Start getting User
+2023-04-23 20:31:29:3129 info: GET /umg/info 304 392.823 ms - -
+2023-04-23 20:31:33:3133 info: GET /nfts/getFrontPageData 200 4952.853 ms - 40810
+2023-04-23 20:32:18:3218 info: OPTIONS /umg/info 204 0.141 ms - 0
+2023-04-23 20:32:18:3218 info: Start auth
+2023-04-23 20:32:18:3218 info: OPTIONS /nfts/getFrontPageData 204 0.110 ms - 0
+2023-04-23 20:32:18:3218 info: Start getting User
+2023-04-23 20:32:18:3218 info: GET /umg/info 304 428.975 ms - -
+2023-04-23 20:32:22:3222 info: GET /nfts/getFrontPageData 200 4458.055 ms - 40810
+2023-04-23 20:33:29:3329 info: OPTIONS /umg/info 204 0.141 ms - 0
+2023-04-23 20:33:29:3329 info: Start auth
+2023-04-23 20:33:29:3329 info: OPTIONS /nfts/getFrontPageData 204 0.103 ms - 0
+2023-04-23 20:33:29:3329 info: Start getting User
+2023-04-23 20:33:29:3329 info: GET /umg/info 304 708.005 ms - -
+2023-04-23 20:33:33:3333 info: GET /nfts/getFrontPageData 200 4462.770 ms - 40810
+2023-04-23 20:34:29:3429 info: OPTIONS /umg/info 204 0.122 ms - 0
+2023-04-23 20:34:29:3429 info: Start auth
+2023-04-23 20:34:29:3429 info: OPTIONS /nfts/getFrontPageData 204 0.119 ms - 0
+2023-04-23 20:34:29:3429 info: Start getting User
+2023-04-23 20:34:30:3430 info: GET /umg/info 304 723.941 ms - -
+2023-04-23 20:34:33:3433 info: GET /nfts/getFrontPageData 200 3981.277 ms - 40810
+2023-04-23 20:34:53:3453 info: OPTIONS /umg/info 204 0.134 ms - 0
+2023-04-23 20:34:53:3453 info: Start auth
+2023-04-23 20:34:53:3453 info: OPTIONS /nfts/getFrontPageData 204 0.234 ms - 0
+2023-04-23 20:34:53:3453 info: Start getting User
+2023-04-23 20:34:53:3453 info: GET /umg/info 304 407.090 ms - -
+2023-04-23 20:34:56:3456 info: GET /nfts/getFrontPageData 200 2736.033 ms - 40810
+2023-04-23 20:35:17:3517 info: OPTIONS /umg/info 204 0.218 ms - 0
+2023-04-23 20:35:17:3517 info: Start auth
+2023-04-23 20:35:17:3517 info: OPTIONS /nfts/getFrontPageData 204 0.184 ms - 0
+2023-04-23 20:35:17:3517 info: Start getting User
+2023-04-23 20:35:18:3518 info: GET /umg/info 304 812.270 ms - -
+2023-04-23 20:35:21:3521 info: GET /nfts/getFrontPageData 304 3905.127 ms - -
+2023-04-23 20:35:47:3547 info: OPTIONS /umg/info 204 0.149 ms - 0
+2023-04-23 20:35:47:3547 info: Start auth
+2023-04-23 20:35:47:3547 info: OPTIONS /nfts/getFrontPageData 204 0.212 ms - 0
+2023-04-23 20:35:47:3547 info: Start getting User
+2023-04-23 20:35:47:3547 info: GET /umg/info 304 367.681 ms - -
+2023-04-23 20:35:50:3550 info: GET /nfts/getFrontPageData 200 3207.681 ms - 40810
+2023-04-23 20:36:05:365 info: OPTIONS /umg/info 204 0.146 ms - 0
+2023-04-23 20:36:05:365 info: Start auth
+2023-04-23 20:36:05:365 info: OPTIONS /nfts/getFrontPageData 204 0.156 ms - 0
+2023-04-23 20:36:06:366 info: Start getting User
+2023-04-23 20:36:06:366 info: GET /umg/info 304 631.632 ms - -
+2023-04-23 20:36:08:368 info: GET /nfts/getFrontPageData 200 2887.242 ms - 40810
+2023-04-23 20:36:27:3627 info: OPTIONS /umg/info 204 0.143 ms - 0
+2023-04-23 20:36:27:3627 info: Start auth
+2023-04-23 20:36:27:3627 info: Start getting User
+2023-04-23 20:36:27:3627 info: OPTIONS /nfts/getFrontPageData 204 0.245 ms - 0
+2023-04-23 20:36:27:3627 info: GET /umg/info 304 369.461 ms - -
+2023-04-23 20:36:30:3630 info: GET /nfts/getFrontPageData 304 2948.194 ms - -
+2023-04-23 20:43:37:4337 info: OPTIONS /umg/info 204 0.152 ms - 0
+2023-04-23 20:43:38:4338 info: Start auth
+2023-04-23 20:43:38:4338 info: OPTIONS /nfts/getFrontPageData 204 0.116 ms - 0
+2023-04-23 20:43:38:4338 info: Start getting User
+2023-04-23 20:43:38:4338 info: GET /umg/info 304 496.165 ms - -
+2023-04-23 20:43:42:4342 info: GET /nfts/getFrontPageData 200 4394.002 ms - 40808
+2023-04-23 20:44:57:4457 info: OPTIONS /umg/info 204 0.150 ms - 0
+2023-04-23 20:44:57:4457 info: Start auth
+2023-04-23 20:44:57:4457 info: OPTIONS /nfts/getFrontPageData 204 0.124 ms - 0
+2023-04-23 20:44:57:4457 info: Start getting User
+2023-04-23 20:44:57:4457 info: GET /umg/info 304 420.679 ms - -
+2023-04-23 20:45:01:451 info: GET /nfts/getFrontPageData 200 4381.079 ms - 40808
+2023-04-23 20:46:17:4617 info: OPTIONS /umg/info 204 0.436 ms - 0
+2023-04-23 20:46:17:4617 info: Start auth
+2023-04-23 20:46:17:4617 info: OPTIONS /nfts/getFrontPageData 204 0.164 ms - 0
+2023-04-23 20:46:17:4617 info: Start getting User
+2023-04-23 20:46:17:4617 info: GET /umg/info 304 359.955 ms - -
+2023-04-23 20:46:22:4622 info: GET /nfts/getFrontPageData 200 4750.687 ms - 40808
+2023-04-23 20:48:11:4811 info: OPTIONS /umg/info 204 0.111 ms - 0
+2023-04-23 20:48:11:4811 info: Start auth
+2023-04-23 20:48:11:4811 info: OPTIONS /nfts/getFrontPageData 204 0.138 ms - 0
+2023-04-23 20:48:11:4811 info: Start getting User
+2023-04-23 20:48:11:4811 info: GET /umg/info 304 435.145 ms - -
+2023-04-23 20:48:16:4816 info: GET /nfts/getFrontPageData 200 4674.983 ms - 40808
+2023-04-23 20:48:23:4823 info: OPTIONS /umg/logout 204 0.114 ms - 0
+2023-04-23 20:48:23:4823 info: Start logout
+2023-04-23 20:48:23:4823 info: fnEFCQFGSTACUATmg2LiYApaQ-2QTTC3Q5gO4sk83HLmtStkV30
+2023-04-23 20:48:23:4823 info: POST /umg/logout 200 249.063 ms - 13
+2023-04-23 20:48:23:4823 info: OPTIONS /umg/info 204 0.149 ms - 0
+2023-04-23 20:48:23:4823 info: Start auth
+2023-04-23 20:48:24:4824 error: unauthorized. Check that endpoint, schema, port and secret are correct during client’s instantiation
+2023-04-23 20:48:24:4824 info: Start getting User
+2023-04-23 20:48:24:4824 error: invalid expression
+2023-04-23 20:48:24:4824 info: GET /umg/info 401 312.556 ms - 38
+2023-04-23 20:48:38:4838 info: OPTIONS /umg/signin 204 0.112 ms - 0
+2023-04-23 20:48:38:4838 info: Start login
+2023-04-23 20:48:38:4838 error: authentication failed
+2023-04-23 20:48:38:4838 info: POST /umg/signin 401 191.478 ms - 38
+2023-04-23 20:48:38:4838 info: OPTIONS /umg/info 204 0.116 ms - 0
+2023-04-23 20:48:38:4838 info: Start auth
+2023-04-23 20:48:38:4838 error: unauthorized. Check that endpoint, schema, port and secret are correct during client’s instantiation
+2023-04-23 20:48:38:4838 info: Start getting User
+2023-04-23 20:48:39:4839 error: invalid expression
+2023-04-23 20:48:39:4839 info: GET /umg/info 401 316.275 ms - 38
+2023-04-23 20:49:05:495 info: OPTIONS /umg/info 204 0.110 ms - 0
+2023-04-23 20:49:05:495 info: Start auth
+2023-04-23 20:49:05:495 info: OPTIONS /nfts/getFrontPageData 204 0.125 ms - 0
+2023-04-23 20:49:05:495 error: unauthorized. Check that endpoint, schema, port and secret are correct during client’s instantiation
+2023-04-23 20:49:05:495 info: Start getting User
+2023-04-23 20:49:05:495 error: invalid expression
+2023-04-23 20:49:05:495 info: GET /umg/info 401 351.726 ms - 38
+2023-04-23 20:49:09:499 info: GET /nfts/getFrontPageData 200 3981.574 ms - 40807
+2023-04-23 20:49:17:4917 info: OPTIONS /umg/signin 204 0.146 ms - 0
+2023-04-23 20:49:17:4917 info: Start login
+2023-04-23 20:49:17:4917 error: authentication failed
+2023-04-23 20:49:17:4917 info: POST /umg/signin 401 230.291 ms - 38
+2023-04-23 20:49:17:4917 info: OPTIONS /umg/info 204 0.174 ms - 0
+2023-04-23 20:49:17:4917 info: Start auth
+2023-04-23 20:49:17:4917 error: unauthorized. Check that endpoint, schema, port and secret are correct during client’s instantiation
+2023-04-23 20:49:17:4917 info: Start getting User
+2023-04-23 20:49:17:4917 error: invalid expression
+2023-04-23 20:49:17:4917 info: GET /umg/info 401 313.432 ms - 38
+2023-04-23 20:49:23:4923 info: OPTIONS /umg/signin 204 0.103 ms - 0
+2023-04-23 20:49:23:4923 info: Start login
+2023-04-23 20:49:23:4923 info: POST /umg/signin 200 272.070 ms - 72
+2023-04-23 20:49:23:4923 info: OPTIONS /umg/info 204 0.253 ms - 0
+2023-04-23 20:49:23:4923 info: Start auth
+2023-04-23 20:49:24:4924 info: Start getting User
+2023-04-23 20:49:24:4924 info: GET /umg/info 304 359.544 ms - -
+2023-04-23 20:50:06:506 info: OPTIONS /umg/info 204 0.194 ms - 0
+2023-04-23 20:50:06:506 info: Start auth
+2023-04-23 20:50:06:506 info: OPTIONS /nfts/getFrontPageData 204 0.215 ms - 0
+2023-04-23 20:50:06:506 info: Start getting User
+2023-04-23 20:50:06:506 info: GET /umg/info 304 412.666 ms - -
+2023-04-23 20:50:11:5011 info: GET /nfts/getFrontPageData 304 4913.909 ms - -
+2023-04-23 20:50:22:5022 info: OPTIONS /umg/logout 204 0.181 ms - 0
+2023-04-23 20:50:22:5022 info: Start logout
+2023-04-23 20:50:22:5022 info: fnEFCQNxlkACUATmg2LiYApaTxfNKCeGm_r0YwOk7gRy9yA1vF4
+2023-04-23 20:50:23:5023 info: POST /umg/logout 200 392.193 ms - 13
+2023-04-23 20:50:23:5023 info: OPTIONS /umg/info 204 0.109 ms - 0
+2023-04-23 20:50:23:5023 info: Start auth
+2023-04-23 20:50:23:5023 error: unauthorized. Check that endpoint, schema, port and secret are correct during client’s instantiation
+2023-04-23 20:50:23:5023 info: Start getting User
+2023-04-23 20:50:23:5023 error: invalid expression
+2023-04-23 20:50:23:5023 info: GET /umg/info 401 315.602 ms - 38
+2023-04-23 20:50:27:5027 info: Start auth
+2023-04-23 20:50:27:5027 info: OPTIONS /nfts/getFrontPageData 204 0.140 ms - 0
+2023-04-23 20:50:27:5027 error: unauthorized. Check that endpoint, schema, port and secret are correct during client’s instantiation
+2023-04-23 20:50:27:5027 info: Start getting User
+2023-04-23 20:50:28:5028 error: invalid expression
+2023-04-23 20:50:28:5028 info: GET /umg/info 401 323.341 ms - 38
+2023-04-23 20:50:32:5032 info: GET /nfts/getFrontPageData 304 4314.406 ms - -
+2023-04-23 20:50:37:5037 info: OPTIONS /umg/signin 204 0.244 ms - 0
+2023-04-23 20:50:37:5037 info: Start login
+2023-04-23 20:50:38:5038 info: POST /umg/signin 200 276.043 ms - 72
+2023-04-23 20:50:38:5038 info: OPTIONS /umg/info 204 0.117 ms - 0
+2023-04-23 20:50:38:5038 info: Start auth
+2023-04-23 20:50:38:5038 info: Start getting User
+2023-04-23 20:50:38:5038 info: GET /umg/info 304 392.791 ms - -
+2023-04-23 20:51:47:5147 info: OPTIONS /umg/info 204 0.156 ms - 0
+2023-04-23 20:51:47:5147 info: Start auth
+2023-04-23 20:51:47:5147 info: OPTIONS /nfts/getFrontPageData 204 0.175 ms - 0
+2023-04-23 20:51:47:5147 info: Start getting User
+2023-04-23 20:51:47:5147 info: GET /umg/info 304 371.979 ms - -
+2023-04-23 20:51:51:5151 info: GET /nfts/getFrontPageData 200 4629.063 ms - 40810
+2023-04-23 20:51:57:5157 info: OPTIONS /umg/logout 204 0.158 ms - 0
+2023-04-23 20:51:57:5157 info: Start logout
+2023-04-23 20:51:57:5157 info: fnEFCQODv6ACUQTmg2LiYApa6h3ylIf7bq01beNnY_lrQJMiErA
+2023-04-23 20:51:57:5157 info: POST /umg/logout 200 264.060 ms - 13
+2023-04-23 20:51:57:5157 info: OPTIONS /umg/info 204 0.123 ms - 0
+2023-04-23 20:51:57:5157 info: Start auth
+2023-04-23 20:51:57:5157 error: unauthorized. Check that endpoint, schema, port and secret are correct during client’s instantiation
+2023-04-23 20:51:57:5157 info: Start getting User
+2023-04-23 20:51:57:5157 error: invalid expression
+2023-04-23 20:51:57:5157 info: GET /umg/info 401 359.771 ms - 38
+2023-04-23 20:52:02:522 info: OPTIONS /umg/signin 204 0.115 ms - 0
+2023-04-23 20:52:02:522 info: Start login
+2023-04-23 20:52:02:522 info: POST /umg/signin 200 266.563 ms - 72
+2023-04-23 20:52:02:522 info: OPTIONS /umg/info 204 0.107 ms - 0
+2023-04-23 20:52:02:522 info: Start auth
+2023-04-23 20:52:02:522 info: Start getting User
+2023-04-23 20:52:02:522 info: GET /umg/info 304 364.579 ms - -
+2023-04-23 20:54:19:5419 info: OPTIONS /umg/info 204 0.182 ms - 0
+2023-04-23 20:54:19:5419 info: Start auth
+2023-04-23 20:54:19:5419 info: OPTIONS /nfts/getFrontPageData 204 0.135 ms - 0
+2023-04-23 20:54:19:5419 info: Start getting User
+2023-04-23 20:54:19:5419 info: GET /umg/info 304 380.694 ms - -
+2023-04-23 20:54:24:5424 info: GET /nfts/getFrontPageData 200 5601.454 ms - 40810
+2023-04-23 20:54:34:5434 info: OPTIONS /umg/logout 204 0.099 ms - 0
+2023-04-23 20:54:34:5434 info: Start logout
+2023-04-23 20:54:34:5434 info: fnEFCQOYV5ACUQTmg2LiYApa_ABKo_umzO-HKyHOf4vrgX8ODQs
+2023-04-23 20:54:34:5434 info: POST /umg/logout 200 345.936 ms - 13
+2023-04-23 20:54:34:5434 info: OPTIONS /umg/info 204 0.113 ms - 0
+2023-04-23 20:54:34:5434 info: Start auth
+2023-04-23 20:54:34:5434 error: unauthorized. Check that endpoint, schema, port and secret are correct during client’s instantiation
+2023-04-23 20:54:34:5434 info: Start getting User
+2023-04-23 20:54:35:5435 error: invalid expression
+2023-04-23 20:54:35:5435 info: GET /umg/info 401 312.373 ms - 38
+2023-04-23 20:54:40:5440 info: OPTIONS /umg/signin 204 0.158 ms - 0
+2023-04-23 20:54:40:5440 info: Start login
+2023-04-23 20:54:40:5440 info: POST /umg/signin 200 279.691 ms - 72
+2023-04-23 20:54:40:5440 info: OPTIONS /umg/info 204 0.153 ms - 0
+2023-04-23 20:54:40:5440 info: Start auth
+2023-04-23 20:54:41:5441 info: Start getting User
+2023-04-23 20:54:41:5441 info: GET /umg/info 304 391.578 ms - -
+2023-04-23 20:56:11:5611 info: OPTIONS /umg/info 204 0.167 ms - 0
+2023-04-23 20:56:11:5611 info: Start auth
+2023-04-23 20:56:11:5611 info: OPTIONS /nfts/getFrontPageData 204 0.166 ms - 0
+2023-04-23 20:56:11:5611 info: Start getting User
+2023-04-23 20:56:11:5611 info: GET /umg/info 304 434.280 ms - -
+2023-04-23 20:56:16:5616 info: GET /nfts/getFrontPageData 200 4758.404 ms - 40810
+2023-04-23 20:58:01:581 info: OPTIONS /umg/info 204 0.203 ms - 0
+2023-04-23 20:58:01:581 info: Start auth
+2023-04-23 20:58:02:582 info: OPTIONS /nfts/getFrontPageData 204 0.193 ms - 0
+2023-04-23 20:58:02:582 info: Start getting User
+2023-04-23 20:58:02:582 info: GET /umg/info 304 506.542 ms - -
+2023-04-23 20:58:06:586 info: GET /nfts/getFrontPageData 200 4021.742 ms - 40810
+2023-04-23 20:58:10:5810 info: OPTIONS /umg/logout 204 0.158 ms - 0
+2023-04-23 20:58:10:5810 info: Start logout
+2023-04-23 20:58:10:5810 info: fnEFCQO-_gACUATmg2LiYApaYhCCdprCKRZVEWRnpa6q85w2gAU
+2023-04-23 20:58:11:5811 info: POST /umg/logout 200 258.653 ms - 13
+2023-04-23 20:58:11:5811 info: OPTIONS /umg/info 204 0.119 ms - 0
+2023-04-23 20:58:11:5811 info: Start auth
+2023-04-23 20:58:11:5811 error: unauthorized. Check that endpoint, schema, port and secret are correct during client’s instantiation
+2023-04-23 20:58:11:5811 info: Start getting User
+2023-04-23 20:58:11:5811 error: invalid expression
+2023-04-23 20:58:11:5811 info: GET /umg/info 401 384.195 ms - 38
+2023-04-23 20:58:16:5816 info: OPTIONS /umg/signin 204 0.109 ms - 0
+2023-04-23 20:58:16:5816 info: Start login
+2023-04-23 20:58:17:5817 info: POST /umg/signin 200 306.798 ms - 72
+2023-04-23 20:58:17:5817 info: OPTIONS /umg/info 204 0.154 ms - 0
+2023-04-23 20:58:17:5817 info: Start auth
+2023-04-23 20:58:17:5817 info: Start getting User
+2023-04-23 20:58:17:5817 info: GET /umg/info 304 414.424 ms - -
+2023-04-23 20:59:18:5918 info: OPTIONS /umg/logout 204 0.158 ms - 0
+2023-04-23 20:59:18:5918 info: Start logout
+2023-04-23 20:59:18:5918 info: fnEFCQPzxWACUQTmg2LiYApa0I5URhGmp7oi4-izFwoEFvXXY2M
+2023-04-23 20:59:19:5919 info: POST /umg/logout 200 463.359 ms - 13
+2023-04-23 20:59:19:5919 info: OPTIONS /umg/info 204 0.147 ms - 0
+2023-04-23 20:59:19:5919 info: Start auth
+2023-04-23 20:59:19:5919 error: unauthorized. Check that endpoint, schema, port and secret are correct during client’s instantiation
+2023-04-23 20:59:19:5919 info: Start getting User
+2023-04-23 20:59:19:5919 error: invalid expression
+2023-04-23 20:59:19:5919 info: GET /umg/info 401 776.042 ms - 38
+2023-04-23 20:59:25:5925 info: OPTIONS /umg/signin 204 0.169 ms - 0
+2023-04-23 20:59:25:5925 info: Start login
+2023-04-23 20:59:26:5926 info: POST /umg/signin 200 340.465 ms - 72
+2023-04-23 20:59:26:5926 info: OPTIONS /umg/info 204 0.160 ms - 0
+2023-04-23 20:59:26:5926 info: Start auth
+2023-04-23 20:59:26:5926 info: Start getting User
+2023-04-23 20:59:26:5926 info: GET /umg/info 304 707.413 ms - -
+2023-04-23 20:59:34:5934 info: OPTIONS /umg/info 204 0.166 ms - 0
+2023-04-23 20:59:34:5934 info: Start auth
+2023-04-23 20:59:34:5934 info: OPTIONS /nfts/getFrontPageData 204 0.102 ms - 0
+2023-04-23 20:59:34:5934 info: Start getting User
+2023-04-23 20:59:35:5935 info: GET /umg/info 304 374.041 ms - -
+2023-04-23 20:59:39:5939 info: GET /nfts/getFrontPageData 200 4857.435 ms - 40810
+2023-04-23 21:00:47:047 info: OPTIONS /umg/info 204 0.186 ms - 0
+2023-04-23 21:00:47:047 info: Start auth
+2023-04-23 21:00:48:048 info: OPTIONS /nfts/getFrontPageData 204 0.118 ms - 0
+2023-04-23 21:00:48:048 info: Start getting User
+2023-04-23 21:00:48:048 info: GET /umg/info 304 453.888 ms - -
+2023-04-23 21:00:53:053 info: GET /nfts/getFrontPageData 200 5339.960 ms - 40810
+2023-04-23 21:01:45:145 info: OPTIONS /umg/info 204 0.151 ms - 0
+2023-04-23 21:01:45:145 info: Start auth
+2023-04-23 21:01:45:145 info: OPTIONS /nfts/getFrontPageData 204 0.119 ms - 0
+2023-04-23 21:01:45:145 info: Start getting User
+2023-04-23 21:01:45:145 info: GET /umg/info 304 361.424 ms - -
+2023-04-23 21:01:49:149 info: GET /nfts/getFrontPageData 200 4638.938 ms - 40810
+2023-04-23 21:02:12:212 info: OPTIONS /umg/info 204 0.111 ms - 0
+2023-04-23 21:02:12:212 info: Start auth
+2023-04-23 21:02:12:212 info: OPTIONS /nfts/getFrontPageData 204 0.097 ms - 0
+2023-04-23 21:02:12:212 info: Start getting User
+2023-04-23 21:02:12:212 info: GET /umg/info 304 365.840 ms - -
+2023-04-23 21:02:16:216 info: GET /nfts/getFrontPageData 200 3636.716 ms - 40810
+2023-04-23 21:05:27:527 info: OPTIONS /umg/info 204 0.107 ms - 0
+2023-04-23 21:05:27:527 info: Start auth
+2023-04-23 21:05:27:527 info: OPTIONS /nfts/getFrontPageData 204 0.174 ms - 0
+2023-04-23 21:05:27:527 info: Start getting User
+2023-04-23 21:05:27:527 info: GET /umg/info 304 372.201 ms - -
+2023-04-23 21:05:32:532 info: GET /nfts/getFrontPageData 200 5146.101 ms - 40810
+2023-04-23 21:06:14:614 info: OPTIONS /umg/info 204 0.154 ms - 0
+2023-04-23 21:06:14:614 info: Start auth
+2023-04-23 21:06:14:614 info: OPTIONS /nfts/getFrontPageData 204 0.121 ms - 0
+2023-04-23 21:06:14:614 info: Start getting User
+2023-04-23 21:06:14:614 info: GET /umg/info 304 365.060 ms - -
+2023-04-23 21:06:18:618 info: GET /nfts/getFrontPageData 200 4503.422 ms - 40810

@@ -5,7 +5,7 @@ import logger from '../../utils/logger.js';
 
 
 const loginUser = async (req, res) => {
-    const { username, password } = req.body.params;
+    const { username, password } = req.body;
     logger.info('Start login');
 
     console.log(req.body)
@@ -24,6 +24,7 @@ const loginUser = async (req, res) => {
   
     } catch (error) {
         logger.error(error);
+        res.status(401).send('A token is required for authentication')
     }
 };
   
