@@ -1,21 +1,25 @@
-import { generateWallet, generateAcc, generateDeposit } from './wallets.js';
-import { getNFTsFromCollection, getNFTMetadata, getOwnersOfToken, getBalancesOfAddress, checkOwnerOfanNFT, getTransactionsOfWallet, getTokenData } from './data-api.js';
-import { conf } from '../config.js';
-
-import { TatumSDK } from "@tatumio/sdk";
-
-const sdk = TatumSDK({ apiKey: conf.API_KEY });
+import {
+    _createWallet,
+    _createAccount,
+    _getAccountById,
+    _getAccountBalance,
+    _getUserAccounts,
+    _updateUserAccount,
+    _createDeposit,
+    _getAllUserDeposits,
+    _assignDeposit,
+    _removeDeposit,
+} from './wallet-api.js';
 
 export {
-    sdk,
-    generateWallet,
-    generateAcc,
-    generateDeposit,
-    getNFTMetadata,
-    getNFTsFromCollection,
-    getOwnersOfToken,
-    getBalancesOfAddress,
-    checkOwnerOfanNFT,
-    getTransactionsOfWallet,
-    getTokenData
+    _createWallet,
+    _createAccount,
+    _getAccountById,
+    _getAccountBalance,
+    _getUserAccounts,
+    _updateUserAccount,
+    _createDeposit,
+    _assignDeposit,
+    _removeDeposit,
+    _getAllUserDeposits,
 };

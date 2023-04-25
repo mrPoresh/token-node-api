@@ -1,7 +1,5 @@
 import logger from '../utils/logger.js';
 
-
-
 const getCollectionRankingByVolume = async (limit, source, blockchain, period, sort) => {
     try {
         const query = new URLSearchParams({ limit: limit, source: source, blockchain: blockchain, period: period, sort: sort }).toString();

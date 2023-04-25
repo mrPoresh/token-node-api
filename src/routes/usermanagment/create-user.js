@@ -1,7 +1,7 @@
 import query from 'faunadb';
 
 import { client, USERS_C, WALLET_C, ACCOUNTS_C, DEPOSITS_C, EMAIL_I } from '../../db/db.js'
-import { generateWallet, generateAcc, generateDeposit } from '../../tatum-sdk/index.js'
+import { _createWallet, _createAccount, _createDeposit } from '../../tatum-sdk/index.js'
 
 import FaunaError from '../../errors/fauna-errors.js';
 import logger from '../../utils/logger.js';
@@ -9,15 +9,15 @@ import logger from '../../utils/logger.js';
 const createUser = async (req, res) => {
     logger.info('Start adding in db');
     
-    const { username, password, firstname, surname, currency, walletname } = req.body;
-    const q = query;
+    const { username, password, firstname, surname, currency, chain, walletname } = req.body;   /* chain: ethereum, bsc, polygon */
+    const q = query;                                                                            /* currency: ETH, BSC, MATIC     */
 
     try {
         const cli = client();
-zz
-        const wallet = await generateWallet(currency);
-        const account = await generateAcc(wallet.xpub, currency);
-        const deposit = await generateDeposit(account.id);
+
+        const wallet  = await ( await _createWallet(chain)).json();
+        const account = await ( await _createAccount(currency, wallet.xpub)).json();
+        const deposit = await ( await _createDeposit(account.id)).json();
 
         const result = await cli.query(
             q.Let({
@@ -55,8 +55,6 @@ zz
                 ),
             ),
         );
-
-        console.log(result);
 
         res.status(200).send({ data: { token: result.secret, mnemonic: wallet.mnemonic } });
 

@@ -11136,3 +11136,312 @@ For more info, see the docs: https://docs.fauna.com/fauna/current/api/fql/functi
 2023-04-25 10:03:46:346 info: My Fauna secret: fnAFCS63CXACUSGh40LyytnAeGjeEAzZZrPITBbJ
 2023-04-25 10:03:46:346 info: My SDK secret: d9e74e33-597d-45ee-9d18-d6278096a76d
 2023-04-25 10:03:48:348 info: Start adding in db
+2023-04-25 14:01:19:119 info: Server listening on port 4000
+2023-04-25 14:01:19:119 info: ENV: dev
+2023-04-25 14:01:19:119 info: Testnet: true
+2023-04-25 14:01:19:119 info: My Fauna secret: fnAFCS63CXACUSGh40LyytnAeGjeEAzZZrPITBbJ
+2023-04-25 14:01:19:119 info: My SDK secret: d9e74e33-597d-45ee-9d18-d6278096a76d
+2023-04-25 14:02:07:27 info: Start adding in db
+2023-04-25 14:04:32:432 info: Server listening on port 4000
+2023-04-25 14:04:32:432 info: ENV: dev
+2023-04-25 14:04:32:432 info: Testnet: true
+2023-04-25 14:04:32:432 info: My Fauna secret: fnAFCS63CXACUSGh40LyytnAeGjeEAzZZrPITBbJ
+2023-04-25 14:04:32:432 info: My SDK secret: d9e74e33-597d-45ee-9d18-d6278096a76d
+2023-04-25 14:04:34:434 info: Start adding in db
+2023-04-25 14:05:27:527 info: Server listening on port 4000
+2023-04-25 14:05:27:527 info: ENV: dev
+2023-04-25 14:05:27:527 info: Testnet: true
+2023-04-25 14:05:27:527 info: My Fauna secret: fnAFCS63CXACUSGh40LyytnAeGjeEAzZZrPITBbJ
+2023-04-25 14:05:27:527 info: My SDK secret: d9e74e33-597d-45ee-9d18-d6278096a76d
+2023-04-25 14:05:29:529 info: Start adding in db
+2023-04-25 14:06:43:643 info: Server listening on port 4000
+2023-04-25 14:06:43:643 info: ENV: dev
+2023-04-25 14:06:43:643 info: Testnet: true
+2023-04-25 14:06:43:643 info: My Fauna secret: fnAFCS63CXACUSGh40LyytnAeGjeEAzZZrPITBbJ
+2023-04-25 14:06:43:643 info: My SDK secret: d9e74e33-597d-45ee-9d18-d6278096a76d
+2023-04-25 14:06:45:645 info: Start adding in db
+2023-04-25 14:06:56:656 info: Server listening on port 4000
+2023-04-25 14:06:56:656 info: ENV: prod
+2023-04-25 14:06:56:656 info: Testnet: false
+2023-04-25 14:06:56:656 info: My Fauna secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-04-25 14:06:56:656 info: My SDK secret: b1eea3fc-277f-4f81-8463-a1ce707791a3
+2023-04-25 14:06:58:658 info: Start adding in db
+2023-04-25 14:07:44:744 info: Server listening on port 4000
+2023-04-25 14:07:44:744 info: ENV: prod
+2023-04-25 14:07:44:744 info: Testnet: false
+2023-04-25 14:07:44:744 info: My Fauna secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-04-25 14:07:44:744 info: My SDK secret: b1eea3fc-277f-4f81-8463-a1ce707791a3
+2023-04-25 14:07:48:748 info: Server listening on port 4000
+2023-04-25 14:07:48:748 info: ENV: dev
+2023-04-25 14:07:48:748 info: Testnet: true
+2023-04-25 14:07:48:748 info: My Fauna secret: fnAFCS63CXACUSGh40LyytnAeGjeEAzZZrPITBbJ
+2023-04-25 14:07:48:748 info: My SDK secret: d9e74e33-597d-45ee-9d18-d6278096a76d
+2023-04-25 14:07:50:750 info: Start adding in db
+2023-04-25 14:07:51:751 info: POST /umg/signup 200 1022.188 ms - 72
+2023-04-25 14:09:14:914 info: Server listening on port 4000
+2023-04-25 14:09:14:914 info: ENV: dev
+2023-04-25 14:09:14:914 info: Testnet: true
+2023-04-25 14:09:14:914 info: My Fauna secret: fnAFCS63CXACUSGh40LyytnAeGjeEAzZZrPITBbJ
+2023-04-25 14:09:14:914 info: My SDK secret: d9e74e33-597d-45ee-9d18-d6278096a76d
+2023-04-25 14:09:19:919 info: Start adding in db
+2023-04-25 14:09:20:920 info: POST /umg/signup 200 652.756 ms - 231
+2023-04-25 14:10:33:1033 info: Start adding in db
+2023-04-25 14:10:33:1033 error: instance not unique
+2023-04-25 14:10:33:1033 info: POST /umg/signup 409 457.610 ms - 46
+2023-04-25 14:12:20:1220 info: Start adding in db
+2023-04-25 14:12:21:1221 info: POST /umg/signup 200 1069.925 ms - 235
+2023-04-25 14:13:18:1318 info: Server listening on port 4000
+2023-04-25 14:13:18:1318 info: ENV: dev
+2023-04-25 14:13:18:1318 info: Testnet: true
+2023-04-25 14:13:18:1318 info: My Fauna secret: fnAFCS63CXACUSGh40LyytnAeGjeEAzZZrPITBbJ
+2023-04-25 14:13:18:1318 info: My SDK secret: d9e74e33-597d-45ee-9d18-d6278096a76d
+2023-04-25 14:14:11:1411 info: Start adding in db
+2023-04-25 14:14:12:1412 error: instance not unique
+2023-04-25 14:14:12:1412 info: POST /umg/signup 409 561.098 ms - 46
+2023-04-25 14:14:31:1431 info: Start adding in db
+2023-04-25 14:14:32:1432 info: POST /umg/signup 200 739.985 ms - 245
+2023-04-25 14:15:41:1541 info: Server listening on port 4000
+2023-04-25 14:15:41:1541 info: ENV: dev
+2023-04-25 14:15:41:1541 info: Testnet: true
+2023-04-25 14:15:41:1541 info: My Fauna secret: fnAFCS63CXACUSGh40LyytnAeGjeEAzZZrPITBbJ
+2023-04-25 14:15:41:1541 info: My SDK secret: d9e74e33-597d-45ee-9d18-d6278096a76d
+2023-04-25 14:15:48:1548 info: Start adding in db
+2023-04-25 14:15:49:1549 info: POST /umg/signup 200 749.294 ms - 246
+2023-04-25 14:16:42:1642 info: Server listening on port 4000
+2023-04-25 14:16:42:1642 info: ENV: dev
+2023-04-25 14:16:42:1642 info: Testnet: true
+2023-04-25 14:16:42:1642 info: My Fauna secret: fnAFCS63CXACUSGh40LyytnAeGjeEAzZZrPITBbJ
+2023-04-25 14:16:42:1642 info: My SDK secret: d9e74e33-597d-45ee-9d18-d6278096a76d
+2023-04-25 14:17:04:174 info: Start adding in db
+2023-04-25 14:17:06:176 info: POST /umg/signup 200 2528.475 ms - 237
+2023-04-25 14:17:42:1742 info: Start adding in db
+2023-04-25 14:17:43:1743 error: instance not unique
+2023-04-25 14:17:43:1743 info: POST /umg/signup 409 891.223 ms - 46
+2023-04-25 14:18:06:186 info: Start adding in db
+2023-04-25 14:18:07:187 info: POST /umg/signup 200 969.750 ms - 237
+2023-04-25 14:19:13:1913 info: Start adding in db
+2023-04-25 14:19:13:1913 info: POST /umg/signup 200 977.219 ms - 238
+2023-04-25 14:36:14:3614 info: Server listening on port 4000
+2023-04-25 14:36:14:3614 info: ENV: dev
+2023-04-25 14:36:14:3614 info: Testnet: true
+2023-04-25 14:36:14:3614 info: My Fauna secret: fnAFCS63CXACUSGh40LyytnAeGjeEAzZZrPITBbJ
+2023-04-25 14:36:14:3614 info: My SDK secret: d9e74e33-597d-45ee-9d18-d6278096a76d
+2023-04-25 14:40:25:4025 info: Start login
+2023-04-25 14:40:26:4026 info: POST /umg/signin 200 528.250 ms - 72
+2023-04-25 14:40:55:4055 info: Start auth
+2023-04-25 14:40:55:4055 info: Start Wallet Creation
+2023-04-25 14:40:56:4056 info: POST /wallet/addwallet 200 812.239 ms - 178
+2023-04-25 14:42:39:4239 info: Start auth
+2023-04-25 14:42:39:4239 info: Start Get Wallet
+2023-04-25 14:42:39:4239 error: instance not found
+2023-04-25 14:42:39:4239 info: POST /wallet/getwallet 404 409.224 ms - 37
+2023-04-25 14:44:21:4421 info: Start auth
+2023-04-25 14:44:21:4421 info: Start Get Wallets
+2023-04-25 14:44:21:4421 info: POST /wallet/getwallets 200 353.971 ms - 11
+2023-04-25 17:57:30:5730 info: Server listening on port 4000
+2023-04-25 17:57:30:5730 info: ENV: dev
+2023-04-25 17:57:30:5730 info: Testnet: true
+2023-04-25 17:57:30:5730 info: My Fauna secret: fnAFCS63CXACUSGh40LyytnAeGjeEAzZZrPITBbJ
+2023-04-25 17:57:30:5730 info: My SDK secret: d9e74e33-597d-45ee-9d18-d6278096a76d
+2023-04-25 17:57:37:5737 info: Start auth
+2023-04-25 17:57:38:5738 info: Start Get Wallet
+2023-04-25 17:57:38:5738 info: POST /wallet/getwallet 200 468.443 ms - 609
+2023-04-25 17:57:56:5756 info: Server listening on port 4000
+2023-04-25 17:57:56:5756 info: ENV: dev
+2023-04-25 17:57:56:5756 info: Testnet: true
+2023-04-25 17:57:56:5756 info: My Fauna secret: fnAFCS63CXACUSGh40LyytnAeGjeEAzZZrPITBbJ
+2023-04-25 17:57:56:5756 info: My SDK secret: d9e74e33-597d-45ee-9d18-d6278096a76d
+2023-04-25 17:57:58:5758 info: Start auth
+2023-04-25 17:57:58:5758 info: Start Get Wallet
+2023-04-25 17:57:58:5758 info: POST /wallet/getwallet 200 444.167 ms - 609
+2023-04-25 17:58:38:5838 info: Start auth
+2023-04-25 17:58:38:5838 info: Start Get Wallets
+2023-04-25 17:58:38:5838 info: POST /wallet/getwallets 200 399.800 ms - 11
+2023-04-25 18:01:05:15 info: Server listening on port 4000
+2023-04-25 18:01:05:15 info: ENV: dev
+2023-04-25 18:01:05:15 info: Testnet: true
+2023-04-25 18:01:05:15 info: My Fauna secret: fnAFCS63CXACUSGh40LyytnAeGjeEAzZZrPITBbJ
+2023-04-25 18:01:05:15 info: My SDK secret: d9e74e33-597d-45ee-9d18-d6278096a76d
+2023-04-25 18:01:17:117 info: Server listening on port 4000
+2023-04-25 18:01:17:117 info: ENV: dev
+2023-04-25 18:01:17:117 info: Testnet: true
+2023-04-25 18:01:17:117 info: My Fauna secret: fnAFCS63CXACUSGh40LyytnAeGjeEAzZZrPITBbJ
+2023-04-25 18:01:17:117 info: My SDK secret: d9e74e33-597d-45ee-9d18-d6278096a76d
+2023-04-25 18:01:18:118 info: Start auth
+2023-04-25 18:01:18:118 info: Start Get Wallets
+2023-04-25 18:01:18:118 info: POST /wallet/getwallets 200 367.282 ms - 248
+2023-04-25 18:02:39:239 info: Start auth
+2023-04-25 18:02:40:240 info: Start Get Wallets
+2023-04-25 18:02:40:240 info: POST /wallet/getwallets 200 363.153 ms - 248
+2023-04-25 18:02:43:243 info: Server listening on port 4000
+2023-04-25 18:02:43:243 info: ENV: dev
+2023-04-25 18:02:44:244 info: Testnet: true
+2023-04-25 18:02:44:244 info: My Fauna secret: fnAFCS63CXACUSGh40LyytnAeGjeEAzZZrPITBbJ
+2023-04-25 18:02:44:244 info: My SDK secret: d9e74e33-597d-45ee-9d18-d6278096a76d
+2023-04-25 18:02:45:245 info: Start auth
+2023-04-25 18:02:45:245 info: Start Get Wallets
+2023-04-25 18:02:45:245 error: value not found
+2023-04-25 18:02:45:245 info: POST /wallet/getwallets 500 373.497 ms - 54
+2023-04-25 18:04:36:436 info: Server listening on port 4000
+2023-04-25 18:04:36:436 info: ENV: dev
+2023-04-25 18:04:36:436 info: Testnet: true
+2023-04-25 18:04:36:436 info: My Fauna secret: fnAFCS63CXACUSGh40LyytnAeGjeEAzZZrPITBbJ
+2023-04-25 18:04:36:436 info: My SDK secret: d9e74e33-597d-45ee-9d18-d6278096a76d
+2023-04-25 18:04:39:439 info: Start auth
+2023-04-25 18:04:39:439 info: Start Get Wallets
+2023-04-25 18:04:39:439 info: POST /wallet/getwallets 200 376.574 ms - 257
+2023-04-25 18:04:58:458 info: Server listening on port 4000
+2023-04-25 18:04:58:458 info: ENV: dev
+2023-04-25 18:04:58:458 info: Testnet: true
+2023-04-25 18:04:58:458 info: My Fauna secret: fnAFCS63CXACUSGh40LyytnAeGjeEAzZZrPITBbJ
+2023-04-25 18:04:58:458 info: My SDK secret: d9e74e33-597d-45ee-9d18-d6278096a76d
+2023-04-25 18:05:02:52 info: Start auth
+2023-04-25 18:05:02:52 info: Start Get Wallets
+2023-04-25 18:05:03:53 info: POST /wallet/getwallets 200 385.746 ms - 257
+2023-04-25 18:07:29:729 info: Server listening on port 4000
+2023-04-25 18:07:29:729 info: ENV: dev
+2023-04-25 18:07:29:729 info: Testnet: true
+2023-04-25 18:07:29:729 info: My Fauna secret: fnAFCS63CXACUSGh40LyytnAeGjeEAzZZrPITBbJ
+2023-04-25 18:07:29:729 info: My SDK secret: d9e74e33-597d-45ee-9d18-d6278096a76d
+2023-04-25 18:07:31:731 info: Start auth
+2023-04-25 18:07:31:731 info: Start Get Wallets
+2023-04-25 18:07:31:731 info: POST /wallet/getwallets 200 405.528 ms - 906
+2023-04-25 18:09:46:946 info: Server listening on port 4000
+2023-04-25 18:09:46:946 info: ENV: dev
+2023-04-25 18:09:46:946 info: Testnet: true
+2023-04-25 18:09:46:946 info: My Fauna secret: fnAFCS63CXACUSGh40LyytnAeGjeEAzZZrPITBbJ
+2023-04-25 18:09:46:946 info: My SDK secret: d9e74e33-597d-45ee-9d18-d6278096a76d
+2023-04-25 18:09:47:947 info: Start auth
+2023-04-25 18:09:47:947 info: Start Get Wallets
+2023-04-25 18:09:47:947 info: POST /wallet/getwallets 200 458.179 ms - 25
+2023-04-25 18:10:28:1028 info: Server listening on port 4000
+2023-04-25 18:10:28:1028 info: ENV: dev
+2023-04-25 18:10:28:1028 info: Testnet: true
+2023-04-25 18:10:28:1028 info: My Fauna secret: fnAFCS63CXACUSGh40LyytnAeGjeEAzZZrPITBbJ
+2023-04-25 18:10:28:1028 info: My SDK secret: d9e74e33-597d-45ee-9d18-d6278096a76d
+2023-04-25 18:10:29:1029 info: Start auth
+2023-04-25 18:10:30:1030 info: Start Get Wallets
+2023-04-25 18:10:30:1030 info: POST /wallet/getwallets 200 383.355 ms - 924
+2023-04-25 18:11:22:1122 info: Server listening on port 4000
+2023-04-25 18:11:22:1122 info: ENV: dev
+2023-04-25 18:11:22:1122 info: Testnet: true
+2023-04-25 18:11:22:1122 info: My Fauna secret: fnAFCS63CXACUSGh40LyytnAeGjeEAzZZrPITBbJ
+2023-04-25 18:11:22:1122 info: My SDK secret: d9e74e33-597d-45ee-9d18-d6278096a76d
+2023-04-25 18:11:24:1124 info: Start auth
+2023-04-25 18:11:24:1124 info: Start Get Wallets
+2023-04-25 18:11:24:1124 info: POST /wallet/getwallets 200 405.255 ms - 25
+2023-04-25 18:12:31:1231 info: Server listening on port 4000
+2023-04-25 18:12:31:1231 info: ENV: dev
+2023-04-25 18:12:31:1231 info: Testnet: true
+2023-04-25 18:12:31:1231 info: My Fauna secret: fnAFCS63CXACUSGh40LyytnAeGjeEAzZZrPITBbJ
+2023-04-25 18:12:31:1231 info: My SDK secret: d9e74e33-597d-45ee-9d18-d6278096a76d
+2023-04-25 18:12:32:1232 info: Start auth
+2023-04-25 18:12:32:1232 info: Start Get Wallets
+2023-04-25 18:12:32:1232 info: POST /wallet/getwallets 200 405.947 ms - 906
+2023-04-25 18:12:44:1244 info: Server listening on port 4000
+2023-04-25 18:12:44:1244 info: ENV: dev
+2023-04-25 18:12:44:1244 info: Testnet: true
+2023-04-25 18:12:44:1244 info: My Fauna secret: fnAFCS63CXACUSGh40LyytnAeGjeEAzZZrPITBbJ
+2023-04-25 18:12:44:1244 info: My SDK secret: d9e74e33-597d-45ee-9d18-d6278096a76d
+2023-04-25 18:12:46:1246 info: Start auth
+2023-04-25 18:12:46:1246 info: Start Get Wallets
+2023-04-25 18:12:47:1247 info: POST /wallet/getwallets 200 394.628 ms - 897
+2023-04-25 18:19:46:1946 info: Server listening on port 4000
+2023-04-25 18:19:46:1946 info: ENV: dev
+2023-04-25 18:19:46:1946 info: Testnet: true
+2023-04-25 18:19:46:1946 info: My Fauna secret: fnAFCS63CXACUSGh40LyytnAeGjeEAzZZrPITBbJ
+2023-04-25 18:19:46:1946 info: My SDK secret: d9e74e33-597d-45ee-9d18-d6278096a76d
+2023-04-25 18:25:13:2513 info: Server listening on port 4000
+2023-04-25 18:25:13:2513 info: ENV: dev
+2023-04-25 18:25:13:2513 info: Testnet: true
+2023-04-25 18:25:13:2513 info: My Fauna secret: fnAFCS63CXACUSGh40LyytnAeGjeEAzZZrPITBbJ
+2023-04-25 18:25:13:2513 info: My SDK secret: d9e74e33-597d-45ee-9d18-d6278096a76d
+2023-04-25 18:25:21:2521 info: Start auth
+2023-04-25 18:25:21:2521 info: Start Get Wallets
+2023-04-25 18:25:21:2521 info: POST /wallet/getwallets 200 695.910 ms - 897
+2023-04-25 18:28:15:2815 info: Start auth
+2023-04-25 18:28:15:2815 info: Start Acc Creation
+2023-04-25 18:28:33:2833 info: Server listening on port 4000
+2023-04-25 18:28:33:2833 info: ENV: dev
+2023-04-25 18:28:33:2833 info: Testnet: true
+2023-04-25 18:28:33:2833 info: My Fauna secret: fnAFCS63CXACUSGh40LyytnAeGjeEAzZZrPITBbJ
+2023-04-25 18:28:33:2833 info: My SDK secret: d9e74e33-597d-45ee-9d18-d6278096a76d
+2023-04-25 18:28:36:2836 info: Start auth
+2023-04-25 18:28:36:2836 info: Start Acc Creation
+2023-04-25 18:28:37:2837 info: POST /wallet/addAccount 200 938.011 ms - 16
+2023-04-25 18:30:22:3022 info: Server listening on port 4000
+2023-04-25 18:30:22:3022 info: ENV: dev
+2023-04-25 18:30:22:3022 info: Testnet: true
+2023-04-25 18:30:22:3022 info: My Fauna secret: fnAFCS63CXACUSGh40LyytnAeGjeEAzZZrPITBbJ
+2023-04-25 18:30:22:3022 info: My SDK secret: d9e74e33-597d-45ee-9d18-d6278096a76d
+2023-04-25 18:30:51:3051 info: POST /wallet/getAccountById 404 9.367 ms - 161
+2023-04-25 18:31:30:3130 info: Server listening on port 4000
+2023-04-25 18:31:30:3130 info: ENV: dev
+2023-04-25 18:31:30:3130 info: Testnet: true
+2023-04-25 18:31:30:3130 info: My Fauna secret: fnAFCS63CXACUSGh40LyytnAeGjeEAzZZrPITBbJ
+2023-04-25 18:31:30:3130 info: My SDK secret: d9e74e33-597d-45ee-9d18-d6278096a76d
+2023-04-25 18:31:33:3133 info: Start auth
+2023-04-25 18:31:33:3133 info: Start Getting Account
+2023-04-25 18:31:44:3144 info: Server listening on port 4000
+2023-04-25 18:31:44:3144 info: ENV: dev
+2023-04-25 18:31:44:3144 info: Testnet: true
+2023-04-25 18:31:44:3144 info: My Fauna secret: fnAFCS63CXACUSGh40LyytnAeGjeEAzZZrPITBbJ
+2023-04-25 18:31:44:3144 info: My SDK secret: d9e74e33-597d-45ee-9d18-d6278096a76d
+2023-04-25 18:31:47:3147 info: Start auth
+2023-04-25 18:31:47:3147 info: Start Getting Account
+2023-04-25 18:31:47:3147 info: POST /wallet/getAccountById 200 307.499 ms - 332
+2023-04-25 18:43:22:4322 info: Server listening on port 4000
+2023-04-25 18:43:22:4322 info: ENV: dev
+2023-04-25 18:43:22:4322 info: Testnet: true
+2023-04-25 18:43:22:4322 info: My Fauna secret: fnAFCS63CXACUSGh40LyytnAeGjeEAzZZrPITBbJ
+2023-04-25 18:43:22:4322 info: My SDK secret: d9e74e33-597d-45ee-9d18-d6278096a76d
+2023-04-25 18:45:00:450 info: Server listening on port 4000
+2023-04-25 18:45:00:450 info: ENV: dev
+2023-04-25 18:45:00:450 info: Testnet: true
+2023-04-25 18:45:00:450 info: My Fauna secret: fnAFCS63CXACUSGh40LyytnAeGjeEAzZZrPITBbJ
+2023-04-25 18:45:00:450 info: My SDK secret: d9e74e33-597d-45ee-9d18-d6278096a76d
+2023-04-25 18:45:29:4529 info: Start auth
+2023-04-25 18:45:29:4529 info: Start Getting All User Accounts
+2023-04-25 18:45:30:4530 info: POST /wallet/getUserAccounts 200 697.459 ms - 100
+2023-04-25 18:46:47:4647 info: Server listening on port 4000
+2023-04-25 18:46:47:4647 info: ENV: dev
+2023-04-25 18:46:47:4647 info: Testnet: true
+2023-04-25 18:46:47:4647 info: My Fauna secret: fnAFCS63CXACUSGh40LyytnAeGjeEAzZZrPITBbJ
+2023-04-25 18:46:47:4647 info: My SDK secret: d9e74e33-597d-45ee-9d18-d6278096a76d
+2023-04-25 18:47:01:471 info: Start auth
+2023-04-25 18:47:02:472 info: Start Getting Account
+2023-04-25 18:47:02:472 info: POST /wallet/getAccountBalance 200 596.538 ms - 54
+2023-04-25 18:48:20:4820 info: Server listening on port 4000
+2023-04-25 18:48:20:4820 info: ENV: dev
+2023-04-25 18:48:20:4820 info: Testnet: true
+2023-04-25 18:48:20:4820 info: My Fauna secret: fnAFCS63CXACUSGh40LyytnAeGjeEAzZZrPITBbJ
+2023-04-25 18:48:20:4820 info: My SDK secret: d9e74e33-597d-45ee-9d18-d6278096a76d
+2023-04-25 18:48:29:4829 info: Start auth
+2023-04-25 18:48:29:4829 info: Start Updating Account
+2023-04-25 18:48:29:4829 error: invalid json response body at https://api.tatum.io/v3/ledger/account/6447ffb41d7b18c7f1f9980d reason: Unexpected end of JSON input
+2023-04-25 18:49:09:499 info: Server listening on port 4000
+2023-04-25 18:49:09:499 info: ENV: dev
+2023-04-25 18:49:09:499 info: Testnet: true
+2023-04-25 18:49:09:499 info: My Fauna secret: fnAFCS63CXACUSGh40LyytnAeGjeEAzZZrPITBbJ
+2023-04-25 18:49:09:499 info: My SDK secret: d9e74e33-597d-45ee-9d18-d6278096a76d
+2023-04-25 18:49:10:4910 info: Start auth
+2023-04-25 18:49:11:4911 info: Start Updating Account
+2023-04-25 18:49:11:4911 error: invalid json response body at https://api.tatum.io/v3/ledger/account/6447ffb41d7b18c7f1f9980d reason: Unexpected end of JSON input
+2023-04-25 18:50:09:509 info: Server listening on port 4000
+2023-04-25 18:50:09:509 info: ENV: dev
+2023-04-25 18:50:09:509 info: Testnet: true
+2023-04-25 18:50:09:509 info: My Fauna secret: fnAFCS63CXACUSGh40LyytnAeGjeEAzZZrPITBbJ
+2023-04-25 18:50:09:509 info: My SDK secret: d9e74e33-597d-45ee-9d18-d6278096a76d
+2023-04-25 18:50:11:5011 info: Start auth
+2023-04-25 18:50:11:5011 info: Start Updating Account
+2023-04-25 18:50:11:5011 error: Cannot read properties of undefined (reading 'json')
+2023-04-25 18:52:40:5240 info: Server listening on port 4000
+2023-04-25 18:52:40:5240 info: ENV: dev
+2023-04-25 18:52:40:5240 info: Testnet: true
+2023-04-25 18:52:40:5240 info: My Fauna secret: fnAFCS63CXACUSGh40LyytnAeGjeEAzZZrPITBbJ
+2023-04-25 18:52:40:5240 info: My SDK secret: d9e74e33-597d-45ee-9d18-d6278096a76d
+2023-04-25 18:57:58:5758 info: Server listening on port 4000
+2023-04-25 18:57:58:5758 info: ENV: dev
+2023-04-25 18:57:58:5758 info: Testnet: true
+2023-04-25 18:57:58:5758 info: My Fauna secret: fnAFCS63CXACUSGh40LyytnAeGjeEAzZZrPITBbJ
+2023-04-25 18:57:58:5758 info: My SDK secret: d9e74e33-597d-45ee-9d18-d6278096a76d

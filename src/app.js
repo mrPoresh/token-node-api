@@ -1,22 +1,36 @@
-/* import 'dotenv/config'; */
 import express from 'express';
-
 import cors from 'cors';
-
 import logger from './utils/logger.js'
 import loggerHttp from './middlewares/logger-http.js';
-
 import { conf } from './config.js';
-import { createUser, loginUser, checkToken, logoutUser, getUser } from './routes/usermanagment/index.js';
-import { createWallet, getWallet, getWallets, createAcc, createDeposit } from './routes/wallets/index.js';
-import { 
-    getCollectionNFTs, 
-    getMetadataForNFT, 
-    getAddressBalances, 
-    getTokenOwners, 
-    checkIsOwner, 
-    getTransactions, 
 
+import { 
+    createUser, 
+    loginUser, 
+    checkToken, 
+    logoutUser, 
+    getUser 
+} from './routes/usermanagment/index.js';
+
+import { 
+    createWallet,
+    getWallet,
+    getWallets,
+
+    createAccount,
+    getAccountById,
+    getAccountByWallet,
+    getUserAccounts,
+    getAccountBalance,
+    updateAccount,
+
+    createDeposit,
+    getAllUserDeposits,
+    assignDeposit,
+    removeDeposit,
+} from './routes/wallets/index.js'
+
+import { 
     getFrontPageData, 
     getFrontListsData,
     getFrontTabsByVolume,
@@ -39,19 +53,21 @@ function run() {
     server.get('/umg/info', checkToken, getUser);
     server.post('/umg/logout', logoutUser);
 
-    server.post('/wallet/addwallet', checkToken, z);
-    server.post('/wallet/addacc', checkToken, createAcc);
-    server.post('/wallet/adddeposit', checkToken, createDeposit);
-    server.get('/wallet/getwallet', checkToken, getWallet);
-    server.get('/wallet/getwallets', checkToken, getWallets);
+    server.post('/wallet/addWallet', checkToken, createWallet); 
+    server.post('/wallet/getWallet', checkToken, getWallet);    // change it to get
+    server.post('/wallet/getWallets', checkToken, getWallets);  //
 
-    server.get('/nfts/nftsfrom', getCollectionNFTs);
-    server.get('/nfts/metadataof', getMetadataForNFT);
-    server.get('/nfts/balancesof', getAddressBalances);
-    server.get('/nfts/ownersof', getTokenOwners);
-    server.get('/nfts/isowner', checkIsOwner);
-    server.get('/nfts/transactions', getTransactions);
-    //server.post('/nfts/getfrontpagelists', getFrontPageLists);  //
+    server.post('/wallet/addAccount', checkToken, createAccount);
+    server.post('/wallet/getAccountById', checkToken, getAccountById);
+    server.post('/wallet/getAccountByWallet', checkToken, getAccountByWallet);
+    server.post('/wallet/getUserAccounts', checkToken, getUserAccounts);
+    server.post('/wallet/getAccountBalance', checkToken, getAccountBalance);
+    server.post('/wallet/updateAccount', checkToken, updateAccount);
+
+    server.post('/wallet/createDeposit', checkToken, createDeposit);
+    server.post('/wallet/getAllUserDeposits', checkToken, getAllUserDeposits);
+    server.post('/wallet/assignDeposit', checkToken, assignDeposit);
+    server.post('/wallet/removeDeposit', checkToken, removeDeposit);    
 
     /* Front Page methods */
     server.get('/nfts/getFrontPageData', getFrontPageData);

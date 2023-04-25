@@ -1,9 +1,9 @@
 import query from 'faunadb';
 const q = query;
 
-import { client, update, WALLET_C, WALLET_I_R, USERS_C, getByIndex_id, client_users } from '../../db/db.js';
+import { client, update, WALLET_C, WALLET_I_R, USERS_C, getByIndex_id, client_users, WALLET_I_XPUB } from '../../db/db.js';
 import { authUser } from '../usermanagment/index.js';
-import { generateWallet } from '../../tatum-sdk/index.js';
+import { _createWallet } from '../../tatum-sdk/index.js';
 
 import FaunaError from '../../errors/fauna-errors.js';
 import logger from '../../utils/logger.js';
@@ -11,14 +11,11 @@ import logger from '../../utils/logger.js';
 const createWallet = async (req, res) => {
 	logger.info('Start Wallet Creation');
 
-	const { currency, walletname } = req.body.params;
-	const ref = req.body.ref;
-
-	console.log(req.body)
+	const { chain, walletname, ref } = req.body;
 
 	try {
 		const cli = client();
-		const wallet = await generateWallet(currency);
+		const wallet = await ( await _createWallet(chain)).json();
 
 		const result = await cli.query(
 			q.Create(q.Collection(WALLET_C), {
@@ -37,7 +34,7 @@ const createWallet = async (req, res) => {
 };
 
 const getWallet = async (req, res) => {
-	const { ref, xpub } = req.body;z
+	const { ref, xpub } = req.body;
 	logger.info('Start Get Wallet');
 
     try {
@@ -45,8 +42,8 @@ const getWallet = async (req, res) => {
 		const cli = client();
 
         const result = await cli.query(
-            query.Get(
-                query.Match(query.Index(WALLET_I_R), xpub),
+            q.Get(
+                q.Match(q.Index(WALLET_I_XPUB), xpub),
             )
         );
 
@@ -68,20 +65,22 @@ const getWallets = async (req, res) => {
 		const cli = client();
 
 		const result = await cli.query(
-			query.Let({
-					user_doc: query.Get(query.Ref(ref)),
-					wallets:  query.Select(['data', 'wallets'], query.Var('user_doc'), []),
-				},
-				query.Map(
-					query.Var('wallets'), 
-					query.Lambda('id',
-						query.Select('data', query.Get(query.Ref(query.Collection(WALLET_C), query.Var('id'))))
+			q.Map(
+				q.Paginate(q.Match(q.Index(WALLET_I_R), ref)),
+				q.Lambda('wallet_ref',
+					q.Let({
+						wallet: q.Select(['data'], q.Get(q.Var('wallet_ref')))
+					},
+						
+						q.Var('wallet')	// todo: remove owner field
+						
 					)
 				)
 			)
+			
 		);
 
-        res.status(200).send({ data: result});
+        res.status(200).send({ data: result.data});		// array of wallets
 
     } catch (error) {
 		logger.error(error);
