@@ -14,7 +14,7 @@ const createUser = async (req, res) => {
 
     try {
         const cli = client();
-
+zz
         const wallet = await generateWallet(currency);
         const account = await generateAcc(wallet.xpub, currency);
         const deposit = await generateDeposit(account.id);

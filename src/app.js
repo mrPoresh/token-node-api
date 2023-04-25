@@ -1,4 +1,4 @@
-import 'dotenv/config';
+/* import 'dotenv/config'; */
 import express from 'express';
 
 import cors from 'cors';
@@ -6,6 +6,7 @@ import cors from 'cors';
 import logger from './utils/logger.js'
 import loggerHttp from './middlewares/logger-http.js';
 
+import { conf } from './config.js';
 import { createUser, loginUser, checkToken, logoutUser, getUser } from './routes/usermanagment/index.js';
 import { createWallet, getWallet, getWallets, createAcc, createDeposit } from './routes/wallets/index.js';
 import { 
@@ -38,7 +39,7 @@ function run() {
     server.get('/umg/info', checkToken, getUser);
     server.post('/umg/logout', logoutUser);
 
-    server.post('/wallet/addwallet', checkToken, createWallet);
+    server.post('/wallet/addwallet', checkToken, z);
     server.post('/wallet/addacc', checkToken, createAcc);
     server.post('/wallet/adddeposit', checkToken, createDeposit);
     server.get('/wallet/getwallet', checkToken, getWallet);
@@ -69,8 +70,10 @@ function app() {
 
     server.listen(PORT, () => {
         logger.info(`Server listening on port ${PORT}`);
-        logger.info('My Fauna secret: ' + process.env.FAUNA_SERVER_KEY);
-        logger.info('My SDK secret: ' + process.env.API_KEY_MAINNET);
+        logger.info('ENV: ' + conf.NODE_ENV);
+        logger.info('Testnet: ' + conf.TESTNET);
+        logger.info('My Fauna secret: ' + conf.FAUNA_SERVER_KEY);
+        logger.info('My SDK secret: ' + conf.API_KEY);
     });
 
     return server

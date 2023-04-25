@@ -10916,3 +10916,223 @@ For more info, see the docs: https://docs.fauna.com/fauna/current/api/fql/functi
 2023-04-23 21:06:14:614 info: Start getting User
 2023-04-23 21:06:14:614 info: GET /umg/info 304 365.060 ms - -
 2023-04-23 21:06:18:618 info: GET /nfts/getFrontPageData 200 4503.422 ms - 40810
+2023-04-24 08:55:33:5533 info: Server listening on port 4000
+2023-04-24 08:55:33:5533 info: My Fauna secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-04-24 08:55:33:5533 info: My SDK secret: b1eea3fc-277f-4f81-8463-a1ce707791a3
+2023-04-24 08:56:11:5611 info: OPTIONS /umg/info 204 1.551 ms - 0
+2023-04-24 08:56:11:5611 info: Start auth
+2023-04-24 08:56:12:5612 info: OPTIONS /nfts/getFrontPageData 204 0.540 ms - 0
+2023-04-24 08:56:12:5612 info: Start getting User
+2023-04-24 08:56:12:5612 info: GET /umg/info 304 851.338 ms - -
+2023-04-24 08:56:16:5616 info: GET /nfts/getFrontPageData 200 4337.437 ms - 41332
+2023-04-24 08:56:33:5633 info: OPTIONS /umg/logout 204 0.141 ms - 0
+2023-04-24 08:56:33:5633 info: Start logout
+2023-04-24 08:56:33:5633 info: fnEFCQQEoeACUATmg2LiYApabLHBdJ6IP7wpiZfyf6g8FHk5Kjw
+2023-04-24 08:56:33:5633 info: POST /umg/logout 200 311.296 ms - 13
+2023-04-24 08:56:33:5633 info: OPTIONS /umg/info 204 0.137 ms - 0
+2023-04-24 08:56:33:5633 info: Start auth
+2023-04-24 08:56:34:5634 error: unauthorized. Check that endpoint, schema, port and secret are correct during client’s instantiation
+2023-04-24 08:56:34:5634 info: Start getting User
+2023-04-24 08:56:34:5634 error: invalid expression
+2023-04-24 08:56:34:5634 info: GET /umg/info 401 321.706 ms - 38
+2023-04-24 08:57:25:5725 info: OPTIONS /umg/info 204 0.310 ms - 0
+2023-04-24 08:57:25:5725 info: Start auth
+2023-04-24 08:57:25:5725 info: OPTIONS /nfts/getFrontPageData 204 0.139 ms - 0
+2023-04-24 08:57:25:5725 error: unauthorized. Check that endpoint, schema, port and secret are correct during client’s instantiation
+2023-04-24 08:57:25:5725 info: Start getting User
+2023-04-24 08:57:25:5725 error: invalid expression
+2023-04-24 08:57:25:5725 info: GET /umg/info 401 352.886 ms - 38
+2023-04-24 08:57:29:5729 info: GET /nfts/getFrontPageData 304 4059.221 ms - -
+2023-04-24 08:59:22:5922 info: OPTIONS /umg/info 204 0.335 ms - 0
+2023-04-24 08:59:22:5922 info: Start auth
+2023-04-24 08:59:22:5922 info: OPTIONS /nfts/getFrontPageData 204 0.138 ms - 0
+2023-04-24 08:59:22:5922 error: unauthorized. Check that endpoint, schema, port and secret are correct during client’s instantiation
+2023-04-24 08:59:22:5922 info: Start getting User
+2023-04-24 08:59:23:5923 error: invalid expression
+2023-04-24 08:59:23:5923 info: GET /umg/info 401 350.605 ms - 38
+2023-04-24 08:59:27:5927 info: GET /nfts/getFrontPageData 200 4677.466 ms - 41332
+2023-04-24 09:00:46:046 info: OPTIONS /umg/info 204 0.191 ms - 0
+2023-04-24 09:00:46:046 info: Start auth
+2023-04-24 09:00:46:046 info: OPTIONS /nfts/getFrontPageData 204 0.277 ms - 0
+2023-04-24 09:00:46:046 error: unauthorized. Check that endpoint, schema, port and secret are correct during client’s instantiation
+2023-04-24 09:00:46:046 info: Start getting User
+2023-04-24 09:00:46:046 error: invalid expression
+2023-04-24 09:00:46:046 info: GET /umg/info 401 310.208 ms - 38
+2023-04-24 09:00:51:051 info: GET /nfts/getFrontPageData 304 4977.387 ms - -
+2023-04-24 09:02:35:235 info: OPTIONS /umg/info 204 0.160 ms - 0
+2023-04-24 09:02:35:235 info: Start auth
+2023-04-24 09:02:35:235 info: OPTIONS /nfts/getFrontPageData 204 0.257 ms - 0
+2023-04-24 09:02:35:235 error: unauthorized. Check that endpoint, schema, port and secret are correct during client’s instantiation
+2023-04-24 09:02:35:235 info: Start getting User
+2023-04-24 09:02:35:235 error: invalid expression
+2023-04-24 09:02:35:235 info: GET /umg/info 401 344.683 ms - 38
+2023-04-24 09:02:40:240 info: GET /nfts/getFrontPageData 200 4714.226 ms - 41327
+2023-04-24 09:03:17:317 info: OPTIONS /umg/info 204 0.122 ms - 0
+2023-04-24 09:03:17:317 info: Start auth
+2023-04-24 09:03:17:317 info: OPTIONS /nfts/getFrontPageData 204 0.121 ms - 0
+2023-04-24 09:03:17:317 error: unauthorized. Check that endpoint, schema, port and secret are correct during client’s instantiation
+2023-04-24 09:03:17:317 info: Start getting User
+2023-04-24 09:03:17:317 error: invalid expression
+2023-04-24 09:03:17:317 info: GET /umg/info 401 318.380 ms - 38
+2023-04-24 09:03:22:322 info: GET /nfts/getFrontPageData 304 4713.605 ms - -
+2023-04-24 09:03:37:337 info: OPTIONS /umg/info 204 0.150 ms - 0
+2023-04-24 09:03:37:337 info: Start auth
+2023-04-24 09:03:37:337 info: OPTIONS /nfts/getFrontPageData 204 2.008 ms - 0
+2023-04-24 09:03:37:337 error: unauthorized. Check that endpoint, schema, port and secret are correct during client’s instantiation
+2023-04-24 09:03:37:337 info: Start getting User
+2023-04-24 09:03:37:337 error: invalid expression
+2023-04-24 09:03:37:337 info: GET /umg/info 401 316.776 ms - 38
+2023-04-24 09:03:41:341 info: GET /nfts/getFrontPageData 200 3731.297 ms - 41327
+2023-04-24 09:03:59:359 info: OPTIONS /umg/info 204 0.141 ms - 0
+2023-04-24 09:03:59:359 info: Start auth
+2023-04-24 09:03:59:359 info: OPTIONS /nfts/getFrontPageData 204 0.106 ms - 0
+2023-04-24 09:03:59:359 error: unauthorized. Check that endpoint, schema, port and secret are correct during client’s instantiation
+2023-04-24 09:03:59:359 info: Start getting User
+2023-04-24 09:03:59:359 error: invalid expression
+2023-04-24 09:03:59:359 info: GET /umg/info 401 310.048 ms - 38
+2023-04-24 09:04:02:42 info: GET /nfts/getFrontPageData 200 2942.621 ms - 41327
+2023-04-24 09:06:19:619 info: OPTIONS /umg/info 204 0.152 ms - 0
+2023-04-24 09:06:19:619 info: Start auth
+2023-04-24 09:06:19:619 info: OPTIONS /nfts/getFrontPageData 204 0.109 ms - 0
+2023-04-24 09:06:19:619 error: unauthorized. Check that endpoint, schema, port and secret are correct during client’s instantiation
+2023-04-24 09:06:19:619 info: Start getting User
+2023-04-24 09:06:19:619 error: invalid expression
+2023-04-24 09:06:19:619 info: GET /umg/info 401 344.740 ms - 38
+2023-04-24 09:06:23:623 info: GET /nfts/getFrontPageData 200 3890.138 ms - 41332
+2023-04-24 09:06:41:641 info: OPTIONS /umg/info 204 0.107 ms - 0
+2023-04-24 09:06:41:641 info: Start auth
+2023-04-24 09:06:41:641 info: OPTIONS /nfts/getFrontPageData 204 0.124 ms - 0
+2023-04-24 09:06:41:641 error: unauthorized. Check that endpoint, schema, port and secret are correct during client’s instantiation
+2023-04-24 09:06:41:641 info: Start getting User
+2023-04-24 09:06:41:641 error: invalid expression
+2023-04-24 09:06:41:641 info: GET /umg/info 401 309.793 ms - 38
+2023-04-24 09:06:45:645 info: GET /nfts/getFrontPageData 304 3437.194 ms - -
+2023-04-24 09:07:35:735 info: OPTIONS /umg/info 204 0.183 ms - 0
+2023-04-24 09:07:35:735 info: Start auth
+2023-04-24 09:07:35:735 info: OPTIONS /nfts/getFrontPageData 204 0.113 ms - 0
+2023-04-24 09:07:35:735 error: unauthorized. Check that endpoint, schema, port and secret are correct during client’s instantiation
+2023-04-24 09:07:35:735 info: Start getting User
+2023-04-24 09:07:35:735 error: invalid expression
+2023-04-24 09:07:35:735 info: GET /umg/info 401 381.791 ms - 38
+2023-04-24 09:07:40:740 info: GET /nfts/getFrontPageData 304 4755.210 ms - -
+2023-04-24 10:11:34:1134 info: ENV: undefined
+2023-04-24 10:11:34:1134 info: Server listening on port 4000
+2023-04-24 10:11:34:1134 info: My Fauna secret: undefined
+2023-04-24 10:11:34:1134 info: My SDK secret: undefined
+2023-04-24 10:12:31:1231 info: Server listening on port 4000
+2023-04-24 10:12:31:1231 info: My Fauna secret: undefined
+2023-04-24 10:12:31:1231 info: My SDK secret: undefined
+2023-04-24 10:13:45:1345 info: Server listening on port 4000
+2023-04-24 10:13:45:1345 info: My Fauna secret: undefined
+2023-04-24 10:13:45:1345 info: My SDK secret: undefined
+2023-04-24 10:14:15:1415 info: Server listening on port 4000
+2023-04-24 10:14:15:1415 info: My Fauna secret: undefined
+2023-04-24 10:14:15:1415 info: My SDK secret: undefined
+2023-04-24 10:14:40:1440 info: Server listening on port 4000
+2023-04-24 10:14:40:1440 info: My Fauna secret: undefined
+2023-04-24 10:14:40:1440 info: My SDK secret: undefined
+2023-04-24 10:16:59:1659 info: Server listening on port 4000
+2023-04-24 10:16:59:1659 info: My Fauna secret: undefined
+2023-04-24 10:16:59:1659 info: My SDK secret: undefined
+2023-04-24 10:24:32:2432 info: Server listening on port 4000
+2023-04-24 10:24:32:2432 info: My Fauna secret: undefined
+2023-04-24 10:24:32:2432 info: My SDK secret: undefined
+2023-04-24 10:25:23:2523 info: Server listening on port 4000
+2023-04-24 10:25:23:2523 info: My Fauna secret: undefined
+2023-04-24 10:25:23:2523 info: My SDK secret: undefined
+2023-04-24 10:27:06:276 info: Server listening on port 4000
+2023-04-24 10:27:06:276 info: ENV: dev
+2023-04-24 10:27:06:276 info: My Fauna secret: undefined
+2023-04-24 10:27:06:276 info: My SDK secret: undefined
+2023-04-24 10:28:20:2820 info: Server listening on port 4000
+2023-04-24 10:28:20:2820 info: ENV: prod
+2023-04-24 10:28:20:2820 info: My Fauna secret: undefined
+2023-04-24 10:28:20:2820 info: My SDK secret: undefined
+2023-04-24 10:28:39:2839 info: Server listening on port 4000
+2023-04-24 10:28:39:2839 info: ENV: prod
+2023-04-24 10:28:39:2839 info: My Fauna secret: undefined
+2023-04-24 10:28:39:2839 info: My SDK secret: undefined
+2023-04-24 10:30:00:300 info: Server listening on port 4000
+2023-04-24 10:30:00:300 info: ENV: prod
+2023-04-24 10:30:00:300 info: My Fauna secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-04-24 10:30:00:300 info: My SDK secret: undefined
+2023-04-24 10:30:58:3058 info: Server listening on port 4000
+2023-04-24 10:30:58:3058 info: ENV: prod
+2023-04-24 10:30:58:3058 info: My Fauna secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-04-24 10:30:58:3058 info: My SDK secret: b1eea3fc-277f-4f81-8463-a1ce707791a3
+2023-04-24 10:31:24:3124 info: Server listening on port 4000
+2023-04-24 10:31:24:3124 info: ENV: prod
+2023-04-24 10:31:24:3124 info: My Fauna secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-04-24 10:31:24:3124 info: My SDK secret: b1eea3fc-277f-4f81-8463-a1ce707791a3
+2023-04-24 10:31:33:3133 info: Server listening on port 4000
+2023-04-24 10:31:33:3133 info: ENV: dev
+2023-04-24 10:31:33:3133 info: My Fauna secret: fnAFCS63CXACUSGh40LyytnAeGjeEAzZZrPITBbJ
+2023-04-24 10:31:33:3133 info: My SDK secret: d9e74e33-597d-45ee-9d18-d6278096a76d
+2023-04-24 10:48:45:4845 info: Server listening on port 4000
+2023-04-24 10:48:45:4845 info: ENV: dev
+2023-04-24 10:48:45:4845 info: Testnet: true
+2023-04-24 10:48:45:4845 info: My Fauna secret: fnAFCS63CXACUSGh40LyytnAeGjeEAzZZrPITBbJ
+2023-04-24 10:48:45:4845 info: My SDK secret: d9e74e33-597d-45ee-9d18-d6278096a76d
+2023-04-24 10:50:33:5033 info: Start adding in db
+2023-04-24 10:51:48:5148 info: Server listening on port 4000
+2023-04-24 10:51:48:5148 info: ENV: dev
+2023-04-24 10:51:48:5148 info: Testnet: true
+2023-04-24 10:51:48:5148 info: My Fauna secret: fnAFCS63CXACUSGh40LyytnAeGjeEAzZZrPITBbJ
+2023-04-24 10:51:48:5148 info: My SDK secret: d9e74e33-597d-45ee-9d18-d6278096a76d
+2023-04-24 10:52:00:520 info: Start adding in db
+2023-04-24 10:52:01:521 error: {"statusCode":403,"errorCode":"method.unavailable","message":"Your request is only available to registered API key users. Get your API key for free: https://dashboard.tatum.io"}
+2023-04-24 10:52:55:5255 info: Server listening on port 4000
+2023-04-24 10:52:55:5255 info: ENV: dev
+2023-04-24 10:52:55:5255 info: Testnet: true
+2023-04-24 10:52:55:5255 info: My Fauna secret: fnAFCS63CXACUSGh40LyytnAeGjeEAzZZrPITBbJ
+2023-04-24 10:52:55:5255 info: My SDK secret: d9e74e33-597d-45ee-9d18-d6278096a76d
+2023-04-24 10:52:57:5257 info: Start adding in db
+2023-04-24 10:52:59:5259 info: POST /umg/signup 200 1700.706 ms - 243
+2023-04-25 09:36:52:3652 info: Server listening on port 4000
+2023-04-25 09:36:52:3652 info: ENV: dev
+2023-04-25 09:36:52:3652 info: Testnet: true
+2023-04-25 09:36:52:3652 info: My Fauna secret: fnAFCS63CXACUSGh40LyytnAeGjeEAzZZrPITBbJ
+2023-04-25 09:36:52:3652 info: My SDK secret: d9e74e33-597d-45ee-9d18-d6278096a76d
+2023-04-25 09:37:25:3725 info: Start adding in db
+2023-04-25 09:38:58:3858 info: Server listening on port 4000
+2023-04-25 09:38:58:3858 info: ENV: dev
+2023-04-25 09:38:58:3858 info: Testnet: true
+2023-04-25 09:38:58:3858 info: My Fauna secret: fnAFCS63CXACUSGh40LyytnAeGjeEAzZZrPITBbJ
+2023-04-25 09:38:58:3858 info: My SDK secret: d9e74e33-597d-45ee-9d18-d6278096a76d
+2023-04-25 09:38:58:3858 info: Start adding in db
+2023-04-25 09:40:03:403 info: Server listening on port 4000
+2023-04-25 09:40:03:403 info: ENV: dev
+2023-04-25 09:40:03:403 info: Testnet: true
+2023-04-25 09:40:03:403 info: My Fauna secret: fnAFCS63CXACUSGh40LyytnAeGjeEAzZZrPITBbJ
+2023-04-25 09:40:03:403 info: My SDK secret: d9e74e33-597d-45ee-9d18-d6278096a76d
+2023-04-25 09:40:17:4017 info: Start adding in db
+2023-04-25 09:44:42:4442 info: Server listening on port 4000
+2023-04-25 09:44:42:4442 info: ENV: dev
+2023-04-25 09:44:42:4442 info: Testnet: true
+2023-04-25 09:44:42:4442 info: My Fauna secret: fnAFCS63CXACUSGh40LyytnAeGjeEAzZZrPITBbJ
+2023-04-25 09:44:42:4442 info: My SDK secret: d9e74e33-597d-45ee-9d18-d6278096a76d
+2023-04-25 09:44:44:4444 info: Start adding in db
+2023-04-25 10:01:20:120 info: Server listening on port 4000
+2023-04-25 10:01:20:120 info: ENV: dev
+2023-04-25 10:01:20:120 info: Testnet: true
+2023-04-25 10:01:20:120 info: My Fauna secret: fnAFCS63CXACUSGh40LyytnAeGjeEAzZZrPITBbJ
+2023-04-25 10:01:20:120 info: My SDK secret: d9e74e33-597d-45ee-9d18-d6278096a76d
+2023-04-25 10:01:24:124 info: Start adding in db
+2023-04-25 10:01:55:155 info: Server listening on port 4000
+2023-04-25 10:01:55:155 info: ENV: dev
+2023-04-25 10:01:55:155 info: Testnet: true
+2023-04-25 10:01:55:155 info: My Fauna secret: fnAFCS63CXACUSGh40LyytnAeGjeEAzZZrPITBbJ
+2023-04-25 10:01:55:155 info: My SDK secret: d9e74e33-597d-45ee-9d18-d6278096a76d
+2023-04-25 10:01:58:158 info: Start adding in db
+2023-04-25 10:02:32:232 info: Server listening on port 4000
+2023-04-25 10:02:32:232 info: ENV: dev
+2023-04-25 10:02:32:232 info: Testnet: true
+2023-04-25 10:02:32:232 info: My Fauna secret: fnAFCS63CXACUSGh40LyytnAeGjeEAzZZrPITBbJ
+2023-04-25 10:02:32:232 info: My SDK secret: d9e74e33-597d-45ee-9d18-d6278096a76d
+2023-04-25 10:02:35:235 info: Start adding in db
+2023-04-25 10:03:46:346 info: Server listening on port 4000
+2023-04-25 10:03:46:346 info: ENV: dev
+2023-04-25 10:03:46:346 info: Testnet: true
+2023-04-25 10:03:46:346 info: My Fauna secret: fnAFCS63CXACUSGh40LyytnAeGjeEAzZZrPITBbJ
+2023-04-25 10:03:46:346 info: My SDK secret: d9e74e33-597d-45ee-9d18-d6278096a76d
+2023-04-25 10:03:48:348 info: Start adding in db

@@ -1,6 +1,7 @@
 import { sdk } from "./index.js";
+import { conf } from "../config.js";
 
-const TESTNET = false;
+const TESTNET = conf.TESTNET;
 
 const generateWallet = async (currency) => {
     const options = {

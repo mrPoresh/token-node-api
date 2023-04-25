@@ -37,7 +37,7 @@ const createWallet = async (req, res) => {
 };
 
 const getWallet = async (req, res) => {
-	const { ref, xpub } = req.body;
+	const { ref, xpub } = req.body;z
 	logger.info('Start Get Wallet');
 
     try {

@@ -1,9 +1,10 @@
 import { generateWallet, generateAcc, generateDeposit } from './wallets.js';
 import { getNFTsFromCollection, getNFTMetadata, getOwnersOfToken, getBalancesOfAddress, checkOwnerOfanNFT, getTransactionsOfWallet, getTokenData } from './data-api.js';
+import { conf } from '../config.js';
 
 import { TatumSDK } from "@tatumio/sdk";
 
-const sdk = TatumSDK({ apiKey: process.env.API_KEY_MAINNET });
+const sdk = TatumSDK({ apiKey: conf.API_KEY });
 
 export {
     sdk,

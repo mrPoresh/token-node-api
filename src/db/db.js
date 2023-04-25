@@ -3,6 +3,7 @@ import faunadb from 'faunadb';
 import query from 'faunadb';
 import FaunaError from '../errors/fauna-errors.js';
 import logger from '../utils/logger.js';
+import { conf } from '../config.js';
 
 export const USERS_C = 'users';
 export const WALLET_C = 'wallets';
@@ -24,7 +25,7 @@ const q = query;
 
 const client = () => {
     return new faunadb.Client({
-        secret: process.env.FAUNA_SERVER_KEY,
+        secret: conf.FAUNA_SERVER_KEY,
         domain: 'db.fauna.com',
         endpoint: 'https://db.fauna.com',
         scheme: 'https',
