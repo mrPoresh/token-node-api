@@ -153,10 +153,13 @@ const getFrontPageData = async (req, res) => {
 			q.Select(['data', 'data'], q.Get(q.Match(q.Index(APP_DATA_I_TAG), TAG_FRONT_PAGE)))
 		);
 
-		[result.tab, result.lists] = await Promise.all([
+		result.tab = await collectionsRankingByVolume(tab.limit, tab.source, tab.blockchain, tab.period, tab.sort);
+		result.lists= await frontListsData(tab.chain);
+
+		/* [result.tab, result.lists] = await Promise.all([
 			collectionsRankingByVolume(tab.limit, tab.source, tab.blockchain, tab.period, tab.sort), 
 			frontListsData(tab.chain),
-		]);
+		]); */
 
 		res.status(200).send({ data: result });
 

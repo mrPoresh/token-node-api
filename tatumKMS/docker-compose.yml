@@ -1,0 +1,13 @@
+services:
+  kms:
+    image: tatumio/tatum-kms:latest
+    ports:
+      - '8080:8080'
+    volumes:
+      - ./data:/data
+      - ./certs:/certs
+    environment:
+      TATUM_API_KEY: ${API_KEY}
+      external-url: http://loacalhost
+    env_file:
+      - dev.env

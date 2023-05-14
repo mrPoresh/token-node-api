@@ -1,4 +1,5 @@
 import logger from '../utils/logger.js';
+import fetch from "node-fetch";
 
 const getCollectionRankingByVolume = async (limit, source, blockchain, period, sort) => {
     try {

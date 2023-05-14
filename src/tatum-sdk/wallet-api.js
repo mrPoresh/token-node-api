@@ -51,6 +51,27 @@ const _createAccount = async (currency, xpub) => {   // currency: ETH, BSC, MATI
     }
 };
 
+const _createVcAccount = async (currency) => {   // currency: ETH, BSC, MATIC
+    try {
+        return await fetch(
+            `https://api.tatum.io/v3/ledger/account`,
+            {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                    'x-api-key': conf.API_KEY
+                },
+                body: JSON.stringify({
+                    currency: currency,
+                })
+            }
+        );
+    } catch(err) {
+        logger.error(err);
+        return err
+    }
+};
+
 const _getAccountById = async (id) => {
     try {
         return await fetch(
@@ -197,11 +218,36 @@ const _removeDeposit = async (id, address) => { // Remove a deposit address from
     }
 };
 
+/* ----- Virtual Currency -------------------------------------------------- */
+
+const _supplyVcAccount = async (id, amount) => { // Remove a deposit address from the virtual account
+    try {
+        return await fetch(
+            `https://api.tatum.io/v3/ledger/virtualCurrency/mint`,
+            {
+                method: 'PUT',
+                headers: {
+                  'Content-Type': 'application/json',
+                  'x-api-key': conf.API_KEY
+                },
+                body: JSON.stringify({
+                  accountId: id,
+                  amount: amount
+                })
+              }
+        );
+    } catch(err) {
+        logger.error(err);
+        return err
+    }
+};
+
 /* ------------------------------------------------------------------------- */
 
 export {
     _createWallet,
     _createAccount,
+    _createVcAccount,
     _getAccountById,
     _getAccountBalance,
     _getUserAccounts,
@@ -210,4 +256,5 @@ export {
     _getAllUserDeposits,
     _assignDeposit,
     _removeDeposit,
+    _supplyVcAccount,
 };

@@ -1,6 +1,7 @@
 import {
     _createWallet,
     _createAccount,
+    _createVcAccount,
     _getAccountById,
     _getAccountBalance,
     _getUserAccounts,
@@ -9,11 +10,13 @@ import {
     _getAllUserDeposits,
     _assignDeposit,
     _removeDeposit,
+    _supplyVcAccount
 } from './wallet-api.js';
 
 export {
     _createWallet,
     _createAccount,
+    _createVcAccount,
     _getAccountById,
     _getAccountBalance,
     _getUserAccounts,
@@ -22,4 +25,5 @@ export {
     _assignDeposit,
     _removeDeposit,
     _getAllUserDeposits,
+    _supplyVcAccount,
 };

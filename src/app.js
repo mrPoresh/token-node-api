@@ -18,11 +18,13 @@ import {
     getWallets,
 
     createAccount,
+    createVcAccount,
     getAccountById,
     getAccountByWallet,
     getUserAccounts,
     getAccountBalance,
     updateAccount,
+    supplyVcAccount,
 
     createDeposit,
     getAllUserDeposits,
@@ -58,11 +60,13 @@ function run() {
     server.post('/wallet/getWallets', checkToken, getWallets);  //
 
     server.post('/wallet/addAccount', checkToken, createAccount);
+    server.post('/wallet/addVcAccount', checkToken, createVcAccount);
     server.post('/wallet/getAccountById', checkToken, getAccountById);
     server.post('/wallet/getAccountByWallet', checkToken, getAccountByWallet);
     server.post('/wallet/getUserAccounts', checkToken, getUserAccounts);
     server.post('/wallet/getAccountBalance', checkToken, getAccountBalance);
     server.post('/wallet/updateAccount', checkToken, updateAccount);
+    server.post('/wallet/supplyVcAccount', checkToken, supplyVcAccount);        // TODO: check server key
 
     server.post('/wallet/createDeposit', checkToken, createDeposit);
     server.post('/wallet/getAllUserDeposits', checkToken, getAllUserDeposits);
