@@ -33,7 +33,8 @@ import {
 } from './routes/wallets/index.js';
 
 import {
-    getPriceConversion
+    getPriceConversion,
+    tradeWithMaster
 } from './routes/trade/index.js';
 
 import { 
@@ -78,6 +79,7 @@ function run() {
     server.post('/wallet/removeDeposit', checkToken, removeDeposit);    
 
     server.get('/trade/getPriceConversion', getPriceConversion);
+    server.post('/trade/tradeWithMaster', checkToken, tradeWithMaster);
 
     /* Front Page methods */
     server.get('/nfts/getFrontPageData', getFrontPageData);
@@ -101,6 +103,7 @@ function app() {
         logger.info('My Fauna secret: ' + conf.FAUNA_SERVER_KEY);
         logger.info('My SDK secret: ' + conf.API_KEY);
         logger.info('My Conv secret: ' + conf.COIN_MARKET);
+        logger.info('My MASTER_ADDRESSES secret: ' + conf.MASTER_ADDRESSES);
     });
 
     return server

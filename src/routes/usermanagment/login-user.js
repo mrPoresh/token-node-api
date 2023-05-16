@@ -8,8 +8,6 @@ const loginUser = async (req, res) => {
     const { username, password } = req.body;
     logger.info('Start login');
 
-    console.log(req.body)
-
     try {
         const cli = client();
 

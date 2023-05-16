@@ -147,12 +147,7 @@ const supplyVcAccount = async (req, res) => {   // not safe
 
         console.log(balance)
 
-        const result =  await cli.query(
-            q.Update(q.Select(['ref'], q.Get(q.Match(q.Index(ACCOUNT_I_ID), id))),
-                { data: { balance: balance} }            
-            )
-            
-        )
+        await updateBalance(id);
 
 		res.status(200).send({ message: "OK" });
 
@@ -160,6 +155,29 @@ const supplyVcAccount = async (req, res) => {   // not safe
         logger.error(error);
         let err = new FaunaError(error);
         res.status(err.statusCode).send({ status: err.statusCode, msg: err.message})
+    }
+};
+
+const updateBalance = async (id) => {   
+    logger.info('Start Updating Balance');
+
+    try {
+        const cli = client();
+        const balance = await ( await _getAccountBalance(id)).json(); 
+
+        const result =  await cli.query(
+            q.Update(q.Select(['ref'], q.Get(q.Match(q.Index(ACCOUNT_I_ID), id))),
+                { data: { balance: balance} }            
+            )
+            
+        );
+
+		return result;
+
+    } catch (error) {
+        logger.error(error);
+        let err = new FaunaError(error);
+        return err;
     }
 };
 
@@ -172,4 +190,5 @@ export {
     getAccountBalance,
     updateAccount,
     supplyVcAccount,
+    updateBalance
 };

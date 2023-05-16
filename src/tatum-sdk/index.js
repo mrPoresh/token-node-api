@@ -15,6 +15,7 @@ import {
 
 import {
     _getPriceConversion,
+    _trade,
 } from './trade-api.js';
 
 export {
@@ -30,5 +31,7 @@ export {
     _removeDeposit,
     _getAllUserDeposits,
     _supplyVcAccount,
+
     _getPriceConversion,
+    _trade,
 };

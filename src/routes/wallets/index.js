@@ -1,6 +1,27 @@
-import { createWallet, getWallet, getWallets, getPriceConversion } from './wallet.js';
-import { createAccount, createVcAccount, getAccountById, getAccountByWallet, getUserAccounts, getAccountBalance, updateAccount, supplyVcAccount } from './account.js';
-import { createDeposit, getAllUserDeposits, assignDeposit, removeDeposit, } from './deposit.js';
+import { 
+    createWallet, 
+    getWallet, 
+    getWallets 
+} from './wallet.js';
+
+import { 
+    createAccount, 
+    createVcAccount, 
+    getAccountById, 
+    getAccountByWallet, 
+    getUserAccounts, 
+    getAccountBalance, 
+    updateAccount, 
+    supplyVcAccount, 
+    updateBalance 
+} from './account.js';
+
+import { 
+    createDeposit, 
+    getAllUserDeposits, 
+    assignDeposit, 
+    removeDeposit, 
+} from './deposit.js';
 
 export {
     createWallet,
@@ -15,6 +36,7 @@ export {
     getAccountBalance,
     updateAccount,
     supplyVcAccount,
+    updateBalance,
 
     createDeposit,
     getAllUserDeposits,

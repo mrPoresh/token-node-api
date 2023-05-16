@@ -12,4 +12,6 @@ export const conf = {
   API_KEY: process.env.API_KEY,
   TESTNET: process.env.TESTNET,
   COIN_MARKET: process.env.COIN_MARKET,
+  MASTER_ADDRESSES: process.env.MASTER_ADDRESSES,
+  CURRENCIES: process.env.CURRENCIES,
 };

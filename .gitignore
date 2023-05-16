@@ -1,5 +1,4 @@
 /node_modules
 dev.env
 prod.env
-logs/
-logs
+logs/all-logs.log

@@ -11742,3 +11742,715 @@ For more info, see the docs: https://docs.fauna.com/fauna/current/api/fql/functi
 2023-05-16 11:07:10:710 info: GET /wallet/getPriceConversion 200 297.136 ms - 195
 2023-05-16 11:08:47:847 info: Start PriceConversion
 2023-05-16 11:08:48:848 info: GET /wallet/getPriceConversion 200 651.995 ms - 210
+2023-05-16 11:41:35:4135 info: Server listening on port 4000
+2023-05-16 11:41:35:4135 info: ENV: dev
+2023-05-16 11:41:35:4135 info: Testnet: true
+2023-05-16 11:41:35:4135 info: My Fauna secret: fnAFCS63CXACUSGh40LyytnAeGjeEAzZZrPITBbJ
+2023-05-16 11:41:35:4135 info: My SDK secret: d9e74e33-597d-45ee-9d18-d6278096a76d
+2023-05-16 11:41:35:4135 info: My Conv secret: d6566381-dee4-49b0-8ef9-53ee05e68bfd
+2023-05-16 11:41:39:4139 info: Start adding in db
+2023-05-16 11:41:41:4141 info: POST /umg/signup 200 1817.187 ms - 246
+2023-05-16 11:42:29:4229 info: Start adding in db
+2023-05-16 11:42:32:4232 info: POST /umg/signup 200 3036.306 ms - 233
+2023-05-16 11:43:26:4326 info: Start adding in db
+2023-05-16 11:43:28:4328 info: POST /umg/signup 200 2320.701 ms - 231
+2023-05-16 12:34:47:3447 info: Server listening on port 4000
+2023-05-16 12:34:47:3447 info: ENV: dev
+2023-05-16 12:34:47:3447 info: Testnet: true
+2023-05-16 12:34:47:3447 info: My Fauna secret: fnAFCS63CXACUSGh40LyytnAeGjeEAzZZrPITBbJ
+2023-05-16 12:34:47:3447 info: My SDK secret: d9e74e33-597d-45ee-9d18-d6278096a76d
+2023-05-16 12:34:47:3447 info: My Conv secret: d6566381-dee4-49b0-8ef9-53ee05e68bfd
+2023-05-16 12:36:12:3612 info: Start adding in db
+2023-05-16 12:36:14:3614 info: POST /umg/signup 200 2155.805 ms - 236
+2023-05-16 12:38:47:3847 info: Server listening on port 4000
+2023-05-16 12:38:47:3847 info: ENV: dev
+2023-05-16 12:38:47:3847 info: Testnet: true
+2023-05-16 12:38:47:3847 info: My Fauna secret: fnAFCS63CXACUSGh40LyytnAeGjeEAzZZrPITBbJ
+2023-05-16 12:38:47:3847 info: My SDK secret: d9e74e33-597d-45ee-9d18-d6278096a76d
+2023-05-16 12:38:47:3847 info: My Conv secret: d6566381-dee4-49b0-8ef9-53ee05e68bfd
+2023-05-16 12:40:01:401 info: Start auth
+2023-05-16 12:40:01:401 info: Start tradeWithMaster
+2023-05-16 12:40:01:401 info: POST /trade/tradeWithMaster 200 251.374 ms - 12
+2023-05-16 12:47:18:4718 info: Server listening on port 4000
+2023-05-16 12:47:18:4718 info: ENV: dev
+2023-05-16 12:47:18:4718 info: Testnet: true
+2023-05-16 12:47:18:4718 info: My Fauna secret: fnAFCS63CXACUSGh40LyytnAeGjeEAzZZrPITBbJ
+2023-05-16 12:47:18:4718 info: My SDK secret: d9e74e33-597d-45ee-9d18-d6278096a76d
+2023-05-16 12:47:18:4718 info: My Conv secret: d6566381-dee4-49b0-8ef9-53ee05e68bfd
+2023-05-16 12:47:20:4720 info: Start auth
+2023-05-16 12:47:21:4721 info: Start tradeWithMaster
+2023-05-16 12:47:21:4721 info: POST /trade/tradeWithMaster 200 277.832 ms - 12
+2023-05-16 12:48:45:4845 info: Server listening on port 4000
+2023-05-16 12:48:45:4845 info: ENV: dev
+2023-05-16 12:48:45:4845 info: Testnet: true
+2023-05-16 12:48:45:4845 info: My Fauna secret: fnAFCS63CXACUSGh40LyytnAeGjeEAzZZrPITBbJ
+2023-05-16 12:48:45:4845 info: My SDK secret: d9e74e33-597d-45ee-9d18-d6278096a76d
+2023-05-16 12:48:45:4845 info: My Conv secret: d6566381-dee4-49b0-8ef9-53ee05e68bfd
+2023-05-16 12:48:48:4848 info: Start auth
+2023-05-16 12:48:48:4848 info: Start tradeWithMaster
+2023-05-16 12:48:49:4849 info: POST /trade/tradeWithMaster 200 685.554 ms - 12
+2023-05-16 12:49:29:4929 info: Server listening on port 4000
+2023-05-16 12:49:29:4929 info: ENV: dev
+2023-05-16 12:49:29:4929 info: Testnet: true
+2023-05-16 12:49:29:4929 info: My Fauna secret: fnAFCS63CXACUSGh40LyytnAeGjeEAzZZrPITBbJ
+2023-05-16 12:49:29:4929 info: My SDK secret: d9e74e33-597d-45ee-9d18-d6278096a76d
+2023-05-16 12:49:29:4929 info: My Conv secret: d6566381-dee4-49b0-8ef9-53ee05e68bfd
+2023-05-16 12:49:30:4930 info: Start auth
+2023-05-16 12:49:30:4930 info: Start tradeWithMaster
+2023-05-16 12:49:30:4930 info: POST /trade/tradeWithMaster 200 467.865 ms - 12
+2023-05-16 12:49:42:4942 info: Start auth
+2023-05-16 12:49:42:4942 info: Start tradeWithMaster
+2023-05-16 12:49:43:4943 info: POST /trade/tradeWithMaster 200 691.120 ms - 12
+2023-05-16 12:50:18:5018 info: Server listening on port 4000
+2023-05-16 12:50:18:5018 info: ENV: dev
+2023-05-16 12:50:18:5018 info: Testnet: true
+2023-05-16 12:50:18:5018 info: My Fauna secret: fnAFCS63CXACUSGh40LyytnAeGjeEAzZZrPITBbJ
+2023-05-16 12:50:18:5018 info: My SDK secret: d9e74e33-597d-45ee-9d18-d6278096a76d
+2023-05-16 12:50:18:5018 info: My Conv secret: d6566381-dee4-49b0-8ef9-53ee05e68bfd
+2023-05-16 12:50:21:5021 info: Start auth
+2023-05-16 12:50:21:5021 info: Start tradeWithMaster
+2023-05-16 12:50:21:5021 info: POST /trade/tradeWithMaster 200 556.173 ms - 12
+2023-05-16 12:50:54:5054 info: Server listening on port 4000
+2023-05-16 12:50:54:5054 info: ENV: dev
+2023-05-16 12:50:54:5054 info: Testnet: true
+2023-05-16 12:50:54:5054 info: My Fauna secret: fnAFCS63CXACUSGh40LyytnAeGjeEAzZZrPITBbJ
+2023-05-16 12:50:54:5054 info: My SDK secret: d9e74e33-597d-45ee-9d18-d6278096a76d
+2023-05-16 12:50:54:5054 info: My Conv secret: d6566381-dee4-49b0-8ef9-53ee05e68bfd
+2023-05-16 12:50:56:5056 info: Start auth
+2023-05-16 12:50:56:5056 info: Start tradeWithMaster
+2023-05-16 12:50:56:5056 info: POST /trade/tradeWithMaster 200 714.860 ms - 12
+2023-05-16 12:52:08:528 info: Server listening on port 4000
+2023-05-16 12:52:08:528 info: ENV: dev
+2023-05-16 12:52:08:528 info: Testnet: true
+2023-05-16 12:52:08:528 info: My Fauna secret: fnAFCS63CXACUSGh40LyytnAeGjeEAzZZrPITBbJ
+2023-05-16 12:52:08:528 info: My SDK secret: d9e74e33-597d-45ee-9d18-d6278096a76d
+2023-05-16 12:52:08:528 info: My Conv secret: d6566381-dee4-49b0-8ef9-53ee05e68bfd
+2023-05-16 12:52:11:5211 info: Start auth
+2023-05-16 12:52:11:5211 info: Start tradeWithMaster
+2023-05-16 12:52:11:5211 info: POST /trade/tradeWithMaster 200 532.141 ms - 12
+2023-05-16 12:56:46:5646 info: Server listening on port 4000
+2023-05-16 12:56:46:5646 info: ENV: dev
+2023-05-16 12:56:46:5646 info: Testnet: true
+2023-05-16 12:56:46:5646 info: My Fauna secret: fnAFCS63CXACUSGh40LyytnAeGjeEAzZZrPITBbJ
+2023-05-16 12:56:46:5646 info: My SDK secret: d9e74e33-597d-45ee-9d18-d6278096a76d
+2023-05-16 12:56:46:5646 info: My Conv secret: d6566381-dee4-49b0-8ef9-53ee05e68bfd
+2023-05-16 12:56:47:5647 info: Start auth
+2023-05-16 12:56:47:5647 info: Start tradeWithMaster
+2023-05-16 12:56:48:5648 info: POST /trade/tradeWithMaster 200 748.550 ms - 12
+2023-05-16 13:00:05:05 info: Server listening on port 4000
+2023-05-16 13:00:05:05 info: ENV: dev
+2023-05-16 13:00:05:05 info: Testnet: true
+2023-05-16 13:00:05:05 info: My Fauna secret: fnAFCS63CXACUSGh40LyytnAeGjeEAzZZrPITBbJ
+2023-05-16 13:00:05:05 info: My SDK secret: d9e74e33-597d-45ee-9d18-d6278096a76d
+2023-05-16 13:00:05:05 info: My Conv secret: d6566381-dee4-49b0-8ef9-53ee05e68bfd
+2023-05-16 13:00:06:06 info: Start auth
+2023-05-16 13:00:07:07 info: Start tradeWithMaster
+2023-05-16 13:00:10:010 info: POST /trade/tradeWithMaster 200 3834.115 ms - 12
+2023-05-16 13:02:28:228 info: Server listening on port 4000
+2023-05-16 13:02:28:228 info: ENV: dev
+2023-05-16 13:02:28:228 info: Testnet: true
+2023-05-16 13:02:28:228 info: My Fauna secret: fnAFCS63CXACUSGh40LyytnAeGjeEAzZZrPITBbJ
+2023-05-16 13:02:28:228 info: My SDK secret: d9e74e33-597d-45ee-9d18-d6278096a76d
+2023-05-16 13:02:28:228 info: My Conv secret: d6566381-dee4-49b0-8ef9-53ee05e68bfd
+2023-05-16 13:02:30:230 info: Start auth
+2023-05-16 13:02:31:231 info: Start tradeWithMaster
+2023-05-16 13:02:31:231 info: POST /trade/tradeWithMaster 200 800.318 ms - 12
+2023-05-16 16:08:47:847 info: Server listening on port 4000
+2023-05-16 16:08:47:847 info: ENV: dev
+2023-05-16 16:08:47:847 info: Testnet: true
+2023-05-16 16:08:47:847 info: My Fauna secret: fnAFCS63CXACUSGh40LyytnAeGjeEAzZZrPITBbJ
+2023-05-16 16:08:47:847 info: My SDK secret: d9e74e33-597d-45ee-9d18-d6278096a76d
+2023-05-16 16:08:47:847 info: My Conv secret: d6566381-dee4-49b0-8ef9-53ee05e68bfd
+2023-05-16 16:08:55:855 info: Start auth
+2023-05-16 16:08:55:855 info: Start tradeWithMaster
+2023-05-16 16:08:56:856 info: POST /trade/tradeWithMaster 200 1136.640 ms - 12
+2023-05-16 16:09:28:928 info: Server listening on port 4000
+2023-05-16 16:09:28:928 info: ENV: dev
+2023-05-16 16:09:28:928 info: Testnet: true
+2023-05-16 16:09:28:928 info: My Fauna secret: fnAFCS63CXACUSGh40LyytnAeGjeEAzZZrPITBbJ
+2023-05-16 16:09:28:928 info: My SDK secret: d9e74e33-597d-45ee-9d18-d6278096a76d
+2023-05-16 16:09:28:928 info: My Conv secret: d6566381-dee4-49b0-8ef9-53ee05e68bfd
+2023-05-16 16:09:29:929 info: Start auth
+2023-05-16 16:09:30:930 info: Start tradeWithMaster
+2023-05-16 16:09:30:930 info: POST /trade/tradeWithMaster 200 823.651 ms - 12
+2023-05-16 16:09:48:948 info: Server listening on port 4000
+2023-05-16 16:09:48:948 info: ENV: dev
+2023-05-16 16:09:48:948 info: Testnet: true
+2023-05-16 16:09:48:948 info: My Fauna secret: fnAFCS63CXACUSGh40LyytnAeGjeEAzZZrPITBbJ
+2023-05-16 16:09:48:948 info: My SDK secret: d9e74e33-597d-45ee-9d18-d6278096a76d
+2023-05-16 16:09:48:948 info: My Conv secret: d6566381-dee4-49b0-8ef9-53ee05e68bfd
+2023-05-16 16:09:49:949 info: Start auth
+2023-05-16 16:09:49:949 info: Start tradeWithMaster
+2023-05-16 16:09:50:950 info: POST /trade/tradeWithMaster 200 813.014 ms - 12
+2023-05-16 16:10:20:1020 info: Server listening on port 4000
+2023-05-16 16:10:20:1020 info: ENV: dev
+2023-05-16 16:10:20:1020 info: Testnet: true
+2023-05-16 16:10:20:1020 info: My Fauna secret: fnAFCS63CXACUSGh40LyytnAeGjeEAzZZrPITBbJ
+2023-05-16 16:10:20:1020 info: My SDK secret: d9e74e33-597d-45ee-9d18-d6278096a76d
+2023-05-16 16:10:20:1020 info: My Conv secret: d6566381-dee4-49b0-8ef9-53ee05e68bfd
+2023-05-16 16:10:23:1023 info: Start auth
+2023-05-16 16:10:23:1023 info: Start tradeWithMaster
+2023-05-16 16:10:24:1024 info: POST /trade/tradeWithMaster 200 1347.759 ms - 12
+2023-05-16 16:14:59:1459 info: Server listening on port 4000
+2023-05-16 16:14:59:1459 info: ENV: dev
+2023-05-16 16:14:59:1459 info: Testnet: true
+2023-05-16 16:14:59:1459 info: My Fauna secret: fnAFCS63CXACUSGh40LyytnAeGjeEAzZZrPITBbJ
+2023-05-16 16:14:59:1459 info: My SDK secret: d9e74e33-597d-45ee-9d18-d6278096a76d
+2023-05-16 16:14:59:1459 info: My Conv secret: d6566381-dee4-49b0-8ef9-53ee05e68bfd
+2023-05-16 16:15:14:1514 info: Start auth
+2023-05-16 16:15:14:1514 info: Start tradeWithMaster
+2023-05-16 16:15:15:1515 info: POST /trade/tradeWithMaster 200 782.413 ms - 12
+2023-05-16 16:15:54:1554 info: Server listening on port 4000
+2023-05-16 16:15:54:1554 info: ENV: dev
+2023-05-16 16:15:54:1554 info: Testnet: true
+2023-05-16 16:15:54:1554 info: My Fauna secret: fnAFCS63CXACUSGh40LyytnAeGjeEAzZZrPITBbJ
+2023-05-16 16:15:54:1554 info: My SDK secret: d9e74e33-597d-45ee-9d18-d6278096a76d
+2023-05-16 16:15:54:1554 info: My Conv secret: d6566381-dee4-49b0-8ef9-53ee05e68bfd
+2023-05-16 16:15:55:1555 info: Start auth
+2023-05-16 16:15:55:1555 info: Start tradeWithMaster
+2023-05-16 16:15:56:1556 info: POST /trade/tradeWithMaster 200 709.302 ms - 12
+2023-05-16 16:16:17:1617 info: Server listening on port 4000
+2023-05-16 16:16:17:1617 info: ENV: dev
+2023-05-16 16:16:17:1617 info: Testnet: true
+2023-05-16 16:16:17:1617 info: My Fauna secret: fnAFCS63CXACUSGh40LyytnAeGjeEAzZZrPITBbJ
+2023-05-16 16:16:17:1617 info: My SDK secret: d9e74e33-597d-45ee-9d18-d6278096a76d
+2023-05-16 16:16:17:1617 info: My Conv secret: d6566381-dee4-49b0-8ef9-53ee05e68bfd
+2023-05-16 16:16:19:1619 info: Start auth
+2023-05-16 16:16:19:1619 info: Start tradeWithMaster
+2023-05-16 16:16:21:1621 info: POST /trade/tradeWithMaster 200 1512.777 ms - 12
+2023-05-16 16:16:55:1655 info: Server listening on port 4000
+2023-05-16 16:16:55:1655 info: ENV: dev
+2023-05-16 16:16:55:1655 info: Testnet: true
+2023-05-16 16:16:55:1655 info: My Fauna secret: fnAFCS63CXACUSGh40LyytnAeGjeEAzZZrPITBbJ
+2023-05-16 16:16:55:1655 info: My SDK secret: d9e74e33-597d-45ee-9d18-d6278096a76d
+2023-05-16 16:16:55:1655 info: My Conv secret: d6566381-dee4-49b0-8ef9-53ee05e68bfd
+2023-05-16 16:16:58:1658 info: Start auth
+2023-05-16 16:16:58:1658 info: Start tradeWithMaster
+2023-05-16 16:16:58:1658 error: Cannot read properties of undefined (reading 'price')
+2023-05-16 16:16:58:1658 info: POST /trade/tradeWithMaster 500 437.540 ms - 44
+2023-05-16 16:17:17:1717 info: Server listening on port 4000
+2023-05-16 16:17:17:1717 info: ENV: dev
+2023-05-16 16:17:17:1717 info: Testnet: true
+2023-05-16 16:17:17:1717 info: My Fauna secret: fnAFCS63CXACUSGh40LyytnAeGjeEAzZZrPITBbJ
+2023-05-16 16:17:17:1717 info: My SDK secret: d9e74e33-597d-45ee-9d18-d6278096a76d
+2023-05-16 16:17:17:1717 info: My Conv secret: d6566381-dee4-49b0-8ef9-53ee05e68bfd
+2023-05-16 16:17:17:1717 info: Start auth
+2023-05-16 16:17:18:1718 info: Start tradeWithMaster
+2023-05-16 16:17:18:1718 info: POST /trade/tradeWithMaster 200 765.153 ms - 12
+2023-05-16 16:18:13:1813 info: Server listening on port 4000
+2023-05-16 16:18:13:1813 info: ENV: dev
+2023-05-16 16:18:13:1813 info: Testnet: true
+2023-05-16 16:18:13:1813 info: My Fauna secret: fnAFCS63CXACUSGh40LyytnAeGjeEAzZZrPITBbJ
+2023-05-16 16:18:13:1813 info: My SDK secret: d9e74e33-597d-45ee-9d18-d6278096a76d
+2023-05-16 16:18:13:1813 info: My Conv secret: d6566381-dee4-49b0-8ef9-53ee05e68bfd
+2023-05-16 16:18:14:1814 info: Start auth
+2023-05-16 16:18:14:1814 info: Start tradeWithMaster
+2023-05-16 16:18:15:1815 error: Cannot read properties of undefined (reading 'price')
+2023-05-16 16:18:15:1815 info: POST /trade/tradeWithMaster 500 730.023 ms - 44
+2023-05-16 16:18:38:1838 info: Server listening on port 4000
+2023-05-16 16:18:38:1838 info: ENV: dev
+2023-05-16 16:18:38:1838 info: Testnet: true
+2023-05-16 16:18:38:1838 info: My Fauna secret: fnAFCS63CXACUSGh40LyytnAeGjeEAzZZrPITBbJ
+2023-05-16 16:18:38:1838 info: My SDK secret: d9e74e33-597d-45ee-9d18-d6278096a76d
+2023-05-16 16:18:38:1838 info: My Conv secret: d6566381-dee4-49b0-8ef9-53ee05e68bfd
+2023-05-16 16:18:40:1840 info: Start auth
+2023-05-16 16:18:40:1840 info: Start tradeWithMaster
+2023-05-16 16:18:40:1840 info: POST /trade/tradeWithMaster 200 794.943 ms - 12
+2023-05-16 16:19:19:1919 info: Server listening on port 4000
+2023-05-16 16:19:19:1919 info: ENV: dev
+2023-05-16 16:19:19:1919 info: Testnet: true
+2023-05-16 16:19:19:1919 info: My Fauna secret: fnAFCS63CXACUSGh40LyytnAeGjeEAzZZrPITBbJ
+2023-05-16 16:19:19:1919 info: My SDK secret: d9e74e33-597d-45ee-9d18-d6278096a76d
+2023-05-16 16:19:19:1919 info: My Conv secret: d6566381-dee4-49b0-8ef9-53ee05e68bfd
+2023-05-16 16:19:33:1933 info: Start auth
+2023-05-16 16:19:33:1933 info: Start tradeWithMaster
+2023-05-16 16:19:33:1933 info: POST /trade/tradeWithMaster 200 608.614 ms - 12
+2023-05-16 16:19:50:1950 info: Server listening on port 4000
+2023-05-16 16:19:50:1950 info: ENV: dev
+2023-05-16 16:19:50:1950 info: Testnet: true
+2023-05-16 16:19:50:1950 info: My Fauna secret: fnAFCS63CXACUSGh40LyytnAeGjeEAzZZrPITBbJ
+2023-05-16 16:19:50:1950 info: My SDK secret: d9e74e33-597d-45ee-9d18-d6278096a76d
+2023-05-16 16:19:50:1950 info: My Conv secret: d6566381-dee4-49b0-8ef9-53ee05e68bfd
+2023-05-16 16:19:51:1951 info: Start auth
+2023-05-16 16:19:51:1951 info: Start tradeWithMaster
+2023-05-16 16:19:52:1952 info: POST /trade/tradeWithMaster 200 547.622 ms - 12
+2023-05-16 16:21:58:2158 info: Server listening on port 4000
+2023-05-16 16:21:58:2158 info: ENV: dev
+2023-05-16 16:21:58:2158 info: Testnet: true
+2023-05-16 16:21:58:2158 info: My Fauna secret: fnAFCS63CXACUSGh40LyytnAeGjeEAzZZrPITBbJ
+2023-05-16 16:21:58:2158 info: My SDK secret: d9e74e33-597d-45ee-9d18-d6278096a76d
+2023-05-16 16:21:58:2158 info: My Conv secret: d6566381-dee4-49b0-8ef9-53ee05e68bfd
+2023-05-16 16:22:02:222 info: Start auth
+2023-05-16 16:22:02:222 info: Start tradeWithMaster
+2023-05-16 16:22:03:223 info: POST /trade/tradeWithMaster 200 1145.206 ms - 12
+2023-05-16 16:30:26:3026 info: Start adding in db
+2023-05-16 16:30:28:3028 info: POST /umg/signup 200 1895.261 ms - 239
+2023-05-16 16:30:50:3050 info: Start adding in db
+2023-05-16 16:30:53:3053 info: POST /umg/signup 200 2202.779 ms - 237
+2023-05-16 16:32:16:3216 info: Start adding in db
+2023-05-16 16:32:17:3217 info: POST /umg/signup 200 1432.202 ms - 231
+2023-05-16 16:33:44:3344 info: Start adding in db
+2023-05-16 16:33:46:3346 info: POST /umg/signup 200 1500.349 ms - 241
+2023-05-16 16:34:32:3432 info: Start adding in db
+2023-05-16 16:34:34:3434 info: POST /umg/signup 200 1489.892 ms - 237
+2023-05-16 16:34:56:3456 info: Start auth
+2023-05-16 16:34:57:3457 info: Start tradeWithMaster
+2023-05-16 16:34:57:3457 info: POST /trade/tradeWithMaster 200 607.339 ms - 12
+2023-05-16 16:40:18:4018 info: Start auth
+2023-05-16 16:40:18:4018 info: Start tradeWithMaster
+2023-05-16 16:40:18:4018 error: Key "MATIC/USDD" does not exist in the object.
+2023-05-16 16:40:18:4018 info: POST /trade/tradeWithMaster 500 474.658 ms - 44
+2023-05-16 16:51:26:5126 info: Server listening on port 4000
+2023-05-16 16:51:26:5126 info: ENV: dev
+2023-05-16 16:51:26:5126 info: Testnet: true
+2023-05-16 16:51:26:5126 info: My Fauna secret: fnAFCS63CXACUSGh40LyytnAeGjeEAzZZrPITBbJ
+2023-05-16 16:51:26:5126 info: My SDK secret: d9e74e33-597d-45ee-9d18-d6278096a76d
+2023-05-16 16:51:26:5126 info: My Conv secret: d6566381-dee4-49b0-8ef9-53ee05e68bfd
+2023-05-16 16:52:26:5226 info: Start auth
+2023-05-16 16:52:26:5226 info: Start tradeWithMaster
+2023-05-16 16:52:26:5226 error: Assignment to constant variable.
+2023-05-16 16:52:26:5226 info: POST /trade/tradeWithMaster 500 327.110 ms - 44
+2023-05-16 16:52:43:5243 info: Server listening on port 4000
+2023-05-16 16:52:43:5243 info: ENV: dev
+2023-05-16 16:52:43:5243 info: Testnet: true
+2023-05-16 16:52:43:5243 info: My Fauna secret: fnAFCS63CXACUSGh40LyytnAeGjeEAzZZrPITBbJ
+2023-05-16 16:52:43:5243 info: My SDK secret: d9e74e33-597d-45ee-9d18-d6278096a76d
+2023-05-16 16:52:43:5243 info: My Conv secret: d6566381-dee4-49b0-8ef9-53ee05e68bfd
+2023-05-16 16:52:45:5245 info: Start auth
+2023-05-16 16:52:45:5245 info: Start tradeWithMaster
+2023-05-16 16:52:45:5245 info: POST /trade/tradeWithMaster 200 225.981 ms - 12
+2023-05-16 16:53:06:536 info: Start auth
+2023-05-16 16:53:06:536 info: Start tradeWithMaster
+2023-05-16 16:53:06:536 info: POST /trade/tradeWithMaster 200 190.090 ms - 12
+2023-05-16 16:53:55:5355 info: Server listening on port 4000
+2023-05-16 16:53:55:5355 info: ENV: dev
+2023-05-16 16:53:55:5355 info: Testnet: true
+2023-05-16 16:53:55:5355 info: My Fauna secret: fnAFCS63CXACUSGh40LyytnAeGjeEAzZZrPITBbJ
+2023-05-16 16:53:55:5355 info: My SDK secret: d9e74e33-597d-45ee-9d18-d6278096a76d
+2023-05-16 16:53:55:5355 info: My Conv secret: d6566381-dee4-49b0-8ef9-53ee05e68bfd
+2023-05-16 16:53:57:5357 info: Start auth
+2023-05-16 16:53:57:5357 info: Start tradeWithMaster
+2023-05-16 16:53:57:5357 info: POST /trade/tradeWithMaster 200 266.770 ms - 12
+2023-05-16 16:54:14:5414 info: Start auth
+2023-05-16 16:54:14:5414 info: Start tradeWithMaster
+2023-05-16 16:54:14:5414 info: POST /trade/tradeWithMaster 200 205.980 ms - 12
+2023-05-16 16:54:35:5435 info: Start auth
+2023-05-16 16:54:35:5435 info: Start tradeWithMaster
+2023-05-16 16:54:35:5435 info: POST /trade/tradeWithMaster 200 182.952 ms - 12
+2023-05-16 16:54:55:5455 info: Start auth
+2023-05-16 16:54:56:5456 info: Start tradeWithMaster
+2023-05-16 16:54:56:5456 info: POST /trade/tradeWithMaster 200 177.626 ms - 12
+2023-05-16 16:56:09:569 info: Server listening on port 4000
+2023-05-16 16:56:09:569 info: ENV: dev
+2023-05-16 16:56:09:569 info: Testnet: true
+2023-05-16 16:56:09:569 info: My Fauna secret: fnAFCS63CXACUSGh40LyytnAeGjeEAzZZrPITBbJ
+2023-05-16 16:56:09:569 info: My SDK secret: d9e74e33-597d-45ee-9d18-d6278096a76d
+2023-05-16 16:56:09:569 info: My Conv secret: d6566381-dee4-49b0-8ef9-53ee05e68bfd
+2023-05-16 16:56:15:5615 info: Start auth
+2023-05-16 16:56:15:5615 info: Start tradeWithMaster
+2023-05-16 16:56:15:5615 info: POST /trade/tradeWithMaster 200 206.048 ms - 12
+2023-05-16 16:56:21:5621 info: Start auth
+2023-05-16 16:56:21:5621 info: Start tradeWithMaster
+2023-05-16 16:56:21:5621 info: POST /trade/tradeWithMaster 200 189.056 ms - 12
+2023-05-16 16:57:00:570 info: Server listening on port 4000
+2023-05-16 16:57:00:570 info: ENV: dev
+2023-05-16 16:57:00:570 info: Testnet: true
+2023-05-16 16:57:00:570 info: My Fauna secret: fnAFCS63CXACUSGh40LyytnAeGjeEAzZZrPITBbJ
+2023-05-16 16:57:00:570 info: My SDK secret: d9e74e33-597d-45ee-9d18-d6278096a76d
+2023-05-16 16:57:00:570 info: My Conv secret: d6566381-dee4-49b0-8ef9-53ee05e68bfd
+2023-05-16 16:57:10:5710 info: Start auth
+2023-05-16 16:57:10:5710 info: Start tradeWithMaster
+2023-05-16 16:57:10:5710 info: POST /trade/tradeWithMaster 200 236.842 ms - 12
+2023-05-16 16:58:23:5823 info: Server listening on port 4000
+2023-05-16 16:58:23:5823 info: ENV: dev
+2023-05-16 16:58:23:5823 info: Testnet: true
+2023-05-16 16:58:23:5823 info: My Fauna secret: fnAFCS63CXACUSGh40LyytnAeGjeEAzZZrPITBbJ
+2023-05-16 16:58:23:5823 info: My SDK secret: d9e74e33-597d-45ee-9d18-d6278096a76d
+2023-05-16 16:58:23:5823 info: My Conv secret: d6566381-dee4-49b0-8ef9-53ee05e68bfd
+2023-05-16 16:58:25:5825 info: Start auth
+2023-05-16 16:58:25:5825 info: Start tradeWithMaster
+2023-05-16 16:58:25:5825 info: POST /trade/tradeWithMaster 200 215.877 ms - 12
+2023-05-16 16:58:37:5837 info: Start auth
+2023-05-16 16:58:37:5837 info: Start tradeWithMaster
+2023-05-16 16:58:37:5837 info: POST /trade/tradeWithMaster 200 211.772 ms - 12
+2023-05-16 16:58:46:5846 info: Start auth
+2023-05-16 16:58:46:5846 info: Start tradeWithMaster
+2023-05-16 16:58:46:5846 info: POST /trade/tradeWithMaster 200 177.322 ms - 12
+2023-05-16 16:58:57:5857 info: Start auth
+2023-05-16 16:58:57:5857 info: Start tradeWithMaster
+2023-05-16 16:58:57:5857 info: POST /trade/tradeWithMaster 200 167.225 ms - 12
+2023-05-16 16:59:23:5923 info: Start auth
+2023-05-16 16:59:23:5923 info: Start tradeWithMaster
+2023-05-16 16:59:23:5923 info: POST /trade/tradeWithMaster 200 175.035 ms - 12
+2023-05-16 17:00:26:026 info: Server listening on port 4000
+2023-05-16 17:00:26:026 info: ENV: dev
+2023-05-16 17:00:26:026 info: Testnet: true
+2023-05-16 17:00:26:026 info: My Fauna secret: fnAFCS63CXACUSGh40LyytnAeGjeEAzZZrPITBbJ
+2023-05-16 17:00:26:026 info: My SDK secret: d9e74e33-597d-45ee-9d18-d6278096a76d
+2023-05-16 17:00:26:026 info: My Conv secret: d6566381-dee4-49b0-8ef9-53ee05e68bfd
+2023-05-16 17:00:28:028 info: Start auth
+2023-05-16 17:00:28:028 info: Start tradeWithMaster
+2023-05-16 17:00:28:028 info: POST /trade/tradeWithMaster 200 715.709 ms - 12
+2023-05-16 17:06:39:639 info: Server listening on port 4000
+2023-05-16 17:06:39:639 info: ENV: dev
+2023-05-16 17:06:39:639 info: Testnet: true
+2023-05-16 17:06:39:639 info: My Fauna secret: fnAFCS63CXACUSGh40LyytnAeGjeEAzZZrPITBbJ
+2023-05-16 17:06:39:639 info: My SDK secret: d9e74e33-597d-45ee-9d18-d6278096a76d
+2023-05-16 17:06:39:639 info: My Conv secret: d6566381-dee4-49b0-8ef9-53ee05e68bfd
+2023-05-16 17:06:42:642 info: Start auth
+2023-05-16 17:06:42:642 info: Start tradeWithMaster
+2023-05-16 17:06:42:642 error: currencies.includies is not a function
+2023-05-16 17:06:42:642 info: POST /trade/tradeWithMaster 500 309.633 ms - 44
+2023-05-16 17:07:02:72 info: Server listening on port 4000
+2023-05-16 17:07:02:72 info: ENV: dev
+2023-05-16 17:07:02:72 info: Testnet: true
+2023-05-16 17:07:02:72 info: My Fauna secret: fnAFCS63CXACUSGh40LyytnAeGjeEAzZZrPITBbJ
+2023-05-16 17:07:02:72 info: My SDK secret: d9e74e33-597d-45ee-9d18-d6278096a76d
+2023-05-16 17:07:02:72 info: My Conv secret: d6566381-dee4-49b0-8ef9-53ee05e68bfd
+2023-05-16 17:07:03:73 info: Start auth
+2023-05-16 17:07:03:73 info: Start tradeWithMaster
+2023-05-16 17:07:03:73 info: POST /trade/tradeWithMaster 200 528.999 ms - 12
+2023-05-16 17:07:21:721 info: Start auth
+2023-05-16 17:07:22:722 info: Start tradeWithMaster
+2023-05-16 17:07:22:722 error: Currency does not exist in the CURRENCIES.
+2023-05-16 17:07:22:722 info: POST /trade/tradeWithMaster 500 195.972 ms - 44
+2023-05-16 17:07:28:728 info: Start auth
+2023-05-16 17:07:28:728 info: Start tradeWithMaster
+2023-05-16 17:07:28:728 info: POST /trade/tradeWithMaster 200 677.908 ms - 12
+2023-05-16 17:10:22:1022 info: Server listening on port 4000
+2023-05-16 17:10:22:1022 info: ENV: dev
+2023-05-16 17:10:22:1022 info: Testnet: true
+2023-05-16 17:10:22:1022 info: My Fauna secret: fnAFCS63CXACUSGh40LyytnAeGjeEAzZZrPITBbJ
+2023-05-16 17:10:22:1022 info: My SDK secret: d9e74e33-597d-45ee-9d18-d6278096a76d
+2023-05-16 17:10:22:1022 info: My Conv secret: d6566381-dee4-49b0-8ef9-53ee05e68bfd
+2023-05-16 17:10:25:1025 info: Start auth
+2023-05-16 17:10:25:1025 info: Start tradeWithMaster
+2023-05-16 17:10:26:1026 error: Unexpected token u in JSON at position 0
+2023-05-16 17:10:26:1026 info: POST /trade/tradeWithMaster 500 525.557 ms - 44
+2023-05-16 17:14:55:1455 info: Server listening on port 4000
+2023-05-16 17:14:55:1455 info: ENV: dev
+2023-05-16 17:14:55:1455 info: Testnet: true
+2023-05-16 17:14:55:1455 info: My Fauna secret: fnAFCS63CXACUSGh40LyytnAeGjeEAzZZrPITBbJ
+2023-05-16 17:14:55:1455 info: My SDK secret: d9e74e33-597d-45ee-9d18-d6278096a76d
+2023-05-16 17:14:55:1455 info: My Conv secret: d6566381-dee4-49b0-8ef9-53ee05e68bfd
+2023-05-16 17:14:59:1459 info: Start auth
+2023-05-16 17:14:59:1459 info: Start tradeWithMaster
+2023-05-16 17:15:00:150 error: Unexpected token u in JSON at position 0
+2023-05-16 17:15:00:150 info: POST /trade/tradeWithMaster 500 609.491 ms - 44
+2023-05-16 17:15:31:1531 info: Server listening on port 4000
+2023-05-16 17:15:31:1531 info: ENV: dev
+2023-05-16 17:15:31:1531 info: Testnet: true
+2023-05-16 17:15:31:1531 info: My Fauna secret: fnAFCS63CXACUSGh40LyytnAeGjeEAzZZrPITBbJ
+2023-05-16 17:15:31:1531 info: My SDK secret: d9e74e33-597d-45ee-9d18-d6278096a76d
+2023-05-16 17:15:31:1531 info: My Conv secret: d6566381-dee4-49b0-8ef9-53ee05e68bfd
+2023-05-16 17:15:33:1533 info: Start auth
+2023-05-16 17:15:33:1533 info: Start tradeWithMaster
+2023-05-16 17:15:33:1533 error: Unexpected token u in JSON at position 0
+2023-05-16 17:15:33:1533 info: POST /trade/tradeWithMaster 500 792.046 ms - 44
+2023-05-16 17:18:08:188 info: Server listening on port 4000
+2023-05-16 17:18:08:188 info: ENV: dev
+2023-05-16 17:18:08:188 info: Testnet: true
+2023-05-16 17:18:08:188 info: My Fauna secret: fnAFCS63CXACUSGh40LyytnAeGjeEAzZZrPITBbJ
+2023-05-16 17:18:08:188 info: My SDK secret: d9e74e33-597d-45ee-9d18-d6278096a76d
+2023-05-16 17:18:08:188 info: My Conv secret: d6566381-dee4-49b0-8ef9-53ee05e68bfd
+2023-05-16 17:18:10:1810 info: Start auth
+2023-05-16 17:18:10:1810 info: Start tradeWithMaster
+2023-05-16 17:18:11:1811 info: POST /trade/tradeWithMaster 200 1056.594 ms - 12
+2023-05-16 17:21:57:2157 info: Server listening on port 4000
+2023-05-16 17:21:57:2157 info: ENV: dev
+2023-05-16 17:21:57:2157 info: Testnet: true
+2023-05-16 17:21:57:2157 info: My Fauna secret: fnAFCS63CXACUSGh40LyytnAeGjeEAzZZrPITBbJ
+2023-05-16 17:21:57:2157 info: My SDK secret: d9e74e33-597d-45ee-9d18-d6278096a76d
+2023-05-16 17:21:57:2157 info: My Conv secret: d6566381-dee4-49b0-8ef9-53ee05e68bfd
+2023-05-16 17:21:59:2159 info: Start auth
+2023-05-16 17:21:59:2159 info: Start tradeWithMaster
+2023-05-16 17:22:00:220 error: Request failed with status 403
+2023-05-16 17:22:00:220 error: (intermediate value).json is not a function
+2023-05-16 17:22:00:220 info: POST /trade/tradeWithMaster 500 887.277 ms - 44
+2023-05-16 17:39:26:3926 info: Server listening on port 4000
+2023-05-16 17:39:26:3926 info: ENV: dev
+2023-05-16 17:39:26:3926 info: Testnet: true
+2023-05-16 17:39:26:3926 info: My Fauna secret: fnAFCS63CXACUSGh40LyytnAeGjeEAzZZrPITBbJ
+2023-05-16 17:39:26:3926 info: My SDK secret: d9e74e33-597d-45ee-9d18-d6278096a76d
+2023-05-16 17:39:26:3926 info: My Conv secret: d6566381-dee4-49b0-8ef9-53ee05e68bfd
+2023-05-16 17:40:15:4015 info: Server listening on port 4000
+2023-05-16 17:40:15:4015 info: ENV: dev
+2023-05-16 17:40:15:4015 info: Testnet: true
+2023-05-16 17:40:15:4015 info: My Fauna secret: fnAFCS63CXACUSGh40LyytnAeGjeEAzZZrPITBbJ
+2023-05-16 17:40:15:4015 info: My SDK secret: d9e74e33-597d-45ee-9d18-d6278096a76d
+2023-05-16 17:40:15:4015 info: My Conv secret: d6566381-dee4-49b0-8ef9-53ee05e68bfd
+2023-05-16 17:42:18:4218 info: Start auth
+2023-05-16 17:42:18:4218 info: Start tradeWithMaster
+2023-05-16 17:42:19:4219 error: Request failed with status 403
+2023-05-16 17:42:19:4219 error: (intermediate value).json is not a function
+2023-05-16 17:42:19:4219 info: POST /trade/tradeWithMaster 500 1121.908 ms - 44
+2023-05-16 17:43:41:4341 info: Server listening on port 4000
+2023-05-16 17:43:41:4341 info: ENV: dev
+2023-05-16 17:43:41:4341 info: Testnet: true
+2023-05-16 17:43:41:4341 info: My Fauna secret: fnAFCS63CXACUSGh40LyytnAeGjeEAzZZrPITBbJ
+2023-05-16 17:43:41:4341 info: My SDK secret: d9e74e33-597d-45ee-9d18-d6278096a76d
+2023-05-16 17:43:41:4341 info: My Conv secret: d6566381-dee4-49b0-8ef9-53ee05e68bfd
+2023-05-16 17:43:42:4342 info: Start auth
+2023-05-16 17:43:43:4343 info: Start tradeWithMaster
+2023-05-16 17:43:43:4343 error: Request failed with status 403
+2023-05-16 17:43:43:4343 error: (intermediate value).json is not a function
+2023-05-16 17:43:43:4343 info: POST /trade/tradeWithMaster 500 939.908 ms - 44
+2023-05-16 17:49:39:4939 info: Server listening on port 4000
+2023-05-16 17:49:39:4939 info: ENV: dev
+2023-05-16 17:49:39:4939 info: Testnet: true
+2023-05-16 17:49:39:4939 info: My Fauna secret: fnAFCS63CXACUSGh40LyytnAeGjeEAzZZrPITBbJ
+2023-05-16 17:49:39:4939 info: My SDK secret: d9e74e33-597d-45ee-9d18-d6278096a76d
+2023-05-16 17:49:39:4939 info: My Conv secret: d6566381-dee4-49b0-8ef9-53ee05e68bfd
+2023-05-16 17:49:49:4949 info: Start auth
+2023-05-16 17:49:49:4949 info: Start tradeWithMaster
+2023-05-16 17:49:51:4951 info: POST /trade/tradeWithMaster 200 1760.948 ms - 12
+2023-05-16 17:58:03:583 info: Server listening on port 4000
+2023-05-16 17:58:03:583 info: ENV: dev
+2023-05-16 17:58:03:583 info: Testnet: true
+2023-05-16 17:58:03:583 info: My Fauna secret: fnAFCS63CXACUSGh40LyytnAeGjeEAzZZrPITBbJ
+2023-05-16 17:58:03:583 info: My SDK secret: d9e74e33-597d-45ee-9d18-d6278096a76d
+2023-05-16 17:58:03:583 info: My Conv secret: d6566381-dee4-49b0-8ef9-53ee05e68bfd
+2023-05-16 17:58:08:588 info: Start auth
+2023-05-16 17:58:08:588 info: Start tradeWithMaster
+2023-05-16 17:58:08:588 error: Unexpected token u in JSON at position 0
+2023-05-16 17:58:08:588 info: POST /trade/tradeWithMaster 500 302.862 ms - 44
+2023-05-16 17:59:32:5932 info: Server listening on port 4000
+2023-05-16 17:59:32:5932 info: ENV: dev
+2023-05-16 17:59:32:5932 info: Testnet: true
+2023-05-16 17:59:32:5932 info: My Fauna secret: fnAFCS63CXACUSGh40LyytnAeGjeEAzZZrPITBbJ
+2023-05-16 17:59:32:5932 info: My SDK secret: d9e74e33-597d-45ee-9d18-d6278096a76d
+2023-05-16 17:59:32:5932 info: My Conv secret: d6566381-dee4-49b0-8ef9-53ee05e68bfd
+2023-05-16 17:59:34:5934 info: Start auth
+2023-05-16 17:59:34:5934 info: Start tradeWithMaster
+2023-05-16 17:59:34:5934 error: Unexpected token u in JSON at position 0
+2023-05-16 17:59:34:5934 info: POST /trade/tradeWithMaster 500 262.459 ms - 44
+2023-05-16 18:00:00:00 info: Server listening on port 4000
+2023-05-16 18:00:00:00 info: ENV: dev
+2023-05-16 18:00:00:00 info: Testnet: true
+2023-05-16 18:00:00:00 info: My Fauna secret: fnAFCS63CXACUSGh40LyytnAeGjeEAzZZrPITBbJ
+2023-05-16 18:00:00:00 info: My SDK secret: d9e74e33-597d-45ee-9d18-d6278096a76d
+2023-05-16 18:00:00:00 info: My Conv secret: d6566381-dee4-49b0-8ef9-53ee05e68bfd
+2023-05-16 18:00:02:02 info: Start auth
+2023-05-16 18:00:02:02 info: Start tradeWithMaster
+2023-05-16 18:00:02:02 error: Unexpected token u in JSON at position 0
+2023-05-16 18:00:02:02 info: POST /trade/tradeWithMaster 500 212.780 ms - 44
+2023-05-16 18:00:47:047 info: Server listening on port 4000
+2023-05-16 18:00:47:047 info: ENV: dev
+2023-05-16 18:00:47:047 info: Testnet: true
+2023-05-16 18:00:47:047 info: My Fauna secret: fnAFCS63CXACUSGh40LyytnAeGjeEAzZZrPITBbJ
+2023-05-16 18:00:47:047 info: My SDK secret: d9e74e33-597d-45ee-9d18-d6278096a76d
+2023-05-16 18:00:47:047 info: My Conv secret: d6566381-dee4-49b0-8ef9-53ee05e68bfd
+2023-05-16 18:00:49:049 info: Start auth
+2023-05-16 18:00:49:049 info: Start tradeWithMaster
+2023-05-16 18:00:49:049 error: Unexpected token u in JSON at position 0
+2023-05-16 18:00:49:049 info: POST /trade/tradeWithMaster 500 240.324 ms - 44
+2023-05-16 18:01:10:110 info: Server listening on port 4000
+2023-05-16 18:01:10:110 info: ENV: dev
+2023-05-16 18:01:10:110 info: Testnet: true
+2023-05-16 18:01:10:110 info: My Fauna secret: fnAFCS63CXACUSGh40LyytnAeGjeEAzZZrPITBbJ
+2023-05-16 18:01:10:110 info: My SDK secret: d9e74e33-597d-45ee-9d18-d6278096a76d
+2023-05-16 18:01:10:110 info: My Conv secret: d6566381-dee4-49b0-8ef9-53ee05e68bfd
+2023-05-16 18:01:11:111 info: Start auth
+2023-05-16 18:01:11:111 info: Start tradeWithMaster
+2023-05-16 18:01:11:111 error: Unexpected token u in JSON at position 0
+2023-05-16 18:01:11:111 info: POST /trade/tradeWithMaster 500 209.591 ms - 44
+2023-05-16 18:01:46:146 info: Server listening on port 4000
+2023-05-16 18:01:46:146 info: ENV: dev
+2023-05-16 18:01:46:146 info: Testnet: true
+2023-05-16 18:01:46:146 info: My Fauna secret: fnAFCS63CXACUSGh40LyytnAeGjeEAzZZrPITBbJ
+2023-05-16 18:01:46:146 info: My SDK secret: d9e74e33-597d-45ee-9d18-d6278096a76d
+2023-05-16 18:01:46:146 info: My Conv secret: d6566381-dee4-49b0-8ef9-53ee05e68bfd
+2023-05-16 18:01:47:147 info: Start auth
+2023-05-16 18:01:47:147 info: Start tradeWithMaster
+2023-05-16 18:01:47:147 error: Unexpected token u in JSON at position 0
+2023-05-16 18:01:47:147 info: POST /trade/tradeWithMaster 500 208.351 ms - 44
+2023-05-16 18:02:09:29 info: Server listening on port 4000
+2023-05-16 18:02:09:29 info: ENV: dev
+2023-05-16 18:02:09:29 info: Testnet: true
+2023-05-16 18:02:09:29 info: My Fauna secret: fnAFCS63CXACUSGh40LyytnAeGjeEAzZZrPITBbJ
+2023-05-16 18:02:09:29 info: My SDK secret: d9e74e33-597d-45ee-9d18-d6278096a76d
+2023-05-16 18:02:09:29 info: My Conv secret: d6566381-dee4-49b0-8ef9-53ee05e68bfd
+2023-05-16 18:02:11:211 info: Start auth
+2023-05-16 18:02:11:211 info: Start tradeWithMaster
+2023-05-16 18:02:11:211 error: Unexpected token u in JSON at position 0
+2023-05-16 18:02:11:211 info: POST /trade/tradeWithMaster 500 207.891 ms - 44
+2023-05-16 18:02:43:243 info: Server listening on port 4000
+2023-05-16 18:02:43:243 info: ENV: dev
+2023-05-16 18:02:43:243 info: Testnet: true
+2023-05-16 18:02:43:243 info: My Fauna secret: fnAFCS63CXACUSGh40LyytnAeGjeEAzZZrPITBbJ
+2023-05-16 18:02:43:243 info: My SDK secret: d9e74e33-597d-45ee-9d18-d6278096a76d
+2023-05-16 18:02:43:243 info: My Conv secret: d6566381-dee4-49b0-8ef9-53ee05e68bfd
+2023-05-16 18:02:45:245 info: Start auth
+2023-05-16 18:02:45:245 info: Start tradeWithMaster
+2023-05-16 18:02:46:246 error: Request failed with status 403
+2023-05-16 18:02:46:246 error: (intermediate value).json is not a function
+2023-05-16 18:02:46:246 info: POST /trade/tradeWithMaster 500 1375.882 ms - 44
+2023-05-16 18:14:28:1428 info: Server listening on port 4000
+2023-05-16 18:14:28:1428 info: ENV: dev
+2023-05-16 18:14:28:1428 info: Testnet: true
+2023-05-16 18:14:28:1428 info: My Fauna secret: fnAFCS63CXACUSGh40LyytnAeGjeEAzZZrPITBbJ
+2023-05-16 18:14:28:1428 info: My SDK secret: d9e74e33-597d-45ee-9d18-d6278096a76d
+2023-05-16 18:14:28:1428 info: My Conv secret: d6566381-dee4-49b0-8ef9-53ee05e68bfd
+2023-05-16 18:14:37:1437 info: Start auth
+2023-05-16 18:14:37:1437 info: Start tradeWithMaster
+2023-05-16 18:14:39:1439 info: POST /trade/tradeWithMaster 200 2391.832 ms - 12
+2023-05-16 19:17:38:1738 info: Server listening on port 4000
+2023-05-16 19:17:38:1738 info: ENV: dev
+2023-05-16 19:17:38:1738 info: Testnet: true
+2023-05-16 19:17:38:1738 info: My Fauna secret: fnAFCS63CXACUSGh40LyytnAeGjeEAzZZrPITBbJ
+2023-05-16 19:17:38:1738 info: My SDK secret: d9e74e33-597d-45ee-9d18-d6278096a76d
+2023-05-16 19:17:38:1738 info: My Conv secret: d6566381-dee4-49b0-8ef9-53ee05e68bfd
+2023-05-16 19:22:42:2242 info: Server listening on port 4000
+2023-05-16 19:22:42:2242 info: ENV: dev
+2023-05-16 19:22:42:2242 info: Testnet: true
+2023-05-16 19:22:42:2242 info: My Fauna secret: fnAFCS63CXACUSGh40LyytnAeGjeEAzZZrPITBbJ
+2023-05-16 19:22:42:2242 info: My SDK secret: d9e74e33-597d-45ee-9d18-d6278096a76d
+2023-05-16 19:22:42:2242 info: My Conv secret: d6566381-dee4-49b0-8ef9-53ee05e68bfd
+2023-05-16 19:22:45:2245 info: Start auth
+2023-05-16 19:22:46:2246 error: unauthorized. Check that endpoint, schema, port and secret are correct during client’s instantiation
+2023-05-16 19:22:46:2246 info: Start tradeWithMaster
+2023-05-16 19:22:46:2246 error: Request failed with status 400
+2023-05-16 19:22:46:2246 error: (intermediate value).json is not a function
+2023-05-16 19:22:46:2246 info: POST /trade/tradeWithMaster 500 1216.303 ms - 44
+2023-05-16 19:26:56:2656 info: Server listening on port 4000
+2023-05-16 19:26:56:2656 info: ENV: dev
+2023-05-16 19:26:56:2656 info: Testnet: true
+2023-05-16 19:26:56:2656 info: My Fauna secret: fnAFCS63CXACUSGh40LyytnAeGjeEAzZZrPITBbJ
+2023-05-16 19:26:56:2656 info: My SDK secret: d9e74e33-597d-45ee-9d18-d6278096a76d
+2023-05-16 19:26:56:2656 info: My Conv secret: d6566381-dee4-49b0-8ef9-53ee05e68bfd
+2023-05-16 19:26:59:2659 info: Start auth
+2023-05-16 19:26:59:2659 error: unauthorized. Check that endpoint, schema, port and secret are correct during client’s instantiation
+2023-05-16 19:26:59:2659 info: Start tradeWithMaster
+2023-05-16 19:26:59:2659 error: Request failed with status 400
+2023-05-16 19:26:59:2659 error: (intermediate value).json is not a function
+2023-05-16 19:26:59:2659 info: POST /trade/tradeWithMaster 500 919.149 ms - 44
+2023-05-16 19:29:01:291 info: Start login
+2023-05-16 19:29:01:291 info: POST /umg/signin 200 420.348 ms - 72
+2023-05-16 19:29:18:2918 info: Start auth
+2023-05-16 19:29:19:2919 info: Start tradeWithMaster
+2023-05-16 19:29:19:2919 error: Request failed with status 400
+2023-05-16 19:29:19:2919 error: (intermediate value).json is not a function
+2023-05-16 19:29:19:2919 info: POST /trade/tradeWithMaster 500 472.626 ms - 44
+2023-05-16 19:30:18:3018 info: Server listening on port 4000
+2023-05-16 19:30:18:3018 info: ENV: dev
+2023-05-16 19:30:18:3018 info: Testnet: true
+2023-05-16 19:30:18:3018 info: My Fauna secret: fnAFCS63CXACUSGh40LyytnAeGjeEAzZZrPITBbJ
+2023-05-16 19:30:18:3018 info: My SDK secret: d9e74e33-597d-45ee-9d18-d6278096a76d
+2023-05-16 19:30:18:3018 info: My Conv secret: d6566381-dee4-49b0-8ef9-53ee05e68bfd
+2023-05-16 19:30:19:3019 info: Start auth
+2023-05-16 19:30:19:3019 info: Start tradeWithMaster
+2023-05-16 19:30:20:3020 error: Request failed with status 400
+2023-05-16 19:30:20:3020 error: (intermediate value).json is not a function
+2023-05-16 19:30:20:3020 info: POST /trade/tradeWithMaster 500 751.716 ms - 44
+2023-05-16 19:33:02:332 info: Server listening on port 4000
+2023-05-16 19:33:02:332 info: ENV: dev
+2023-05-16 19:33:02:332 info: Testnet: true
+2023-05-16 19:33:02:332 info: My Fauna secret: fnAFCS63CXACUSGh40LyytnAeGjeEAzZZrPITBbJ
+2023-05-16 19:33:02:332 info: My SDK secret: d9e74e33-597d-45ee-9d18-d6278096a76d
+2023-05-16 19:33:02:332 info: My Conv secret: d6566381-dee4-49b0-8ef9-53ee05e68bfd
+2023-05-16 19:33:02:332 info: My MASTER_ADDRESSES secret: {"ETH/VC_USD": ["64639382f12241115ca487e3", "64639383cddd7b7e7e003f1b"], "BSC/VC_USD": ["64639448dd83bc6fba88daa4", "64639449d99f5ef7f8b61dc2"], "MATIC/VC_USD": ["646393f0a3a420efd9c9d2f9", "646393f0f12241115ca487ea"], "VC_USD/ETH": ["64639383cddd7b7e7e003f1b", "64639382f12241115ca487e3"], "VC_USD/BSC": ["64639449d99f5ef7f8b61dc2", "64639448dd83bc6fba88daa4"], "VC_USD/MATIC": ["646393f0f12241115ca487ea", "646393f0a3a420efd9c9d2f9"]}
+2023-05-16 19:33:50:3350 info: Server listening on port 4000
+2023-05-16 19:33:50:3350 info: ENV: dev
+2023-05-16 19:33:50:3350 info: Testnet: true
+2023-05-16 19:33:50:3350 info: My Fauna secret: fnAFCS63CXACUSGh40LyytnAeGjeEAzZZrPITBbJ
+2023-05-16 19:33:50:3350 info: My SDK secret: d9e74e33-597d-45ee-9d18-d6278096a76d
+2023-05-16 19:33:50:3350 info: My Conv secret: d6566381-dee4-49b0-8ef9-53ee05e68bfd
+2023-05-16 19:33:50:3350 info: My MASTER_ADDRESSES secret: {"ETH/VC_USD": ["64639382f12241115ca487e3", "64639383cddd7b7e7e003f1b"], "BSC/VC_USD": ["64639448dd83bc6fba88daa4", "64639449d99f5ef7f8b61dc2"], "MATIC/VC_USD": ["646393f0a3a420efd9c9d2f9", "646393f0f12241115ca487ea"], "VC_USD/ETH": ["64639383cddd7b7e7e003f1b", "64639382f12241115ca487e3"], "VC_USD/BSC": ["64639449d99f5ef7f8b61dc2", "64639448dd83bc6fba88daa4"], "VC_USD/MATIC": ["646393f0f12241115ca487ea", "646393f0a3a420efd9c9d2f9"]}
+2023-05-16 19:33:52:3352 info: Start auth
+2023-05-16 19:33:53:3353 info: Start tradeWithMaster
+2023-05-16 19:33:53:3353 error: Request failed with status 400
+2023-05-16 19:33:53:3353 error: (intermediate value).json is not a function
+2023-05-16 19:33:53:3353 info: POST /trade/tradeWithMaster 500 715.885 ms - 44
+2023-05-16 19:34:13:3413 info: Server listening on port 4000
+2023-05-16 19:34:13:3413 info: ENV: dev
+2023-05-16 19:34:13:3413 info: Testnet: true
+2023-05-16 19:34:13:3413 info: My Fauna secret: fnAFCS63CXACUSGh40LyytnAeGjeEAzZZrPITBbJ
+2023-05-16 19:34:13:3413 info: My SDK secret: d9e74e33-597d-45ee-9d18-d6278096a76d
+2023-05-16 19:34:13:3413 info: My Conv secret: d6566381-dee4-49b0-8ef9-53ee05e68bfd
+2023-05-16 19:34:13:3413 info: My MASTER_ADDRESSES secret: {"ETH/VC_USD": ["64639382f12241115ca487e3", "64639383cddd7b7e7e003f1b"], "BSC/VC_USD": ["64639448dd83bc6fba88daa4", "64639449d99f5ef7f8b61dc2"], "MATIC/VC_USD": ["646393f0a3a420efd9c9d2f9", "646393f0f12241115ca487ea"], "VC_USD/ETH": ["64639383cddd7b7e7e003f1b", "64639382f12241115ca487e3"], "VC_USD/BSC": ["64639449d99f5ef7f8b61dc2", "64639448dd83bc6fba88daa4"], "VC_USD/MATIC": ["646393f0f12241115ca487ea", "646393f0a3a420efd9c9d2f9"]}
+2023-05-16 19:34:34:3434 info: Start auth
+2023-05-16 19:34:35:3435 info: Start tradeWithMaster
+2023-05-16 19:34:35:3435 error: Request failed with status 403
+2023-05-16 19:34:36:3436 error: Request failed with status 400
+2023-05-16 19:34:36:3436 info: Start Updating Balance
+2023-05-16 19:34:36:3436 info: Start Updating Balance
+2023-05-16 19:34:37:3437 info: Start Updating Balance
+2023-05-16 19:34:37:3437 error: instance not found
+2023-05-16 19:34:37:3437 info: Start Updating Balance
+2023-05-16 19:34:37:3437 error: instance not found
+2023-05-16 19:34:37:3437 info: POST /trade/tradeWithMaster 200 2667.164 ms - 12
+2023-05-16 19:36:16:3616 info: Server listening on port 4000
+2023-05-16 19:36:16:3616 info: ENV: dev
+2023-05-16 19:36:16:3616 info: Testnet: true
+2023-05-16 19:36:16:3616 info: My Fauna secret: fnAFCS63CXACUSGh40LyytnAeGjeEAzZZrPITBbJ
+2023-05-16 19:36:16:3616 info: My SDK secret: d9e74e33-597d-45ee-9d18-d6278096a76d
+2023-05-16 19:36:16:3616 info: My Conv secret: d6566381-dee4-49b0-8ef9-53ee05e68bfd
+2023-05-16 19:36:16:3616 info: My MASTER_ADDRESSES secret: {"ETH/VC_USD": ["64639382f12241115ca487e3", "64639383cddd7b7e7e003f1b"], "BSC/VC_USD": ["64639448dd83bc6fba88daa4", "64639449d99f5ef7f8b61dc2"], "MATIC/VC_USD": ["646393f0a3a420efd9c9d2f9", "646393f0f12241115ca487ea"], "VC_USD/ETH": ["64639383cddd7b7e7e003f1b", "64639382f12241115ca487e3"], "VC_USD/BSC": ["64639449d99f5ef7f8b61dc2", "64639448dd83bc6fba88daa4"], "VC_USD/MATIC": ["646393f0f12241115ca487ea", "646393f0a3a420efd9c9d2f9"]}
+2023-05-16 19:36:18:3618 info: Start auth
+2023-05-16 19:36:18:3618 info: Start tradeWithMaster
+2023-05-16 19:36:19:3619 error: Request failed with status 403
+2023-05-16 19:36:19:3619 error: Request failed with status 403
+2023-05-16 19:36:19:3619 info: Start Updating Balance
+2023-05-16 19:36:20:3620 info: Start Updating Balance
+2023-05-16 19:36:20:3620 info: Start Updating Balance
+2023-05-16 19:36:21:3621 info: Start Updating Balance
+2023-05-16 19:36:22:3622 info: POST /trade/tradeWithMaster 200 3269.346 ms - 12
+2023-05-16 19:37:57:3757 info: Start auth
+2023-05-16 19:37:57:3757 info: Start tradeWithMaster
+2023-05-16 19:37:59:3759 info: Start Updating Balance
+2023-05-16 19:37:59:3759 info: Start Updating Balance
+2023-05-16 19:37:59:3759 info: Start Updating Balance
+2023-05-16 19:38:00:380 info: Start Updating Balance
+2023-05-16 19:38:00:380 info: POST /trade/tradeWithMaster 200 3343.928 ms - 12
+2023-05-16 19:40:24:4024 info: Start auth
+2023-05-16 19:40:24:4024 info: Start tradeWithMaster
+2023-05-16 19:40:25:4025 error: Request failed with status 403
+2023-05-16 19:40:25:4025 info: Start Updating Balance
+2023-05-16 19:40:25:4025 info: Start Updating Balance
+2023-05-16 19:40:26:4026 info: Start Updating Balance
+2023-05-16 19:40:26:4026 info: Start Updating Balance
+2023-05-16 19:40:27:4027 info: POST /trade/tradeWithMaster 200 2400.791 ms - 12
+2023-05-16 19:43:54:4354 info: Start auth
+2023-05-16 19:43:55:4355 info: Start tradeWithMaster
+2023-05-16 19:43:56:4356 info: Start Updating Balance
+2023-05-16 19:43:56:4356 info: Start Updating Balance
+2023-05-16 19:43:57:4357 info: Start Updating Balance
+2023-05-16 19:43:57:4357 info: Start Updating Balance
+2023-05-16 19:43:58:4358 info: POST /trade/tradeWithMaster 200 3253.054 ms - 12
+2023-05-16 19:46:50:4650 info: Start auth
+2023-05-16 19:46:50:4650 info: Start tradeWithMaster
+2023-05-16 19:46:51:4651 error: Request failed with status 403
+2023-05-16 19:46:51:4651 info: Start Updating Balance
+2023-05-16 19:46:52:4652 info: Start Updating Balance
+2023-05-16 19:46:52:4652 info: Start Updating Balance
+2023-05-16 19:46:52:4652 info: Start Updating Balance
+2023-05-16 19:46:53:4653 info: POST /trade/tradeWithMaster 200 2718.018 ms - 12
+2023-05-16 19:50:42:5042 info: Start auth
+2023-05-16 19:50:43:5043 info: Start tradeWithMaster
+2023-05-16 19:50:44:5044 info: Start Updating Balance
+2023-05-16 19:50:45:5045 info: Start Updating Balance
+2023-05-16 19:50:45:5045 info: Start Updating Balance
+2023-05-16 19:50:45:5045 info: Start Updating Balance
+2023-05-16 19:50:46:5046 info: POST /trade/tradeWithMaster 200 3891.833 ms - 12
+2023-05-16 19:52:05:525 info: Start auth
+2023-05-16 19:52:05:525 info: Start tradeWithMaster
+2023-05-16 19:52:07:527 info: Start Updating Balance
+2023-05-16 19:52:07:527 info: Start Updating Balance
+2023-05-16 19:52:08:528 info: Start Updating Balance
+2023-05-16 19:52:08:528 info: Start Updating Balance
+2023-05-16 19:52:09:529 info: POST /trade/tradeWithMaster 200 3774.831 ms - 12
+2023-05-16 19:53:07:537 info: Start auth
+2023-05-16 19:53:07:537 info: Start tradeWithMaster
+2023-05-16 19:53:07:537 error: Request failed with status 403
+2023-05-16 19:53:08:538 info: Start Updating Balance
+2023-05-16 19:53:08:538 info: Start Updating Balance
+2023-05-16 19:53:09:539 info: Start Updating Balance
+2023-05-16 19:53:09:539 info: Start Updating Balance
+2023-05-16 19:53:09:539 info: POST /trade/tradeWithMaster 200 2418.508 ms - 12
+2023-05-16 19:54:02:542 info: Start auth
+2023-05-16 19:54:02:542 info: Start tradeWithMaster
+2023-05-16 19:54:04:544 info: Start Updating Balance
+2023-05-16 19:54:04:544 info: Start Updating Balance
+2023-05-16 19:54:04:544 info: Start Updating Balance
+2023-05-16 19:54:05:545 info: Start Updating Balance
+2023-05-16 19:54:05:545 info: POST /trade/tradeWithMaster 200 3062.216 ms - 12
