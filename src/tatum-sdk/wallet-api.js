@@ -220,7 +220,7 @@ const _removeDeposit = async (id, address) => { // Remove a deposit address from
 
 /* ----- Virtual Currency -------------------------------------------------- */
 
-const _supplyVcAccount = async (id, amount) => { // Remove a deposit address from the virtual account
+const _supplyVcAccount = async (id, amount) => { // creare fiat curr
     try {
         return await fetch(
             `https://api.tatum.io/v3/ledger/virtualCurrency/mint`,

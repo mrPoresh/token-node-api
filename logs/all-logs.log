@@ -11677,3 +11677,68 @@ For more info, see the docs: https://docs.fauna.com/fauna/current/api/fql/functi
 2023-05-14 18:38:25:3825 info: Start auth
 2023-05-14 18:38:26:3826 info: Start getting User
 2023-05-14 18:38:26:3826 info: GET /umg/info 200 386.502 ms - 1611
+2023-05-16 10:55:22:5522 info: Server listening on port 4000
+2023-05-16 10:55:22:5522 info: ENV: dev
+2023-05-16 10:55:22:5522 info: Testnet: true
+2023-05-16 10:55:22:5522 info: My Fauna secret: fnAFCS63CXACUSGh40LyytnAeGjeEAzZZrPITBbJ
+2023-05-16 10:55:22:5522 info: My SDK secret: d9e74e33-597d-45ee-9d18-d6278096a76d
+2023-05-16 10:56:44:5644 info: Start PriceConversion
+2023-05-16 10:59:31:5931 info: Server listening on port 4000
+2023-05-16 10:59:31:5931 info: ENV: dev
+2023-05-16 10:59:31:5931 info: Testnet: true
+2023-05-16 10:59:31:5931 info: My Fauna secret: fnAFCS63CXACUSGh40LyytnAeGjeEAzZZrPITBbJ
+2023-05-16 10:59:31:5931 info: My SDK secret: d9e74e33-597d-45ee-9d18-d6278096a76d
+2023-05-16 10:59:33:5933 info: Start PriceConversion
+2023-05-16 10:59:33:5933 info: GET /wallet/getPriceConversion 200 588.009 ms - 2
+2023-05-16 11:00:16:016 info: Server listening on port 4000
+2023-05-16 11:00:16:016 info: ENV: dev
+2023-05-16 11:00:16:016 info: Testnet: true
+2023-05-16 11:00:16:016 info: My Fauna secret: fnAFCS63CXACUSGh40LyytnAeGjeEAzZZrPITBbJ
+2023-05-16 11:00:16:016 info: My SDK secret: d9e74e33-597d-45ee-9d18-d6278096a76d
+2023-05-16 11:00:20:020 info: Start PriceConversion
+2023-05-16 11:00:20:020 info: GET /wallet/getPriceConversion 200 257.040 ms - 2
+2023-05-16 11:01:43:143 info: Server listening on port 4000
+2023-05-16 11:01:43:143 info: ENV: dev
+2023-05-16 11:01:43:143 info: Testnet: true
+2023-05-16 11:01:43:143 info: My Fauna secret: fnAFCS63CXACUSGh40LyytnAeGjeEAzZZrPITBbJ
+2023-05-16 11:01:43:143 info: My SDK secret: d9e74e33-597d-45ee-9d18-d6278096a76d
+2023-05-16 11:01:44:144 info: Start PriceConversion
+2023-05-16 11:01:45:145 info: GET /wallet/getPriceConversion 200 407.712 ms - 195
+2023-05-16 11:03:17:317 info: Server listening on port 4000
+2023-05-16 11:03:17:317 info: ENV: dev
+2023-05-16 11:03:17:317 info: Testnet: true
+2023-05-16 11:03:17:317 info: My Fauna secret: fnAFCS63CXACUSGh40LyytnAeGjeEAzZZrPITBbJ
+2023-05-16 11:03:17:317 info: My SDK secret: d9e74e33-597d-45ee-9d18-d6278096a76d
+2023-05-16 11:03:18:318 info: Start PriceConversion
+2023-05-16 11:03:19:319 info: GET /wallet/getPriceConversion 200 630.974 ms - 2
+2023-05-16 11:03:51:351 info: Server listening on port 4000
+2023-05-16 11:03:51:351 info: ENV: dev
+2023-05-16 11:03:51:351 info: Testnet: true
+2023-05-16 11:03:51:351 info: My Fauna secret: fnAFCS63CXACUSGh40LyytnAeGjeEAzZZrPITBbJ
+2023-05-16 11:03:51:351 info: My SDK secret: d9e74e33-597d-45ee-9d18-d6278096a76d
+2023-05-16 11:03:54:354 info: Start PriceConversion
+2023-05-16 11:03:54:354 info: GET /wallet/getPriceConversion 200 232.260 ms - 2
+2023-05-16 11:04:10:410 info: Server listening on port 4000
+2023-05-16 11:04:10:410 info: ENV: dev
+2023-05-16 11:04:10:410 info: Testnet: true
+2023-05-16 11:04:10:410 info: My Fauna secret: fnAFCS63CXACUSGh40LyytnAeGjeEAzZZrPITBbJ
+2023-05-16 11:04:10:410 info: My SDK secret: d9e74e33-597d-45ee-9d18-d6278096a76d
+2023-05-16 11:04:11:411 info: Start PriceConversion
+2023-05-16 11:04:12:412 info: GET /wallet/getPriceConversion 200 454.430 ms - 2
+2023-05-16 11:04:30:430 info: Server listening on port 4000
+2023-05-16 11:04:30:430 info: ENV: dev
+2023-05-16 11:04:30:430 info: Testnet: true
+2023-05-16 11:04:30:430 info: My Fauna secret: fnAFCS63CXACUSGh40LyytnAeGjeEAzZZrPITBbJ
+2023-05-16 11:04:30:430 info: My SDK secret: d9e74e33-597d-45ee-9d18-d6278096a76d
+2023-05-16 11:04:33:433 info: Start PriceConversion
+2023-05-16 11:04:34:434 info: GET /wallet/getPriceConversion 200 283.791 ms - 195
+2023-05-16 11:07:07:77 info: Server listening on port 4000
+2023-05-16 11:07:07:77 info: ENV: dev
+2023-05-16 11:07:07:77 info: Testnet: true
+2023-05-16 11:07:07:77 info: My Fauna secret: fnAFCS63CXACUSGh40LyytnAeGjeEAzZZrPITBbJ
+2023-05-16 11:07:07:77 info: My SDK secret: d9e74e33-597d-45ee-9d18-d6278096a76d
+2023-05-16 11:07:07:77 info: My Conv secret: d6566381-dee4-49b0-8ef9-53ee05e68bfd
+2023-05-16 11:07:10:710 info: Start PriceConversion
+2023-05-16 11:07:10:710 info: GET /wallet/getPriceConversion 200 297.136 ms - 195
+2023-05-16 11:08:47:847 info: Start PriceConversion
+2023-05-16 11:08:48:848 info: GET /wallet/getPriceConversion 200 651.995 ms - 210

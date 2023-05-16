@@ -10,8 +10,12 @@ import {
     _getAllUserDeposits,
     _assignDeposit,
     _removeDeposit,
-    _supplyVcAccount
+    _supplyVcAccount,
 } from './wallet-api.js';
+
+import {
+    _getPriceConversion,
+} from './trade-api.js';
 
 export {
     _createWallet,
@@ -26,4 +30,5 @@ export {
     _removeDeposit,
     _getAllUserDeposits,
     _supplyVcAccount,
+    _getPriceConversion,
 };

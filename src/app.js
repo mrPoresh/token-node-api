@@ -30,7 +30,11 @@ import {
     getAllUserDeposits,
     assignDeposit,
     removeDeposit,
-} from './routes/wallets/index.js'
+} from './routes/wallets/index.js';
+
+import {
+    getPriceConversion
+} from './routes/trade/index.js';
 
 import { 
     getFrontPageData, 
@@ -73,6 +77,8 @@ function run() {
     server.post('/wallet/assignDeposit', checkToken, assignDeposit);
     server.post('/wallet/removeDeposit', checkToken, removeDeposit);    
 
+    server.get('/trade/getPriceConversion', getPriceConversion);
+
     /* Front Page methods */
     server.get('/nfts/getFrontPageData', getFrontPageData);
     server.post('/nfts/getFrontListsData', getFrontListsData);
@@ -94,6 +100,7 @@ function app() {
         logger.info('Testnet: ' + conf.TESTNET);
         logger.info('My Fauna secret: ' + conf.FAUNA_SERVER_KEY);
         logger.info('My SDK secret: ' + conf.API_KEY);
+        logger.info('My Conv secret: ' + conf.COIN_MARKET);
     });
 
     return server

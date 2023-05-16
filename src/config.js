@@ -7,8 +7,9 @@ if (process.env.NODE_ENV === 'prod') {
 }
 
 export const conf = {
-    NODE_ENV: process.env.NODE_ENV,
-    FAUNA_SERVER_KEY: process.env.FAUNA_SERVER_KEY,
-    API_KEY: process.env.API_KEY,
-    TESTNET: process.env.TESTNET,
+  NODE_ENV: process.env.NODE_ENV,
+  FAUNA_SERVER_KEY: process.env.FAUNA_SERVER_KEY,
+  API_KEY: process.env.API_KEY,
+  TESTNET: process.env.TESTNET,
+  COIN_MARKET: process.env.COIN_MARKET,
 };
