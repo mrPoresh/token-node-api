@@ -29,7 +29,7 @@ const _createWallet = async (chain) => {   // chain: ethereum, bsc, polygon
     Ability to Froze, Deactivate but can't delete 
 */
 
-const _createAccount = async (currency, xpub) => {   // currency: ETH, BSC, MATIC
+const _createAccount = async (currency, xpub) => {   // currency: ETH, BSC, MATIC, (LTC --- easy to get test coins)
     try {
         return await fetch(
             `https://api.tatum.io/v3/ledger/account`,

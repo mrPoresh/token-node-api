@@ -31,6 +31,7 @@ const _getPriceConversion = async (amount, symbol, convert) => { // sumbol: "ETH
 };
 /*                    sell/buy */
 const _trade = async (type, price, amount, pair, currency1AccountId, currency2AccountId) => {
+    console.log(type, price, amount, pair, currency1AccountId, currency2AccountId);
     try {
         const result = await fetch(
             `https://api.tatum.io/v3/trade`,

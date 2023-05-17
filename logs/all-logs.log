@@ -12454,3 +12454,933 @@ For more info, see the docs: https://docs.fauna.com/fauna/current/api/fql/functi
 2023-05-16 19:54:04:544 info: Start Updating Balance
 2023-05-16 19:54:05:545 info: Start Updating Balance
 2023-05-16 19:54:05:545 info: POST /trade/tradeWithMaster 200 3062.216 ms - 12
+2023-05-17 10:04:23:423 info: Server listening on port 4000
+2023-05-17 10:04:23:423 info: ENV: dev
+2023-05-17 10:04:23:423 info: Testnet: true
+2023-05-17 10:04:23:423 info: My Fauna secret: fnAFCS63CXACUSGh40LyytnAeGjeEAzZZrPITBbJ
+2023-05-17 10:04:23:423 info: My SDK secret: d9e74e33-597d-45ee-9d18-d6278096a76d
+2023-05-17 10:04:23:423 info: My Conv secret: d6566381-dee4-49b0-8ef9-53ee05e68bfd
+2023-05-17 10:04:23:423 info: My MASTER_ADDRESSES secret: {"ETH/VC_USD": ["64639382f12241115ca487e3", "64639383cddd7b7e7e003f1b"], "BSC/VC_USD": ["64639448dd83bc6fba88daa4", "64639449d99f5ef7f8b61dc2"], "MATIC/VC_USD": ["646393f0a3a420efd9c9d2f9", "646393f0f12241115ca487ea"], "VC_USD/ETH": ["64639383cddd7b7e7e003f1b", "64639382f12241115ca487e3"], "VC_USD/BSC": ["64639449d99f5ef7f8b61dc2", "64639448dd83bc6fba88daa4"], "VC_USD/MATIC": ["646393f0f12241115ca487ea", "646393f0a3a420efd9c9d2f9"]}
+2023-05-17 10:06:02:62 info: Start adding in db
+2023-05-17 10:06:03:63 info: POST /umg/signup 200 1872.843 ms - 233
+2023-05-17 10:10:54:1054 info: Server listening on port 4000
+2023-05-17 10:10:54:1054 info: ENV: dev
+2023-05-17 10:10:54:1054 info: Testnet: true
+2023-05-17 10:10:54:1054 info: My Fauna secret: fnAFCS63CXACUSGh40LyytnAeGjeEAzZZrPITBbJ
+2023-05-17 10:10:54:1054 info: My SDK secret: d9e74e33-597d-45ee-9d18-d6278096a76d
+2023-05-17 10:10:54:1054 info: My Conv secret: d6566381-dee4-49b0-8ef9-53ee05e68bfd
+2023-05-17 10:10:54:1054 info: My MASTER_ADDRESSES secret: {"ETH/VC_USD": ["64639382f12241115ca487e3", "64639383cddd7b7e7e003f1b"], "LTC/VC_USD": ["64648aea0762375a5dc05cda", "64648aea37c12e41943694cc"], "BSC/VC_USD": ["64639448dd83bc6fba88daa4", "64639449d99f5ef7f8b61dc2"], "MATIC/VC_USD": ["646393f0a3a420efd9c9d2f9", "646393f0f12241115ca487ea"], "VC_USD/ETH": ["64639383cddd7b7e7e003f1b", "64639382f12241115ca487e3"], "LTC/VC_USD": ["64648aea37c12e41943694cc", "64648aea0762375a5dc05cda"], "VC_USD/BSC": ["64639449d99f5ef7f8b61dc2", "64639448dd83bc6fba88daa4"], "VC_USD/MATIC": ["646393f0f12241115ca487ea", "646393f0a3a420efd9c9d2f9"]}
+2023-05-17 10:12:57:1257 info: Server listening on port 4000
+2023-05-17 10:12:57:1257 info: ENV: dev
+2023-05-17 10:12:57:1257 info: Testnet: true
+2023-05-17 10:12:57:1257 info: My Fauna secret: fnAFCS63CXACUSGh40LyytnAeGjeEAzZZrPITBbJ
+2023-05-17 10:12:57:1257 info: My SDK secret: d9e74e33-597d-45ee-9d18-d6278096a76d
+2023-05-17 10:12:57:1257 info: My Conv secret: d6566381-dee4-49b0-8ef9-53ee05e68bfd
+2023-05-17 10:12:57:1257 info: My MASTER_ADDRESSES secret: {"ETH/VC_USD": ["64639382f12241115ca487e3", "64639383cddd7b7e7e003f1b"], "LTC/VC_USD": ["64648aea0762375a5dc05cda", "64648aea37c12e41943694cc"], "BSC/VC_USD": ["64639448dd83bc6fba88daa4", "64639449d99f5ef7f8b61dc2"], "MATIC/VC_USD": ["646393f0a3a420efd9c9d2f9", "646393f0f12241115ca487ea"], "VC_USD/ETH": ["64639383cddd7b7e7e003f1b", "64639382f12241115ca487e3"], "LTC/VC_USD": ["64648aea37c12e41943694cc", "64648aea0762375a5dc05cda"], "VC_USD/BSC": ["64639449d99f5ef7f8b61dc2", "64639448dd83bc6fba88daa4"], "VC_USD/MATIC": ["646393f0f12241115ca487ea", "646393f0a3a420efd9c9d2f9"]}
+2023-05-17 10:13:18:1318 info: Server listening on port 4000
+2023-05-17 10:13:18:1318 info: ENV: dev
+2023-05-17 10:13:18:1318 info: Testnet: true
+2023-05-17 10:13:18:1318 info: My Fauna secret: fnAFCS63CXACUSGh40LyytnAeGjeEAzZZrPITBbJ
+2023-05-17 10:13:18:1318 info: My SDK secret: d9e74e33-597d-45ee-9d18-d6278096a76d
+2023-05-17 10:13:18:1318 info: My Conv secret: d6566381-dee4-49b0-8ef9-53ee05e68bfd
+2023-05-17 10:13:18:1318 info: My MASTER_ADDRESSES secret: {"ETH/VC_USD": ["64639382f12241115ca487e3", "64639383cddd7b7e7e003f1b"], "LTC/VC_USD": ["64648aea0762375a5dc05cda", "64648aea37c12e41943694cc"], "BSC/VC_USD": ["64639448dd83bc6fba88daa4", "64639449d99f5ef7f8b61dc2"], "MATIC/VC_USD": ["646393f0a3a420efd9c9d2f9", "646393f0f12241115ca487ea"], "VC_USD/ETH": ["64639383cddd7b7e7e003f1b", "64639382f12241115ca487e3"], "LTC/VC_USD": ["64648aea37c12e41943694cc", "64648aea0762375a5dc05cda"], "VC_USD/BSC": ["64639449d99f5ef7f8b61dc2", "64639448dd83bc6fba88daa4"], "VC_USD/MATIC": ["646393f0f12241115ca487ea", "646393f0a3a420efd9c9d2f9"]}
+2023-05-17 10:13:21:1321 info: POST /trade/getPriceConversion 404 8.661 ms - 164
+2023-05-17 10:13:34:1334 info: Start PriceConversion
+2023-05-17 10:13:35:1335 info: GET /trade/getPriceConversion 200 305.268 ms - 209
+2023-05-17 10:14:08:148 info: Server listening on port 4000
+2023-05-17 10:14:08:148 info: ENV: dev
+2023-05-17 10:14:08:148 info: Testnet: true
+2023-05-17 10:14:08:148 info: My Fauna secret: fnAFCS63CXACUSGh40LyytnAeGjeEAzZZrPITBbJ
+2023-05-17 10:14:08:148 info: My SDK secret: d9e74e33-597d-45ee-9d18-d6278096a76d
+2023-05-17 10:14:08:148 info: My Conv secret: d6566381-dee4-49b0-8ef9-53ee05e68bfd
+2023-05-17 10:14:08:148 info: My MASTER_ADDRESSES secret: {"ETH/VC_USD": ["64639382f12241115ca487e3", "64639383cddd7b7e7e003f1b"], "LTC/VC_USD": ["64648aea0762375a5dc05cda", "64648aea37c12e41943694cc"], "BSC/VC_USD": ["64639448dd83bc6fba88daa4", "64639449d99f5ef7f8b61dc2"], "MATIC/VC_USD": ["646393f0a3a420efd9c9d2f9", "646393f0f12241115ca487ea"], "VC_USD/ETH": ["64639383cddd7b7e7e003f1b", "64639382f12241115ca487e3"], "LTC/VC_USD": ["64648aea37c12e41943694cc", "64648aea0762375a5dc05cda"], "VC_USD/BSC": ["64639449d99f5ef7f8b61dc2", "64639448dd83bc6fba88daa4"], "VC_USD/MATIC": ["646393f0f12241115ca487ea", "646393f0a3a420efd9c9d2f9"]}
+2023-05-17 10:14:11:1411 info: Start PriceConversion
+2023-05-17 10:14:11:1411 info: GET /trade/getPriceConversion 200 292.898 ms - 209
+2023-05-17 10:16:43:1643 info: OPTIONS /umg/info 204 0.563 ms - 0
+2023-05-17 10:16:43:1643 info: Start auth
+2023-05-17 10:16:43:1643 info: OPTIONS /nfts/getFrontPageData 204 0.287 ms - 0
+2023-05-17 10:16:43:1643 error: unauthorized. Check that endpoint, schema, port and secret are correct during client’s instantiation
+2023-05-17 10:16:43:1643 info: Start getting User
+2023-05-17 10:16:43:1643 error: instance not found
+2023-05-17 10:18:59:1859 info: Server listening on port 4000
+2023-05-17 10:18:59:1859 info: ENV: dev
+2023-05-17 10:18:59:1859 info: Testnet: true
+2023-05-17 10:18:59:1859 info: My Fauna secret: fnAFCS63CXACUSGh40LyytnAeGjeEAzZZrPITBbJ
+2023-05-17 10:18:59:1859 info: My SDK secret: d9e74e33-597d-45ee-9d18-d6278096a76d
+2023-05-17 10:18:59:1859 info: My Conv secret: d6566381-dee4-49b0-8ef9-53ee05e68bfd
+2023-05-17 10:18:59:1859 info: My MASTER_ADDRESSES secret: {"ETH/VC_USD": ["64639382f12241115ca487e3", "64639383cddd7b7e7e003f1b"], "LTC/VC_USD": ["64648aea0762375a5dc05cda", "64648aea37c12e41943694cc"], "BSC/VC_USD": ["64639448dd83bc6fba88daa4", "64639449d99f5ef7f8b61dc2"], "MATIC/VC_USD": ["646393f0a3a420efd9c9d2f9", "646393f0f12241115ca487ea"], "VC_USD/ETH": ["64639383cddd7b7e7e003f1b", "64639382f12241115ca487e3"], "LTC/VC_USD": ["64648aea37c12e41943694cc", "64648aea0762375a5dc05cda"], "VC_USD/BSC": ["64639449d99f5ef7f8b61dc2", "64639448dd83bc6fba88daa4"], "VC_USD/MATIC": ["646393f0f12241115ca487ea", "646393f0a3a420efd9c9d2f9"]}
+2023-05-17 10:19:04:194 info: OPTIONS /umg/info 204 1.690 ms - 0
+2023-05-17 10:19:04:194 info: Start auth
+2023-05-17 10:19:04:194 info: OPTIONS /nfts/getFrontPageData 204 0.256 ms - 0
+2023-05-17 10:19:04:194 error: unauthorized. Check that endpoint, schema, port and secret are correct during client’s instantiation
+2023-05-17 10:19:04:194 info: Start getting User
+2023-05-17 10:19:04:194 error: instance not found
+2023-05-17 10:20:25:2025 info: Server listening on port 4000
+2023-05-17 10:20:25:2025 info: ENV: dev
+2023-05-17 10:20:25:2025 info: Testnet: true
+2023-05-17 10:20:25:2025 info: My Fauna secret: fnAFCS63CXACUSGh40LyytnAeGjeEAzZZrPITBbJ
+2023-05-17 10:20:25:2025 info: My SDK secret: d9e74e33-597d-45ee-9d18-d6278096a76d
+2023-05-17 10:20:25:2025 info: My Conv secret: d6566381-dee4-49b0-8ef9-53ee05e68bfd
+2023-05-17 10:20:25:2025 info: My MASTER_ADDRESSES secret: {"ETH/VC_USD": ["64639382f12241115ca487e3", "64639383cddd7b7e7e003f1b"], "LTC/VC_USD": ["64648aea0762375a5dc05cda", "64648aea37c12e41943694cc"], "BSC/VC_USD": ["64639448dd83bc6fba88daa4", "64639449d99f5ef7f8b61dc2"], "MATIC/VC_USD": ["646393f0a3a420efd9c9d2f9", "646393f0f12241115ca487ea"], "VC_USD/ETH": ["64639383cddd7b7e7e003f1b", "64639382f12241115ca487e3"], "LTC/VC_USD": ["64648aea37c12e41943694cc", "64648aea0762375a5dc05cda"], "VC_USD/BSC": ["64639449d99f5ef7f8b61dc2", "64639448dd83bc6fba88daa4"], "VC_USD/MATIC": ["646393f0f12241115ca487ea", "646393f0a3a420efd9c9d2f9"]}
+2023-05-17 10:20:29:2029 info: OPTIONS /umg/info 204 1.369 ms - 0
+2023-05-17 10:20:29:2029 info: Start auth
+2023-05-17 10:20:29:2029 info: OPTIONS /nfts/getFrontPageData 204 0.309 ms - 0
+2023-05-17 10:20:29:2029 error: unauthorized. Check that endpoint, schema, port and secret are correct during client’s instantiation
+2023-05-17 10:20:29:2029 info: Start getting User
+2023-05-17 10:20:29:2029 error: invalid expression
+2023-05-17 10:20:29:2029 info: GET /umg/info 401 354.374 ms - 38
+2023-05-17 10:20:29:2029 error: instance not found
+2023-05-17 10:23:05:235 info: Server listening on port 4000
+2023-05-17 10:23:05:235 info: ENV: dev
+2023-05-17 10:23:05:235 info: Testnet: true
+2023-05-17 10:23:05:235 info: My Fauna secret: fnAFCS63CXACUSGh40LyytnAeGjeEAzZZrPITBbJ
+2023-05-17 10:23:05:235 info: My SDK secret: d9e74e33-597d-45ee-9d18-d6278096a76d
+2023-05-17 10:23:05:235 info: My Conv secret: d6566381-dee4-49b0-8ef9-53ee05e68bfd
+2023-05-17 10:23:05:235 info: My MASTER_ADDRESSES secret: {"ETH/VC_USD": ["64639382f12241115ca487e3", "64639383cddd7b7e7e003f1b"], "LTC/VC_USD": ["64648aea0762375a5dc05cda", "64648aea37c12e41943694cc"], "BSC/VC_USD": ["64639448dd83bc6fba88daa4", "64639449d99f5ef7f8b61dc2"], "MATIC/VC_USD": ["646393f0a3a420efd9c9d2f9", "646393f0f12241115ca487ea"], "VC_USD/ETH": ["64639383cddd7b7e7e003f1b", "64639382f12241115ca487e3"], "LTC/VC_USD": ["64648aea37c12e41943694cc", "64648aea0762375a5dc05cda"], "VC_USD/BSC": ["64639449d99f5ef7f8b61dc2", "64639448dd83bc6fba88daa4"], "VC_USD/MATIC": ["646393f0f12241115ca487ea", "646393f0a3a420efd9c9d2f9"]}
+2023-05-17 10:23:10:2310 info: OPTIONS /umg/info 204 2.459 ms - 0
+2023-05-17 10:23:10:2310 info: Start auth
+2023-05-17 10:23:10:2310 info: OPTIONS /nfts/getFrontPageData 204 0.285 ms - 0
+2023-05-17 10:23:10:2310 error: unauthorized. Check that endpoint, schema, port and secret are correct during client’s instantiation
+2023-05-17 10:23:10:2310 info: Start getting User
+2023-05-17 10:23:11:2311 error: instance not found
+2023-05-17 10:24:48:2448 info: Server listening on port 4000
+2023-05-17 10:24:48:2448 info: ENV: dev
+2023-05-17 10:24:48:2448 info: Testnet: true
+2023-05-17 10:24:48:2448 info: My Fauna secret: fnAFCS63CXACUSGh40LyytnAeGjeEAzZZrPITBbJ
+2023-05-17 10:24:48:2448 info: My SDK secret: d9e74e33-597d-45ee-9d18-d6278096a76d
+2023-05-17 10:24:48:2448 info: My Conv secret: d6566381-dee4-49b0-8ef9-53ee05e68bfd
+2023-05-17 10:24:48:2448 info: My MASTER_ADDRESSES secret: {"ETH/VC_USD": ["64639382f12241115ca487e3", "64639383cddd7b7e7e003f1b"], "LTC/VC_USD": ["64648aea0762375a5dc05cda", "64648aea37c12e41943694cc"], "BSC/VC_USD": ["64639448dd83bc6fba88daa4", "64639449d99f5ef7f8b61dc2"], "MATIC/VC_USD": ["646393f0a3a420efd9c9d2f9", "646393f0f12241115ca487ea"], "VC_USD/ETH": ["64639383cddd7b7e7e003f1b", "64639382f12241115ca487e3"], "LTC/VC_USD": ["64648aea37c12e41943694cc", "64648aea0762375a5dc05cda"], "VC_USD/BSC": ["64639449d99f5ef7f8b61dc2", "64639448dd83bc6fba88daa4"], "VC_USD/MATIC": ["646393f0f12241115ca487ea", "646393f0a3a420efd9c9d2f9"]}
+2023-05-17 10:24:51:2451 info: OPTIONS /umg/info 204 1.465 ms - 0
+2023-05-17 10:24:51:2451 info: Start auth
+2023-05-17 10:24:51:2451 info: OPTIONS /nfts/getFrontPageData 204 0.573 ms - 0
+2023-05-17 10:24:52:2452 error: unauthorized. Check that endpoint, schema, port and secret are correct during client’s instantiation
+2023-05-17 10:24:52:2452 info: GET /umg/info 404 163.135 ms - 147
+2023-05-17 10:24:52:2452 error: instance not found
+2023-05-17 10:25:29:2529 info: Server listening on port 4000
+2023-05-17 10:25:29:2529 info: ENV: dev
+2023-05-17 10:25:29:2529 info: Testnet: true
+2023-05-17 10:25:29:2529 info: My Fauna secret: fnAFCS63CXACUSGh40LyytnAeGjeEAzZZrPITBbJ
+2023-05-17 10:25:29:2529 info: My SDK secret: d9e74e33-597d-45ee-9d18-d6278096a76d
+2023-05-17 10:25:29:2529 info: My Conv secret: d6566381-dee4-49b0-8ef9-53ee05e68bfd
+2023-05-17 10:25:29:2529 info: My MASTER_ADDRESSES secret: {"ETH/VC_USD": ["64639382f12241115ca487e3", "64639383cddd7b7e7e003f1b"], "LTC/VC_USD": ["64648aea0762375a5dc05cda", "64648aea37c12e41943694cc"], "BSC/VC_USD": ["64639448dd83bc6fba88daa4", "64639449d99f5ef7f8b61dc2"], "MATIC/VC_USD": ["646393f0a3a420efd9c9d2f9", "646393f0f12241115ca487ea"], "VC_USD/ETH": ["64639383cddd7b7e7e003f1b", "64639382f12241115ca487e3"], "LTC/VC_USD": ["64648aea37c12e41943694cc", "64648aea0762375a5dc05cda"], "VC_USD/BSC": ["64639449d99f5ef7f8b61dc2", "64639448dd83bc6fba88daa4"], "VC_USD/MATIC": ["646393f0f12241115ca487ea", "646393f0a3a420efd9c9d2f9"]}
+2023-05-17 10:25:31:2531 info: OPTIONS /nfts/getFrontPageData 204 1.571 ms - 0
+2023-05-17 10:25:31:2531 error: instance not found
+2023-05-17 10:26:39:2639 info: Server listening on port 4000
+2023-05-17 10:26:39:2639 info: ENV: dev
+2023-05-17 10:26:39:2639 info: Testnet: true
+2023-05-17 10:26:39:2639 info: My Fauna secret: fnAFCS63CXACUSGh40LyytnAeGjeEAzZZrPITBbJ
+2023-05-17 10:26:39:2639 info: My SDK secret: d9e74e33-597d-45ee-9d18-d6278096a76d
+2023-05-17 10:26:39:2639 info: My Conv secret: d6566381-dee4-49b0-8ef9-53ee05e68bfd
+2023-05-17 10:26:39:2639 info: My MASTER_ADDRESSES secret: {"ETH/VC_USD": ["64639382f12241115ca487e3", "64639383cddd7b7e7e003f1b"], "LTC/VC_USD": ["64648aea0762375a5dc05cda", "64648aea37c12e41943694cc"], "BSC/VC_USD": ["64639448dd83bc6fba88daa4", "64639449d99f5ef7f8b61dc2"], "MATIC/VC_USD": ["646393f0a3a420efd9c9d2f9", "646393f0f12241115ca487ea"], "VC_USD/ETH": ["64639383cddd7b7e7e003f1b", "64639382f12241115ca487e3"], "LTC/VC_USD": ["64648aea37c12e41943694cc", "64648aea0762375a5dc05cda"], "VC_USD/BSC": ["64639449d99f5ef7f8b61dc2", "64639448dd83bc6fba88daa4"], "VC_USD/MATIC": ["646393f0f12241115ca487ea", "646393f0a3a420efd9c9d2f9"]}
+2023-05-17 10:26:43:2643 info: OPTIONS /nfts/getFrontPageData 204 1.400 ms - 0
+2023-05-17 10:26:43:2643 error: instance not found
+2023-05-17 10:27:34:2734 info: Server listening on port 4000
+2023-05-17 10:27:34:2734 info: ENV: dev
+2023-05-17 10:27:34:2734 info: Testnet: true
+2023-05-17 10:27:34:2734 info: My Fauna secret: fnAFCS63CXACUSGh40LyytnAeGjeEAzZZrPITBbJ
+2023-05-17 10:27:34:2734 info: My SDK secret: d9e74e33-597d-45ee-9d18-d6278096a76d
+2023-05-17 10:27:34:2734 info: My Conv secret: d6566381-dee4-49b0-8ef9-53ee05e68bfd
+2023-05-17 10:27:34:2734 info: My MASTER_ADDRESSES secret: {"ETH/VC_USD": ["64639382f12241115ca487e3", "64639383cddd7b7e7e003f1b"], "LTC/VC_USD": ["64648aea0762375a5dc05cda", "64648aea37c12e41943694cc"], "BSC/VC_USD": ["64639448dd83bc6fba88daa4", "64639449d99f5ef7f8b61dc2"], "MATIC/VC_USD": ["646393f0a3a420efd9c9d2f9", "646393f0f12241115ca487ea"], "VC_USD/ETH": ["64639383cddd7b7e7e003f1b", "64639382f12241115ca487e3"], "LTC/VC_USD": ["64648aea37c12e41943694cc", "64648aea0762375a5dc05cda"], "VC_USD/BSC": ["64639449d99f5ef7f8b61dc2", "64639448dd83bc6fba88daa4"], "VC_USD/MATIC": ["646393f0f12241115ca487ea", "646393f0a3a420efd9c9d2f9"]}
+2023-05-17 10:28:01:281 info: OPTIONS /umg/info 204 1.388 ms - 0
+2023-05-17 10:28:01:281 info: Start auth
+2023-05-17 10:28:01:281 error: unauthorized. Check that endpoint, schema, port and secret are correct during client’s instantiation
+2023-05-17 10:28:01:281 info: Start getting User
+2023-05-17 10:28:01:281 error: invalid expression
+2023-05-17 10:28:01:281 info: GET /umg/info 401 336.500 ms - 38
+2023-05-17 10:30:04:304 info: Server listening on port 4000
+2023-05-17 10:30:04:304 info: ENV: dev
+2023-05-17 10:30:04:304 info: Testnet: true
+2023-05-17 10:30:04:304 info: My Fauna secret: fnAFCS63CXACUSGh40LyytnAeGjeEAzZZrPITBbJ
+2023-05-17 10:30:04:304 info: My SDK secret: d9e74e33-597d-45ee-9d18-d6278096a76d
+2023-05-17 10:30:04:304 info: My Conv secret: d6566381-dee4-49b0-8ef9-53ee05e68bfd
+2023-05-17 10:30:04:304 info: My MASTER_ADDRESSES secret: {"ETH/VC_USD": ["64639382f12241115ca487e3", "64639383cddd7b7e7e003f1b"], "LTC/VC_USD": ["64648aea0762375a5dc05cda", "64648aea37c12e41943694cc"], "BSC/VC_USD": ["64639448dd83bc6fba88daa4", "64639449d99f5ef7f8b61dc2"], "MATIC/VC_USD": ["646393f0a3a420efd9c9d2f9", "646393f0f12241115ca487ea"], "VC_USD/ETH": ["64639383cddd7b7e7e003f1b", "64639382f12241115ca487e3"], "LTC/VC_USD": ["64648aea37c12e41943694cc", "64648aea0762375a5dc05cda"], "VC_USD/BSC": ["64639449d99f5ef7f8b61dc2", "64639448dd83bc6fba88daa4"], "VC_USD/MATIC": ["646393f0f12241115ca487ea", "646393f0a3a420efd9c9d2f9"]}
+2023-05-17 10:30:10:3010 info: OPTIONS /umg/info 204 1.908 ms - 0
+2023-05-17 10:30:10:3010 info: Start auth
+2023-05-17 10:30:10:3010 info: OPTIONS /nfts/getFrontPageData 204 0.232 ms - 0
+2023-05-17 10:30:10:3010 error: tab is not defined
+2023-05-17 10:37:00:370 info: Server listening on port 4000
+2023-05-17 10:37:00:370 info: ENV: dev
+2023-05-17 10:37:00:370 info: Testnet: true
+2023-05-17 10:37:00:370 info: My Fauna secret: fnAFCS63CXACUSGh40LyytnAeGjeEAzZZrPITBbJ
+2023-05-17 10:37:00:370 info: My SDK secret: d9e74e33-597d-45ee-9d18-d6278096a76d
+2023-05-17 10:37:00:370 info: My Conv secret: d6566381-dee4-49b0-8ef9-53ee05e68bfd
+2023-05-17 10:37:00:370 info: My MASTER_ADDRESSES secret: {"ETH/VC_USD": ["64639382f12241115ca487e3", "64639383cddd7b7e7e003f1b"], "LTC/VC_USD": ["64648aea0762375a5dc05cda", "64648aea37c12e41943694cc"], "BSC/VC_USD": ["64639448dd83bc6fba88daa4", "64639449d99f5ef7f8b61dc2"], "MATIC/VC_USD": ["646393f0a3a420efd9c9d2f9", "646393f0f12241115ca487ea"], "VC_USD/ETH": ["64639383cddd7b7e7e003f1b", "64639382f12241115ca487e3"], "LTC/VC_USD": ["64648aea37c12e41943694cc", "64648aea0762375a5dc05cda"], "VC_USD/BSC": ["64639449d99f5ef7f8b61dc2", "64639448dd83bc6fba88daa4"], "VC_USD/MATIC": ["646393f0f12241115ca487ea", "646393f0a3a420efd9c9d2f9"]}
+2023-05-17 10:37:05:375 info: OPTIONS /umg/info 204 1.283 ms - 0
+2023-05-17 10:37:05:375 info: Start auth
+2023-05-17 10:37:05:375 info: OPTIONS /nfts/getFrontPageData 204 0.183 ms - 0
+2023-05-17 10:37:05:375 error: unauthorized. Check that endpoint, schema, port and secret are correct during client’s instantiation
+2023-05-17 10:37:05:375 info: Start getting User
+2023-05-17 10:37:05:375 error: instance not found
+2023-05-17 10:37:42:3742 info: Server listening on port 4000
+2023-05-17 10:37:42:3742 info: ENV: dev
+2023-05-17 10:37:42:3742 info: Testnet: true
+2023-05-17 10:37:42:3742 info: My Fauna secret: fnAFCS63CXACUSGh40LyytnAeGjeEAzZZrPITBbJ
+2023-05-17 10:37:42:3742 info: My SDK secret: d9e74e33-597d-45ee-9d18-d6278096a76d
+2023-05-17 10:37:42:3742 info: My Conv secret: d6566381-dee4-49b0-8ef9-53ee05e68bfd
+2023-05-17 10:37:42:3742 info: My MASTER_ADDRESSES secret: {"ETH/VC_USD": ["64639382f12241115ca487e3", "64639383cddd7b7e7e003f1b"], "LTC/VC_USD": ["64648aea0762375a5dc05cda", "64648aea37c12e41943694cc"], "BSC/VC_USD": ["64639448dd83bc6fba88daa4", "64639449d99f5ef7f8b61dc2"], "MATIC/VC_USD": ["646393f0a3a420efd9c9d2f9", "646393f0f12241115ca487ea"], "VC_USD/ETH": ["64639383cddd7b7e7e003f1b", "64639382f12241115ca487e3"], "LTC/VC_USD": ["64648aea37c12e41943694cc", "64648aea0762375a5dc05cda"], "VC_USD/BSC": ["64639449d99f5ef7f8b61dc2", "64639448dd83bc6fba88daa4"], "VC_USD/MATIC": ["646393f0f12241115ca487ea", "646393f0a3a420efd9c9d2f9"]}
+2023-05-17 10:37:45:3745 info: OPTIONS /umg/info 204 2.089 ms - 0
+2023-05-17 10:37:45:3745 info: Start auth
+2023-05-17 10:37:45:3745 info: OPTIONS /nfts/getFrontPageData 204 0.280 ms - 0
+2023-05-17 10:37:45:3745 error: unauthorized. Check that endpoint, schema, port and secret are correct during client’s instantiation
+2023-05-17 10:37:45:3745 info: Start getting User
+2023-05-17 10:37:45:3745 error: instance not found
+2023-05-17 10:41:31:4131 info: Server listening on port 4000
+2023-05-17 10:41:31:4131 info: ENV: prod
+2023-05-17 10:41:31:4131 info: Testnet: false
+2023-05-17 10:41:31:4131 info: My Fauna secret: fnAE5oNvxOACWrKQNyriTStNwGcq2MTZUTW095Vh
+2023-05-17 10:41:31:4131 info: My SDK secret: b1eea3fc-277f-4f81-8463-a1ce707791a3
+2023-05-17 10:41:31:4131 info: My Conv secret: d6566381-dee4-49b0-8ef9-53ee05e68bfd
+2023-05-17 10:41:31:4131 info: My MASTER_ADDRESSES secret: {"ETH/VC_USD": ["64639382f12241115ca487e3", "64639383cddd7b7e7e003f1b"], "BSC/VC_USD": ["64639448dd83bc6fba88daa4", "64639449d99f5ef7f8b61dc2"], "MATIC/VC_USD": ["646393f0a3a420efd9c9d2f9", "646393f0f12241115ca487ea"], "VC_USD/ETH": ["64639383cddd7b7e7e003f1b", "64639382f12241115ca487e3"], "VC_USD/BSC": ["64639449d99f5ef7f8b61dc2", "64639448dd83bc6fba88daa4"], "VC_USD/MATIC": ["646393f0f12241115ca487ea", "646393f0a3a420efd9c9d2f9"]}
+2023-05-17 10:41:36:4136 info: OPTIONS /umg/info 204 1.818 ms - 0
+2023-05-17 10:41:36:4136 info: Start auth
+2023-05-17 10:41:36:4136 info: OPTIONS /nfts/getFrontPageData 204 0.241 ms - 0
+2023-05-17 10:41:36:4136 error: unauthorized. Check that endpoint, schema, port and secret are correct during client’s instantiation
+2023-05-17 10:41:36:4136 info: Start getting User
+2023-05-17 10:41:37:4137 error: invalid expression
+2023-05-17 10:41:37:4137 info: GET /umg/info 401 365.600 ms - 38
+2023-05-17 10:41:44:4144 info: GET /nfts/getFrontPageData 200 7335.886 ms - 36682
+2023-05-17 10:43:47:4347 info: Server listening on port 4000
+2023-05-17 10:43:47:4347 info: ENV: dev
+2023-05-17 10:43:47:4347 info: Testnet: true
+2023-05-17 10:43:47:4347 info: My Fauna secret: fnAFCS63CXACUSGh40LyytnAeGjeEAzZZrPITBbJ
+2023-05-17 10:43:47:4347 info: My SDK secret: d9e74e33-597d-45ee-9d18-d6278096a76d
+2023-05-17 10:43:47:4347 info: My Conv secret: d6566381-dee4-49b0-8ef9-53ee05e68bfd
+2023-05-17 10:43:47:4347 info: My MASTER_ADDRESSES secret: {"ETH/VC_USD": ["64639382f12241115ca487e3", "64639383cddd7b7e7e003f1b"], "LTC/VC_USD": ["64648aea0762375a5dc05cda", "64648aea37c12e41943694cc"], "BSC/VC_USD": ["64639448dd83bc6fba88daa4", "64639449d99f5ef7f8b61dc2"], "MATIC/VC_USD": ["646393f0a3a420efd9c9d2f9", "646393f0f12241115ca487ea"], "VC_USD/ETH": ["64639383cddd7b7e7e003f1b", "64639382f12241115ca487e3"], "LTC/VC_USD": ["64648aea37c12e41943694cc", "64648aea0762375a5dc05cda"], "VC_USD/BSC": ["64639449d99f5ef7f8b61dc2", "64639448dd83bc6fba88daa4"], "VC_USD/MATIC": ["646393f0f12241115ca487ea", "646393f0a3a420efd9c9d2f9"]}
+2023-05-17 10:43:51:4351 info: OPTIONS /umg/info 204 1.914 ms - 0
+2023-05-17 10:43:51:4351 info: Start auth
+2023-05-17 10:43:51:4351 info: OPTIONS /nfts/getFrontPageData 204 0.279 ms - 0
+2023-05-17 10:43:51:4351 error: unauthorized. Check that endpoint, schema, port and secret are correct during client’s instantiation
+2023-05-17 10:43:51:4351 info: Start getting User
+2023-05-17 10:43:52:4352 error: invalid expression
+2023-05-17 10:43:52:4352 info: GET /umg/info 401 347.237 ms - 38
+2023-05-17 10:44:00:440 info: GET /nfts/getFrontPageData 304 8679.306 ms - -
+2023-05-17 10:45:38:4538 info: OPTIONS /umg/info 204 0.134 ms - 0
+2023-05-17 10:45:38:4538 info: Start auth
+2023-05-17 10:45:38:4538 info: OPTIONS /nfts/getFrontPageData 204 0.370 ms - 0
+2023-05-17 10:45:38:4538 error: unauthorized. Check that endpoint, schema, port and secret are correct during client’s instantiation
+2023-05-17 10:45:38:4538 info: Start getting User
+2023-05-17 10:45:38:4538 error: invalid expression
+2023-05-17 10:45:38:4538 info: GET /umg/info 401 330.188 ms - 38
+2023-05-17 10:45:41:4541 error: Cannot read properties of undefined (reading 'meta')
+2023-05-17 10:45:41:4541 info: GET /nfts/getFrontPageData 200 2976.796 ms - 15162
+2023-05-17 10:46:13:4613 info: OPTIONS /umg/info 204 0.128 ms - 0
+2023-05-17 10:46:13:4613 info: Start auth
+2023-05-17 10:46:13:4613 info: OPTIONS /nfts/getFrontPageData 204 0.162 ms - 0
+2023-05-17 10:46:13:4613 error: unauthorized. Check that endpoint, schema, port and secret are correct during client’s instantiation
+2023-05-17 10:46:13:4613 info: Start getting User
+2023-05-17 10:46:14:4614 error: invalid expression
+2023-05-17 10:46:14:4614 info: GET /umg/info 401 327.330 ms - 38
+2023-05-17 10:46:16:4616 error: Cannot read properties of undefined (reading 'meta')
+2023-05-17 10:46:16:4616 info: GET /nfts/getFrontPageData 200 2929.861 ms - 15162
+2023-05-17 10:47:07:477 info: Server listening on port 4000
+2023-05-17 10:47:07:477 info: ENV: dev
+2023-05-17 10:47:07:477 info: Testnet: true
+2023-05-17 10:47:07:477 info: My Fauna secret: fnAFCS63CXACUSGh40LyytnAeGjeEAzZZrPITBbJ
+2023-05-17 10:47:07:477 info: My SDK secret: d9e74e33-597d-45ee-9d18-d6278096a76d
+2023-05-17 10:47:07:477 info: My Conv secret: d6566381-dee4-49b0-8ef9-53ee05e68bfd
+2023-05-17 10:47:07:477 info: My MASTER_ADDRESSES secret: {"ETH/VC_USD": ["64639382f12241115ca487e3", "64639383cddd7b7e7e003f1b"], "LTC/VC_USD": ["64648aea0762375a5dc05cda", "64648aea37c12e41943694cc"], "BSC/VC_USD": ["64639448dd83bc6fba88daa4", "64639449d99f5ef7f8b61dc2"], "MATIC/VC_USD": ["646393f0a3a420efd9c9d2f9", "646393f0f12241115ca487ea"], "VC_USD/ETH": ["64639383cddd7b7e7e003f1b", "64639382f12241115ca487e3"], "LTC/VC_USD": ["64648aea37c12e41943694cc", "64648aea0762375a5dc05cda"], "VC_USD/BSC": ["64639449d99f5ef7f8b61dc2", "64639448dd83bc6fba88daa4"], "VC_USD/MATIC": ["646393f0f12241115ca487ea", "646393f0a3a420efd9c9d2f9"]}
+2023-05-17 10:47:10:4710 info: OPTIONS /umg/info 204 1.310 ms - 0
+2023-05-17 10:47:10:4710 info: Start auth
+2023-05-17 10:47:10:4710 info: OPTIONS /nfts/getFrontPageData 204 0.655 ms - 0
+2023-05-17 10:47:11:4711 error: unauthorized. Check that endpoint, schema, port and secret are correct during client’s instantiation
+2023-05-17 10:47:11:4711 info: Start getting User
+2023-05-17 10:47:11:4711 error: invalid expression
+2023-05-17 10:47:11:4711 info: GET /umg/info 401 373.089 ms - 38
+2023-05-17 10:47:13:4713 error: Cannot read properties of undefined (reading 'meta')
+2023-05-17 10:47:13:4713 info: GET /nfts/getFrontPageData 200 2106.561 ms - 15162
+2023-05-17 10:47:23:4723 info: Server listening on port 4000
+2023-05-17 10:47:23:4723 info: ENV: dev
+2023-05-17 10:47:23:4723 info: Testnet: true
+2023-05-17 10:47:23:4723 info: My Fauna secret: fnAFCS63CXACUSGh40LyytnAeGjeEAzZZrPITBbJ
+2023-05-17 10:47:23:4723 info: My SDK secret: d9e74e33-597d-45ee-9d18-d6278096a76d
+2023-05-17 10:47:23:4723 info: My Conv secret: d6566381-dee4-49b0-8ef9-53ee05e68bfd
+2023-05-17 10:47:23:4723 info: My MASTER_ADDRESSES secret: {"ETH/VC_USD": ["64639382f12241115ca487e3", "64639383cddd7b7e7e003f1b"], "LTC/VC_USD": ["64648aea0762375a5dc05cda", "64648aea37c12e41943694cc"], "BSC/VC_USD": ["64639448dd83bc6fba88daa4", "64639449d99f5ef7f8b61dc2"], "MATIC/VC_USD": ["646393f0a3a420efd9c9d2f9", "646393f0f12241115ca487ea"], "VC_USD/ETH": ["64639383cddd7b7e7e003f1b", "64639382f12241115ca487e3"], "LTC/VC_USD": ["64648aea37c12e41943694cc", "64648aea0762375a5dc05cda"], "VC_USD/BSC": ["64639449d99f5ef7f8b61dc2", "64639448dd83bc6fba88daa4"], "VC_USD/MATIC": ["646393f0f12241115ca487ea", "646393f0a3a420efd9c9d2f9"]}
+2023-05-17 10:47:37:4737 info: OPTIONS /umg/info 204 2.974 ms - 0
+2023-05-17 10:47:37:4737 info: Start auth
+2023-05-17 10:47:37:4737 info: OPTIONS /nfts/getFrontPageData 204 0.216 ms - 0
+2023-05-17 10:47:38:4738 error: unauthorized. Check that endpoint, schema, port and secret are correct during client’s instantiation
+2023-05-17 10:47:38:4738 info: Start getting User
+2023-05-17 10:47:38:4738 error: invalid expression
+2023-05-17 10:47:38:4738 info: GET /umg/info 401 351.774 ms - 38
+2023-05-17 10:47:39:4739 error: Cannot read properties of undefined (reading 'meta')
+2023-05-17 10:47:39:4739 info: GET /nfts/getFrontPageData 200 1671.370 ms - 15162
+2023-05-17 10:49:46:4946 info: OPTIONS /umg/info 204 0.127 ms - 0
+2023-05-17 10:49:46:4946 info: Start auth
+2023-05-17 10:49:46:4946 info: OPTIONS /nfts/getFrontPageData 204 0.215 ms - 0
+2023-05-17 10:49:46:4946 error: unauthorized. Check that endpoint, schema, port and secret are correct during client’s instantiation
+2023-05-17 10:49:46:4946 info: Start getting User
+2023-05-17 10:49:47:4947 error: invalid expression
+2023-05-17 10:49:47:4947 info: GET /umg/info 401 342.949 ms - 38
+2023-05-17 10:49:48:4948 error: Cannot read properties of undefined (reading '0')
+2023-05-17 10:49:48:4948 info: GET /nfts/getFrontPageData 200 1635.587 ms - 15162
+2023-05-17 10:50:03:503 info: Server listening on port 4000
+2023-05-17 10:50:03:503 info: ENV: dev
+2023-05-17 10:50:03:503 info: Testnet: true
+2023-05-17 10:50:03:503 info: My Fauna secret: fnAFCS63CXACUSGh40LyytnAeGjeEAzZZrPITBbJ
+2023-05-17 10:50:03:503 info: My SDK secret: d9e74e33-597d-45ee-9d18-d6278096a76d
+2023-05-17 10:50:03:503 info: My Conv secret: d6566381-dee4-49b0-8ef9-53ee05e68bfd
+2023-05-17 10:50:03:503 info: My MASTER_ADDRESSES secret: {"ETH/VC_USD": ["64639382f12241115ca487e3", "64639383cddd7b7e7e003f1b"], "LTC/VC_USD": ["64648aea0762375a5dc05cda", "64648aea37c12e41943694cc"], "BSC/VC_USD": ["64639448dd83bc6fba88daa4", "64639449d99f5ef7f8b61dc2"], "MATIC/VC_USD": ["646393f0a3a420efd9c9d2f9", "646393f0f12241115ca487ea"], "VC_USD/ETH": ["64639383cddd7b7e7e003f1b", "64639382f12241115ca487e3"], "LTC/VC_USD": ["64648aea37c12e41943694cc", "64648aea0762375a5dc05cda"], "VC_USD/BSC": ["64639449d99f5ef7f8b61dc2", "64639448dd83bc6fba88daa4"], "VC_USD/MATIC": ["646393f0f12241115ca487ea", "646393f0a3a420efd9c9d2f9"]}
+2023-05-17 10:50:06:506 info: OPTIONS /umg/info 204 1.403 ms - 0
+2023-05-17 10:50:06:506 info: Start auth
+2023-05-17 10:50:06:506 info: OPTIONS /nfts/getFrontPageData 204 1.003 ms - 0
+2023-05-17 10:50:06:506 error: unauthorized. Check that endpoint, schema, port and secret are correct during client’s instantiation
+2023-05-17 10:50:06:506 info: Start getting User
+2023-05-17 10:50:06:506 error: invalid expression
+2023-05-17 10:50:06:506 info: GET /umg/info 401 356.858 ms - 38
+2023-05-17 10:50:07:507 error: Cannot read properties of undefined (reading '0')
+2023-05-17 10:50:07:507 info: GET /nfts/getFrontPageData 200 1837.356 ms - 15161
+2023-05-17 10:50:41:5041 info: OPTIONS /umg/info 204 0.133 ms - 0
+2023-05-17 10:50:41:5041 info: Start auth
+2023-05-17 10:50:41:5041 info: OPTIONS /nfts/getFrontPageData 204 0.260 ms - 0
+2023-05-17 10:50:41:5041 error: unauthorized. Check that endpoint, schema, port and secret are correct during client’s instantiation
+2023-05-17 10:50:41:5041 info: Start getting User
+2023-05-17 10:50:41:5041 error: invalid expression
+2023-05-17 10:50:41:5041 info: GET /umg/info 401 341.668 ms - 38
+2023-05-17 10:50:43:5043 error: Cannot read properties of undefined (reading 'meta')
+2023-05-17 10:50:43:5043 info: GET /nfts/getFrontPageData 200 2105.550 ms - 15162
+2023-05-17 10:55:45:5545 info: Server listening on port 4000
+2023-05-17 10:55:45:5545 info: ENV: dev
+2023-05-17 10:55:45:5545 info: Testnet: true
+2023-05-17 10:55:45:5545 info: My Fauna secret: fnAFCS63CXACUSGh40LyytnAeGjeEAzZZrPITBbJ
+2023-05-17 10:55:45:5545 info: My SDK secret: d9e74e33-597d-45ee-9d18-d6278096a76d
+2023-05-17 10:55:45:5545 info: My Conv secret: d6566381-dee4-49b0-8ef9-53ee05e68bfd
+2023-05-17 10:55:45:5545 info: My MASTER_ADDRESSES secret: {"ETH/VC_USD": ["64639382f12241115ca487e3", "64639383cddd7b7e7e003f1b"], "LTC/VC_USD": ["64648aea0762375a5dc05cda", "64648aea37c12e41943694cc"], "BSC/VC_USD": ["64639448dd83bc6fba88daa4", "64639449d99f5ef7f8b61dc2"], "MATIC/VC_USD": ["646393f0a3a420efd9c9d2f9", "646393f0f12241115ca487ea"], "VC_USD/ETH": ["64639383cddd7b7e7e003f1b", "64639382f12241115ca487e3"], "LTC/VC_USD": ["64648aea37c12e41943694cc", "64648aea0762375a5dc05cda"], "VC_USD/BSC": ["64639449d99f5ef7f8b61dc2", "64639448dd83bc6fba88daa4"], "VC_USD/MATIC": ["646393f0f12241115ca487ea", "646393f0a3a420efd9c9d2f9"]}
+2023-05-17 10:55:48:5548 info: OPTIONS /umg/info 204 3.287 ms - 0
+2023-05-17 10:55:48:5548 info: Start auth
+2023-05-17 10:55:48:5548 info: OPTIONS /nfts/getFrontPageData 204 0.304 ms - 0
+2023-05-17 10:55:48:5548 error: unauthorized. Check that endpoint, schema, port and secret are correct during client’s instantiation
+2023-05-17 10:55:48:5548 info: Start getting User
+2023-05-17 10:55:48:5548 error: invalid expression
+2023-05-17 10:55:48:5548 info: GET /umg/info 401 444.281 ms - 38
+2023-05-17 10:55:50:5550 error: Cannot read properties of undefined (reading 'meta')
+2023-05-17 10:55:50:5550 info: GET /nfts/getFrontPageData 200 1898.274 ms - 15162
+2023-05-17 11:07:37:737 info: Server listening on port 4000
+2023-05-17 11:07:37:737 info: ENV: dev
+2023-05-17 11:07:37:737 info: Testnet: true
+2023-05-17 11:07:37:737 info: My Fauna secret: fnAFCS63CXACUSGh40LyytnAeGjeEAzZZrPITBbJ
+2023-05-17 11:07:37:737 info: My SDK secret: d9e74e33-597d-45ee-9d18-d6278096a76d
+2023-05-17 11:07:37:737 info: My Conv secret: d6566381-dee4-49b0-8ef9-53ee05e68bfd
+2023-05-17 11:07:37:737 info: My MASTER_ADDRESSES secret: {"ETH/VC_USD": ["64639382f12241115ca487e3", "64639383cddd7b7e7e003f1b"], "LTC/VC_USD": ["64648aea0762375a5dc05cda", "64648aea37c12e41943694cc"], "BSC/VC_USD": ["64639448dd83bc6fba88daa4", "64639449d99f5ef7f8b61dc2"], "MATIC/VC_USD": ["646393f0a3a420efd9c9d2f9", "646393f0f12241115ca487ea"], "VC_USD/ETH": ["64639383cddd7b7e7e003f1b", "64639382f12241115ca487e3"], "LTC/VC_USD": ["64648aea37c12e41943694cc", "64648aea0762375a5dc05cda"], "VC_USD/BSC": ["64639449d99f5ef7f8b61dc2", "64639448dd83bc6fba88daa4"], "VC_USD/MATIC": ["646393f0f12241115ca487ea", "646393f0a3a420efd9c9d2f9"]}
+2023-05-17 11:07:41:741 info: OPTIONS /umg/info 204 1.371 ms - 0
+2023-05-17 11:07:41:741 info: Start auth
+2023-05-17 11:07:41:741 info: OPTIONS /nfts/getFrontPageData 204 0.195 ms - 0
+2023-05-17 11:07:41:741 error: unauthorized. Check that endpoint, schema, port and secret are correct during client’s instantiation
+2023-05-17 11:07:41:741 info: Start getting User
+2023-05-17 11:07:41:741 error: invalid expression
+2023-05-17 11:07:41:741 info: GET /umg/info 401 482.117 ms - 38
+2023-05-17 11:07:44:744 info: GET /nfts/getFrontPageData 200 2658.415 ms - 15107
+2023-05-17 11:09:27:927 info: OPTIONS /umg/info 204 0.230 ms - 0
+2023-05-17 11:09:27:927 info: Start auth
+2023-05-17 11:09:27:927 info: OPTIONS /nfts/getFrontPageData 204 0.272 ms - 0
+2023-05-17 11:09:27:927 error: unauthorized. Check that endpoint, schema, port and secret are correct during client’s instantiation
+2023-05-17 11:09:27:927 info: Start getting User
+2023-05-17 11:09:28:928 error: invalid expression
+2023-05-17 11:09:28:928 info: GET /umg/info 401 396.925 ms - 38
+2023-05-17 11:09:29:929 info: GET /nfts/getFrontPageData 200 1384.105 ms - 15107
+2023-05-17 11:10:43:1043 info: OPTIONS /umg/info 204 0.424 ms - 0
+2023-05-17 11:10:43:1043 info: Start auth
+2023-05-17 11:10:43:1043 info: OPTIONS /nfts/getFrontPageData 204 0.219 ms - 0
+2023-05-17 11:10:43:1043 error: unauthorized. Check that endpoint, schema, port and secret are correct during client’s instantiation
+2023-05-17 11:10:43:1043 info: Start getting User
+2023-05-17 11:10:43:1043 error: invalid expression
+2023-05-17 11:10:43:1043 info: GET /umg/info 401 384.526 ms - 38
+2023-05-17 11:10:44:1044 info: GET /nfts/getFrontPageData 200 1558.932 ms - 15107
+2023-05-17 11:12:42:1242 info: OPTIONS /umg/info 204 0.154 ms - 0
+2023-05-17 11:12:42:1242 info: Start auth
+2023-05-17 11:12:42:1242 info: OPTIONS /nfts/getFrontPageData 204 0.200 ms - 0
+2023-05-17 11:12:42:1242 error: unauthorized. Check that endpoint, schema, port and secret are correct during client’s instantiation
+2023-05-17 11:12:42:1242 info: Start getting User
+2023-05-17 11:12:43:1243 error: invalid expression
+2023-05-17 11:12:43:1243 info: GET /umg/info 401 343.258 ms - 38
+2023-05-17 11:12:45:1245 info: GET /nfts/getFrontPageData 200 2995.419 ms - 15111
+2023-05-17 11:14:31:1431 info: OPTIONS /umg/info 204 0.142 ms - 0
+2023-05-17 11:14:31:1431 info: Start auth
+2023-05-17 11:14:31:1431 info: OPTIONS /nfts/getFrontPageData 204 0.300 ms - 0
+2023-05-17 11:14:31:1431 error: unauthorized. Check that endpoint, schema, port and secret are correct during client’s instantiation
+2023-05-17 11:14:31:1431 info: Start getting User
+2023-05-17 11:14:32:1432 error: invalid expression
+2023-05-17 11:14:32:1432 info: GET /umg/info 401 324.526 ms - 38
+2023-05-17 11:14:33:1433 info: GET /nfts/getFrontPageData 200 1425.366 ms - 15108
+2023-05-17 11:15:23:1523 info: OPTIONS /umg/info 204 0.932 ms - 0
+2023-05-17 11:15:23:1523 info: Start auth
+2023-05-17 11:15:23:1523 info: OPTIONS /nfts/getFrontPageData 204 0.590 ms - 0
+2023-05-17 11:15:23:1523 error: unauthorized. Check that endpoint, schema, port and secret are correct during client’s instantiation
+2023-05-17 11:15:23:1523 info: Start getting User
+2023-05-17 11:15:24:1524 error: invalid expression
+2023-05-17 11:15:24:1524 info: GET /umg/info 401 324.506 ms - 38
+2023-05-17 11:15:25:1525 info: GET /nfts/getFrontPageData 200 1613.382 ms - 15108
+2023-05-17 11:15:53:1553 info: OPTIONS /umg/info 204 0.152 ms - 0
+2023-05-17 11:15:53:1553 info: Start auth
+2023-05-17 11:15:53:1553 info: OPTIONS /nfts/getFrontPageData 204 0.124 ms - 0
+2023-05-17 11:15:53:1553 error: unauthorized. Check that endpoint, schema, port and secret are correct during client’s instantiation
+2023-05-17 11:15:53:1553 info: Start getting User
+2023-05-17 11:15:53:1553 error: invalid expression
+2023-05-17 11:15:53:1553 info: GET /umg/info 401 312.895 ms - 38
+2023-05-17 11:15:54:1554 info: GET /nfts/getFrontPageData 200 1298.887 ms - 15108
+2023-05-17 11:33:54:3354 info: OPTIONS /umg/info 204 0.122 ms - 0
+2023-05-17 11:33:54:3354 info: Start auth
+2023-05-17 11:33:54:3354 info: OPTIONS /nfts/getFrontPageData 204 0.121 ms - 0
+2023-05-17 11:33:55:3355 error: unauthorized. Check that endpoint, schema, port and secret are correct during client’s instantiation
+2023-05-17 11:33:55:3355 info: Start getting User
+2023-05-17 11:33:55:3355 error: invalid expression
+2023-05-17 11:33:55:3355 info: GET /umg/info 401 384.555 ms - 38
+2023-05-17 11:33:56:3356 info: GET /nfts/getFrontPageData 200 1415.917 ms - 15109
+2023-05-17 11:34:08:348 info: OPTIONS /umg/info 204 0.174 ms - 0
+2023-05-17 11:34:08:348 info: Start auth
+2023-05-17 11:34:08:348 info: OPTIONS /nfts/getFrontPageData 204 0.123 ms - 0
+2023-05-17 11:34:08:348 error: unauthorized. Check that endpoint, schema, port and secret are correct during client’s instantiation
+2023-05-17 11:34:08:348 info: Start getting User
+2023-05-17 11:34:08:348 error: invalid expression
+2023-05-17 11:34:08:348 info: GET /umg/info 401 308.048 ms - 38
+2023-05-17 11:34:10:3410 info: GET /nfts/getFrontPageData 304 1705.241 ms - -
+2023-05-17 11:57:16:5716 info: OPTIONS /umg/info 204 0.125 ms - 0
+2023-05-17 11:57:16:5716 info: Start auth
+2023-05-17 11:57:16:5716 info: OPTIONS /nfts/getFrontPageData 204 0.151 ms - 0
+2023-05-17 11:57:16:5716 error: unauthorized. Check that endpoint, schema, port and secret are correct during client’s instantiation
+2023-05-17 11:57:16:5716 info: Start getting User
+2023-05-17 11:57:16:5716 error: invalid expression
+2023-05-17 11:57:16:5716 info: GET /umg/info 401 411.569 ms - 38
+2023-05-17 11:57:17:5717 info: GET /nfts/getFrontPageData 200 1447.505 ms - 15109
+2023-05-17 11:57:28:5728 info: Server listening on port 4000
+2023-05-17 11:57:28:5728 info: ENV: dev
+2023-05-17 11:57:28:5728 info: Testnet: true
+2023-05-17 11:57:28:5728 info: My Fauna secret: fnAFCS63CXACUSGh40LyytnAeGjeEAzZZrPITBbJ
+2023-05-17 11:57:28:5728 info: My SDK secret: d9e74e33-597d-45ee-9d18-d6278096a76d
+2023-05-17 11:57:28:5728 info: My Conv secret: d6566381-dee4-49b0-8ef9-53ee05e68bfd
+2023-05-17 11:57:28:5728 info: My MASTER_ADDRESSES secret: {"ETH/VC_USD": ["64639382f12241115ca487e3", "64639383cddd7b7e7e003f1b"], "LTC/VC_USD": ["64648aea0762375a5dc05cda", "64648aea37c12e41943694cc"], "BSC/VC_USD": ["64639448dd83bc6fba88daa4", "64639449d99f5ef7f8b61dc2"], "MATIC/VC_USD": ["646393f0a3a420efd9c9d2f9", "646393f0f12241115ca487ea"], "VC_USD/ETH": ["64639383cddd7b7e7e003f1b", "64639382f12241115ca487e3"], "LTC/VC_USD": ["64648aea37c12e41943694cc", "64648aea0762375a5dc05cda"], "VC_USD/BSC": ["64639449d99f5ef7f8b61dc2", "64639448dd83bc6fba88daa4"], "VC_USD/MATIC": ["646393f0f12241115ca487ea", "646393f0a3a420efd9c9d2f9"]}
+2023-05-17 11:57:33:5733 info: OPTIONS /umg/info 204 1.257 ms - 0
+2023-05-17 11:57:33:5733 info: Start auth
+2023-05-17 11:57:33:5733 info: OPTIONS /nfts/getFrontPageData 204 0.223 ms - 0
+2023-05-17 11:57:34:5734 error: unauthorized. Check that endpoint, schema, port and secret are correct during client’s instantiation
+2023-05-17 11:57:34:5734 info: Start getting User
+2023-05-17 11:57:34:5734 error: invalid expression
+2023-05-17 11:57:34:5734 info: GET /umg/info 401 335.223 ms - 38
+2023-05-17 11:57:35:5735 info: GET /nfts/getFrontPageData 200 1630.349 ms - 15109
+2023-05-17 11:59:58:5958 info: OPTIONS /umg/info 204 0.183 ms - 0
+2023-05-17 11:59:58:5958 info: Start auth
+2023-05-17 11:59:58:5958 info: OPTIONS /nfts/getFrontPageData 204 0.175 ms - 0
+2023-05-17 11:59:58:5958 error: unauthorized. Check that endpoint, schema, port and secret are correct during client’s instantiation
+2023-05-17 11:59:58:5958 info: Start getting User
+2023-05-17 11:59:59:5959 error: invalid expression
+2023-05-17 11:59:59:5959 info: GET /umg/info 401 370.165 ms - 38
+2023-05-17 12:00:01:01 info: GET /nfts/getFrontPageData 200 2705.593 ms - 15107
+2023-05-17 12:01:52:152 info: OPTIONS /umg/info 204 0.187 ms - 0
+2023-05-17 12:01:52:152 info: Start auth
+2023-05-17 12:01:52:152 info: OPTIONS /nfts/getFrontPageData 204 0.159 ms - 0
+2023-05-17 12:01:52:152 error: unauthorized. Check that endpoint, schema, port and secret are correct during client’s instantiation
+2023-05-17 12:01:52:152 info: Start getting User
+2023-05-17 12:01:52:152 error: invalid expression
+2023-05-17 12:01:52:152 info: GET /umg/info 401 352.314 ms - 38
+2023-05-17 12:01:53:153 info: GET /nfts/getFrontPageData 200 1412.344 ms - 15108
+2023-05-17 12:03:31:331 info: OPTIONS /umg/info 204 0.221 ms - 0
+2023-05-17 12:03:31:331 info: Start auth
+2023-05-17 12:03:31:331 info: OPTIONS /nfts/getFrontPageData 204 0.183 ms - 0
+2023-05-17 12:03:32:332 error: unauthorized. Check that endpoint, schema, port and secret are correct during client’s instantiation
+2023-05-17 12:03:32:332 info: Start getting User
+2023-05-17 12:03:32:332 error: invalid expression
+2023-05-17 12:03:32:332 info: GET /umg/info 401 344.217 ms - 38
+2023-05-17 12:03:33:333 info: GET /nfts/getFrontPageData 200 1811.007 ms - 15107
+2023-05-17 12:04:03:43 info: OPTIONS /umg/signup 204 0.193 ms - 0
+2023-05-17 12:04:03:43 info: Start adding in db
+2023-05-17 12:04:05:45 info: POST /umg/signup 200 1925.788 ms - 231
+2023-05-17 12:04:32:432 info: OPTIONS /umg/info 204 0.315 ms - 0
+2023-05-17 12:04:32:432 info: Start auth
+2023-05-17 12:04:32:432 info: OPTIONS /nfts/getFrontPageData 204 0.247 ms - 0
+2023-05-17 12:04:32:432 info: Start getting User
+2023-05-17 12:04:33:433 info: GET /umg/info 200 408.391 ms - 1610
+2023-05-17 12:04:34:434 info: GET /nfts/getFrontPageData 304 2138.965 ms - -
+2023-05-17 12:06:46:646 info: OPTIONS /umg/info 204 0.133 ms - 0
+2023-05-17 12:06:46:646 info: Start auth
+2023-05-17 12:06:46:646 info: OPTIONS /nfts/getFrontPageData 204 0.142 ms - 0
+2023-05-17 12:06:46:646 info: Start getting User
+2023-05-17 12:06:47:647 info: GET /umg/info 304 358.867 ms - -
+2023-05-17 12:06:51:651 info: GET /nfts/getFrontPageData 200 4621.493 ms - 15106
+2023-05-17 12:13:53:1353 info: OPTIONS /umg/info 204 0.139 ms - 0
+2023-05-17 12:13:53:1353 info: Start auth
+2023-05-17 12:13:54:1354 info: OPTIONS /nfts/getFrontPageData 204 0.156 ms - 0
+2023-05-17 12:13:54:1354 info: Start getting User
+2023-05-17 12:13:54:1354 info: GET /umg/info 304 497.331 ms - -
+2023-05-17 12:13:55:1355 info: GET /nfts/getFrontPageData 200 1363.254 ms - 15106
+2023-05-17 12:14:24:1424 info: OPTIONS /umg/info 204 0.198 ms - 0
+2023-05-17 12:14:24:1424 info: Start auth
+2023-05-17 12:14:24:1424 info: OPTIONS /nfts/getFrontPageData 204 0.163 ms - 0
+2023-05-17 12:14:24:1424 info: Start getting User
+2023-05-17 12:14:24:1424 info: GET /umg/info 304 378.412 ms - -
+2023-05-17 12:14:25:1425 info: GET /nfts/getFrontPageData 304 1306.606 ms - -
+2023-05-17 12:14:50:1450 info: OPTIONS /umg/info 204 0.140 ms - 0
+2023-05-17 12:14:50:1450 info: Start auth
+2023-05-17 12:14:50:1450 info: OPTIONS /nfts/getFrontPageData 204 0.132 ms - 0
+2023-05-17 12:14:50:1450 info: Start getting User
+2023-05-17 12:14:50:1450 info: GET /umg/info 304 377.018 ms - -
+2023-05-17 12:14:51:1451 info: GET /nfts/getFrontPageData 200 1231.289 ms - 15106
+2023-05-17 17:48:23:4823 info: Server listening on port 4000
+2023-05-17 17:48:23:4823 info: ENV: dev
+2023-05-17 17:48:23:4823 info: Testnet: true
+2023-05-17 17:48:23:4823 info: My Fauna secret: fnAFCS63CXACUSGh40LyytnAeGjeEAzZZrPITBbJ
+2023-05-17 17:48:23:4823 info: My SDK secret: d9e74e33-597d-45ee-9d18-d6278096a76d
+2023-05-17 17:48:23:4823 info: My Conv secret: d6566381-dee4-49b0-8ef9-53ee05e68bfd
+2023-05-17 17:48:23:4823 info: My MASTER_ADDRESSES secret: {"ETH/VC_USD": ["64639382f12241115ca487e3", "64639383cddd7b7e7e003f1b"], "LTC/VC_USD": ["64648aea0762375a5dc05cda", "64648aea37c12e41943694cc"], "BSC/VC_USD": ["64639448dd83bc6fba88daa4", "64639449d99f5ef7f8b61dc2"], "MATIC/VC_USD": ["646393f0a3a420efd9c9d2f9", "646393f0f12241115ca487ea"], "VC_USD/ETH": ["64639383cddd7b7e7e003f1b", "64639382f12241115ca487e3"], "LTC/VC_USD": ["64648aea37c12e41943694cc", "64648aea0762375a5dc05cda"], "VC_USD/BSC": ["64639449d99f5ef7f8b61dc2", "64639448dd83bc6fba88daa4"], "VC_USD/MATIC": ["646393f0f12241115ca487ea", "646393f0a3a420efd9c9d2f9"]}
+2023-05-17 17:49:10:4910 info: OPTIONS /umg/info 204 1.414 ms - 0
+2023-05-17 17:49:10:4910 info: Start auth
+2023-05-17 17:49:10:4910 info: OPTIONS /nfts/getFrontPageData 204 0.305 ms - 0
+2023-05-17 17:49:10:4910 info: Start getting User
+2023-05-17 17:49:10:4910 info: GET /umg/info 304 448.017 ms - -
+2023-05-17 17:49:11:4911 info: GET /nfts/getFrontPageData 200 1447.184 ms - 15114
+2023-05-17 17:52:44:5244 info: OPTIONS /umg/info 204 0.188 ms - 0
+2023-05-17 17:52:44:5244 info: Start auth
+2023-05-17 17:52:44:5244 info: OPTIONS /nfts/getFrontPageData 204 0.195 ms - 0
+2023-05-17 17:52:45:5245 info: Start getting User
+2023-05-17 17:52:45:5245 info: GET /umg/info 304 455.792 ms - -
+2023-05-17 17:52:46:5246 info: GET /nfts/getFrontPageData 200 1539.564 ms - 15114
+2023-05-17 17:53:30:5330 info: OPTIONS /umg/info 204 0.192 ms - 0
+2023-05-17 17:53:30:5330 info: Start auth
+2023-05-17 17:53:31:5331 info: OPTIONS /nfts/getFrontPageData 204 0.322 ms - 0
+2023-05-17 17:53:31:5331 info: Start getting User
+2023-05-17 17:53:31:5331 info: GET /umg/info 304 380.382 ms - -
+2023-05-17 17:53:32:5332 info: GET /nfts/getFrontPageData 200 1666.536 ms - 15115
+2023-05-17 17:55:45:5545 info: OPTIONS /umg/info 204 0.184 ms - 0
+2023-05-17 17:55:45:5545 info: Start auth
+2023-05-17 17:55:45:5545 info: OPTIONS /nfts/getFrontPageData 204 0.199 ms - 0
+2023-05-17 17:55:45:5545 info: Start getting User
+2023-05-17 17:55:45:5545 info: GET /umg/info 304 382.650 ms - -
+2023-05-17 17:55:46:5546 info: GET /nfts/getFrontPageData 200 1427.515 ms - 15116
+2023-05-17 18:14:59:1459 info: OPTIONS /umg/info 204 0.118 ms - 0
+2023-05-17 18:14:59:1459 info: Start auth
+2023-05-17 18:14:59:1459 info: OPTIONS /nfts/getFrontPageData 204 0.199 ms - 0
+2023-05-17 18:15:00:150 info: Start getting User
+2023-05-17 18:15:00:150 info: GET /umg/info 304 504.387 ms - -
+2023-05-17 18:15:01:151 info: GET /nfts/getFrontPageData 200 1626.225 ms - 15108
+2023-05-17 18:15:43:1543 info: OPTIONS /umg/info 204 0.190 ms - 0
+2023-05-17 18:15:43:1543 info: Start auth
+2023-05-17 18:15:43:1543 info: OPTIONS /nfts/getFrontPageData 204 0.144 ms - 0
+2023-05-17 18:15:43:1543 info: Start getting User
+2023-05-17 18:15:43:1543 info: GET /umg/info 304 378.683 ms - -
+2023-05-17 18:15:44:1544 info: GET /nfts/getFrontPageData 304 1471.555 ms - -
+2023-05-17 18:21:34:2134 info: OPTIONS /umg/info 204 0.189 ms - 0
+2023-05-17 18:21:34:2134 info: Start auth
+2023-05-17 18:21:34:2134 info: OPTIONS /nfts/getFrontPageData 204 0.188 ms - 0
+2023-05-17 18:21:34:2134 info: Start getting User
+2023-05-17 18:21:35:2135 info: GET /umg/info 304 530.731 ms - -
+2023-05-17 18:21:36:2136 info: GET /nfts/getFrontPageData 200 1369.788 ms - 15103
+2023-05-17 18:31:11:3111 info: OPTIONS /umg/info 204 0.198 ms - 0
+2023-05-17 18:31:11:3111 info: Start auth
+2023-05-17 18:31:11:3111 info: OPTIONS /nfts/getFrontPageData 204 0.138 ms - 0
+2023-05-17 18:31:11:3111 info: Start getting User
+2023-05-17 18:31:12:3112 info: GET /umg/info 304 490.316 ms - -
+2023-05-17 18:31:13:3113 info: GET /nfts/getFrontPageData 200 1586.246 ms - 15114
+2023-05-17 18:36:13:3613 info: OPTIONS /umg/info 204 0.179 ms - 0
+2023-05-17 18:36:13:3613 info: Start auth
+2023-05-17 18:36:13:3613 info: OPTIONS /nfts/getFrontPageData 204 0.179 ms - 0
+2023-05-17 18:36:13:3613 info: Start getting User
+2023-05-17 18:36:13:3613 info: GET /umg/info 304 437.241 ms - -
+2023-05-17 18:36:16:3616 info: GET /nfts/getFrontPageData 200 3063.556 ms - 15112
+2023-05-17 18:49:26:4926 info: OPTIONS /umg/info 204 0.170 ms - 0
+2023-05-17 18:49:26:4926 info: Start auth
+2023-05-17 18:49:26:4926 info: OPTIONS /nfts/getFrontPageData 204 0.111 ms - 0
+2023-05-17 18:49:27:4927 info: Start getting User
+2023-05-17 18:49:27:4927 info: GET /umg/info 304 498.606 ms - -
+2023-05-17 18:49:28:4928 info: GET /nfts/getFrontPageData 200 1447.769 ms - 15110
+2023-05-17 18:50:04:504 info: OPTIONS /umg/info 204 0.103 ms - 0
+2023-05-17 18:50:04:504 info: Start auth
+2023-05-17 18:50:04:504 info: OPTIONS /nfts/getFrontPageData 204 0.108 ms - 0
+2023-05-17 18:50:05:505 info: Start getting User
+2023-05-17 18:50:05:505 info: GET /umg/info 304 543.009 ms - -
+2023-05-17 18:50:06:506 info: GET /nfts/getFrontPageData 304 1590.048 ms - -
+2023-05-17 19:13:51:1351 info: OPTIONS /umg/info 204 0.158 ms - 0
+2023-05-17 19:13:51:1351 info: Start auth
+2023-05-17 19:13:51:1351 info: OPTIONS /nfts/getFrontPageData 204 0.153 ms - 0
+2023-05-17 19:13:51:1351 info: Start getting User
+2023-05-17 19:13:51:1351 info: GET /umg/info 304 488.725 ms - -
+2023-05-17 19:13:52:1352 info: GET /nfts/getFrontPageData 200 1359.967 ms - 15106
+2023-05-17 19:15:51:1551 info: OPTIONS /umg/info 204 0.120 ms - 0
+2023-05-17 19:15:51:1551 info: Start auth
+2023-05-17 19:15:52:1552 info: OPTIONS /nfts/getFrontPageData 204 0.139 ms - 0
+2023-05-17 19:15:52:1552 info: Start getting User
+2023-05-17 19:15:52:1552 info: GET /umg/info 304 457.676 ms - -
+2023-05-17 19:15:53:1553 info: GET /nfts/getFrontPageData 200 1329.738 ms - 15106
+2023-05-17 19:16:37:1637 info: OPTIONS /umg/info 204 0.115 ms - 0
+2023-05-17 19:16:37:1637 info: Start auth
+2023-05-17 19:16:37:1637 info: OPTIONS /nfts/getFrontPageData 204 0.147 ms - 0
+2023-05-17 19:16:37:1637 info: Start getting User
+2023-05-17 19:16:37:1637 info: GET /umg/info 304 389.542 ms - -
+2023-05-17 19:16:38:1638 info: GET /nfts/getFrontPageData 200 1347.528 ms - 15104
+2023-05-17 19:18:52:1852 info: OPTIONS /umg/info 204 0.116 ms - 0
+2023-05-17 19:18:52:1852 info: Start auth
+2023-05-17 19:18:53:1853 info: OPTIONS /nfts/getFrontPageData 204 0.106 ms - 0
+2023-05-17 19:18:53:1853 info: Start getting User
+2023-05-17 19:18:53:1853 info: GET /umg/info 304 377.075 ms - -
+2023-05-17 19:18:54:1854 info: GET /nfts/getFrontPageData 200 1370.349 ms - 15105
+2023-05-17 19:20:05:205 info: OPTIONS /umg/info 204 0.155 ms - 0
+2023-05-17 19:20:05:205 info: Start auth
+2023-05-17 19:20:05:205 info: OPTIONS /nfts/getFrontPageData 204 0.129 ms - 0
+2023-05-17 19:20:05:205 info: Start getting User
+2023-05-17 19:20:06:206 info: GET /umg/info 304 562.242 ms - -
+2023-05-17 19:20:07:207 info: GET /nfts/getFrontPageData 304 1416.342 ms - -
+2023-05-17 19:25:08:258 info: OPTIONS /umg/info 204 0.126 ms - 0
+2023-05-17 19:25:08:258 info: Start auth
+2023-05-17 19:25:08:258 info: OPTIONS /nfts/getFrontPageData 204 0.103 ms - 0
+2023-05-17 19:25:08:258 info: Start getting User
+2023-05-17 19:25:08:258 info: GET /umg/info 304 438.497 ms - -
+2023-05-17 19:25:09:259 info: GET /nfts/getFrontPageData 200 1315.595 ms - 15107
+2023-05-17 19:26:49:2649 info: OPTIONS /umg/info 204 0.111 ms - 0
+2023-05-17 19:26:49:2649 info: Start auth
+2023-05-17 19:26:49:2649 info: OPTIONS /nfts/getFrontPageData 204 0.139 ms - 0
+2023-05-17 19:26:49:2649 info: Start getting User
+2023-05-17 19:26:49:2649 info: GET /umg/info 304 451.377 ms - -
+2023-05-17 19:26:50:2650 info: GET /nfts/getFrontPageData 200 1414.200 ms - 15107
+2023-05-17 19:30:01:301 info: OPTIONS /umg/info 204 0.170 ms - 0
+2023-05-17 19:30:01:301 info: Start auth
+2023-05-17 19:30:01:301 info: OPTIONS /nfts/getFrontPageData 204 0.165 ms - 0
+2023-05-17 19:30:01:301 info: Start getting User
+2023-05-17 19:30:01:301 info: GET /umg/info 304 407.221 ms - -
+2023-05-17 19:30:02:302 info: GET /nfts/getFrontPageData 200 1589.456 ms - 15107
+2023-05-17 19:33:30:3330 info: OPTIONS /umg/info 204 0.123 ms - 0
+2023-05-17 19:33:30:3330 info: Start auth
+2023-05-17 19:33:30:3330 info: OPTIONS /nfts/getFrontPageData 204 0.127 ms - 0
+2023-05-17 19:33:30:3330 info: Start getting User
+2023-05-17 19:33:30:3330 info: GET /umg/info 304 400.469 ms - -
+2023-05-17 19:33:33:3333 info: GET /nfts/getFrontPageData 200 3088.599 ms - 15098
+2023-05-17 19:35:21:3521 info: OPTIONS /umg/info 204 0.167 ms - 0
+2023-05-17 19:35:21:3521 info: Start auth
+2023-05-17 19:35:21:3521 info: OPTIONS /nfts/getFrontPageData 204 0.167 ms - 0
+2023-05-17 19:35:21:3521 info: Start getting User
+2023-05-17 19:35:22:3522 info: GET /umg/info 304 381.817 ms - -
+2023-05-17 19:35:23:3523 info: GET /nfts/getFrontPageData 200 1521.446 ms - 15108
+2023-05-17 19:42:49:4249 info: OPTIONS /umg/info 204 0.152 ms - 0
+2023-05-17 19:42:49:4249 info: Start auth
+2023-05-17 19:42:49:4249 info: OPTIONS /nfts/getFrontPageData 204 0.150 ms - 0
+2023-05-17 19:42:50:4250 info: Start getting User
+2023-05-17 19:42:50:4250 info: GET /umg/info 304 508.653 ms - -
+2023-05-17 19:42:51:4251 info: GET /nfts/getFrontPageData 200 1262.146 ms - 15101
+2023-05-17 19:44:45:4445 info: OPTIONS /umg/info 204 0.137 ms - 0
+2023-05-17 19:44:45:4445 info: Start auth
+2023-05-17 19:44:45:4445 info: OPTIONS /nfts/getFrontPageData 204 0.120 ms - 0
+2023-05-17 19:44:45:4445 info: Start getting User
+2023-05-17 19:44:45:4445 info: GET /umg/info 304 409.443 ms - -
+2023-05-17 19:44:46:4446 info: GET /nfts/getFrontPageData 200 1419.576 ms - 15100
+2023-05-17 19:47:40:4740 info: Server listening on port 4000
+2023-05-17 19:47:40:4740 info: ENV: dev
+2023-05-17 19:47:40:4740 info: Testnet: true
+2023-05-17 19:47:40:4740 info: My Fauna secret: fnAFCS63CXACUSGh40LyytnAeGjeEAzZZrPITBbJ
+2023-05-17 19:47:40:4740 info: My SDK secret: d9e74e33-597d-45ee-9d18-d6278096a76d
+2023-05-17 19:47:40:4740 info: My Conv secret: d6566381-dee4-49b0-8ef9-53ee05e68bfd
+2023-05-17 19:47:40:4740 info: My MASTER_ADDRESSES secret: {"ETH/VC_USD": ["64639382f12241115ca487e3", "64639383cddd7b7e7e003f1b"], "LTC/VC_USD": ["64648aea0762375a5dc05cda", "64648aea37c12e41943694cc"], "BSC/VC_USD": ["64639448dd83bc6fba88daa4", "64639449d99f5ef7f8b61dc2"], "MATIC/VC_USD": ["646393f0a3a420efd9c9d2f9", "646393f0f12241115ca487ea"], "VC_USD/ETH": ["64639383cddd7b7e7e003f1b", "64639382f12241115ca487e3"], "LTC/VC_USD": ["64648aea37c12e41943694cc", "64648aea0762375a5dc05cda"], "VC_USD/BSC": ["64639449d99f5ef7f8b61dc2", "64639448dd83bc6fba88daa4"], "VC_USD/MATIC": ["646393f0f12241115ca487ea", "646393f0a3a420efd9c9d2f9"]}
+2023-05-17 19:47:48:4748 info: OPTIONS /umg/info 204 1.731 ms - 0
+2023-05-17 19:47:48:4748 info: Start auth
+2023-05-17 19:47:48:4748 info: OPTIONS /nfts/getFrontPageData 204 0.267 ms - 0
+2023-05-17 19:47:48:4748 info: Start getting User
+2023-05-17 19:47:48:4748 info: GET /umg/info 304 407.132 ms - -
+2023-05-17 19:47:49:4749 info: GET /nfts/getFrontPageData 200 1317.449 ms - 15100
+2023-05-17 19:47:54:4754 info: OPTIONS /trade/getPriceConversion 204 0.180 ms - 0
+2023-05-17 19:50:06:506 info: OPTIONS /umg/info 204 0.195 ms - 0
+2023-05-17 19:50:06:506 info: Start auth
+2023-05-17 19:50:06:506 info: OPTIONS /nfts/getFrontPageData 204 0.290 ms - 0
+2023-05-17 19:50:06:506 info: Start getting User
+2023-05-17 19:50:07:507 info: GET /umg/info 304 435.413 ms - -
+2023-05-17 19:50:08:508 info: GET /nfts/getFrontPageData 200 1515.778 ms - 15100
+2023-05-17 19:50:12:5012 info: OPTIONS /trade/getPriceConversion 204 0.208 ms - 0
+2023-05-17 19:50:12:5012 info: POST /trade/getPriceConversion 404 11.963 ms - 164
+2023-05-17 19:50:35:5035 info: Server listening on port 4000
+2023-05-17 19:50:35:5035 info: ENV: dev
+2023-05-17 19:50:35:5035 info: Testnet: true
+2023-05-17 19:50:35:5035 info: My Fauna secret: fnAFCS63CXACUSGh40LyytnAeGjeEAzZZrPITBbJ
+2023-05-17 19:50:35:5035 info: My SDK secret: d9e74e33-597d-45ee-9d18-d6278096a76d
+2023-05-17 19:50:35:5035 info: My Conv secret: d6566381-dee4-49b0-8ef9-53ee05e68bfd
+2023-05-17 19:50:35:5035 info: My MASTER_ADDRESSES secret: {"ETH/VC_USD": ["64639382f12241115ca487e3", "64639383cddd7b7e7e003f1b"], "LTC/VC_USD": ["64648aea0762375a5dc05cda", "64648aea37c12e41943694cc"], "BSC/VC_USD": ["64639448dd83bc6fba88daa4", "64639449d99f5ef7f8b61dc2"], "MATIC/VC_USD": ["646393f0a3a420efd9c9d2f9", "646393f0f12241115ca487ea"], "VC_USD/ETH": ["64639383cddd7b7e7e003f1b", "64639382f12241115ca487e3"], "LTC/VC_USD": ["64648aea37c12e41943694cc", "64648aea0762375a5dc05cda"], "VC_USD/BSC": ["64639449d99f5ef7f8b61dc2", "64639448dd83bc6fba88daa4"], "VC_USD/MATIC": ["646393f0f12241115ca487ea", "646393f0a3a420efd9c9d2f9"]}
+2023-05-17 19:50:40:5040 info: OPTIONS /umg/info 204 1.671 ms - 0
+2023-05-17 19:50:40:5040 info: Start auth
+2023-05-17 19:50:40:5040 info: OPTIONS /nfts/getFrontPageData 204 0.220 ms - 0
+2023-05-17 19:50:40:5040 info: Start getting User
+2023-05-17 19:50:40:5040 info: GET /umg/info 304 378.538 ms - -
+2023-05-17 19:50:41:5041 info: GET /nfts/getFrontPageData 200 1395.464 ms - 15098
+2023-05-17 19:50:45:5045 info: OPTIONS /trade/getPriceConversion 204 0.201 ms - 0
+2023-05-17 19:50:45:5045 info: Start PriceConversion
+2023-05-17 19:50:46:5046 info: POST /trade/getPriceConversion 200 308.742 ms - 191
+2023-05-17 19:58:24:5824 info: OPTIONS /trade/getPriceConversion 204 0.153 ms - 0
+2023-05-17 19:58:24:5824 info: Start PriceConversion
+2023-05-17 19:58:25:5825 info: POST /trade/getPriceConversion 200 294.958 ms - 209
+2023-05-17 19:59:03:593 info: OPTIONS /umg/info 204 0.130 ms - 0
+2023-05-17 19:59:03:593 info: Start auth
+2023-05-17 19:59:03:593 info: OPTIONS /nfts/getFrontPageData 204 0.143 ms - 0
+2023-05-17 19:59:03:593 info: Start getting User
+2023-05-17 19:59:04:594 info: GET /umg/info 304 528.305 ms - -
+2023-05-17 19:59:05:595 info: GET /nfts/getFrontPageData 200 1456.122 ms - 15099
+2023-05-17 19:59:12:5912 info: OPTIONS /trade/getPriceConversion 204 0.204 ms - 0
+2023-05-17 19:59:12:5912 info: Start PriceConversion
+2023-05-17 19:59:12:5912 info: POST /trade/getPriceConversion 200 259.757 ms - 209
+2023-05-17 19:59:53:5953 info: OPTIONS /umg/info 204 0.140 ms - 0
+2023-05-17 19:59:53:5953 info: Start auth
+2023-05-17 19:59:53:5953 info: OPTIONS /nfts/getFrontPageData 204 0.176 ms - 0
+2023-05-17 19:59:53:5953 info: Start getting User
+2023-05-17 19:59:53:5953 info: GET /umg/info 304 391.322 ms - -
+2023-05-17 19:59:54:5954 info: GET /nfts/getFrontPageData 200 1282.418 ms - 15100
+2023-05-17 20:00:04:04 info: OPTIONS /umg/info 204 0.189 ms - 0
+2023-05-17 20:00:04:04 info: Start auth
+2023-05-17 20:00:04:04 error: The pending stream has been canceled (caused by: getaddrinfo EAI_AGAIN db.fauna.com)
+2023-05-17 20:00:04:04 info: Start getting User
+2023-05-17 20:00:04:04 error: The pending stream has been canceled (caused by: getaddrinfo EAI_AGAIN db.fauna.com)
+2023-05-17 20:00:26:026 info: Server listening on port 4000
+2023-05-17 20:00:26:026 info: ENV: dev
+2023-05-17 20:00:26:026 info: Testnet: true
+2023-05-17 20:00:26:026 info: My Fauna secret: fnAFCS63CXACUSGh40LyytnAeGjeEAzZZrPITBbJ
+2023-05-17 20:00:26:026 info: My SDK secret: d9e74e33-597d-45ee-9d18-d6278096a76d
+2023-05-17 20:00:26:026 info: My Conv secret: d6566381-dee4-49b0-8ef9-53ee05e68bfd
+2023-05-17 20:00:26:026 info: My MASTER_ADDRESSES secret: {"ETH/VC_USD": ["64639382f12241115ca487e3", "64639383cddd7b7e7e003f1b"], "LTC/VC_USD": ["64648aea0762375a5dc05cda", "64648aea37c12e41943694cc"], "BSC/VC_USD": ["64639448dd83bc6fba88daa4", "64639449d99f5ef7f8b61dc2"], "MATIC/VC_USD": ["646393f0a3a420efd9c9d2f9", "646393f0f12241115ca487ea"], "VC_USD/ETH": ["64639383cddd7b7e7e003f1b", "64639382f12241115ca487e3"], "LTC/VC_USD": ["64648aea37c12e41943694cc", "64648aea0762375a5dc05cda"], "VC_USD/BSC": ["64639449d99f5ef7f8b61dc2", "64639448dd83bc6fba88daa4"], "VC_USD/MATIC": ["646393f0f12241115ca487ea", "646393f0a3a420efd9c9d2f9"]}
+2023-05-17 20:00:31:031 info: OPTIONS /umg/info 204 2.037 ms - 0
+2023-05-17 20:00:31:031 info: Start auth
+2023-05-17 20:00:31:031 info: OPTIONS /nfts/getFrontPageData 204 0.220 ms - 0
+2023-05-17 20:00:31:031 info: Start getting User
+2023-05-17 20:00:31:031 info: GET /umg/info 304 446.825 ms - -
+2023-05-17 20:00:32:032 info: GET /nfts/getFrontPageData 200 1265.196 ms - 15104
+2023-05-17 20:00:39:039 info: OPTIONS /trade/getPriceConversion 204 0.272 ms - 0
+2023-05-17 20:00:39:039 info: Start PriceConversion
+2023-05-17 20:00:39:039 info: POST /trade/getPriceConversion 200 460.527 ms - 209
+2023-05-17 20:02:29:229 info: OPTIONS /umg/info 204 0.194 ms - 0
+2023-05-17 20:02:29:229 info: Start auth
+2023-05-17 20:02:29:229 info: Start getting User
+2023-05-17 20:02:29:229 info: OPTIONS /nfts/getFrontPageData 204 0.196 ms - 0
+2023-05-17 20:02:29:229 info: GET /umg/info 304 406.173 ms - -
+2023-05-17 20:02:30:230 info: GET /nfts/getFrontPageData 200 1291.366 ms - 15102
+2023-05-17 20:02:36:236 info: OPTIONS /trade/getPriceConversion 204 0.189 ms - 0
+2023-05-17 20:02:36:236 info: Start PriceConversion
+2023-05-17 20:02:37:237 info: POST /trade/getPriceConversion 200 277.648 ms - 209
+2023-05-17 20:02:52:252 info: OPTIONS /umg/info 204 0.206 ms - 0
+2023-05-17 20:02:52:252 info: Start auth
+2023-05-17 20:02:52:252 info: OPTIONS /nfts/getFrontPageData 204 0.349 ms - 0
+2023-05-17 20:02:52:252 info: Start getting User
+2023-05-17 20:02:52:252 info: GET /umg/info 304 406.957 ms - -
+2023-05-17 20:02:53:253 info: GET /nfts/getFrontPageData 200 1408.922 ms - 15102
+2023-05-17 20:02:59:259 info: OPTIONS /trade/getPriceConversion 204 0.165 ms - 0
+2023-05-17 20:02:59:259 info: Start PriceConversion
+2023-05-17 20:02:59:259 info: POST /trade/getPriceConversion 200 478.953 ms - 209
+2023-05-17 20:03:21:321 info: OPTIONS /umg/info 204 0.300 ms - 0
+2023-05-17 20:03:21:321 info: Start auth
+2023-05-17 20:03:21:321 info: OPTIONS /nfts/getFrontPageData 204 0.178 ms - 0
+2023-05-17 20:03:21:321 info: Start getting User
+2023-05-17 20:03:21:321 info: GET /umg/info 304 349.833 ms - -
+2023-05-17 20:03:23:323 info: GET /nfts/getFrontPageData 200 1805.301 ms - 15102
+2023-05-17 20:03:28:328 info: OPTIONS /trade/getPriceConversion 204 0.157 ms - 0
+2023-05-17 20:03:28:328 info: Start PriceConversion
+2023-05-17 20:03:28:328 info: POST /trade/getPriceConversion 200 235.638 ms - 209
+2023-05-17 20:05:32:532 info: OPTIONS /umg/info 204 0.169 ms - 0
+2023-05-17 20:05:32:532 info: Start auth
+2023-05-17 20:05:32:532 info: OPTIONS /nfts/getFrontPageData 204 0.185 ms - 0
+2023-05-17 20:05:32:532 info: Start getting User
+2023-05-17 20:05:32:532 info: GET /umg/info 304 365.631 ms - -
+2023-05-17 20:05:34:534 info: GET /nfts/getFrontPageData 200 1382.260 ms - 15107
+2023-05-17 20:05:38:538 info: OPTIONS /trade/getPriceConversion 204 0.193 ms - 0
+2023-05-17 20:05:38:538 info: Start PriceConversion
+2023-05-17 20:05:38:538 info: POST /trade/getPriceConversion 200 508.024 ms - 209
+2023-05-17 20:05:47:547 info: OPTIONS /trade/getPriceConversion 204 0.266 ms - 0
+2023-05-17 20:05:47:547 info: Start PriceConversion
+2023-05-17 20:05:48:548 info: POST /trade/getPriceConversion 200 494.576 ms - 191
+2023-05-17 20:05:50:550 info: Start PriceConversion
+2023-05-17 20:05:50:550 info: POST /trade/getPriceConversion 200 285.759 ms - 209
+2023-05-17 20:16:57:1657 info: OPTIONS /umg/info 204 0.136 ms - 0
+2023-05-17 20:16:57:1657 info: Start auth
+2023-05-17 20:16:57:1657 info: OPTIONS /nfts/getFrontPageData 204 0.184 ms - 0
+2023-05-17 20:16:58:1658 info: Start getting User
+2023-05-17 20:16:58:1658 info: GET /umg/info 304 485.119 ms - -
+2023-05-17 20:16:59:1659 info: GET /nfts/getFrontPageData 200 1645.620 ms - 15099
+2023-05-17 20:18:11:1811 info: OPTIONS /umg/info 204 0.122 ms - 0
+2023-05-17 20:18:11:1811 info: Start auth
+2023-05-17 20:18:11:1811 info: OPTIONS /nfts/getFrontPageData 204 0.159 ms - 0
+2023-05-17 20:18:11:1811 info: Start getting User
+2023-05-17 20:18:11:1811 info: GET /umg/info 304 410.229 ms - -
+2023-05-17 20:18:15:1815 info: GET /nfts/getFrontPageData 200 4677.085 ms - 15097
+2023-05-17 20:19:00:190 info: OPTIONS /umg/info 204 0.161 ms - 0
+2023-05-17 20:19:00:190 info: Start auth
+2023-05-17 20:19:00:190 info: OPTIONS /nfts/getFrontPageData 204 0.117 ms - 0
+2023-05-17 20:19:00:190 info: Start getting User
+2023-05-17 20:19:00:190 info: GET /umg/info 304 396.749 ms - -
+2023-05-17 20:19:01:191 info: GET /nfts/getFrontPageData 200 1332.541 ms - 15104
+2023-05-17 20:19:57:1957 info: OPTIONS /umg/info 204 0.149 ms - 0
+2023-05-17 20:19:57:1957 info: Start auth
+2023-05-17 20:19:57:1957 info: OPTIONS /nfts/getFrontPageData 204 0.143 ms - 0
+2023-05-17 20:19:57:1957 info: Start getting User
+2023-05-17 20:19:58:1958 info: GET /umg/info 304 649.480 ms - -
+2023-05-17 20:19:58:1958 info: GET /nfts/getFrontPageData 200 1319.553 ms - 15105
+2023-05-17 20:23:30:2330 info: OPTIONS /trade/getPriceConversion 204 0.117 ms - 0
+2023-05-17 20:23:30:2330 info: Start PriceConversion
+2023-05-17 20:23:30:2330 info: POST /trade/getPriceConversion 200 266.113 ms - 208
+2023-05-17 20:32:58:3258 info: OPTIONS /umg/info 204 1.456 ms - 0
+2023-05-17 20:32:58:3258 info: Start auth
+2023-05-17 20:32:58:3258 info: OPTIONS /nfts/getFrontPageData 204 0.165 ms - 0
+2023-05-17 20:32:58:3258 info: Start getting User
+2023-05-17 20:32:58:3258 info: GET /umg/info 304 518.538 ms - -
+2023-05-17 20:32:59:3259 info: GET /nfts/getFrontPageData 200 1384.037 ms - 15108
+2023-05-17 20:33:07:337 info: OPTIONS /trade/getPriceConversion 204 0.149 ms - 0
+2023-05-17 20:33:07:337 info: Start PriceConversion
+2023-05-17 20:33:07:337 info: POST /trade/getPriceConversion 200 583.320 ms - 209
+2023-05-17 20:33:44:3344 info: OPTIONS /umg/info 204 0.159 ms - 0
+2023-05-17 20:33:44:3344 info: Start auth
+2023-05-17 20:33:44:3344 info: OPTIONS /nfts/getFrontPageData 204 0.122 ms - 0
+2023-05-17 20:33:44:3344 info: Start getting User
+2023-05-17 20:33:44:3344 info: GET /umg/info 304 427.040 ms - -
+2023-05-17 20:33:45:3345 info: GET /nfts/getFrontPageData 200 1249.234 ms - 15108
+2023-05-17 20:34:56:3456 info: OPTIONS /umg/info 204 1.116 ms - 0
+2023-05-17 20:34:56:3456 info: Start auth
+2023-05-17 20:34:56:3456 info: OPTIONS /nfts/getFrontPageData 204 0.166 ms - 0
+2023-05-17 20:34:56:3456 info: Start getting User
+2023-05-17 20:34:56:3456 info: GET /umg/info 304 415.212 ms - -
+2023-05-17 20:34:58:3458 info: GET /nfts/getFrontPageData 200 1761.542 ms - 15108
+2023-05-17 20:35:11:3511 info: OPTIONS /trade/getPriceConversion 204 0.109 ms - 0
+2023-05-17 20:35:11:3511 info: Start PriceConversion
+2023-05-17 20:35:12:3512 info: POST /trade/getPriceConversion 200 277.669 ms - 209
+2023-05-17 20:38:30:3830 info: OPTIONS /umg/info 204 0.192 ms - 0
+2023-05-17 20:38:30:3830 info: Start auth
+2023-05-17 20:38:30:3830 info: OPTIONS /nfts/getFrontPageData 204 0.168 ms - 0
+2023-05-17 20:38:30:3830 info: Start getting User
+2023-05-17 20:38:30:3830 info: GET /umg/info 304 365.866 ms - -
+2023-05-17 20:38:31:3831 info: GET /nfts/getFrontPageData 200 1354.452 ms - 15108
+2023-05-17 20:39:25:3925 info: OPTIONS /trade/getPriceConversion 204 0.173 ms - 0
+2023-05-17 20:39:25:3925 info: Start PriceConversion
+2023-05-17 20:39:25:3925 info: POST /trade/getPriceConversion 200 496.414 ms - 208
+2023-05-17 20:39:39:3939 info: OPTIONS /trade/getPriceConversion 204 0.181 ms - 0
+2023-05-17 20:39:39:3939 info: Start PriceConversion
+2023-05-17 20:39:39:3939 info: POST /trade/getPriceConversion 200 262.146 ms - 191
+2023-05-17 20:45:35:4535 info: OPTIONS /trade/getPriceConversion 204 0.167 ms - 0
+2023-05-17 20:45:35:4535 info: Start PriceConversion
+2023-05-17 20:45:35:4535 info: POST /trade/getPriceConversion 200 410.066 ms - 209
+2023-05-17 20:46:34:4634 info: OPTIONS /umg/info 204 0.162 ms - 0
+2023-05-17 20:46:34:4634 info: Start auth
+2023-05-17 20:46:34:4634 info: OPTIONS /nfts/getFrontPageData 204 0.103 ms - 0
+2023-05-17 20:46:35:4635 info: Start getting User
+2023-05-17 20:46:35:4635 info: GET /umg/info 304 631.110 ms - -
+2023-05-17 20:46:36:4636 info: GET /nfts/getFrontPageData 200 1495.145 ms - 15107
+2023-05-17 20:46:42:4642 info: OPTIONS /trade/getPriceConversion 204 0.149 ms - 0
+2023-05-17 20:46:42:4642 info: Start PriceConversion
+2023-05-17 20:46:42:4642 info: POST /trade/getPriceConversion 200 372.283 ms - 209
+2023-05-17 20:46:52:4652 info: OPTIONS /trade/getPriceConversion 204 0.184 ms - 0
+2023-05-17 20:46:52:4652 info: Start PriceConversion
+2023-05-17 20:46:53:4653 info: POST /trade/getPriceConversion 200 293.389 ms - 208
+2023-05-17 20:47:27:4727 info: OPTIONS /umg/info 204 0.269 ms - 0
+2023-05-17 20:47:27:4727 info: Start auth
+2023-05-17 20:47:27:4727 info: OPTIONS /nfts/getFrontPageData 204 0.121 ms - 0
+2023-05-17 20:47:27:4727 info: Start getting User
+2023-05-17 20:47:28:4728 info: GET /umg/info 304 366.688 ms - -
+2023-05-17 20:47:29:4729 info: GET /nfts/getFrontPageData 200 1270.564 ms - 15109
+2023-05-17 20:47:36:4736 info: OPTIONS /trade/getPriceConversion 204 0.162 ms - 0
+2023-05-17 20:47:36:4736 info: Start PriceConversion
+2023-05-17 20:47:36:4736 info: POST /trade/getPriceConversion 200 235.090 ms - 208
+2023-05-17 20:47:44:4744 info: OPTIONS /trade/getPriceConversion 204 0.173 ms - 0
+2023-05-17 20:47:44:4744 info: Start PriceConversion
+2023-05-17 20:47:45:4745 info: POST /trade/getPriceConversion 200 535.355 ms - 207
+2023-05-17 20:50:04:504 info: OPTIONS /trade/getPriceConversion 204 0.127 ms - 0
+2023-05-17 20:50:04:504 info: Start PriceConversion
+2023-05-17 20:50:05:505 info: POST /trade/getPriceConversion 200 1069.288 ms - 208
+2023-05-17 20:50:21:5021 info: OPTIONS /trade/getPriceConversion 204 0.113 ms - 0
+2023-05-17 20:50:21:5021 info: Start PriceConversion
+2023-05-17 20:50:22:5022 info: POST /trade/getPriceConversion 200 505.599 ms - 208
+2023-05-17 20:59:56:5956 info: OPTIONS /umg/info 204 0.108 ms - 0
+2023-05-17 20:59:56:5956 info: Start auth
+2023-05-17 20:59:56:5956 info: OPTIONS /nfts/getFrontPageData 204 0.116 ms - 0
+2023-05-17 20:59:57:5957 info: Start getting User
+2023-05-17 20:59:57:5957 info: GET /umg/info 304 1279.102 ms - -
+2023-05-17 20:59:58:5958 info: GET /nfts/getFrontPageData 200 2235.532 ms - 15106
+2023-05-17 21:00:04:04 info: OPTIONS /trade/getPriceConversion 204 0.144 ms - 0
+2023-05-17 21:00:04:04 info: Start PriceConversion
+2023-05-17 21:00:05:05 info: POST /trade/getPriceConversion 200 738.615 ms - 209
+2023-05-17 21:00:12:012 info: OPTIONS /trade/getPriceConversion 204 0.139 ms - 0
+2023-05-17 21:00:12:012 info: Start PriceConversion
+2023-05-17 21:00:13:013 info: POST /trade/getPriceConversion 200 1698.223 ms - 208
+2023-05-17 21:00:48:048 info: OPTIONS /umg/info 204 0.104 ms - 0
+2023-05-17 21:00:48:048 info: Start auth
+2023-05-17 21:00:48:048 info: OPTIONS /nfts/getFrontPageData 204 0.158 ms - 0
+2023-05-17 21:00:48:048 info: Start getting User
+2023-05-17 21:00:48:048 info: GET /umg/info 304 385.704 ms - -
+2023-05-17 21:00:49:049 info: GET /nfts/getFrontPageData 200 1523.034 ms - 15106
+2023-05-17 21:00:56:056 info: OPTIONS /trade/getPriceConversion 204 0.153 ms - 0
+2023-05-17 21:00:56:056 info: Start PriceConversion
+2023-05-17 21:00:56:056 info: POST /trade/getPriceConversion 200 471.891 ms - 209
+2023-05-17 21:01:01:11 info: OPTIONS /trade/getPriceConversion 204 0.151 ms - 0
+2023-05-17 21:01:01:11 info: Start PriceConversion
+2023-05-17 21:01:02:12 info: POST /trade/getPriceConversion 200 286.971 ms - 208
+2023-05-17 21:01:04:14 info: OPTIONS /trade/tradeWithMaster 204 0.199 ms - 0
+2023-05-17 21:01:04:14 info: Start auth
+2023-05-17 21:01:04:14 info: Start tradeWithMaster
+2023-05-17 21:01:05:15 error: Request failed with status 400
+2023-05-17 21:01:05:15 error: (intermediate value).json is not a function
+2023-05-17 21:01:05:15 info: POST /trade/tradeWithMaster 500 902.124 ms - 44
+2023-05-17 21:04:18:418 info: OPTIONS /umg/info 204 1.275 ms - 0
+2023-05-17 21:04:18:418 info: Start auth
+2023-05-17 21:04:18:418 info: OPTIONS /nfts/getFrontPageData 204 0.175 ms - 0
+2023-05-17 21:04:18:418 info: Start getting User
+2023-05-17 21:04:19:419 info: GET /umg/info 304 387.957 ms - -
+2023-05-17 21:04:20:420 info: GET /nfts/getFrontPageData 200 1483.223 ms - 15106
+2023-05-17 21:04:43:443 info: OPTIONS /trade/getPriceConversion 204 0.165 ms - 0
+2023-05-17 21:04:43:443 info: Start PriceConversion
+2023-05-17 21:04:44:444 info: POST /trade/getPriceConversion 200 925.047 ms - 209
+2023-05-17 21:04:50:450 info: OPTIONS /trade/getPriceConversion 204 0.128 ms - 0
+2023-05-17 21:04:50:450 info: Start PriceConversion
+2023-05-17 21:04:50:450 info: POST /trade/getPriceConversion 200 403.190 ms - 208
+2023-05-17 21:04:53:453 info: OPTIONS /trade/tradeWithMaster 204 0.133 ms - 0
+2023-05-17 21:04:53:453 info: Start auth
+2023-05-17 21:04:53:453 info: Start tradeWithMaster
+2023-05-17 21:04:54:454 error: Request failed with status 403
+2023-05-17 21:04:54:454 info: Start Updating Balance
+2023-05-17 21:04:55:455 info: Start Updating Balance
+2023-05-17 21:04:55:455 info: Start Updating Balance
+2023-05-17 21:04:55:455 info: Start Updating Balance
+2023-05-17 21:04:56:456 info: POST /trade/tradeWithMaster 200 2994.043 ms - 12
+2023-05-17 21:04:56:456 info: OPTIONS /umg/info 204 0.127 ms - 0
+2023-05-17 21:04:56:456 info: Start auth
+2023-05-17 21:04:56:456 info: GET /umg/info - - ms - -
+2023-05-17 21:04:56:456 info: Start getting User
+2023-05-17 21:08:28:828 info: Server listening on port 4000
+2023-05-17 21:08:28:828 info: ENV: dev
+2023-05-17 21:08:28:828 info: Testnet: true
+2023-05-17 21:08:28:828 info: My Fauna secret: fnAFCS63CXACUSGh40LyytnAeGjeEAzZZrPITBbJ
+2023-05-17 21:08:28:828 info: My SDK secret: d9e74e33-597d-45ee-9d18-d6278096a76d
+2023-05-17 21:08:28:828 info: My Conv secret: d6566381-dee4-49b0-8ef9-53ee05e68bfd
+2023-05-17 21:08:28:828 info: My MASTER_ADDRESSES secret: {"ETH/VC_USD": ["64639382f12241115ca487e3", "64639383cddd7b7e7e003f1b"], "LTC/VC_USD": ["64648aea0762375a5dc05cda", "64648aea37c12e41943694cc"], "BSC/VC_USD": ["64639448dd83bc6fba88daa4", "64639449d99f5ef7f8b61dc2"], "MATIC/VC_USD": ["646393f0a3a420efd9c9d2f9", "646393f0f12241115ca487ea"], "VC_USD/ETH": ["64639383cddd7b7e7e003f1b", "64639382f12241115ca487e3"], "LTC/VC_USD": ["64648aea37c12e41943694cc", "64648aea0762375a5dc05cda"], "VC_USD/BSC": ["64639449d99f5ef7f8b61dc2", "64639448dd83bc6fba88daa4"], "VC_USD/MATIC": ["646393f0f12241115ca487ea", "646393f0a3a420efd9c9d2f9"]}
+2023-05-17 21:08:38:838 info: OPTIONS /trade/getPriceConversion 204 1.605 ms - 0
+2023-05-17 21:08:38:838 info: Start PriceConversion
+2023-05-17 21:08:38:838 info: POST /trade/getPriceConversion 200 401.306 ms - 207
+2023-05-17 21:08:45:845 info: OPTIONS /trade/getPriceConversion 204 0.705 ms - 0
+2023-05-17 21:08:45:845 info: Start PriceConversion
+2023-05-17 21:08:45:845 info: POST /trade/getPriceConversion 200 304.728 ms - 206
+2023-05-17 21:08:46:846 info: OPTIONS /trade/tradeWithMaster 204 0.152 ms - 0
+2023-05-17 21:08:46:846 info: Start auth
+2023-05-17 21:08:47:847 info: Start tradeWithMaster
+2023-05-17 21:08:48:848 error: Request failed with status 403
+2023-05-17 21:08:48:848 info: Start Updating Balance
+2023-05-17 21:08:48:848 info: Start Updating Balance
+2023-05-17 21:08:49:849 info: Start Updating Balance
+2023-05-17 21:08:49:849 info: Start Updating Balance
+2023-05-17 21:08:49:849 info: POST /trade/tradeWithMaster 200 2761.744 ms - 12
+2023-05-17 21:08:49:849 info: OPTIONS /umg/info 204 0.176 ms - 0
+2023-05-17 21:08:49:849 info: Start auth
+2023-05-17 21:08:49:849 info: GET /umg/info - - ms - -
+2023-05-17 21:08:50:850 info: Start getting User
+2023-05-17 21:12:59:1259 info: Server listening on port 4000
+2023-05-17 21:12:59:1259 info: ENV: dev
+2023-05-17 21:12:59:1259 info: Testnet: true
+2023-05-17 21:12:59:1259 info: My Fauna secret: fnAFCS63CXACUSGh40LyytnAeGjeEAzZZrPITBbJ
+2023-05-17 21:12:59:1259 info: My SDK secret: d9e74e33-597d-45ee-9d18-d6278096a76d
+2023-05-17 21:12:59:1259 info: My Conv secret: d6566381-dee4-49b0-8ef9-53ee05e68bfd
+2023-05-17 21:12:59:1259 info: My MASTER_ADDRESSES secret: {"ETH/VC_USD": ["64639382f12241115ca487e3", "64639383cddd7b7e7e003f1b"], "LTC/VC_USD": ["64648aea0762375a5dc05cda", "64648aea37c12e41943694cc"], "BSC/VC_USD": ["64639448dd83bc6fba88daa4", "64639449d99f5ef7f8b61dc2"], "MATIC/VC_USD": ["646393f0a3a420efd9c9d2f9", "646393f0f12241115ca487ea"], "VC_USD/ETH": ["64639383cddd7b7e7e003f1b", "64639382f12241115ca487e3"], "LTC/VC_USD": ["64648aea37c12e41943694cc", "64648aea0762375a5dc05cda"], "VC_USD/BSC": ["64639449d99f5ef7f8b61dc2", "64639448dd83bc6fba88daa4"], "VC_USD/MATIC": ["646393f0f12241115ca487ea", "646393f0a3a420efd9c9d2f9"]}
+2023-05-17 21:13:06:136 info: OPTIONS /trade/getPriceConversion 204 1.839 ms - 0
+2023-05-17 21:13:06:136 info: Start PriceConversion
+2023-05-17 21:13:06:136 info: POST /trade/getPriceConversion 200 303.942 ms - 209
+2023-05-17 21:13:12:1312 info: OPTIONS /trade/getPriceConversion 204 0.406 ms - 0
+2023-05-17 21:13:12:1312 info: Start PriceConversion
+2023-05-17 21:13:12:1312 info: POST /trade/getPriceConversion 200 514.051 ms - 208
+2023-05-17 21:13:16:1316 info: OPTIONS /trade/tradeWithMaster 204 0.137 ms - 0
+2023-05-17 21:13:16:1316 info: Start auth
+2023-05-17 21:13:17:1317 info: Start tradeWithMaster
+2023-05-17 21:13:18:1318 info: Start Updating Balance
+2023-05-17 21:13:19:1319 info: Start Updating Balance
+2023-05-17 21:13:19:1319 info: Start Updating Balance
+2023-05-17 21:13:19:1319 info: Start Updating Balance
+2023-05-17 21:13:20:1320 info: POST /trade/tradeWithMaster 200 3266.631 ms - 12
+2023-05-17 21:13:20:1320 info: OPTIONS /umg/info 204 0.163 ms - 0
+2023-05-17 21:13:20:1320 info: Start auth
+2023-05-17 21:13:20:1320 info: GET /umg/info - - ms - -
+2023-05-17 21:13:20:1320 info: Start getting User
+2023-05-17 21:13:27:1327 info: OPTIONS /umg/info 204 0.150 ms - 0
+2023-05-17 21:13:27:1327 info: Start auth
+2023-05-17 21:13:27:1327 info: OPTIONS /nfts/getFrontPageData 204 0.121 ms - 0
+2023-05-17 21:13:27:1327 info: Start getting User
+2023-05-17 21:13:27:1327 info: GET /umg/info 200 378.072 ms - 1673
+2023-05-17 21:13:29:1329 info: GET /nfts/getFrontPageData 200 1285.698 ms - 15106

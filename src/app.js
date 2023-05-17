@@ -71,15 +71,15 @@ function run() {
     server.post('/wallet/getUserAccounts', checkToken, getUserAccounts);
     server.post('/wallet/getAccountBalance', checkToken, getAccountBalance);
     server.post('/wallet/updateAccount', checkToken, updateAccount);
-    server.post('/wallet/supplyVcAccount', checkToken, supplyVcAccount);        // TODO: check server key
+    server.post('/wallet/supplyVcAccount', checkToken, supplyVcAccount);  //    <---                      // TODO: check server key
 
     server.post('/wallet/createDeposit', checkToken, createDeposit);
     server.post('/wallet/getAllUserDeposits', checkToken, getAllUserDeposits);
     server.post('/wallet/assignDeposit', checkToken, assignDeposit);
     server.post('/wallet/removeDeposit', checkToken, removeDeposit);    
 
-    server.get('/trade/getPriceConversion', getPriceConversion);
-    server.post('/trade/tradeWithMaster', checkToken, tradeWithMaster);
+    server.post('/trade/getPriceConversion', getPriceConversion);        //  <---
+    server.post('/trade/tradeWithMaster', checkToken, tradeWithMaster); //  <---
 
     /* Front Page methods */
     server.get('/nfts/getFrontPageData', getFrontPageData);

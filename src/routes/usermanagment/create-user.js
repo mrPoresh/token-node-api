@@ -18,7 +18,7 @@ const createUser = async (req, res) => {
 
         const wallet  = await ( await _createWallet(chain)).json();
         const account = await ( await _createAccount(currency, wallet.xpub)).json();
-        const vc_account = await ( await _createVcAccount(vc_currency)).json();
+        const vc_account = await ( await _createVcAccount(vc_currency)).json(); //  <---
         const deposit = await ( await _createDeposit(account.id)).json();
 
         await _supplyVcAccount(vc_account.id, amount);

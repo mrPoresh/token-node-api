@@ -6,17 +6,16 @@ import logger from '../../utils/logger.js';
 import { _getPriceConversion, _trade, _updateUserAccount } from '../../tatum-sdk/index.js';
 import { updateBalance } from "../wallets/index.js";
 
-const pairs = ['MATIC/VC_USD', 'ETH/VC_USD', 'BSC/VC_USD'];
 
 const getPriceConversion = async (req, res) => {
-	const { amount, symbol, convert } = req.body;
+	const { amount, sell_curr, buy_curr } = req.body;
 	logger.info('Start PriceConversion');
 
     try {
-		const result = await (await _getPriceConversion(amount, symbol, convert)).json();
+		const result = await (await _getPriceConversion(amount, sell_curr, buy_curr)).json();
 
 		console.log(result);
-		console.log(result.data)
+		console.log(result.data[0].quote[buy_curr])
 
         res.status(200).send({ data: result.data});
 
@@ -30,6 +29,7 @@ const getPriceConversion = async (req, res) => {
 const tradeWithMaster = async (req, res) => {
 	const { price, income_id, out_id, pair, buy_crypto } = req.body;
 	logger.info('Start tradeWithMaster');
+	console.log(req.body)
 
     try {
 		const currencies = JSON.parse(conf.CURRENCIES);
@@ -43,14 +43,18 @@ const tradeWithMaster = async (req, res) => {
 				buy_curr = buy_curr.split('_')[1];
 			};
 
+			console.log(buy_curr, sell_curr)
+
 			// get a Conversion prices 
 			const conversion = await (await _getPriceConversion(price, sell_curr, buy_curr)).json();
 			const amount = (conversion.data[0].quote[buy_curr].price).toString();
+			console.log(amount)
 			const master_addresses = JSON.parse(conf.MASTER_ADDRESSES);
+			console.log(master_addresses[pair][0])
 
 			if (master_addresses.hasOwnProperty(pair)) {
 				await _trade("BUY", price, amount, pair, income_id, out_id);
-				await _trade("SELL", price, amount, pair, master_addresses[pair][0], master_addresses[pair][1]);
+				await _trade("SELL", price, amount, pair, master_addresses[pair][1], master_addresses[pair][0]);
 
 				await updateBalance(income_id);
 				await updateBalance(out_id);

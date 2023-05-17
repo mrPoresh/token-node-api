@@ -106,6 +106,7 @@ const frontListsData = async (blockchain) => {
 		for (const item of lists) {
 			if (blockchain == item.chain) {
 				const nft = (await (await getItemsByCollectionId(item.id, size)).json()).items[0];
+				console.log(nft)
 				nft.meta.content = nft.meta.content[0];
 
 				if (result.hasOwnProperty(item.type)) {
@@ -154,12 +155,7 @@ const getFrontPageData = async (req, res) => {
 		);
 
 		result.tab = await collectionsRankingByVolume(tab.limit, tab.source, tab.blockchain, tab.period, tab.sort);
-		result.lists= await frontListsData(tab.chain);
-
-		/* [result.tab, result.lists] = await Promise.all([
-			collectionsRankingByVolume(tab.limit, tab.source, tab.blockchain, tab.period, tab.sort), 
-			frontListsData(tab.chain),
-		]); */
+		//result.lists= await frontListsData(tab.chain);
 
 		res.status(200).send({ data: result });
 
